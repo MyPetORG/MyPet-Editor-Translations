@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Habilidad desconocida: {{skillId}}",
+    "noUpgrades": "La habilidad debe tener al menos una mejora",
+    "firstLevelRequired": "Debe proporcionarse al menos un campo para el primer nivel",
+    "invalidLevelKey": "Formato de clave de nivel inválido",
+    "duplicateLevel": "Clave de nivel duplicada: {{level}}",
+    "invalidRange": "Rango de nivel no válido",
+    "emptyField": "{{field}} no puede estar vacío",
+    "invalidNumber": "{{field}} debe ser un número válido",
+    "invalidPlusNumber": "{{field}} debe ser un número firmado (por ejemplo, +1 o +0.5)",
+    "minValue": "{{field}} debe ser al menos {{min}}",
+    "maxValue": "{{field}} debe ser como máximo {{max}}",
+    "requiredField": "Se requiere {{field}}",
+    "emptyRequirementKey": "La clave requerida personalizada no puede estar vacía",
+    "emptyRequirementValue": "El valor de requerimiento personalizado no puede estar vacío",
+    "emptySkilltreeRequirement": "El requerimiento de árbol de habilidades debe tener un árbol de habilidades seleccionado",
+    "emptyPermissionRequirement": "El requisito de permiso no puede estar vacío",
+    "unknownField": "Campo desconocido \"{{field}}\" (guardado como está, el servidor lo ignorará)",
+    "badNumber": "{{field}} debe ser un número firmado como \"+5\" o \"-2.5\"",
+    "badInteger": "{{field}} debe ser un número entero firmado como \"+5\"",
+    "badBoolean": "{{field}} debe ser verdadero o falso",
+    "badEnum": "{{field}} debe ser uno de los valores listados",
+    "badGroup": "{{field}} debe ser un objeto",
+    "badList": "{{field}} debe ser una lista de entradas",
+    "badListInteger": "{{field}} debe ser un número entero como 6",
+    "badListNumber": "{{field}} debe ser un número como 6 o 2.5",
+    "badListString": "{{field}} debe ser texto"
+  }
+}

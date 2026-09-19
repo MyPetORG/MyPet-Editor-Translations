@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Ingen skilltree vald",
+    "description": "Välj en skilltree från sidofältet eller importera .st.json filer för att komma igång.",
+    "loadDefaultsCta": "Ladda standardvärden"
+  },
+  "tabs": {
+    "properties": "Egenskaper",
+    "appearance": "Utseende",
+    "eligiblePets": "Rättigade husdjur",
+    "requirements": "Krav",
+    "notifications": "Aviseringar",
+    "skills": "Färdigheter",
+    "timeline": "Tidslinje"
+  },
+  "inspector": {
+    "expand": "Expandera inspektör",
+    "collapse": "Komprimera inspektör",
+    "requirementsHint": "Kantarna visar den första Skilltree-gruppen; alla krav är redigerbara här."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Kampen",
+    "inheritance": "Arv",
+    "inheritancePlaceholder": "Välj förälder skilltree...",
+    "weight": "Vikt",
+    "weightPlaceholder": "15",
+    "permission": "Behörighet",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Namn",
+    "namePlaceholder": "Kampen",
+    "iconMaterial": "Ikon Material",
+    "iconMaterialPlaceholder": "stenyxa",
+    "glowing": "Glödande",
+    "description": "Beskrivning",
+    "descriptionPlaceholder": "En stridsfokuserad skicklighet...",
+    "viewJson": "Visa JSON",
+    "jsonPreview": "Förhandsgranskning av det valda skilltree som JSON."
+  },
+  "eligiblePets": {
+    "title": "Rättigade husdjur",
+    "none": "Ingen",
+    "all": "Alla (*)",
+    "selected": "Vald",
+    "includeFutureMobs": "Inkludera varelser från framtida Minecraft-uppdateringar",
+    "allPetsNotice": "Alla husdjur som listas här, inklusive husdjur från framtida uppdateringar, kommer att vara berättigade till denna kompetens.",
+    "noPetsNotice": "Inga husdjur kommer att vara berättigade till denna kompetens.",
+    "loading": "Laddar senaste Minecraft-enheter…",
+    "loadError": "Det gick inte att ladda mob-listan från minecraft-data",
+    "customHeading": "Från husdjur-konfiguration",
+    "customHint": "Anpassade husdjurstyper definierade i den här serverns husdjur-config.yml.",
+    "unrecognizedHeading": "Okänd",
+    "unrecognizedNotice": "Dessa poster matchar ingen Minecraft mob och ingen typ av husdjurskonfiguration."
+  },
+  "requirements": {
+    "title": "Krav",
+    "minLevel": "Minsta nivå för husdjur",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Maximal Djurnivå",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Lägg till krav",
+    "requirementType": "Kravtyp",
+    "permission": "Behörighet",
+    "permissionPlaceholder": "Testbehörighet",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Ingen Skilltree",
+    "custom": "Anpassad",
+    "customKey": "Anpassad nyckel",
+    "customKeyPlaceholder": "Anpassat namn",
+    "customValue": "Anpassat värde",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "Det finns ingen tillåtelse, Skilltree eller anpassade krav för denna Skilltree.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Kopiera behörighet"
+  },
+  "notifications": {
+    "title": "Aviseringar",
+    "addNotification": "Lägg till avisering",
+    "message": "Meddelande",
+    "messagePlaceholder": "{{owner}}s sällskapsdjur {{pet}} har nått nivå {{level}}!"
+  },
+  "skills": {
+    "title": "Färdigheter",
+    "addSkill": "Lägg till Färdighet",
+    "selectSkill": "Välj en färdighet...",
+    "noSkills": "Inga färdigheter ännu.",
+    "removeSkill": "Ta bort skicklighet",
+    "addUpgrade": "Lägg till uppgradering",
+    "editUpgrade": "Redigera uppgradering",
+    "noUpgrades": "Inga uppgraderingar ännu.",
+    "level": "Nivå {{level}}",
+    "levels": "Nivåer",
+    "everyLevel": "Varje nivå",
+    "everyNLevels": "Varje {{n}} nivå",
+    "everyNLevelsFrom": "Varje {{n}} nivå från nivå {{start}} och framåt",
+    "everyNLevelsBetween": "Varje {{n}} nivå mellan nivåerna {{start}} och {{end}}",
+    "fixedLevels": "Nivå: {{levels}}",
+    "skillExists": "Denna färdighet finns redan.",
+    "unknownSkill": "Okänd skicklighet",
+    "levelList": "Nivåer {{levels}}",
+    "everyLevelRange": "Varje nivå ({{start}}-{{until}})",
+    "everyNLevelsRange": "Varje {{n}} nivå ({{start}}-{{until}})",
+    "everyLevelFrom": "Varje nivå från {{start}}",
+    "everyNLevelsFromStart": "Varje {{n}} nivå från {{start}}"
+  },
+  "levelModal": {
+    "title": "Välj nivåer",
+    "fixed": "Fast",
+    "dynamic": "Dynamisk",
+    "fixedHelp": "Ange en eller flera nivåer (mellanslag/kommaseparerade)",
+    "fixedPlaceholder": "t.ex. 1 3 5 eller 1,3,5",
+    "every": "Varje (krävs)",
+    "startFrom": "Börja från nivå (valfritt)",
+    "until": "Tills nivå (valfritt)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Ny skilltree",
+    "searchPlaceholder": "Sök färdighetsträd…",
+    "noMatches": "Inga träffar",
+    "undo": "Ångra",
+    "redo": "Gör om",
+    "moreActions": "Fler åtgärder",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Ta bort skilltree",
+    "deleteConfirm": "Ta bort {{name}}?",
+    "deleteConfirmWithRefs": "Ta bort {{name}}? Andra träd som refererar till det kommer att visa en dingling-referens märke.",
+    "speciesPlaceholder": "Arter…",
+    "exitJourney": "Avsluta körläge"
+  },
+  "journey": {
+    "panelTitle": "Resa: {{species}}",
+    "levelLabel": "Nivå",
+    "currentTreeLabel": "Nuvarande träd",
+    "freshPet": "ingen — färskt husdjur",
+    "clickHint": "Simulerar: klicka på ett markerat träd för att välja det",
+    "reset": "Återställ till färskt husdjur",
+    "permissionNote": "Behörighetskrav antas beviljas",
+    "previewTitle": "Förhandsgranskning av lager",
+    "requiresLevel": "Kräver nivå {{level}}",
+    "clickToApply": "Klicka för att tillämpa",
+    "noneAvailable": "Det finns <red>inga</red> färdighetsträd tillgängliga för <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} berättigad"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Redigera rå…",
+      "editRawTitle": "Redigera rå: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Krav",
+      "kindInheritance": "Arv",
+      "requirement": "{{prerequisite}} är ett krav på {{owner}}",
+      "anyOf": "Nöjd av någon av: {{list}}",
+      "inheritance": "{{owner}} ärver färdigheterna i {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} är ett krav för var och en av {{count}} skilltrees i denna stack"
+    }
+  },
+  "validation": {
+    "error": "Valideringsfel",
+    "hasErrors": "Denna skilltree har valideringsfel",
+    "skillHasErrors": "Denna färdighet har valideringsfel",
+    "issueInSkill": "Valideringsproblem i denna färdighet. Expandera för att redigera värden."
+  },
+  "timeline": {
+    "inspectLevel": "Inspektionsnivå",
+    "modeSingle": "Enkel",
+    "modeLevels": "Nivåer",
+    "modeRepeat": "Upprepa",
+    "atLevel": "på nivå",
+    "levels": "nivåer",
+    "every": "varje",
+    "from": "från",
+    "until": "tills",
+    "keyPreview": "→ nyckel: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft: diamant eller bas64:… (från /petadmin info objekt)",
+    "addRow": "+ Lägg till"
+  },
+  "node": {
+    "namePlaceholder": "Namn",
+    "iconPlaceholder": "Ikon material",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Klicka för att expandera",
+    "allSpecies": "alla arter",
+    "noSpecies": "inga arter",
+    "speciesCount_one": "{{count}} arter",
+    "speciesCount_other": "{{count}} arter",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Vv upp till {{max}}"
+  },
+  "canvas": {
+    "empty": "Inga skilltrees i denna arbetsyta ännu.",
+    "layingOut": "Lägger ut duk…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType krävs",
+    "priceExpNonNegative": "Pris och EXP måste vara ≥ 0",
+    "minMaxNumbers": "Min och Max måste vara siffror",
+    "valuesNonNegative": "Värden måste vara ≥ 0",
+    "maxGteMin": "Max måste vara ≥ Min"
+  }
+}

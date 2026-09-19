@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "不明なスキル: {{skillId}}",
+    "noUpgrades": "スキルは少なくとも1回アップグレードする必要があります",
+    "firstLevelRequired": "最初のレベルには少なくとも1つのフィールドが必要です",
+    "invalidLevelKey": "無効なレベルキーフォーマット",
+    "duplicateLevel": "重複レベルキー： {{level}}",
+    "invalidRange": "無効なレベルの範囲",
+    "emptyField": "{{field}} は空にできません",
+    "invalidNumber": "{{field}} は有効な数値でなければなりません",
+    "invalidPlusNumber": "{{field}} は署名された番号でなければなりません。（例：+1 または +0.5）",
+    "minValue": "{{field}} は少なくとも {{min}}でなければなりません",
+    "maxValue": "{{field}} は {{max}}以下でなければなりません",
+    "requiredField": "{{field}} が必要です",
+    "emptyRequirementKey": "カスタム要件キーは空にできません",
+    "emptyRequirementValue": "カスタム要件値は空にできません",
+    "emptySkilltreeRequirement": "スキルツリーの要件はスキルツリーを選択する必要があります",
+    "emptyPermissionRequirement": "権限要件を空にすることはできません",
+    "unknownField": "未知のフィールド \"{{field}}\" (そのままで、サーバーは無視されます)",
+    "badNumber": "{{field}} は \"+5\" や \"-2.5\" のような符号付き番号でなければなりません",
+    "badInteger": "{{field}} は \"+5\" のような符号付き整数でなければなりません",
+    "badBoolean": "{{field}} は真または偽でなければなりません",
+    "badEnum": "{{field}} はリストされた値のいずれかでなければなりません",
+    "badGroup": "{{field}} はオブジェクトでなければなりません",
+    "badList": "{{field}} はエントリのリストでなければなりません",
+    "badListInteger": "{{field}} は6のような整数でなければなりません",
+    "badListNumber": "{{field}} は6または2.5のような数字でなければなりません",
+    "badListString": "{{field}} はテキストでなければなりません"
+  }
+}

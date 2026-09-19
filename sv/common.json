@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Välj ett konfigurationsområde från sidofältet."
+  },
+  "actions": {
+    "import": "Importera",
+    "export": "Exportera Postnummer",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "delete": "Radera",
+    "add": "Lägg till",
+    "remove": "Radera",
+    "edit": "Redigera",
+    "close": "Stäng",
+    "ok": "Ok",
+    "confirm": "Bekräfta",
+    "done": "Klar",
+    "loadDefaults": "Ladda standardvärden",
+    "chooseFiles": "Välj filer",
+    "copyJson": "Kopiera JSON",
+    "download": "Hämta",
+    "selectAll": "Markera alla",
+    "deselectAll": "Avmarkera alla",
+    "copy": "Kopiera"
+  },
+  "autosave": {
+    "saved": "Sparad",
+    "savedAt": "Sparat {{time}}",
+    "saving": "Autosparar…",
+    "pending": "Osparade ändringar",
+    "justNow": "just nu",
+    "secondsAgo": "{{s}}s sedan",
+    "minutesAgo": "{{m}}m sedan",
+    "hoursAgo": "{{h}}h sedan"
+  },
+  "modals": {
+    "import": {
+      "title": "Importera skilltrees",
+      "description": "Släpp en .zip (flera träd) eller en enda .st.json-fil.",
+      "dragHere": "Dra & släpp filer hit",
+      "or": "eller",
+      "reading": "Läser filer…"
+    },
+    "confirm": {
+      "title": "Bekräfta",
+      "deleteTree": "Ta bort skilltree \"{{id}}\"?",
+      "deleteSkill": "Ta bort färdighet \"{{id}}\"?",
+      "loadDefaults": "Detta kommer att ersätta dina nuvarande skicklighetsträd med standardexempel och rensa ditt lokala utkast. Fortsätt?"
+    },
+    "alert": {
+      "title": "Varning",
+      "importFailed": "Det gick inte att importera fil(er).",
+      "exportBlocked": "Export blockerad: {{count}} skilltree(s) har valideringsfel.\n\nOgiltiga träd: {{names}}\n\nVänligen åtgärda alla valideringsfel innan export.",
+      "noTreesToExport": "Inga skilltrees att exportera.",
+      "duplicateId": "En skilltree med detta ID finns redan.",
+      "loadDefaultsFailed": "Det gick inte att ladda standardexempel",
+      "jsonCopied": "JSON kopierades till urklipp",
+      "jsonCopyFailed": "Det gick inte att kopiera JSON"
+    },
+    "viewSource": "Visa källa"
+  },
+  "language": {
+    "select": "Välj språk",
+    "loading": "Laddar översättningar..."
+  },
+  "tooltip": {
+    "breakdown": "Fördelning",
+    "total": "Totalt",
+    "goHome": "Gå till hemmet",
+    "allChangesSaved": "Alla ändringar sparade",
+    "saveChanges": "Spara ändringar",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Ladda standardexempel träd",
+    "exportZip": "Exportera alla träd till en zip",
+    "delete": "Radera",
+    "openDocs": "Öppna MyPet dokumentation",
+    "switchToLight": "Växla till ljusläge",
+    "switchToDark": "Växla till mörkt läge",
+    "tipOnKofi": "Stöd detta projekt på Ko-fi"
+  },
+  "footer": {
+    "builtBy": "byggd med ❤️ av",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Understruken",
+    "strikethrough": "Strejk",
+    "reset": "Reset",
+    "placeholder": "Ange MiniMessage text. Använd verktygsfältet för att infoga taggar."
+  },
+  "common": {
+    "none": "(Ingen)",
+    "noOptions": "(Inga alternativ)"
+  },
+  "sidebar": {
+    "title": "Färdighetsträd",
+    "newSkilltree": "Ny skicklighetsträd",
+    "order": "Beställning {{order}}",
+    "expand": "Expandera",
+    "collapse": "Komprimera",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Komprimera sidofält",
+    "reorder": "Omordna",
+    "dragToReorder": "Dra för att ordna om",
+    "reviewSave": "Granska och spara",
+    "nothingToSave": "Inga osparade ändringar",
+    "configSections": "Konfiguration sektioner",
+    "category": {
+      "general": "Allmänt",
+      "pets": "Husdjur",
+      "experience": "Erfarenhet",
+      "skilltrees": "Färdighetsträd",
+      "locale": "Lokalt",
+      "hooks": "Krokar",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Ingen arbetsyta laddad",
+    "expiringSoon": "Sessionen löper ut snart",
+    "demoData": "Exempel på data · ändringar sparas inte",
+    "rejected": "Servern avvisade ändringarna."
+  },
+  "editors": {
+    "config": {
+      "label": "Huvudinställningar"
+    },
+    "petConfig": {
+      "label": "Sällskapsdjur Konfiguration"
+    },
+    "expConfig": {
+      "label": "Mob XP Belöningar"
+    },
+    "petShops": {
+      "label": "Husdjur butiker"
+    },
+    "skilltrees": {
+      "label": "Färdighetsträd"
+    },
+    "locale": {
+      "label": "Lokalt"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Ansluter till din server",
+    "loadingSubtitle": "Laddar konfiguration…",
+    "trustTitle": "Auktorisera denna webbläsare",
+    "trustSubtitle": "Denna webbläsare är ännu inte betrodd. Kör detta i spelet för att ansluta:",
+    "trustWaiting": "Väntar på auktorisering…",
+    "noSessionTitle": "Ingen aktiv session",
+    "noSessionSubtitle": "Kör <0>/mypet editor</0> i spelet och öppna länken den ger dig.",
+    "tryDemo": "Prova demon",
+    "demoHint": "Utforska varje redigerare med exempeldata — ingen server behövs.",
+    "endedTitle": "Denna redigerarsession har avslutats",
+    "endedSubtitle": "Servern stängde den, eller det gick ut. Kör <0>/mypet editor</0> i spelet för att starta en ny, och sedan öppna den nya länken den ger dig."
+  },
+  "reviewSave": {
+    "title": "Granska och spara",
+    "noChanges": "Inga osparade ändringar.",
+    "summary_one": "{{count}} fil med osparade ändringar",
+    "summary_other": "{{count}} filer med osparade ändringar",
+    "tagRemoved": "borttagen",
+    "tagAdded": "tillagd",
+    "empty": "(tom)",
+    "apply": "Tillämpa ändringar",
+    "applying": "Tillämpar…",
+    "hintNoChanges": "Inga ändringar att tillämpa.",
+    "hintNotConnected": "Anslut en live-session först — kör /mypet editor och auktorisera webbläsaren.",
+    "hintNoSession": "Ingen aktiv session.",
+    "hintReady": "Skriv dessa ändringar till servern och ladda om.",
+    "formattingOnly": "Formatering endast (inga värdeändringar)",
+    "stAdded": "{{count}} tillagd",
+    "stRemoved": "{{count}} borttagen",
+    "stModified": "{{count}} ändrad",
+    "stBroken": "{{count}} trasiga fil(er) ändrade",
+    "noNetChange": "ingen nettoförändring",
+    "localeSummary": "{{keys}} tangenter över {{langs}} språk",
+    "applyFailed": "Misslyckades att tillämpa ändringar"
+  },
+  "sessionClosed": {
+    "title": "Sessionen är stängd",
+    "body": "Webbredigerarsessionen har avslutats (stängt i spelet, eller tidsinställt ut). Ändringar kan inte längre sparas — kör <0>/mypet editor</0> igen för att starta en ny session.",
+    "viewReadOnly": "Visa skrivskyddad"
+  }
+}

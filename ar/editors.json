@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "لم يتم تحميل مساحة العمل. افتح جلسة مع <0>/mypet محرر </0> أو تحميل حزمة مثال.",
+    "viewFile": "عرض الملف",
+    "actions": "الإجراءات",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "أقسام التكوين",
+    "tabs": {
+      "general": "عام",
+      "database": "قاعدة البيانات",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "الخبرة",
+      "permissions": "الأذونات",
+      "names": "الأسماء",
+      "skills": "المهارات",
+      "updates": "التحديثات"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "المالك يستطيع مهاجمة الحيوانات الأليفة"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "تعطيل الحيوانات الأليفة ضد اللاعب"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "مكافآت قتل الحيوانات الأليفة تمنح اللاعب"
+      },
+      "OverwriteLanguages": {
+        "label": "الكتابة فوق اللغة",
+        "help": "فرض رمز محلي (على سبيل المثال، en، de_DE). فارغ = الكشف التلقائي."
+      },
+      "Leash_AllowRanged": {
+        "label": "السماح بالتسريب المرتفع"
+      },
+      "Leash_Consume": {
+        "label": "استهلاك عنصر التريش"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "تتبع مسافة البدء"
+      },
+      "Repository_Type": {
+        "label": "نوع المستودع"
+      },
+      "Repository_ConvertFrom": {
+        "label": "تحويل من",
+        "help": "اختياري: الانتقال من خلفية أخرى في البداية التالية."
+      },
+      "Repository_LoadDelay": {
+        "label": "تأخير التحميل (دقائق)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "مضيف MySQL"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "قاعدة بيانات MySQL"
+      },
+      "Repository_MySQL_User": {
+        "label": "مستخدم MySQL"
+      },
+      "Repository_MySQL_Password": {
+        "label": "كلمة مرور MySQL"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "بادئة الجدول"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "ترميز الأحرف"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "الحد الأقصى للإتصالات"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "عامل الوقت الافتراضي"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "الوقت الافتراضي المحدد"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "عامل وقت اللاعب"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "وقت اللاعب الثابت"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "تم تعطيل وقت الاستعادة"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "عامل تكلفة الاقتصاد"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "تكلفة الاقتصاد الثابتة"
+      },
+      "HungerSystem_Active": {
+        "label": "نظام الجوع نشط"
+      },
+      "HungerSystem_Time": {
+        "label": "وقت إنتهاء الجوع"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "التشبع لكل تغذية"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "عامل الضرر"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "تم اصلاح الضرر"
+      },
+      "Exp_LevelCap": {
+        "label": "الحد الاقصى للمستوى"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "توزيع XP ترجيح الضرر"
+      },
+      "Exp_Loss_Drop": {
+        "label": "فقدان XP عند الموت"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "خسارة XP (ثابت)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "خسارة XP (%)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "تعديل XP العالمي"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "سلبية % لكل وحش"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "وضع حساب المستوى"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "منحنى · قاعدة خطية"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "المنحنى · عامل الطاقة"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "المنحنى · تعزيز الطاقة"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "المنحنى - القاعدة الأسية"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "المنحنى - النمو الأسي"
+      },
+      "Permissions_Extended": {
+        "label": "الصلاحيات الموسعة"
+      },
+      "Name_MaxLength": {
+        "label": "أقصى طول للإسم"
+      },
+      "Name_Tag_Show": {
+        "label": "إظهار اسم العلامة"
+      },
+      "Name_Tag_Prefix": {
+        "label": "بادئة علامة الاسم"
+      },
+      "Name_Tag_Suffix": {
+        "label": "اسم العلامة اللاحقة"
+      },
+      "Name_Filter": {
+        "label": "الكلمات المصفاة (واحد لكل سطر)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "تعيين تلقائي"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "تعيين عشوائي"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "اختر مرة واحدة"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "منع المستوى بدون شجرة مهارة"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "تبديل الرسوم للمشرفين"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "تبديل الرسوم (ثابت)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "تبديل الرسوم (بالنسبة المئوية)"
+      },
+      "Skill_Control_Item": {
+        "label": "عنصر مهارة التحكم"
+      },
+      "Skill_Ride_Item": {
+        "label": "عنصر المهارة"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "الجوع لكل متر"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "وقت تقليل جوع المنارة"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "فتح حزمة الظهر في الإبداع"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "سحب حزمة الظهر عندما يقوم المالك بالإعدادات"
+      },
+      "Update_Check": {
+        "label": "التحقق من وجود تحديثات"
+      },
+      "Update_Download": {
+        "label": "تحميل التحديثات"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "القائمة — {{menuId}}",
+    "selectMenu": "حدد قائمة من الشريط الجانبي.",
+    "notFound": "لم يتم العثور على القائمة <0>{{menuId}}</0> في مساحة العمل.",
+    "previewLanguage": "معاينة اللغة:",
+    "slotWithSection": "خانة {{slot}} — قسم <0>{{sectionId}}</0>",
+    "slotNoSection": "خانة {{slot}} — لا قسم",
+    "clickSlot": "انقر على خانة لتحديد قسمها."
+  },
+  "mobXp": {
+    "title": "مكافآت XP للمجموعة",
+    "sections": "أقسام XP",
+    "searchPlaceholder": "البحث عن الغوغاء…",
+    "searchLabel": "البحث عن الغوغاء",
+    "entryCount_one": "{{count}} entry",
+    "entryCount_other": "{{count}} entries",
+    "addCustom": "+ إضافة غوغاء مخصص",
+    "noMatch": "لا يوجد غوغاء يطابقون بحثك.",
+    "noCustom": "لا يوجد غوغاء مخصصين حتى الآن. أضف واحد لإعطاء XP للغوغاء المسمى.",
+    "noEntries": "لا توجد إدخالات في هذا الملف.",
+    "colMob": "الغوغاء",
+    "colMin": "الحد الأدنى",
+    "colMax": "الحد الأقصى",
+    "remove": "إزالة {{name}}",
+    "tabs": {
+      "Default": "الافتراضي",
+      "Custom": "مخصص"
+    },
+    "help": {
+      "Default": "منح XP عندما يقتل حيوان أليف عصابة الفانيليا.",
+      "Custom": "XP للغوغاء المسماة خصيصا (على سبيل المثال MythicMobs). قم بمطابقة اسم الغوغاء بالضبط."
+    },
+    "promptCustomName": "اسم الغوغاء المخصص (اسم عرض الغوغاء بالضبط، على سبيل المثال معرف MythicMobs):"
+  },
+  "localeEditor": {
+    "title": "محلية - {{language}}",
+    "selectLanguage": "اختر لغة من الشريط الجانبي.",
+    "promptKey": "تجاوز مفتاح (مثل Message.Pet.Spawn):",
+    "invalidKey": "المفاتيح لا يمكن أن تحتوي على مسافات أو \"=\".",
+    "duplicateKey": "هذا المفتاح له بالفعل تجاوز",
+    "view": "طريقة العرض المحلية",
+    "tabOverrides": "تجاوزاتي",
+    "tabAll": "جميع المقاطع",
+    "searchPlaceholder": "مفاتيح البحث أو النص…",
+    "searchLabel": "البحث في مفاتيح الإعدادات المحلية أو النص",
+    "onlyOverridden": "إظهار التجاوز فقط",
+    "overrideCount": "{{shown}} من تخطي {{total}}",
+    "keyCount_one": "مفتاح {{count}}",
+    "keyCount_other": "مفاتيح {{count}}",
+    "addOverride": "+ إضافة تجاوز",
+    "noOverrides": "لا توجد تجاوزات لـ <0>{{language}}</0> حتى الآن. قم بالتبديل إلى <1>{{tabAll}}</1> لتصفح وتجاوز الافتراضيات.",
+    "noOverrideMatch": "لا توجد تجاوزات تطابق بحثك.",
+    "loadError": "تعذر تحميل السلاسل الافتراضية لـ <0>{{language}}</0> من GitHub. لا يزال بإمكانك إضافة تجاوزات يدوياً من عرض{{tabOverrides}}.",
+    "loadingDefaults": "تحميل المقاطع الافتراضية…",
+    "noStringMatch": "لا توجد مقاطع تطابق بحثك.",
+    "colKey": "المفتاح",
+    "colDefault": "الافتراضي",
+    "colOverride": "تجاوز",
+    "noDefault": "(غير افتراضي)",
+    "remove": "إزالة {{key}}",
+    "reset": "إعادة تعيين {{key}} إلى الافتراضي"
+  },
+  "petShops": {
+    "title": "متاجر الحيوانات الأليفة",
+    "shops": "المتاجر",
+    "promptShopId": "معرف متجر جديد (الأحرف والأرقام وتسطير السطر - على سبيل المثال بريميوم):",
+    "invalidShopId": "قد يحتوي معرف المتجر على أحرف وأرقام وأسفل سفلية فقط.",
+    "duplicateShop": "متجر اسمه \"{{key}}\" موجود بالفعل.",
+    "confirmDeleteShop": "حذف متجر \"{{name}}وكل حيواناته؟",
+    "addShop": "+ إضافة متجر",
+    "deleteShop": "حذف هذا المتجر",
+    "noShops": "لا يوجد متاجر معرفة. أضف واحدة لبدء بيع الحيوانات الأليفة.",
+    "displayName": "اسم العرض",
+    "defaultShop": "المتجر الافتراضي",
+    "defaultShopHint": "تفتح بواسطة /petshop بدون حجج.",
+    "menuPosition": "موضع القائمة",
+    "balanceType": "نوع الرصيد",
+    "balanceTypeHint": "حيثما تصل أموال الشراء.",
+    "balanceOwner": "مالك الرصيد",
+    "balanceOwnerBank": "اسم بنك الخزانة.",
+    "balanceOwnerPlayer": "UUID.",
+    "iconMaterial": "مواد الأيقونة",
+    "iconMaterialHint": "العنصر المعروض في قائمة المتجر (على سبيل المثال الصدر والبيضة).",
+    "iconGlowing": "أيقونة التوهج",
+    "pets": "الحيوانات الأليفة",
+    "searchPets": "البحث عن الحيوانات الأليفة…",
+    "searchPetsLabel": "البحث عن الحيوانات الأليفة في هذا المتجر",
+    "petCount": "{{shown}} من {{total}}",
+    "addPet": "+ إضافة حيوان أليف",
+    "promptPetId": "معرف الحيوانات الأليفة الجديد (الأحرف والأرقام وتسطير السطر - على سبيل المثال baby_wolf):",
+    "invalidPetId": "قد يحتوي معرف الحيوانات الأليفة فقط على أحرف وأرقام وتسطيرات سفلية.",
+    "duplicatePet": "حيوان أليف \"{{key}}موجود بالفعل في هذا المتجر.",
+    "noPets": "لا توجد حيوانات أليفة في هذا المتجر حتى الآن.",
+    "noPetMatch": "لا توجد حيوانات أليفة تطابق بحثك.",
+    "removePet": "إزالة {{name}}",
+    "petType": "نوع الحيوانات الأليفة",
+    "petTypeHint": "نوع الحيوانات الأليفة MyPet، على سبيل المثال WOLF, OCELOT.",
+    "price": "السعر",
+    "startingExp": "بدء EXP",
+    "positionHint": "-1 = الملء التلقائي.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "اسم شجرة مهارات مسبقة اختيارية.",
+    "description": "الوصف (سطر واحد لكل منهما)",
+    "options": "خيارات (واحد لكل سطر)",
+    "optionsHint": "مثل خيارات الطفل أو نوع محدد."
+  },
+  "petTypes": {
+    "title": "أنواع الحيوانات الأليفة",
+    "search": "البحث عن أنواع الحيوانات الأليفة…",
+    "searchLabel": "البحث عن أنواع الحيوانات الأليفة",
+    "noMatch": "لا توجد أنواع مطابقة.",
+    "noTypes": "لا توجد أنواع الحيوانات الأليفة في هذا الملف.",
+    "deleteTitle": "حذف هذا النوع من الحيوانات الأليفة",
+    "deleteButton": "🗑️ حذف الحيوانات الأليفة",
+    "confirmDelete": "حذف الحيوان الأليف المخصص\"{{name}}\"؟ هذا يزيل كامل قسم تهيئة الحيوانات الأليفة.",
+    "confirmDeleteTitle": "حذف حيوان أليف مخصص",
+    "confirmDeleteConfirm": "حذف",
+    "complexValue": "قيمة معقدة - تحرير عبر YAML خام.",
+    "model": "الموديل",
+    "modelHelp": "عرض هذا الحيوان الأليف مع نموذج ثلاثي الأبعاد مخصص من إضافة موفر النموذج (ModelEngine, BetterModel, Itemsadder, or MythicMobs) بدلاً من مظهر الفانيليا. اترك المزود فارغاً للحفاظ على المظهر الافتراضي.",
+    "provider": "موفر",
+    "modelId": "رقم تعريف النموذج",
+    "modelCollision": "تستخدم الطراز <0>{{provider}}</0> \"<1>{{id}}</1>\" بالفعل من قبل نوع الحيوانات الأليفة \"<2>{{other}}</2>\". يحتاج كل نوع مخصص إلى نموذج فريد - وإلا فإن البرنامج المساعد سيتخطى أحدهم في التحميل.",
+    "nameHeight": "ارتفاع الاسم",
+    "nameHeightHelp": "تعويض عمودي لعلامة اسم الحيوانات الأليفة فوق النموذج.",
+    "createCustom": "➕ إنشاء حيوان أليف مخصص",
+    "typeCount": "{{shown}} من أنواع {{total}}",
+    "animations": "الرسوم المتحركة",
+    "animationsHint": "- تجاوز الاسم الاختياري"
+  },
+  "menuSection": {
+    "notFound": "القسم <0>{{sectionId}}</0> غير موجود في <1>{{menuId}}</1>.",
+    "removed": "تمت إزالة القسم <0>{{sectionId}}</0> من هذه القائمة (المكتوبة كـ <1>null</1>).",
+    "resetDefault": "إعادة التعيين إلى الافتراضي",
+    "removeSection": "إزالة القسم",
+    "confirmRemove": "إزالة قسم \"{{sectionId}}\" ؟ هذا يمسح فتحته على القماش – إعادة اختياره عن طريق \"إعادة تعيين إلى الافتراضي\" إذا قمت بتغيير رأيك.",
+    "confirmRemoveTitle": "إزالة القسم",
+    "confirmRemoveConfirm": "إزالة",
+    "statefulNotice": "يحدد هذا القسم العناصر لكل حالة (<0>states</0>). الحقول أدناه تحرير القاعدة <1>عنصر</1>، التي تنطبق فقط عندما لا تتجاوز أي ولاية.",
+    "material": "المواد",
+    "column": "العمود",
+    "row": "صف",
+    "glow": "متهرج",
+    "soundOnClick": "صوت عند النقر",
+    "soundKey": "المفتاح",
+    "soundVolume": "حجم",
+    "soundPitch": "قماش",
+    "pitchRangeHelp": "في الوقت الحالي نطاق متسلسل - التعديل هنا يحل محله بقيمة ثابتة.",
+    "title": "العنوان",
+    "lore": "خام"
+  },
+  "petWizard": {
+    "titleAvenue": "إنشاء حيوان أليف مخصص - اختر الطريق",
+    "titleModel": "إنشاء حيوان أليف مخصص - تكوين النموذج",
+    "titleIdentity": "إنشاء حيوان أليف مخصص - هوية وجسم",
+    "titleStats": "إنشاء حيوان أليف مخصص - إحصائيات",
+    "titleReview": "إنشاء حيوان أليف مخصص - مراجعة",
+    "progress": "تقدم المعالج",
+    "chooseHow": "اختر كيف تريد إنشاء حيوانك الأليف المخصص.",
+    "buildFromModel": "بناء مخلوق من نموذج",
+    "modelSource": "مصدر النموذج",
+    "defaultModel": "النموذج الافتراضي",
+    "sourceOnlyItemsAdder": "نماذج الـ ItemsAdder هي حزم محتوى - اختر معرف موجود.",
+    "sourceOnlyMythicMobs": "عصابات MythicMobs محددة في تشكيلات MythicMobs - اختر نوع الغوغاء الموجود.",
+    "modelId": "معرف النموذج",
+    "modelIdRegisteredHelp": "حدد نموذج مسجل مع {{provider}}.",
+    "modelIdManualHelp": "لم يتم العثور على نماذج لـ {{provider}}. أدخل معرف نموذج يدويا.",
+    "modelIdRequired": "رقم تعريف النموذج مطلوب.",
+    "uploadLabel": "تحميل .bbmodel",
+    "uploadReconnecting": "إعادة الاتصال - انتظر إعادة الاتصال بالجلسة قبل التحميل.",
+    "uploadNeedsSession": "التحميل يحتاج إلى جلسة مباشرة <0>/mypet editor</0> - قم بتوصيل واحد لتمكين هذا.",
+    "uploadExplainer": "تحميل إلى {{provider}}؛ يظهر النموذج للاعبين بمجرد أن يقوم {{provider}} بتجديد حزمة الموارد وإعادة تحميل العملاء. اسم الملف (دون <0>.bbmodel</0>) يصبح النموذج ، لذا يجب أن يتطابق مع معرف المخطط المعلن داخل النموذج.",
+    "uploading": "تحميل…",
+    "uploadDone": "تم تحميلها — تم تعيين معرف النموذج إلى \"{{modelId}}\".",
+    "uploadFailed": "فشل الرفع.",
+    "nameHeight": "اسم الإرتفاع (اختياري)",
+    "nameHeightHelp": "تعويض عمودي لعلامة اسم الحيوانات الأليفة فوق النموذج.",
+    "modelCollision": "تستخدم الطراز <0>{{provider}}</0> \"<1>{{modelId}}</1>\" بالفعل من قبل نوع الحيوانات الأليفة \"<2>{{other}}</2>\". الطراز هو هوية الحيوانات الأليفة، لذا فإن كل نوع مخصص يحتاج إلى نموذج فريد - اختيار واحد مختلف (بخلاف ذلك ستتخطى الإضافة هذا النوع على التحميل).",
+    "creatureName": "اسم المخلوق",
+    "creatureNameHelp": "مفتاح التكوين الداخلي للحيوان الأليف لهذا النوع من الحيوانات الأليفة (مثل FrostDragon). يجب أن يكون فريداً.",
+    "hostMob": "مضيف الغوغاء",
+    "hostMobHelp": "نوع الغوغاء الفانيليا بوكيت الذي يوفر الكيان الأساسي لهذا الحيوان الأليف.",
+    "health": "الصحة (HP)",
+    "healthHelp": "نقاط الصحة الأساسية لهذا الحيوان الأليف (على سبيل المثال 20 = 10 قلوب).",
+    "walkSpeed": "سرعة المشي",
+    "walkSpeedHelp": "سمة سرعة الحركة (على سبيل المثال 0.3 هي سرعة المشي القياسية).",
+    "food": "الطعام (عنصر واحد لكل سطر)",
+    "foodHelp": "العناصر التي تغذي هذا الحيوان الأليف، مثل القمح. اتركه فارغاً لوراثة غذاء الغوغاء المضيف.",
+    "leash": "متطلبات القيادة",
+    "leashHelp": "الشروط التي يجب أن تستمر من أجل العمل على هذا الحيوان الأليف (مثل البري والطفل).",
+    "leashNeedsSession": "متطلبات اللياقة بحاجة إلى جلسة حية.",
+    "reviewIntro": "سيضاف القسم التالي إلى <0>pet-config.yml</0>:",
+    "back": "الرجوع",
+    "next": "التالي",
+    "create": "إنشاء",
+    "nameRequired": "الاسم مطلوب."
+  }
+}

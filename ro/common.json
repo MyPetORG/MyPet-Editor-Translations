@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Selectați o zonă de configurare din bara laterală."
+  },
+  "actions": {
+    "import": "Importă",
+    "export": "Exportă ZIP",
+    "save": "Salvează",
+    "cancel": "Anulează",
+    "delete": "Ștergere",
+    "add": "Adăugare",
+    "remove": "Elimină",
+    "edit": "Editare",
+    "close": "Inchide",
+    "ok": "Ok",
+    "confirm": "Confirmare",
+    "done": "Terminat",
+    "loadDefaults": "Încarcă setările implicite",
+    "chooseFiles": "Alege fişiere",
+    "copyJson": "Copiază JSON",
+    "download": "Descărcare",
+    "selectAll": "Selectează tot",
+    "deselectAll": "Deselectează tot",
+    "copy": "Copiază"
+  },
+  "autosave": {
+    "saved": "Salvat",
+    "savedAt": "Salvat {{time}}",
+    "saving": "Autosaving…",
+    "pending": "Modificări nesalvate",
+    "justNow": "chiar acum",
+    "secondsAgo": "{{s}}s acum",
+    "minutesAgo": "{{m}}m în urmă",
+    "hoursAgo": "{{h}}h ago"
+  },
+  "modals": {
+    "import": {
+      "title": "Importă abilitări",
+      "description": "Trage un fișier .zip (mai mulți copaci) sau un fișier .st.json.",
+      "dragHere": "Trage si plaseaza fisiere aici",
+      "or": "sau",
+      "reading": "Citire fișiere…"
+    },
+    "confirm": {
+      "title": "Confirmare",
+      "deleteTree": "Ștergeți abilitățile \"{{id}}\"?",
+      "deleteSkill": "Eliminați abilitatea \"{{id}}\"?",
+      "loadDefaults": "Aceasta va înlocui abilitățile curente cu exemple implicite și va șterge schița locală. Continuați?"
+    },
+    "alert": {
+      "title": "Alertă",
+      "importFailed": "Nu s-a putut importa fișierul(ele)",
+      "exportBlocked": "Export blocked: {{count}} skilltree(s) have validation errors.\n\nInvalid trees: {{names}}\n\nPlease fix all validation errors before exporting.",
+      "noTreesToExport": "Nu există aptitudini de exportat.",
+      "duplicateId": "Un talent cu acest ID există deja.",
+      "loadDefaultsFailed": "Încărcarea exemplelor implicite a eșuat",
+      "jsonCopied": "JSON copiat în clipboard",
+      "jsonCopyFailed": "Copierea JSON a eșuat"
+    },
+    "viewSource": "Vezi sursa"
+  },
+  "language": {
+    "select": "Selectați limba",
+    "loading": "Se încarcă traducerile..."
+  },
+  "tooltip": {
+    "breakdown": "Defalcare",
+    "total": "Total",
+    "goHome": "Mergi la casă",
+    "allChangesSaved": "Toate modificările salvate",
+    "saveChanges": "Salvează modificările",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Încarcă arborele implicite de exemplu",
+    "exportZip": "Exporta toti copacii intr-un zip",
+    "delete": "Ștergere",
+    "openDocs": "Deschide documentatia MyPet",
+    "switchToLight": "Comutați la modul lumină",
+    "switchToDark": "Comutați la modul întunecat",
+    "tipOnKofi": "Susțineți acest proiect pe Ko-fi"
+  },
+  "footer": {
+    "builtBy": "construit cu ❤️ de",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Subliniere",
+    "strikethrough": "Lovitură",
+    "reset": "Reset",
+    "placeholder": "Introduceți un text min. Utilizați bara de instrumente pentru a insera etichete."
+  },
+  "common": {
+    "none": "Niciuna)",
+    "noOptions": "(Fără opțiuni)"
+  },
+  "sidebar": {
+    "title": "Abilități",
+    "newSkilltree": "Aptitudine nouă",
+    "order": "Comanda {{order}}",
+    "expand": "Extinde",
+    "collapse": "Restrânge",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Restrânge bara laterală",
+    "reorder": "Reordonare",
+    "dragToReorder": "Trageți pentru a reordona",
+    "reviewSave": "Revizuiește și salvează",
+    "nothingToSave": "Nicio modificare nesalvată",
+    "configSections": "Secţiuni de configurare",
+    "category": {
+      "general": "Generalități",
+      "pets": "Animale",
+      "experience": "Experiență",
+      "skilltrees": "Abilități",
+      "locale": "Localizare",
+      "hooks": "Cârlige",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Niciun spațiu de lucru încărcat",
+    "expiringSoon": "Sesiunea expiră în curând",
+    "demoData": "Exemplu de date · modificările nu vor fi salvate",
+    "rejected": "Serverul a respins modificările."
+  },
+  "editors": {
+    "config": {
+      "label": "Configurație principală"
+    },
+    "petConfig": {
+      "label": "Configurare animal de companie"
+    },
+    "expConfig": {
+      "label": "Recompense Mob XP"
+    },
+    "petShops": {
+      "label": "Magazine de animale"
+    },
+    "skilltrees": {
+      "label": "Abilități"
+    },
+    "locale": {
+      "label": "Localizare"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Conectare la server",
+    "loadingSubtitle": "Se încarcă configurația…",
+    "trustTitle": "Autorizează acest browser",
+    "trustSubtitle": "Acest browser nu este încă de încredere. Rulează în joc pentru a te conecta:",
+    "trustWaiting": "Se așteaptă autorizarea…",
+    "noSessionTitle": "Nicio sesiune activă",
+    "noSessionSubtitle": "Rulează editorul <0>/mypet</0> în joc și deschide link-ul pe care ți-l oferă.",
+    "tryDemo": "Încearcă demonstrația",
+    "demoHint": "Explorează fiecare editor cu date de exemplu — niciun server nu este necesar.",
+    "endedTitle": "Această sesiune de editor s-a încheiat",
+    "endedSubtitle": "Serverul l-a închis sau a expirat. Rulează <0>/editorul mypet</0> în joc pentru a porni unul nou, apoi deschide link-ul nou pe care ți-l oferă."
+  },
+  "reviewSave": {
+    "title": "Revizuiește și salvează",
+    "noChanges": "Nicio modificare nesalvată.",
+    "summary_one": "{{count}} fișier cu modificări nesalvate",
+    "summary_other": "{{count}} fișiere cu modificări nesalvate",
+    "tagRemoved": "eliminat",
+    "tagAdded": "adăugat",
+    "empty": "(gol)",
+    "apply": "Aplică modificările",
+    "applying": "Se aplică…",
+    "hintNoChanges": "Nu există modificări de aplicat.",
+    "hintNotConnected": "Conectați mai întâi o sesiune live - executați /mypet editor și autorizați browser-ul.",
+    "hintNoSession": "Nicio sesiune activă.",
+    "hintReady": "Scrieți aceste modificări pe server și reîncărcați.",
+    "formattingOnly": "Doar formatare (fără schimbare de valoare)",
+    "stAdded": "{{count}} adăugat",
+    "stRemoved": "{{count}} eliminat",
+    "stModified": "{{count}} modificat",
+    "stBroken": "{{count}} fișier(e) stricat(e) modificat",
+    "noNetChange": "nicio modificare netă",
+    "localeSummary": "{{keys}} taste pentru {{langs}} limba(i)",
+    "applyFailed": "Nu s-au putut aplica modificările"
+  },
+  "sessionClosed": {
+    "title": "Sesiune închisă",
+    "body": "Sesiunea editorului de web s-a încheiat (s-a închis în joc, sau a expirat). Modificările nu mai pot fi salvate - rulați <0>/mypet editor din nou pentru a începe o nouă sesiune.",
+    "viewReadOnly": "Vizualizare numai în citire"
+  }
+}

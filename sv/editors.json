@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Ingen arbetsyta laddad. Öppna en session med <0>/mypet editor</0> eller ladda ett exempelpaket.",
+    "viewFile": "Visa fil",
+    "actions": "Åtgärder",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Konfigurera sektioner",
+    "tabs": {
+      "general": "Allmänt",
+      "database": "Databas",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Erfarenhet",
+      "permissions": "Behörigheter",
+      "names": "Namn",
+      "skills": "Färdigheter",
+      "updates": "Uppdateringar"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Ägare kan attackera husdjur"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Inaktivera sällskapsdjur vs spelare"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Djur Dödade ge spelare belöningar"
+      },
+      "OverwriteLanguages": {
+        "label": "Skriv över språk",
+        "help": "Tvinga en lokalkod (t.ex. sv, de_DE). Blank = auto-upptäckt."
+      },
+      "Leash_AllowRanged": {
+        "label": "Tillåt Ranged Leashing"
+      },
+      "Leash_Consume": {
+        "label": "Konsumera Leash objekt"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Följ Start Distans"
+      },
+      "Repository_Type": {
+        "label": "Typ av utvecklingskatalog"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Konvertera från",
+        "help": "Valfritt: migrera från en annan backend vid nästa start."
+      },
+      "Repository_LoadDelay": {
+        "label": "Ladda fördröjning (ticks)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQL värd"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL databas"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL användare"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQL lösenord"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Tabell Prefix"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Karaktär kodning"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Max antal anslutningar"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Förvald tidsfaktor"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Standardtid fast"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Spelarens tidsfaktor"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Spelarens tid fast"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Återupplivningstiden är inaktiverad"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Ekonomi Kostnad faktor"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Ekonomi Kostnad fast"
+      },
+      "HungerSystem_Active": {
+        "label": "Hunger System Aktivt"
+      },
+      "HungerSystem_Time": {
+        "label": "Hunger Tick Time"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Mättnad per flöde"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Skador Faktor"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Skada Fast"
+      },
+      "Exp_LevelCap": {
+        "label": "Nivå keps"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Skadad XP Distribution"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Förlora XP vid döden"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP förlust (fast)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP förlust (procent)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Global XP-modifierare"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Passiv % per monster"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Nivå Beräkningsläge"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Kurva · Linjär bas"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Kurva · Kraftfaktor"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Kurva · Ström Exponent"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Kurva · Exponentiell bas"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Kurva · Exponentiell tillväxt"
+      },
+      "Permissions_Extended": {
+        "label": "Utökade behörigheter"
+      },
+      "Name_MaxLength": {
+        "label": "Maximal namnlängd"
+      },
+      "Name_Tag_Show": {
+        "label": "Visa namntagg"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Namn taggprefix"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Namnge tagg suffix"
+      },
+      "Name_Filter": {
+        "label": "Filtrerade ord (en per rad)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Automatisk uppgift"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Slumpmässig tilldelning"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Välj en gång"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Förhindra utjämning utan Skilltree"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Växla avgift för administratörer"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Växla avgift (fast)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Växla avgift (procent)"
+      },
+      "Skill_Control_Item": {
+        "label": "Kontrollera skicklighet objekt"
+      },
+      "Skill_Ride_Item": {
+        "label": "Rid Färdighetsobjekt"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Ride Hunger Per Meter"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Fyrhungersnöd minskar tiden"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Ryggsäck öppnas i kreativ"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Ryggsäck Drops När Ägare Dies"
+      },
+      "Update_Check": {
+        "label": "Sök efter uppdateringar"
+      },
+      "Update_Download": {
+        "label": "Ladda ner uppdateringar"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Meny — {{menuId}}",
+    "selectMenu": "Välj en meny från sidofältet.",
+    "notFound": "Meny <0>{{menuId}}</0> hittades inte i arbetsytan.",
+    "previewLanguage": "Förhandsgranska språk:",
+    "slotWithSection": "Slot {{slot}} — sektion: <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot {{slot}} — inget avsnitt",
+    "clickSlot": "Klicka på en slot för att välja dess avsnitt."
+  },
+  "mobXp": {
+    "title": "Mob XP Belöningar",
+    "sections": "XP sektioner",
+    "searchPlaceholder": "Sök varelser…",
+    "searchLabel": "Sök varelser",
+    "entryCount_one": "{{count}} post",
+    "entryCount_other": "{{count}} poster",
+    "addCustom": "+ Lägg till anpassad mob",
+    "noMatch": "Inga varelser matchar din sökning.",
+    "noCustom": "Inga anpassade varelser ännu. Lägg till en för att ge XP för en namngiven mob.",
+    "noEntries": "Inga poster i denna fil.",
+    "colMob": "Varelse",
+    "colMin": "Minsta",
+    "colMax": "Max",
+    "remove": "Ta bort {{name}}",
+    "tabs": {
+      "Default": "Standard",
+      "Custom": "Anpassad"
+    },
+    "help": {
+      "Default": "XP delas ut när ett husdjur dödar en vaniljmobb.",
+      "Custom": "XP för namngivna varelser (t.ex. MythicMobs). Matcha mobbens exakta namn."
+    },
+    "promptCustomName": "Anpassat mobbnamn (mobbens exakta visningsnamn, t.ex. ett MythicMobs-id):"
+  },
+  "localeEditor": {
+    "title": "Språk — {{language}}",
+    "selectLanguage": "Välj ett språk från sidofältet.",
+    "promptKey": "Åsidosätt nyckel (t.ex. Message.Pet.Spawn):",
+    "invalidKey": "Nycklar kan inte innehålla mellanslag eller \"=\".",
+    "duplicateKey": "Nyckeln har redan en överskridande.",
+    "view": "Lokala vyer",
+    "tabOverrides": "Mina åsidosättningar",
+    "tabAll": "Alla strängar",
+    "searchPlaceholder": "Sök nycklar eller text…",
+    "searchLabel": "Sök språk eller text",
+    "onlyOverridden": "Visa endast åsidosatt",
+    "overrideCount": "{{shown}} av {{total}} åsidosättningar",
+    "keyCount_one": "{{count}} nyckel",
+    "keyCount_other": "{{count}} nycklar",
+    "addOverride": "+ Lägg till åsidosättning",
+    "noOverrides": "Inga åsidosättningar för <0>{{language}}</0> än. Växla till <1>{{tabAll}}</1> för att bläddra och åsidosätta standardinställningar.",
+    "noOverrideMatch": "Inga åsidosättningar matchar din sökning.",
+    "loadError": "Det gick inte att ladda standardsträngar för <0>{{language}}</0> från GitHub. Du kan fortfarande lägga till åsidosättningar manuellt från \"{{tabOverrides}}\"-vyn.",
+    "loadingDefaults": "Laddar standardsträngar…",
+    "noStringMatch": "Inga strängar matchar din sökning.",
+    "colKey": "Nyckel",
+    "colDefault": "Standard",
+    "colOverride": "Åsidosätt",
+    "noDefault": "(ingen standard)",
+    "remove": "Ta bort {{key}}",
+    "reset": "Återställ {{key}} till standard"
+  },
+  "petShops": {
+    "title": "Husdjur butiker",
+    "shops": "Butiker",
+    "promptShopId": "Nytt butiks-id (bokstäver, siffror, understrykningstecken — t.ex. premium):",
+    "invalidShopId": "Butiks-id får endast innehålla bokstäver, siffror och understreck.",
+    "duplicateShop": "En butik som heter \"{{key}}\" finns redan.",
+    "confirmDeleteShop": "Ta bort butiken \"{{name}}\" och alla husdjur?",
+    "addShop": "+ Lägg till butik",
+    "deleteShop": "Ta bort denna butik",
+    "noShops": "Inga butiker definierade. Lägg till en för att börja sälja husdjur.",
+    "displayName": "Visningsnamn",
+    "defaultShop": "Förvald butik",
+    "defaultShopHint": "Öppnad av /petshop utan argument.",
+    "menuPosition": "Menyposition",
+    "balanceType": "Saldo typ",
+    "balanceTypeHint": "När köpet pengar går.",
+    "balanceOwner": "Saldo Ägare",
+    "balanceOwnerBank": "Bankens namn är valv.",
+    "balanceOwnerPlayer": "Spelare UUID.",
+    "iconMaterial": "Ikon Material",
+    "iconMaterialHint": "Objekt som visas i butiksmenyn (t.ex. bröst, ägg).",
+    "iconGlowing": "Ikon Glödande",
+    "pets": "Husdjur",
+    "searchPets": "Sök husdjur…",
+    "searchPetsLabel": "Sök husdjur i denna butik",
+    "petCount": "{{shown}} av {{total}}",
+    "addPet": "+ Lägg till husdjur",
+    "promptPetId": "Nytt husdjur id (bokstäver, siffror, understrykningstecken — t.ex. baby_wolf):",
+    "invalidPetId": "Djur-id får endast innehålla bokstäver, siffror och understreck.",
+    "duplicatePet": "Ett husdjur \"{{key}}\" finns redan i denna butik.",
+    "noPets": "Inga husdjur i denna butik ännu.",
+    "noPetMatch": "Inga husdjur matchar din sökning.",
+    "removePet": "Ta bort {{name}}",
+    "petType": "Typ av husdjur",
+    "petTypeHint": "En MyPet husdjur typ, t.ex. WOLF, OCELOT.",
+    "price": "Pris",
+    "startingExp": "Startar EXP",
+    "positionHint": "-1 = auto-fyllning.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Valfritt förinställt skilltree namn.",
+    "description": "Beskrivning (en rad vardera)",
+    "options": "Alternativ (en per rad)",
+    "optionsHint": "t.ex. baby, eller typspecifika alternativ."
+  },
+  "petTypes": {
+    "title": "Husdjur typer",
+    "search": "Sök sällskapsdjurstyper…",
+    "searchLabel": "Sök efter djurtyper",
+    "noMatch": "Inga typer matchar.",
+    "noTypes": "Inga husdjurstyper i denna fil.",
+    "deleteTitle": "Ta bort denna anpassade typ av husdjur",
+    "deleteButton": "🗑️ Ta bort husdjur",
+    "confirmDelete": "Ta bort det anpassade djuret \"{{name}}\"? Detta tar bort hela sin pet-config avsnitt.",
+    "confirmDeleteTitle": "Ta bort anpassat husdjur",
+    "confirmDeleteConfirm": "Radera",
+    "complexValue": "Komplexa värden — redigera via rå YAML.",
+    "model": "Modell",
+    "modelHelp": "Rendera detta husdjur med en anpassad 3D-modell från en modell-provider plugin (Modellmotor, BetterModel, ItemsAdder, eller MythicMobs) istället för dess vanilj utseende. Lämna leverantören tom för att behålla standardutseendet.",
+    "provider": "Leverantör",
+    "modelId": "Modell ID",
+    "modelCollision": "<0>{{provider}}</0> modell \"<1>{{id}}</1>\" används redan av djurtypen \"<2>{{other}}</2>\". Varje anpassad typ behöver en unik modell — plugin annars kommer att hoppa över en av dem på last.",
+    "nameHeight": "Namn Höjd",
+    "nameHeightHelp": "Vertikal förskjutning för djurets namnlapp ovanför modellen.",
+    "createCustom": "➕ Skapa anpassat husdjur",
+    "typeCount": "{{shown}} av {{total}} typer",
+    "animations": "Animationer",
+    "animationsHint": "— valfritt namn överskrider"
+  },
+  "menuSection": {
+    "notFound": "Avsnitt <0>{{sectionId}}</0> hittades inte i <1>{{menuId}}</1>.",
+    "removed": "Avsnitt <0>{{sectionId}}</0> tas bort från denna meny (skriven som <1>null</1>).",
+    "resetDefault": "Återställ till standard",
+    "removeSection": "Ta bort sektion",
+    "confirmRemove": "Ta bort avsnittet \"{{sectionId}}\" ? Detta rensar sin plats på duken - välj om den via \"Återställ till standard\" om du ändrar dig.",
+    "confirmRemoveTitle": "Ta bort sektion",
+    "confirmRemoveConfirm": "Radera",
+    "statefulNotice": "Detta avsnitt definierar per-state objekt (<0>stater</0>). Fälten nedan redigera basen <1>item</1>, vilket endast gäller när inget tillstånd åsidosätter det.",
+    "material": "Material",
+    "column": "Kolumn",
+    "row": "Rad",
+    "glow": "Glöd",
+    "soundOnClick": "Ljud vid klick",
+    "soundKey": "Nyckel",
+    "soundVolume": "Volym",
+    "soundPitch": "Pitch",
+    "pitchRangeHelp": "För närvarande en tonhöjd – redigering här ersätter den med ett fast värde.",
+    "title": "Titel",
+    "lore": "Lore"
+  },
+  "petWizard": {
+    "titleAvenue": "Skapa anpassade husdjur — Välj väg",
+    "titleModel": "Skapa anpassade husdjur — Konfigurera modell",
+    "titleIdentity": "Skapa anpassade husdjur — Identitet & kropp",
+    "titleStats": "Skapa anpassad sällskapsdjur — Statistik",
+    "titleReview": "Skapa anpassade husdjur — Granska",
+    "progress": "Guide framsteg",
+    "chooseHow": "Välj hur du vill skapa ditt anpassade husdjur.",
+    "buildFromModel": "Bygg en varelse från en modell",
+    "modelSource": "Modell källa",
+    "defaultModel": "Förvald modell",
+    "sourceOnlyItemsAdder": "ItemsAdder-modeller är innehållspaket — välj ett befintligt id.",
+    "sourceOnlyMythicMobs": "MythicMobs varelser definieras i MythicMobs konfigurationer — välj en befintlig mob typ.",
+    "modelId": "Modell ID",
+    "modelIdRegisteredHelp": "Välj en modell registrerad hos {{provider}}.",
+    "modelIdManualHelp": "Inga modeller upptäckta för {{provider}}. Ange ett modell-ID manuellt.",
+    "modelIdRequired": "Modell-ID krävs.",
+    "uploadLabel": "Ladda upp .bbmodel",
+    "uploadReconnecting": "Återansluter — vänta på att sessionen ska återanslutas innan du laddar upp.",
+    "uploadNeedsSession": "Uppladdning behöver en live <0>/mypet editor</0> session — anslut en för att aktivera detta.",
+    "uploadExplainer": "Uppladdningar till {{provider}}modellen visas för spelare när {{provider}} återskapar sitt resurspaket och klienter laddar ner det. Filnamnet (utan <0>.bbmodel</0>) blir modell-id, så det måste matcha det rita-id som deklarerats inuti modellen.",
+    "uploading": "Laddar upp…",
+    "uploadDone": "Uppladdad — modell-ID satt till \"{{modelId}}\".",
+    "uploadFailed": "Uppladdning misslyckades.",
+    "nameHeight": "Namn Höjd (valfritt)",
+    "nameHeightHelp": "Vertikal förskjutning för djurets namnlapp ovanför modellen.",
+    "modelCollision": "<0>{{provider}}</0> modell \"<1>{{modelId}}</1>\" används redan av djurtypen \"<2>{{other}}</2>\". En modell är ett husdjurs identitet, så varje anpassad typ behöver en unik modell — välj en annan (plugin skulle annars hoppa över denna typ på last).",
+    "creatureName": "Varelsens namn",
+    "creatureNameHelp": "Den interna husdjurskonfigurationsnyckeln för denna typ av husdjur (t.ex. FrostDragon). Måste vara unik.",
+    "hostMob": "Värd för varelser",
+    "hostMobHelp": "Vanilla Bukkit mob typ som ger basen till detta husdjur.",
+    "health": "Hälsa (HP)",
+    "healthHelp": "Bashälsopoäng för detta husdjur (t.ex. 20 = 10 hjärtan).",
+    "walkSpeed": "Promenad hastighet",
+    "walkSpeedHelp": "Hastighetsattribut (t.ex. 0.3 är standard gånghastighet).",
+    "food": "Mat (ett objekt per rad)",
+    "foodHelp": "Artiklar som matar detta husdjur, t.ex. vete. Lämna tomt för att ärva värdmobbens mat.",
+    "leash": "Leash krav",
+    "leashHelp": "Villkor som måste hålla för en leda till arbete med detta husdjur (t.ex. Wild, Baby).",
+    "leashNeedsSession": "Leash krav behöver en live-session.",
+    "reviewIntro": "Följande avsnitt kommer att läggas till i <0>pet-config.yml</0>:",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "create": "Skapa",
+    "nameRequired": "Namn måste fyllas i."
+  }
+}

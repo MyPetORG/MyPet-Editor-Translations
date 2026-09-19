@@ -1,0 +1,12 @@
+pull_request_labels:
+  - crowdin
+files:
+  - source: /en/*.json
+    translation: /%two_letters_code%/%original_file_name%
+    languages_mapping:
+      two_letters_code:
+        pt-BR: pt-BR
+        zh-CN: zh-CN
+        zh-TW: zh-TW
+        sr-Cyrl: sr-Cyrl
+        lzh: lzh

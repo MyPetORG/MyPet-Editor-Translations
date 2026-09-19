@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Geen vaardigheidsstructuur geselecteerd",
+    "description": "Selecteer een vaardigheidsboom uit de zijbalk of importeer .st.json bestanden om te beginnen.",
+    "loadDefaultsCta": "Standaardwaarden laden"
+  },
+  "tabs": {
+    "properties": "Eigenschappen",
+    "appearance": "Uiterlijk",
+    "eligiblePets": "Passende Huisdieren",
+    "requirements": "Vereisten",
+    "notifications": "Notificaties",
+    "skills": "Vaardigheden",
+    "timeline": "Tijdlijn"
+  },
+  "inspector": {
+    "expand": "Inspector uitvouwen",
+    "collapse": "Inspector samenvouwen",
+    "requirementsHint": "Randen tonen de eerste Vaardighedenboomgroep; alle vereisten kunnen hier worden bewerkt."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Gevecht",
+    "inheritance": "Overerving",
+    "inheritancePlaceholder": "Selecteer bovenliggende vaardigheids boom...",
+    "weight": "Gewicht",
+    "weightPlaceholder": "15",
+    "permission": "Bevoegdheden",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "naam",
+    "namePlaceholder": "Gevecht",
+    "iconMaterial": "Pictogram materiaal",
+    "iconMaterialPlaceholder": "steen_bijl",
+    "glowing": "Gloeiend",
+    "description": "Beschrijving",
+    "descriptionPlaceholder": "Een gevechtsgerichte vaardigheid...",
+    "viewJson": "Bekijk JSON",
+    "jsonPreview": "Voorbeeld van de geselecteerde vaardigheidsboom als JSON."
+  },
+  "eligiblePets": {
+    "title": "Passende Huisdieren",
+    "none": "geen",
+    "all": "Alle (*)",
+    "selected": "Geselecteerd",
+    "includeFutureMobs": "Voeg mobs toe van toekomstige Minecraft updates",
+    "allPetsNotice": "Alle huisdieren die hier worden vermeld, inclusief huisdieren van toekomstige updates, komen in aanmerking voor deze vaardigheid.",
+    "noPetsNotice": "Er komen geen huisdieren in aanmerking voor deze vaardigheid.",
+    "loading": "Loading latest Minecraft entities…",
+    "loadError": "Laden van mob lijst van minecraft-data mislukt",
+    "customHeading": "Van huis-configuratie",
+    "customHint": "Aangepaste huisdier types gedefinieerd in deze server's huisdier-config.yml.",
+    "unrecognizedHeading": "Niet-herkend",
+    "unrecognizedNotice": "Deze invoer komt niet overeen met Minecraft mob en geen huis-config type."
+  },
+  "requirements": {
+    "title": "Vereisten",
+    "minLevel": "Minimaal huisdier niveau",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Maximum Huisdier niveau",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Voeg Vereiste toe",
+    "requirementType": "Vereiste Type",
+    "permission": "Bevoegdheden",
+    "permissionPlaceholder": "Testmachtiging",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Geen vaardigheidsboom",
+    "custom": "Aangepaste",
+    "customKey": "Aangepaste sleutel",
+    "customKeyPlaceholder": "Klantnaam",
+    "customValue": "Aangepaste waarde",
+    "customValuePlaceholder": "BoopBiep",
+    "noRequirements": "Er is geen permissie, Skilltree of aangepaste vereisten voor deze Vaardigheid.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Rechten kopiëren"
+  },
+  "notifications": {
+    "title": "Notificaties",
+    "addNotification": "Melding toevoegen",
+    "message": "bericht",
+    "messagePlaceholder": "{{owner}}zijn huisdier {{pet}} heeft level {{level}} bereikt!"
+  },
+  "skills": {
+    "title": "Vaardigheden",
+    "addSkill": "Vaardigheid toevoegen",
+    "selectSkill": "Selecteer een vaardigheid...",
+    "noSkills": "Nog geen vaardigheden.",
+    "removeSkill": "Verwijder vaardigheid",
+    "addUpgrade": "Voeg Upgrade toe",
+    "editUpgrade": "Bewerk upgrade",
+    "noUpgrades": "Nog geen upgrades.",
+    "level": "Niveau {{level}}",
+    "levels": "Niveau",
+    "everyLevel": "Elk level",
+    "everyNLevels": "Elke {{n}} niveaus",
+    "everyNLevelsFrom": "Elke {{n}} niveaus van niveau {{start}} onderaan",
+    "everyNLevelsBetween": "Elke {{n}} niveaus tussen niveaus {{start}} en {{end}}",
+    "fixedLevels": "Niveau: {{levels}}",
+    "skillExists": "Deze vaardigheid bestaat al.",
+    "unknownSkill": "Onbekende vaardigheid",
+    "levelList": "Niveaus {{levels}}",
+    "everyLevelRange": "Elk niveau ({{start}}-{{until}})",
+    "everyNLevelsRange": "Elke {{n}} niveaus ({{start}}-{{until}})",
+    "everyLevelFrom": "Elk niveau van {{start}}",
+    "everyNLevelsFromStart": "Elke {{n}} niveaus van {{start}}"
+  },
+  "levelModal": {
+    "title": "Selecteer niveaus",
+    "fixed": "Opgelost",
+    "dynamic": "Dynamisch",
+    "fixedHelp": "Voer een of meer niveaus in (spatie/komma gescheiden)",
+    "fixedPlaceholder": "bijv. 1 3 5 of 1,3,5",
+    "every": "Elke (verplicht)",
+    "startFrom": "Start vanaf niveau (optioneel)",
+    "until": "Tot niveau (optioneel)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Nieuwe vaardigheidsboom",
+    "searchPlaceholder": "Search skilltrees…",
+    "noMatches": "Geen overeenkomsten",
+    "undo": "Herstel",
+    "redo": "Opnieuw",
+    "moreActions": "Meer acties",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Verwijder vaardigheidsboom",
+    "deleteConfirm": "{{name}} verwijderen?",
+    "deleteConfirmWithRefs": "{{name}}verwijderen? Andere bomen die er naar verwijzen zullen een dreiging-referentie badge tonen.",
+    "speciesPlaceholder": "Species…",
+    "exitJourney": "Verlaat reis modus"
+  },
+  "journey": {
+    "panelTitle": "Ritte: {{species}}",
+    "levelLabel": "Niveau",
+    "currentTreeLabel": "Huidige boom",
+    "freshPet": "none - vers huisdier",
+    "clickHint": "Simuleren: Klik op een gemarkeerde boom om deze te kiezen",
+    "reset": "Herstellen naar vers huisdier",
+    "permissionNote": "Toestemmingsvereisten verleend",
+    "previewTitle": "Voorraad voorbeeld",
+    "requiresLevel": "Vereist niveau {{level}}",
+    "clickToApply": "Klik om toe te passen",
+    "noneAvailable": "Er zijn <red>geen</red> vaardigheidsbomen beschikbaar voor <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} in aanmerking"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Ruw bewerken…",
+      "editRawTitle": "Bewerken raw: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Vereiste",
+      "kindInheritance": "Overerving",
+      "requirement": "{{prerequisite}} is een vereiste van {{owner}}",
+      "anyOf": "Tevreden over eens: {{list}}",
+      "inheritance": "{{owner}} erft de vaardigheden van {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} is een vereiste van elk van de {{count}} vaardigheidsbomen in deze stapel"
+    }
+  },
+  "validation": {
+    "error": "Validatie fout",
+    "hasErrors": "Deze vaardigheidsboom heeft validatiefouten",
+    "skillHasErrors": "Deze vaardigheid heeft validatiefouten",
+    "issueInSkill": "Validatieprobleem in deze vaardigheid. Breid uit om waarden te bewerken."
+  },
+  "timeline": {
+    "inspectLevel": "Niveau inspecteren",
+    "modeSingle": "Enkelvoudig",
+    "modeLevels": "Niveau",
+    "modeRepeat": "Herhalen",
+    "atLevel": "op niveau",
+    "levels": "niveaus",
+    "every": "elke",
+    "from": "van",
+    "until": "tot",
+    "keyPreview": "→ sleutel: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamant of base64:… (van /petadmin info item)",
+    "addRow": "+ Toevoegen"
+  },
+  "node": {
+    "namePlaceholder": "naam",
+    "iconPlaceholder": "Pictogram materiaal",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Klik om te openen",
+    "allSpecies": "alle soorten",
+    "noSpecies": "geen soort",
+    "speciesCount_one": "{{count}} soorten",
+    "speciesCount_other": "{{count}} soorten",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Lv tot {{max}}"
+  },
+  "canvas": {
+    "empty": "Nog geen vaardigheidsbomen in deze werkruimte.",
+    "layingOut": "Laying out canvas…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType is vereist",
+    "priceExpNonNegative": "Prijs en EXP moeten ≥ 0 zijn",
+    "minMaxNumbers": "Min en Max moeten getallen zijn",
+    "valuesNonNegative": "Waarden moeten ≥ 0 zijn",
+    "maxGteMin": "Max moet ≥ Min"
+  }
+}

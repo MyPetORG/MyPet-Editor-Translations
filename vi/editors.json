@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Chưa tải không gian làm việc. Mở một phiên bằng <0>/mypet editor</0> hoặc tải một gói ví dụ.",
+    "viewFile": "Xem tệp",
+    "actions": "Thao tác",
+    "parseError": "Lỗi phân tích YAML: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Các mục cấu hình",
+    "tabs": {
+      "general": "Chung",
+      "database": "Cơ sở dữ liệu",
+      "respawn": "Hồi sinh",
+      "hunger": "Độ đói",
+      "experience": "Kinh nghiệm",
+      "permissions": "Quyền",
+      "names": "Tên",
+      "skills": "Kỹ năng",
+      "updates": "Cập nhật"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Chủ có thể tấn công thú cưng"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Tắt thú cưng đấu người chơi"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Thú cưng giết quái thì người chơi nhận thưởng"
+      },
+      "OverwriteLanguages": {
+        "label": "Ghi đè ngôn ngữ",
+        "help": "Buộc dùng một mã ngôn ngữ (ví dụ: en, de_DE). Để trống = tự động nhận diện."
+      },
+      "Leash_AllowRanged": {
+        "label": "Cho phép dắt từ xa"
+      },
+      "Leash_Consume": {
+        "label": "Tiêu hao vật phẩm dắt"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Khoảng cách bắt đầu đi theo"
+      },
+      "Repository_Type": {
+        "label": "Loại kho lưu trữ"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Chuyển đổi từ",
+        "help": "Tùy chọn: chuyển dữ liệu từ một backend khác trong lần khởi động tới."
+      },
+      "Repository_LoadDelay": {
+        "label": "Độ trễ tải (tick)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "Máy chủ MySQL"
+      },
+      "Repository_MySQL_Port": {
+        "label": "Cổng MySQL"
+      },
+      "Repository_MySQL_Database": {
+        "label": "Cơ sở dữ liệu MySQL"
+      },
+      "Repository_MySQL_User": {
+        "label": "Người dùng MySQL"
+      },
+      "Repository_MySQL_Password": {
+        "label": "Mật khẩu MySQL"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Tiền tố bảng"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Bảng mã ký tự"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Số kết nối tối đa"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Hệ số thời gian mặc định"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Thời gian cố định mặc định"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Hệ số thời gian theo người chơi"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Thời gian cố định theo người chơi"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Tắt thời gian hồi sinh"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Hệ số chi phí kinh tế"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Chi phí kinh tế cố định"
+      },
+      "HungerSystem_Active": {
+        "label": "Bật hệ thống độ đói"
+      },
+      "HungerSystem_Time": {
+        "label": "Chu kỳ giảm độ đói"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Độ no mỗi lần cho ăn"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Hệ số sát thương"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Sát thương cố định"
+      },
+      "Exp_LevelCap": {
+        "label": "Giới hạn cấp"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Chia XP theo sát thương gây ra"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Mất XP khi chết"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "Mất XP (cố định)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "Mất XP (phần trăm)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Hệ số XP toàn cục"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "% thụ động mỗi quái"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Chế độ tính cấp độ"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Đường cong · Cơ số tuyến tính"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Đường cong · Hệ số lũy thừa"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Đường cong · Số mũ lũy thừa"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Đường cong · Cơ số hàm mũ"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Đường cong · Tốc độ tăng hàm mũ"
+      },
+      "Permissions_Extended": {
+        "label": "Quyền mở rộng"
+      },
+      "Name_MaxLength": {
+        "label": "Độ dài tên tối đa"
+      },
+      "Name_Tag_Show": {
+        "label": "Hiện thẻ tên"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Tiền tố thẻ tên"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Hậu tố thẻ tên"
+      },
+      "Name_Filter": {
+        "label": "Từ bị lọc (mỗi dòng một từ)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Gán tự động"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Gán ngẫu nhiên"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Chỉ được chọn một lần"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Chặn lên cấp khi chưa có cây kỹ năng"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Phí đổi cây cho quản trị viên"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Phí đổi cây (cố định)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Phí đổi cây (phần trăm)"
+      },
+      "Skill_Control_Item": {
+        "label": "Vật phẩm kỹ năng Điều khiển"
+      },
+      "Skill_Ride_Item": {
+        "label": "Vật phẩm kỹ năng Cưỡi"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Độ đói mỗi mét khi cưỡi"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Chu kỳ giảm độ đói của Beacon"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Mở ba lô trong chế độ Creative"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Rơi ba lô khi chủ chết"
+      },
+      "Update_Check": {
+        "label": "Kiểm tra cập nhật"
+      },
+      "Update_Download": {
+        "label": "Tải bản cập nhật"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Menu — {{menuId}}",
+    "selectMenu": "Chọn một menu từ thanh bên.",
+    "notFound": "Không tìm thấy menu <0>{{menuId}}</0> trong không gian làm việc.",
+    "previewLanguage": "Ngôn ngữ xem trước:",
+    "slotWithSection": "Ô {{slot}} — mục: <0>{{sectionId}}</0>",
+    "slotNoSection": "Ô {{slot}} — không có mục",
+    "clickSlot": "Nhấp vào một ô để chọn mục của nó."
+  },
+  "mobXp": {
+    "title": "Thưởng XP theo mob",
+    "sections": "Các mục XP",
+    "searchPlaceholder": "Tìm mob…",
+    "searchLabel": "Tìm mob",
+    "entryCount_one": "{{count}} mục",
+    "entryCount_other": "{{count}} mục",
+    "addCustom": "+ Thêm mob tùy chỉnh",
+    "noMatch": "Không có mob nào khớp với tìm kiếm của bạn.",
+    "noCustom": "Chưa có mob tùy chỉnh nào. Thêm một mob để thưởng XP cho mob có tên riêng.",
+    "noEntries": "Không có mục nào trong tệp này.",
+    "colMob": "Mob",
+    "colMin": "Min",
+    "colMax": "Max",
+    "remove": "Gỡ {{name}}",
+    "tabs": {
+      "Default": "Mặc định",
+      "Custom": "Tùy chỉnh"
+    },
+    "help": {
+      "Default": "XP nhận được khi thú cưng giết một mob gốc của Minecraft.",
+      "Custom": "XP cho các mob có tên tùy chỉnh (ví dụ: MythicMobs). Phải khớp chính xác tên của mob."
+    },
+    "promptCustomName": "Tên mob tùy chỉnh (tên hiển thị chính xác của mob, ví dụ: một id MythicMobs):"
+  },
+  "localeEditor": {
+    "title": "Ngôn ngữ — {{language}}",
+    "selectLanguage": "Chọn một ngôn ngữ từ thanh bên.",
+    "promptKey": "Khóa ghi đè (ví dụ: Message.Pet.Spawn):",
+    "invalidKey": "Khóa không được chứa dấu cách hoặc \"=\".",
+    "duplicateKey": "Khóa đó đã có bản ghi đè.",
+    "view": "Chế độ xem ngôn ngữ",
+    "tabOverrides": "Bản ghi đè của tôi",
+    "tabAll": "Tất cả chuỗi",
+    "searchPlaceholder": "Tìm khóa hoặc văn bản…",
+    "searchLabel": "Tìm khóa hoặc văn bản ngôn ngữ",
+    "onlyOverridden": "Chỉ hiện mục đã ghi đè",
+    "overrideCount": "{{shown}} trên {{total}} bản ghi đè",
+    "keyCount_one": "{{count}} khóa",
+    "keyCount_other": "{{count}} khóa",
+    "addOverride": "+ Thêm bản ghi đè",
+    "noOverrides": "Chưa có bản ghi đè nào cho <0>{{language}}</0>. Chuyển sang <1>{{tabAll}}</1> để duyệt và ghi đè giá trị mặc định.",
+    "noOverrideMatch": "Không có bản ghi đè nào khớp với tìm kiếm của bạn.",
+    "loadError": "Không thể tải các chuỗi mặc định cho <0>{{language}}</0> từ GitHub. Bạn vẫn có thể thêm bản ghi đè thủ công từ chế độ xem \"{{tabOverrides}}\".",
+    "loadingDefaults": "Đang tải các chuỗi mặc định…",
+    "noStringMatch": "Không có chuỗi nào khớp với tìm kiếm của bạn.",
+    "colKey": "Khóa",
+    "colDefault": "Mặc định",
+    "colOverride": "Ghi đè",
+    "noDefault": "(không có mặc định)",
+    "remove": "Gỡ {{key}}",
+    "reset": "Đặt lại {{key}} về mặc định"
+  },
+  "petShops": {
+    "title": "Cửa hàng thú cưng",
+    "shops": "Cửa hàng",
+    "promptShopId": "Id cửa hàng mới (chữ cái, số, gạch dưới — ví dụ: premium):",
+    "invalidShopId": "Id cửa hàng chỉ được chứa chữ cái, số và dấu gạch dưới.",
+    "duplicateShop": "Đã tồn tại cửa hàng tên \"{{key}}\".",
+    "confirmDeleteShop": "Xóa cửa hàng \"{{name}}\" cùng toàn bộ thú cưng của nó?",
+    "addShop": "+ Thêm cửa hàng",
+    "deleteShop": "Xóa cửa hàng này",
+    "noShops": "Chưa có cửa hàng nào. Thêm một cửa hàng để bắt đầu bán thú cưng.",
+    "displayName": "Tên hiển thị",
+    "defaultShop": "Cửa hàng mặc định",
+    "defaultShopHint": "Được mở bằng /petshop khi không có tham số.",
+    "menuPosition": "Vị trí trong menu",
+    "balanceType": "Loại tài khoản",
+    "balanceTypeHint": "Nơi tiền mua hàng được chuyển đến.",
+    "balanceOwner": "Chủ tài khoản",
+    "balanceOwnerBank": "Tên ngân hàng Vault.",
+    "balanceOwnerPlayer": "UUID người chơi.",
+    "iconMaterial": "Vật phẩm biểu tượng",
+    "iconMaterialHint": "Vật phẩm hiển thị trong menu cửa hàng (ví dụ: chest, egg).",
+    "iconGlowing": "Biểu tượng phát sáng",
+    "pets": "Thú cưng",
+    "searchPets": "Tìm thú cưng…",
+    "searchPetsLabel": "Tìm thú cưng trong cửa hàng này",
+    "petCount": "{{shown}} trên {{total}}",
+    "addPet": "+ Thêm thú cưng",
+    "promptPetId": "Id thú cưng mới (chữ cái, số, gạch dưới — ví dụ: baby_wolf):",
+    "invalidPetId": "Id thú cưng chỉ được chứa chữ cái, số và dấu gạch dưới.",
+    "duplicatePet": "Thú cưng \"{{key}}\" đã tồn tại trong cửa hàng này.",
+    "noPets": "Chưa có thú cưng nào trong cửa hàng này.",
+    "noPetMatch": "Không có thú cưng nào khớp với tìm kiếm của bạn.",
+    "removePet": "Gỡ {{name}}",
+    "petType": "Loại thú cưng",
+    "petTypeHint": "Một loại thú cưng của MyPet, ví dụ: WOLF, OCELOT.",
+    "price": "Giá",
+    "startingExp": "EXP khởi điểm",
+    "positionHint": "-1 = tự động điền.",
+    "skilltree": "Cây kỹ năng",
+    "skilltreeHint": "Tên cây kỹ năng đặt sẵn (tùy chọn).",
+    "description": "Mô tả (mỗi dòng một câu)",
+    "options": "Tùy chọn (mỗi dòng một mục)",
+    "optionsHint": "ví dụ: baby, hoặc các tùy chọn riêng theo loại."
+  },
+  "petTypes": {
+    "title": "Loại thú cưng",
+    "search": "Tìm loại thú cưng…",
+    "searchLabel": "Tìm loại thú cưng",
+    "noMatch": "Không có loại nào khớp.",
+    "noTypes": "Không có loại thú cưng nào trong tệp này.",
+    "deleteTitle": "Xóa loại thú cưng tùy chỉnh này",
+    "deleteButton": "🗑 Xóa thú cưng",
+    "confirmDelete": "Xóa thú cưng tùy chỉnh \"{{name}}\"? Thao tác này sẽ xóa toàn bộ mục pet-config của nó.",
+    "confirmDeleteTitle": "Xóa thú cưng tùy chỉnh",
+    "confirmDeleteConfirm": "Xóa",
+    "complexValue": "Giá trị phức tạp — hãy sửa bằng YAML thô.",
+    "model": "Mô hình",
+    "modelHelp": "Hiển thị thú cưng này bằng một mô hình 3D tùy chỉnh từ plugin cung cấp mô hình (ModelEngine, BetterModel, ItemsAdder hoặc MythicMobs) thay cho hình dạng gốc. Để trống phần nhà cung cấp để giữ hình dạng mặc định.",
+    "provider": "Nhà cung cấp",
+    "modelId": "Id mô hình",
+    "modelCollision": "Mô hình <0>{{provider}}</0> \"<1>{{id}}</1>\" đã được loại thú cưng \"<2>{{other}}</2>\" sử dụng. Mỗi loại tùy chỉnh cần một mô hình riêng — nếu không, plugin sẽ bỏ qua một trong hai khi tải.",
+    "nameHeight": "Độ cao tên",
+    "nameHeightHelp": "Khoảng lệch dọc của thẻ tên thú cưng phía trên mô hình.",
+    "createCustom": "➕ Tạo thú cưng tùy chỉnh",
+    "typeCount": "{{shown}} trên {{total}} loại",
+    "animations": "Hoạt ảnh",
+    "animationsHint": "— ghi đè tên (tùy chọn)"
+  },
+  "menuSection": {
+    "notFound": "Không tìm thấy mục <0>{{sectionId}}</0> trong <1>{{menuId}}</1>.",
+    "removed": "Mục <0>{{sectionId}}</0> đã bị gỡ khỏi menu này (được ghi là <1>null</1>).",
+    "resetDefault": "Đặt lại về mặc định",
+    "removeSection": "Gỡ mục",
+    "confirmRemove": "Gỡ mục \"{{sectionId}}\"? Thao tác này xóa ô của nó trên canvas — hãy chọn lại bằng \"Đặt lại về mặc định\" nếu bạn đổi ý.",
+    "confirmRemoveTitle": "Gỡ mục",
+    "confirmRemoveConfirm": "Gỡ",
+    "statefulNotice": "Mục này định nghĩa vật phẩm theo từng trạng thái (<0>states</0>). Các trường bên dưới chỉnh sửa <1>item</1> cơ bản, chỉ áp dụng khi không có trạng thái nào ghi đè nó.",
+    "material": "Vật phẩm",
+    "column": "Cột",
+    "row": "Hàng",
+    "glow": "Phát sáng",
+    "soundOnClick": "Âm thanh khi nhấp",
+    "soundKey": "Khóa",
+    "soundVolume": "Âm lượng",
+    "soundPitch": "Cao độ",
+    "pitchRangeHelp": "Hiện đang là một khoảng cao độ — chỉnh sửa tại đây sẽ thay nó bằng một giá trị cố định.",
+    "title": "Tiêu đề",
+    "lore": "Lore"
+  },
+  "petWizard": {
+    "titleAvenue": "Tạo thú cưng tùy chỉnh — Chọn cách tạo",
+    "titleModel": "Tạo thú cưng tùy chỉnh — Cấu hình mô hình",
+    "titleIdentity": "Tạo thú cưng tùy chỉnh — Danh tính & thân thể",
+    "titleStats": "Tạo thú cưng tùy chỉnh — Chỉ số",
+    "titleReview": "Tạo thú cưng tùy chỉnh — Xem lại",
+    "progress": "Tiến trình trình hướng dẫn",
+    "chooseHow": "Chọn cách bạn muốn tạo thú cưng tùy chỉnh.",
+    "buildFromModel": "Tạo một sinh vật từ mô hình",
+    "modelSource": "Nguồn mô hình",
+    "defaultModel": "Mô hình mặc định",
+    "sourceOnlyItemsAdder": "Mô hình ItemsAdder nằm trong các content pack — hãy chọn một id có sẵn.",
+    "sourceOnlyMythicMobs": "Mob MythicMobs được định nghĩa trong cấu hình MythicMobs — hãy chọn một loại mob có sẵn.",
+    "modelId": "ID mô hình",
+    "modelIdRegisteredHelp": "Chọn một mô hình đã đăng ký với {{provider}}.",
+    "modelIdManualHelp": "Không phát hiện mô hình nào cho {{provider}}. Hãy nhập ID mô hình thủ công.",
+    "modelIdRequired": "ID mô hình là bắt buộc.",
+    "uploadLabel": "Tải lên .bbmodel",
+    "uploadReconnecting": "Đang kết nối lại — hãy đợi phiên kết nối lại xong rồi mới tải lên.",
+    "uploadNeedsSession": "Việc tải lên cần một phiên <0>/mypet editor</0> đang hoạt động — hãy kết nối để bật tính năng này.",
+    "uploadExplainer": "Tải lên {{provider}}; mô hình sẽ hiện với người chơi sau khi {{provider}} tạo lại resource pack và client tải lại nó. Tên tệp (không kèm <0>.bbmodel</0>) sẽ trở thành id mô hình, nên nó phải khớp với id blueprint khai báo bên trong mô hình.",
+    "uploading": "Đang tải lên…",
+    "uploadDone": "Đã tải lên — ID mô hình được đặt thành \"{{modelId}}\".",
+    "uploadFailed": "Tải lên thất bại.",
+    "nameHeight": "Độ cao tên (tùy chọn)",
+    "nameHeightHelp": "Khoảng lệch dọc của thẻ tên thú cưng phía trên mô hình.",
+    "modelCollision": "Mô hình <0>{{provider}}</0> \"<1>{{modelId}}</1>\" đã được loại thú cưng \"<2>{{other}}</2>\" sử dụng. Mô hình chính là danh tính của thú cưng, nên mỗi loại tùy chỉnh cần một mô hình riêng — hãy chọn mô hình khác (nếu không, plugin sẽ bỏ qua loại này khi tải).",
+    "creatureName": "Tên sinh vật",
+    "creatureNameHelp": "Khóa pet-config nội bộ cho loại thú cưng này (ví dụ: FrostDragon). Phải là duy nhất.",
+    "hostMob": "Mob nền",
+    "hostMobHelp": "Loại mob Bukkit gốc cung cấp thực thể nền cho thú cưng này.",
+    "health": "Máu (HP)",
+    "healthHelp": "Điểm máu cơ bản của thú cưng này (ví dụ: 20 = 10 trái tim).",
+    "walkSpeed": "Tốc độ đi",
+    "walkSpeedHelp": "Thuộc tính tốc độ di chuyển (ví dụ: 0.3 là tốc độ đi tiêu chuẩn).",
+    "food": "Thức ăn (mỗi dòng một vật phẩm)",
+    "foodHelp": "Các vật phẩm dùng để cho thú cưng này ăn, ví dụ: wheat. Để trống để kế thừa thức ăn của mob nền.",
+    "leash": "Yêu cầu dắt",
+    "leashHelp": "Các điều kiện phải thỏa mãn để dây dắt có tác dụng với thú cưng này (ví dụ: Wild, Baby).",
+    "leashNeedsSession": "Yêu cầu dắt cần một phiên đang hoạt động.",
+    "reviewIntro": "Mục sau sẽ được thêm vào <0>pet-config.yml</0>:",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "create": "Tạo",
+    "nameRequired": "Tên là bắt buộc."
+  }
+}

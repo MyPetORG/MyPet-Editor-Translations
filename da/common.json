@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Vælg et konfigurationsområde fra sidebjælken."
+  },
+  "actions": {
+    "import": "Importér",
+    "export": "Eksporter Postnummer",
+    "save": "Gem",
+    "cancel": "Annuller",
+    "delete": "Slet",
+    "add": "Tilføj",
+    "remove": "Fjern",
+    "edit": "Rediger",
+    "close": "Luk",
+    "ok": "Ok",
+    "confirm": "Bekræft",
+    "done": "Udført",
+    "loadDefaults": "Indlæs Standardindstillinger",
+    "chooseFiles": "Vælg filer",
+    "copyJson": "Kopier JSON",
+    "download": "Hent",
+    "selectAll": "Vælg Alle",
+    "deselectAll": "Fravælg Alle",
+    "copy": "Kopiér"
+  },
+  "autosave": {
+    "saved": "Gemt",
+    "savedAt": "Gemt {{time}}",
+    "saving": "Automatisk Gemmer…",
+    "pending": "Ikke-gemte ændringer",
+    "justNow": "lige nu",
+    "secondsAgo": "{{s}}s siden",
+    "minutesAgo": "{{m}}m siden",
+    "hoursAgo": "{{h}}h siden"
+  },
+  "modals": {
+    "import": {
+      "title": "Importere færdighedtrees",
+      "description": "Drop en .zip (flere træer) eller en enkelt .st.json fil.",
+      "dragHere": "Træk og slip filer her",
+      "or": "eller",
+      "reading": "Læser filer…"
+    },
+    "confirm": {
+      "title": "Bekræft",
+      "deleteTree": "Slet færdighedtree \"{{id}}\"?",
+      "deleteSkill": "Fjern dygtighed \"{{id}}\"?",
+      "loadDefaults": "Dette vil erstatte dine nuværende færdighedstræer med standardeksemplerne og rydde din lokale kladde. Fortsæt?"
+    },
+    "alert": {
+      "title": "Advarsel",
+      "importFailed": "Import af filer mislykkedes.",
+      "exportBlocked": "Eksport blokeret: {{count}} skilltree(s) har valideringsfejl.\n\nUgyldige træer: {{names}}\n\nRet venligst alle valideringsfejl før eksportering.",
+      "noTreesToExport": "Ingen færdighedstræer at eksportere.",
+      "duplicateId": "Et færdighedtree med dette ID eksisterer allerede.",
+      "loadDefaultsFailed": "Kunne ikke indlæse standard eksempler",
+      "jsonCopied": "JSON kopieret til udklipsholder",
+      "jsonCopyFailed": "Kunne ikke kopiere JSON"
+    },
+    "viewSource": "Vis kilde"
+  },
+  "language": {
+    "select": "Vælg sprog",
+    "loading": "Indlæser oversættelser..."
+  },
+  "tooltip": {
+    "breakdown": "Opdeling",
+    "total": "I Alt",
+    "goHome": "Gå til hjem",
+    "allChangesSaved": "Alle ændringer gemt",
+    "saveChanges": "Gem ændringer",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Indlæs standard eksempeltræer",
+    "exportZip": "Eksporter alle træer til en zip",
+    "delete": "Slet",
+    "openDocs": "Åbn MyPet dokumentation",
+    "switchToLight": "Skift til lystilstand",
+    "switchToDark": "Skift til mørk tilstand",
+    "tipOnKofi": "Støt dette projekt på Ko-fi"
+  },
+  "footer": {
+    "builtBy": "bygget med ❤️ af",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Understreget",
+    "strikethrough": "Strike",
+    "reset": "Reset",
+    "placeholder": "Indtast MiniMessage tekst. Brug værktøjslinje til at indsætte tags."
+  },
+  "common": {
+    "none": "(Ingen)",
+    "noOptions": "(Ingen valgmuligheder)"
+  },
+  "sidebar": {
+    "title": "Dyrtræer",
+    "newSkilltree": "Nyt færdighedtræ",
+    "order": "Ordre {{order}}",
+    "expand": "Udvid",
+    "collapse": "Sammenfold",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Sammenfold sidepanel",
+    "reorder": "Genbestil",
+    "dragToReorder": "Træk for at ændre rækkefølge",
+    "reviewSave": "Gennemse Og Gem",
+    "nothingToSave": "Ingen ikke-gemte ændringer",
+    "configSections": "Konfigurations sektioner",
+    "category": {
+      "general": "Generelt",
+      "pets": "Kæledyr",
+      "experience": "Erfaring",
+      "skilltrees": "Dyrtræer",
+      "locale": "Landestandard",
+      "hooks": "Kroge",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Intet arbejdsområde indlæst",
+    "expiringSoon": "Session udløber snart",
+    "demoData": "Eksempel på data · ændringer vil ikke blive gemt",
+    "rejected": "Serveren afviste ændringerne."
+  },
+  "editors": {
+    "config": {
+      "label": "Hoved Konfiguration"
+    },
+    "petConfig": {
+      "label": "Kæledyr Konfiguration"
+    },
+    "expConfig": {
+      "label": "Mob XP Belønninger"
+    },
+    "petShops": {
+      "label": "Kæledyr Butikker"
+    },
+    "skilltrees": {
+      "label": "Dyrtræer"
+    },
+    "locale": {
+      "label": "Landestandard"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Forbinder til din server",
+    "loadingSubtitle": "Indlæser konfiguration…",
+    "trustTitle": "Godkend denne browser",
+    "trustSubtitle": "Denne browser er ikke betroet endnu. Kør dette in-game for at forbinde:",
+    "trustWaiting": "Venter på godkendelse…",
+    "noSessionTitle": "Ingen aktiv session",
+    "noSessionSubtitle": "Kør <0>/mypet editor</0> i spillet og åbn det link, det giver dig.",
+    "tryDemo": "Prøv demoen",
+    "demoHint": "Udforsk hver editor med eksempeldata - ingen server er nødvendig.",
+    "endedTitle": "Denne redigeringssession er afsluttet",
+    "endedSubtitle": "Serveren lukkede den, eller den fik timeout. Kør <0>/mypet editor</0> i spillet for at starte en ny, og åbn derefter det friske link, den giver dig."
+  },
+  "reviewSave": {
+    "title": "Gennemse Og Gem",
+    "noChanges": "Ingen ikke-gemte ændringer.",
+    "summary_one": "{{count}} fil med ikke-gemte ændringer",
+    "summary_other": "{{count}} filer med ikke-gemte ændringer",
+    "tagRemoved": "fjernet",
+    "tagAdded": "tilføjet",
+    "empty": "(tom)",
+    "apply": "Anvend Ændringer",
+    "applying": "Anvender…",
+    "hintNoChanges": "Ingen ændringer at anvende.",
+    "hintNotConnected": "Forbind en live session først — kør /mypet editor og tillad browseren.",
+    "hintNoSession": "Ingen aktiv session.",
+    "hintReady": "Skriv disse ændringer til serveren og genindlæs.",
+    "formattingOnly": "Kun formatering (ingen værdiændringer)",
+    "stAdded": "{{count}} tilføjet",
+    "stRemoved": "{{count}} fjernet",
+    "stModified": "{{count}} ændret",
+    "stBroken": "{{count}} ødelagte filer ændret",
+    "noNetChange": "ingen nettoændring",
+    "localeSummary": "{{keys}} nøgler på tværs af {{langs}} sprog",
+    "applyFailed": "Kunne ikke anvende ændringer"
+  },
+  "sessionClosed": {
+    "title": "Session lukket",
+    "body": "Webredigeringssessionen er afsluttet (lukket i spillet eller timedet ud). Ændringer kan ikke længere gemmes — kør <0>/mypet editor</0> igen for at starte en ny session.",
+    "viewReadOnly": "Vis skrivebeskyttet"
+  }
+}

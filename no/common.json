@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Velg et konfigurasjonsområde fra sidepanelet."
+  },
+  "actions": {
+    "import": "Importer",
+    "export": "Eksporter ZIP",
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "delete": "Slett",
+    "add": "Legg til",
+    "remove": "Fjern",
+    "edit": "Rediger",
+    "close": "Lukk",
+    "ok": "Ok",
+    "confirm": "Bekreft",
+    "done": "Ferdig",
+    "loadDefaults": "Last inn standard",
+    "chooseFiles": "Velg filer",
+    "copyJson": "Kopier JSON",
+    "download": "Nedlasting",
+    "selectAll": "Velg alle",
+    "deselectAll": "Opphev merking",
+    "copy": "Kopier"
+  },
+  "autosave": {
+    "saved": "Lagret",
+    "savedAt": "Lagret {{time}}",
+    "saving": "Autoriserer…",
+    "pending": "Ulagrede endringer",
+    "justNow": "akkurat nå",
+    "secondsAgo": "{{s}}s siden",
+    "minutesAgo": "{{m}}m siden",
+    "hoursAgo": "{{h}}t siden"
+  },
+  "modals": {
+    "import": {
+      "title": "Importer ferdighetstrær",
+      "description": "Slipp en .zip-fil (flere trær) eller en enkelt .st.json fil.",
+      "dragHere": "Dra & slipp filer her",
+      "or": "eller",
+      "reading": "Leser filer…"
+    },
+    "confirm": {
+      "title": "Bekreft",
+      "deleteTree": "Slette ferdighetstreet \"{{id}}\"?",
+      "deleteSkill": "Fjern ferdighet \"{{id}}\"?",
+      "loadDefaults": "Dette vil erstatte dine nåværende ferdighetstrær med de standard eksemplene og frigjøre ditt lokale utkast. Fortsett?"
+    },
+    "alert": {
+      "title": "Varsel",
+      "importFailed": "Kunne ikke importere fil(er).",
+      "exportBlocked": "Eksport blokkert: {{count}} skilltree(s) har valideringsfeil.\n\nUgyldige trær: {{names}}\n\nFiks alle valideringsfeil før du eksporterer.",
+      "noTreesToExport": "Ingen ferdighetstrær å eksportere.",
+      "duplicateId": "Et ferdighetstre med ID-en finnes allerede.",
+      "loadDefaultsFailed": "Kunne ikke laste inn standardeksempler",
+      "jsonCopied": "JSON kopiert til utklippstavlen",
+      "jsonCopyFailed": "Kan ikke kopiere JSON"
+    },
+    "viewSource": "Vis kilde"
+  },
+  "language": {
+    "select": "Velg språk",
+    "loading": "Laster oversettelser..."
+  },
+  "tooltip": {
+    "breakdown": "Nedbrytning",
+    "total": "Totalt",
+    "goHome": "Gå til startsiden",
+    "allChangesSaved": "Alle endringer lagret",
+    "saveChanges": "Lagre endringer",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Last standard eksempel trær",
+    "exportZip": "Eksporter alle trær til en zip",
+    "delete": "Slett",
+    "openDocs": "Åpne Mykje-dokumentasjon",
+    "switchToLight": "Bytt til lysmodus",
+    "switchToDark": "Bytt til mørk modus",
+    "tipOnKofi": "Støtt dette prosjektet på Ko-fi"
+  },
+  "footer": {
+    "builtBy": "bygget med ❤️ av",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Understreking",
+    "strikethrough": "Angrep",
+    "reset": "Reset",
+    "placeholder": "Skriv inn MiniMessage text. Bruk verktøylinjen for å sette inn tagger."
+  },
+  "common": {
+    "none": "(Ingen)",
+    "noOptions": "(Ingen alternativer)"
+  },
+  "sidebar": {
+    "title": "Skilttrær",
+    "newSkilltree": "Nytt ferdighetstre.",
+    "order": "Ordre {{order}}",
+    "expand": "Utvid",
+    "collapse": "Skjul",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Skjul sidepanelet",
+    "reorder": "Omorganiser",
+    "dragToReorder": "Dra for å endre rekkefølge",
+    "reviewSave": "Gjennomgå og lagre",
+    "nothingToSave": "Ingen ulagrede endringer",
+    "configSections": "Konfigurasjonsseksjoner",
+    "category": {
+      "general": "Generelt",
+      "pets": "Kjæledyr",
+      "experience": "Erfaring",
+      "skilltrees": "Skilttrær",
+      "locale": "Språk",
+      "hooks": "Kroker",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Ingen arbeidsområde lastet",
+    "expiringSoon": "Økten utløper snart",
+    "demoData": "Eksempel data · Endringer vil ikke lagres",
+    "rejected": "Tjeneren avviste endringene."
+  },
+  "editors": {
+    "config": {
+      "label": "Hoved konfigurasjon"
+    },
+    "petConfig": {
+      "label": "Kjæledyr konfigurasjon"
+    },
+    "expConfig": {
+      "label": "Mob XP belønninger"
+    },
+    "petShops": {
+      "label": "Kjæledyr Butikker"
+    },
+    "skilltrees": {
+      "label": "Skilttrær"
+    },
+    "locale": {
+      "label": "Språk"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Kobler til serveren din",
+    "loadingSubtitle": "Laster konfigurasjonen…",
+    "trustTitle": "Autoriser denne nettleseren",
+    "trustSubtitle": "Denne nettleseren er ikke klarert ennå. Kjør dette i spillet for å koble til:",
+    "trustWaiting": "Venter på godkjenning…",
+    "noSessionTitle": "Ingen aktiv økt",
+    "noSessionSubtitle": "Kjør <0>/mypet editor</0> i spillet og åpne linken det gir deg.",
+    "tryDemo": "Prøv demonstrasjonen",
+    "demoHint": "Utforsk hver editor med eksempeldata - ingen server nødvendig.",
+    "endedTitle": "Redigeringsøkten er avsluttet",
+    "endedSubtitle": "Serveren lukket det, eller den fikk et tidsavbrudd. Kjør <0>/mypet editor</0> i spillet for å starte en ny, og åpne den nye koblingen den gir deg."
+  },
+  "reviewSave": {
+    "title": "Gjennomgå og lagre",
+    "noChanges": "Ingen ulagrede endringer.",
+    "summary_one": "{{count}} fil med ulagrede endringer",
+    "summary_other": "{{count}} -filer med ulagrede endringer",
+    "tagRemoved": "fjernet",
+    "tagAdded": "lagt til",
+    "empty": "(tom)",
+    "apply": "Bruk endringer",
+    "applying": "Applying…",
+    "hintNoChanges": "Ingen endringer å søke.",
+    "hintNotConnected": "Koble til en sesjon først — kjøre /mypet editor og autoriser nettleseren.",
+    "hintNoSession": "Ingen aktiv økt.",
+    "hintReady": "Skriv disse endringene til serveren og last inn på nytt.",
+    "formattingOnly": "Bare formatering (ingen verdiendringer)",
+    "stAdded": "{{count}} lagt til",
+    "stRemoved": "{{count}} fjernet",
+    "stModified": "{{count}} endret",
+    "stBroken": "{{count}} ødelagte fil(er) endret",
+    "noNetChange": "ingen nettoendring",
+    "localeSummary": "{{keys}} nøkler over {{langs}} språk",
+    "applyFailed": "Mislyktes i å bruke endringer"
+  },
+  "sessionClosed": {
+    "title": "Økt avsluttet",
+    "body": "Internettredaktør økten er avsluttet (lukket i spillet, eller fått tidsavbrudd). Endringene kan ikke lenger lagres - kjøre <0>/mypet editor</0> igjen for å starte en ny sesjon.",
+    "viewReadOnly": "Vis skrivebeskyttet"
+  }
+}

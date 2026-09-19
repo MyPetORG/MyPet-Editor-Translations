@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Intet færdighedtree valgt",
+    "description": "Vælg et færdighedtree fra sidebjælken, eller importere .st.json filer for at komme i gang.",
+    "loadDefaultsCta": "Indlæs Standardindstillinger"
+  },
+  "tabs": {
+    "properties": "Egenskaber",
+    "appearance": "Udseende",
+    "eligiblePets": "Støtteberettigede Kæledyr",
+    "requirements": "Krav",
+    "notifications": "Notifikationer",
+    "skills": "Færdigheder",
+    "timeline": "Tidslinje"
+  },
+  "inspector": {
+    "expand": "Udvid inspektør",
+    "collapse": "Sammenfold inspektør",
+    "requirementsHint": "Kanter viser den første Skilltree gruppe. Alle krav kan redigeres her."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Kamp",
+    "inheritance": "Arv",
+    "inheritancePlaceholder": "Vælg overordnet færdighed...",
+    "weight": "Vægt",
+    "weightPlaceholder": "15",
+    "permission": "Tilladelse",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Navn",
+    "namePlaceholder": "Kamp",
+    "iconMaterial": "Ikon Materiale",
+    "iconMaterialPlaceholder": "sten_økse",
+    "glowing": "Gløder",
+    "description": "Varebeskrivelse",
+    "descriptionPlaceholder": "En kamp-fokuseret færdighed...",
+    "viewJson": "Vis JSON",
+    "jsonPreview": "Forhåndsvisning af det valgte skilltree som JSON."
+  },
+  "eligiblePets": {
+    "title": "Støtteberettigede Kæledyr",
+    "none": "Ingen",
+    "all": "Alle (*)",
+    "selected": "Valgt",
+    "includeFutureMobs": "Inkluder væsner fra fremtidige Minecraft opdateringer",
+    "allPetsNotice": "Alle Kæledyr opført her, herunder Kæledyr fra fremtidige opdateringer, vil være berettiget til denne Skill.",
+    "noPetsNotice": "Ingen kæledyr vil være berettiget til denne færdighed.",
+    "loading": "Indlæser seneste Minecraft enheder…",
+    "loadError": "Kunne ikke indlæse mob liste fra minecraft-data",
+    "customHeading": "Fra kæledyr-config",
+    "customHint": "Brugerdefinerede kæledyrstyper defineret i denne servers kæledyr-config.yml.",
+    "unrecognizedHeading": "Ukendt",
+    "unrecognizedNotice": "Disse poster matcher ingen Minecraft mob og ingen kæledyr-config type."
+  },
+  "requirements": {
+    "title": "Krav",
+    "minLevel": "Minimum Kæledyrsniveau",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Maksimalt Kæledyrsniveau",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Tilføj Krav",
+    "requirementType": "Krav Type",
+    "permission": "Tilladelse",
+    "permissionPlaceholder": "TestTilladelse",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Intet Skilltree",
+    "custom": "Tilpasset",
+    "customKey": "Brugerdefineret Nøgle",
+    "customKeyPlaceholder": "Tilpasset Navn",
+    "customValue": "Brugerdefineret Værdi",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "Der er ingen tilladelse, Skilltree eller brugerdefinerede krav til dette Skilltree.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Kopier tilladelse"
+  },
+  "notifications": {
+    "title": "Notifikationer",
+    "addNotification": "Tilføj Notifikation",
+    "message": "Besked",
+    "messagePlaceholder": "{{owner}}'s kæledyr {{pet}} har nået niveau {{level}}!"
+  },
+  "skills": {
+    "title": "Færdigheder",
+    "addSkill": "Tilføj Færdighed",
+    "selectSkill": "Vælg en færdighed...",
+    "noSkills": "Ingen færdigheder endnu.",
+    "removeSkill": "Fjern dygtighed",
+    "addUpgrade": "Tilføj Opgradering",
+    "editUpgrade": "Rediger Opgradering",
+    "noUpgrades": "Ingen opgraderinger endnu.",
+    "level": "Niveau {{level}}",
+    "levels": "Niveauer",
+    "everyLevel": "Hvert niveau",
+    "everyNLevels": "Alle {{n}} niveauer",
+    "everyNLevelsFrom": "Alle {{n}} niveauer fra niveau {{start}} og frem",
+    "everyNLevelsBetween": "Alle {{n}} niveauer mellem niveauer {{start}} og {{end}}",
+    "fixedLevels": "Niveau: {{levels}}",
+    "skillExists": "Denne færdighed eksisterer allerede.",
+    "unknownSkill": "Ukendt dygtighed",
+    "levelList": "Niveauer {{levels}}",
+    "everyLevelRange": "Hvert niveau ({{start}}-{{until}})",
+    "everyNLevelsRange": "Alle {{n}} niveauer ({{start}}-{{until}})",
+    "everyLevelFrom": "Hvert niveau fra {{start}}",
+    "everyNLevelsFromStart": "Alle {{n}} niveauer fra {{start}}"
+  },
+  "levelModal": {
+    "title": "Vælg Niveauer",
+    "fixed": "Fast",
+    "dynamic": "Dynamisk",
+    "fixedHelp": "Indtast et eller flere niveauer (mellemrum/komma separeret)",
+    "fixedPlaceholder": "f.eks. 1 3 5 eller 1,3,5",
+    "every": "Hver (påkrævet)",
+    "startFrom": "Start fra niveau (valgfri)",
+    "until": "Indtil niveau (valgfrit)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Nyt færdighedtræ",
+    "searchPlaceholder": "Søg i færdighedtrees…",
+    "noMatches": "Ingen match",
+    "undo": "Fortryd",
+    "redo": "Gendan",
+    "moreActions": "Flere handlinger",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Slet færdighedtree",
+    "deleteConfirm": "Slet {{name}}?",
+    "deleteConfirmWithRefs": "Slet {{name}}? Andre træer, der refererer til det, vil vise et dinglende referencemærke.",
+    "speciesPlaceholder": "Art…",
+    "exitJourney": "Afslut rejsetilstand"
+  },
+  "journey": {
+    "panelTitle": "Rejse: {{species}}",
+    "levelLabel": "Niveau",
+    "currentTreeLabel": "Nuværende træ",
+    "freshPet": "ingen — frisk kæledyr",
+    "clickHint": "Simulerer: Klik på et fremhævet træ for at vælge det",
+    "reset": "Nulstil til frisk kæledyr",
+    "permissionNote": "Antagne krav til tilladelser",
+    "previewTitle": "Lager forhåndsvisning",
+    "requiresLevel": "Kræver niveau {{level}}",
+    "clickToApply": "Klik for at anvende",
+    "noneAvailable": "Der er <red>no</red> skilltrees available for <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} godkendt"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Rediger rå…",
+      "editRawTitle": "Rediger rå: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Krav",
+      "kindInheritance": "Arv",
+      "requirement": "{{prerequisite}} er et krav til {{owner}}",
+      "anyOf": "Tilfreds af en af følgende: {{list}}",
+      "inheritance": "{{owner}} arver færdigheder af {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} er et krav for hver af {{count}} færdighedtræerne i denne stak"
+    }
+  },
+  "validation": {
+    "error": "Valideringsfejl",
+    "hasErrors": "Dette færdighedtree har valideringsfejl",
+    "skillHasErrors": "Denne færdighed har valideringsfejl",
+    "issueInSkill": "Valideringsproblem i denne færdighed. Udvid for at redigere værdier."
+  },
+  "timeline": {
+    "inspectLevel": "Inspicér niveau",
+    "modeSingle": "Enkelt",
+    "modeLevels": "Niveauer",
+    "modeRepeat": "Gentag",
+    "atLevel": "på niveau",
+    "levels": "niveauer",
+    "every": "hver",
+    "from": "fra",
+    "until": "indtil",
+    "keyPreview": "→ nøgle: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamond eller base64:… (fra /petadmin info element)",
+    "addRow": "+ Tilføj"
+  },
+  "node": {
+    "namePlaceholder": "Navn",
+    "iconPlaceholder": "Ikon materiale",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Klik for at udvide",
+    "allSpecies": "alle arter",
+    "noSpecies": "ingen arter",
+    "speciesCount_one": "{{count}} arter",
+    "speciesCount_other": "{{count}} arter",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Lv op til {{max}}"
+  },
+  "canvas": {
+    "empty": "Ingen færdighedstræer i dette arbejdsområde endnu.",
+    "layingOut": "Laying out canvas…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType er påkrævet",
+    "priceExpNonNegative": "Pris og EXP skal være ≥ 0",
+    "minMaxNumbers": "Minimum og Max skal være tal",
+    "valuesNonNegative": "Værdierne skal være ≥ 0",
+    "maxGteMin": "Max skal være ≥ min."
+  }
+}

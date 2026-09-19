@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Není vybrán žádný dovednostní strom",
+    "description": "Vyberte stromu dovedností z postranního panelu, nebo importujte soubory .st.json.",
+    "loadDefaultsCta": "Načíst výchozí hodnoty"
+  },
+  "tabs": {
+    "properties": "Vlastnosti",
+    "appearance": "Vzhled",
+    "eligiblePets": "Způsobilá zvířata v zájmovém chovu",
+    "requirements": "Požadavky",
+    "notifications": "Oznámení",
+    "skills": "Dovednosti",
+    "timeline": "Časová osa"
+  },
+  "inspector": {
+    "expand": "Rozbalit kontrolor",
+    "collapse": "Sbalit kontrolor",
+    "requirementsHint": "Hrany zobrazují první skupinu dovedností; všechny požadavky jsou zde upravitelné."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Boj",
+    "inheritance": "Dědičnost",
+    "inheritancePlaceholder": "Vyberte rodič dovedností...",
+    "weight": "Hmotnost",
+    "weightPlaceholder": "15",
+    "permission": "Právo",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Název",
+    "namePlaceholder": "Boj",
+    "iconMaterial": "Materiál ikony",
+    "iconMaterialPlaceholder": "kamenná sekera",
+    "glowing": "Spálí",
+    "description": "L 343, 22.12.2009, s. 1).",
+    "descriptionPlaceholder": "Boj zaměřený na dovednost...",
+    "viewJson": "Zobrazit JSON",
+    "jsonPreview": "Náhled vybraného stromu dovedností jako JSON."
+  },
+  "eligiblePets": {
+    "title": "Způsobilá zvířata v zájmovém chovu",
+    "none": "Nic",
+    "all": "Všechny (*)",
+    "selected": "Vybrané",
+    "includeFutureMobs": "Zahrnout stvoření z budoucích aktualizací Minecraftu",
+    "allPetsNotice": "Všichni zde uvedení, včetně zvířat v zájmovém chovu z budoucích aktualizací, budou mít nárok na tuto dovednost.",
+    "noPetsNotice": "Pro tuto dovednost nebudou způsobilí žádní domácí zvířata.",
+    "loading": "Načítám poslední Minecraft entity…",
+    "loadError": "Nepodařilo se načíst seznam monster z minecraft-data",
+    "customHeading": "Z konfigurace mazlíček",
+    "customHint": "Vlastní typy mazlíček definované v pet-config.yml tohoto serveru.",
+    "unrecognizedHeading": "Nerozpoznáno",
+    "unrecognizedNotice": "Tyto položky neodpovídají žádnému Minecraftu a žádnému typu domácí konfigurace."
+  },
+  "requirements": {
+    "title": "Požadavky",
+    "minLevel": "Minimální úroveň pro Pet",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Maximální úroveň pro zvířata v zájmovém chovu",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Přidat požadavek",
+    "requirementType": "Typ požadavku",
+    "permission": "Právo",
+    "permissionPlaceholder": "Testovat oprávnění",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Žádný dovednostní strom",
+    "custom": "Vlastní",
+    "customKey": "Vlastní klíč",
+    "customKeyPlaceholder": "Vlastní jméno",
+    "customValue": "Vlastní hodnota",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "Pro tuto dovednost neexistuje žádné oprávnění, dovednostní strom ani vlastní požadavky.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Oprávnění ke kopírování"
+  },
+  "notifications": {
+    "title": "Oznámení",
+    "addNotification": "Přidat oznámení",
+    "message": "Zpráva",
+    "messagePlaceholder": "{{owner}}je mazlíčka {{pet}} dosáhla úrovně {{level}}!"
+  },
+  "skills": {
+    "title": "Dovednosti",
+    "addSkill": "Přidat dovednost",
+    "selectSkill": "Vyberte dovednost...",
+    "noSkills": "Zatím žádné dovednosti.",
+    "removeSkill": "Odstranit dovednost",
+    "addUpgrade": "Přidat aktualizaci",
+    "editUpgrade": "Upravit aktualizaci",
+    "noUpgrades": "Zatím žádné upgrade.",
+    "level": "Úroveň {{level}}",
+    "levels": "Úhelníky, tvarovky a profily ze železa nebo nelegované oceli",
+    "everyLevel": "Každá úroveň",
+    "everyNLevels": "Každá úroveň {{n}}",
+    "everyNLevelsFrom": "Každá úroveň {{n}} od úrovně {{start}} dále",
+    "everyNLevelsBetween": "Každá úroveň {{n}} mezi úrovněmi {{start}} a {{end}}",
+    "fixedLevels": "Úrovně: {{levels}}",
+    "skillExists": "Tato dovednost již existuje.",
+    "unknownSkill": "Neznámá dovednost",
+    "levelList": "Úrovně {{levels}}",
+    "everyLevelRange": "Každá úroveň ({{start}}-{{until}})",
+    "everyNLevelsRange": "Každá úroveň {{n}} ({{start}}-{{until}})",
+    "everyLevelFrom": "Každá úroveň z {{start}}",
+    "everyNLevelsFromStart": "Každá úroveň {{n}} z {{start}}"
+  },
+  "levelModal": {
+    "title": "Vybrat úrovně",
+    "fixed": "Fixní",
+    "dynamic": "Dynamický",
+    "fixedHelp": "Zadejte jednu nebo více úrovní (oddělená mezera/čárka)",
+    "fixedPlaceholder": "např. 1 3 5 nebo 1,3,5",
+    "every": "Každý (povinný)",
+    "startFrom": "Začít z úrovně (volitelné)",
+    "until": "Do úrovně (nepovinné)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Nový strom dovedností",
+    "searchPlaceholder": "Hledat dovednosti…",
+    "noMatches": "Žádné shody",
+    "undo": "Zpět",
+    "redo": "Znovu",
+    "moreActions": "Další akce",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Odstranit dovednostní strom",
+    "deleteConfirm": "Smazat {{name}}?",
+    "deleteConfirmWithRefs": "Smazat {{name}}? Ostatní stromy, na které se odkazuje, budou zobrazovat odznak s nebezpečím.",
+    "speciesPlaceholder": "Druh…",
+    "exitJourney": "Ukončit režim jízdy"
+  },
+  "journey": {
+    "panelTitle": "Jízda: {{species}}",
+    "levelLabel": "Úrovně",
+    "currentTreeLabel": "Aktuální strom",
+    "freshPet": "žádné – čerstvá zvířata",
+    "clickHint": "Simulace: klikněte na zvýrazněný strom pro jeho výběr",
+    "reset": "Resetovat na čerstvý domácí mazlíček",
+    "permissionNote": "Předpokládané požadavky na oprávnění",
+    "previewTitle": "Náhled inventáře",
+    "requiresLevel": "Vyžaduje úroveň {{level}}",
+    "clickToApply": "Kliknutím aplikujete",
+    "noneAvailable": "<red>nejsou k dispozici žádné</red> dovednosti pro <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} způsobilý"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Upravit raw…",
+      "editRawTitle": "Upravit surové: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Požadavek",
+      "kindInheritance": "Dědičnost",
+      "requirement": "{{prerequisite}} je požadavek {{owner}}",
+      "anyOf": "Spokojený kterýkoli z následujících: {{list}}",
+      "inheritance": "{{owner}} zdědí dovednosti {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} je požadavek každého ze dovedností {{count}} v tomto štosu"
+    }
+  },
+  "validation": {
+    "error": "Chyba ověření",
+    "hasErrors": "Tento dovednostní strom má chyby ověření",
+    "skillHasErrors": "Tato dovednost má chyby ověření",
+    "issueInSkill": "Problém ověření v této dovednosti. Rozšiřte pro úpravu hodnot."
+  },
+  "timeline": {
+    "inspectLevel": "Kontrolovat úroveň",
+    "modeSingle": "Jednoduché",
+    "modeLevels": "Úhelníky, tvarovky a profily ze železa nebo nelegované oceli",
+    "modeRepeat": "Opakovat",
+    "atLevel": "na úrovni",
+    "levels": "úrovně",
+    "every": "každý",
+    "from": "od",
+    "until": "do",
+    "keyPreview": "→ Klávesa: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamantový nebo základní64:… (z /petadmin info item)",
+    "addRow": "+ Přidat"
+  },
+  "node": {
+    "namePlaceholder": "Název",
+    "iconPlaceholder": "Materiál ikony",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Kliknutím rozbalíte",
+    "allSpecies": "všechny druhy",
+    "noSpecies": "žádný druh",
+    "speciesCount_one": "{{count}} druh",
+    "speciesCount_other": "{{count}} druh",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Lv až na {{max}}"
+  },
+  "canvas": {
+    "empty": "V tomto pracovním prostoru zatím nejsou žádné dovednosti.",
+    "layingOut": "Odkládání plátna…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType je povinný",
+    "priceExpNonNegative": "Cena a EXP musí být ≥ 0",
+    "minMaxNumbers": "Minimální a maximální hodnota musí být čísla",
+    "valuesNonNegative": "Hodnoty musí být ≥ 0",
+    "maxGteMin": "Max musí být ≥ Min"
+  }
+}

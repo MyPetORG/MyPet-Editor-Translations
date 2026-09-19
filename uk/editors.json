@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Робоче середовище не завантажено. Відкрийте сесію з редактором <0>/mypet </0> або завантажте приклад пакету.",
+    "viewFile": "Переглянути файл",
+    "actions": "Дії",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Налаштування розділів",
+    "tabs": {
+      "general": "Загальні налаштування",
+      "database": "База даних",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Досвід",
+      "permissions": "Дозволи",
+      "names": "Імена",
+      "skills": "Навики",
+      "updates": "Оновлення"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Власник може атакувати домашню тварину"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Вимкнути Pet та програвач"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Нагороди за Вбивства Гравців"
+      },
+      "OverwriteLanguages": {
+        "label": "Перезаписати мову",
+        "help": "Примусово використовувати код локалі (наприклад, en, de_DE). Blank = автоматичне виявлення."
+      },
+      "Leash_AllowRanged": {
+        "label": "Дозволити наближення дальнього бою"
+      },
+      "Leash_Consume": {
+        "label": "Споживати фактор"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Відстань запуску"
+      },
+      "Repository_Type": {
+        "label": "Тип сховища"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Перетворити з",
+        "help": "Необов'язково: перенесення з іншого бекенду під час наступного запуску."
+      },
+      "Repository_LoadDelay": {
+        "label": "Затримка завантаження (галочки)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "Хост MySQL"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "База даних MySQL"
+      },
+      "Repository_MySQL_User": {
+        "label": "Користувач MySQL"
+      },
+      "Repository_MySQL_Password": {
+        "label": "Пароль MySQL"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Префікс таблиці"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Кодування символів"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Максимальна кількість підключень"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Коефіцієнт часу за замовчуванням"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Виправлено типовий час"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Фактор часу гравця"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Час гравця виправлено"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Час відродження вимкнено"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Фактор витрат економіки"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Виправлена економічна вартість"
+      },
+      "HungerSystem_Active": {
+        "label": "Активна система голоду"
+      },
+      "HungerSystem_Time": {
+        "label": "Час такту для голоду"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Насиченість на стрічку"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Фактор шкоди"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Виправлена помилка"
+      },
+      "Exp_LevelCap": {
+        "label": "Кришка рівня"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Розподіл XP на демагі-зважений"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Потрапити XP на смерть"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "Втрати XP (виправлено)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "Втрата досвіду (відсотків)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Глобальний модифікатор XP"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Пасивний % на Монстра"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Режим обчислення рівнів"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Крива · Лінійна база"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Крива · Коефіцієнт сили"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Крива · Потужність"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Крива · Експоненціальна база"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Крива · Експоненційний ріст"
+      },
+      "Permissions_Extended": {
+        "label": "Розширені дозволи"
+      },
+      "Name_MaxLength": {
+        "label": "Макс. довжина імені"
+      },
+      "Name_Tag_Show": {
+        "label": "Показувати теґ імені"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Префікс мітки імені"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Суфікс мітки імені"
+      },
+      "Name_Filter": {
+        "label": "Відфільтровані слова (по одному в рядку)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Автоматичне призначення"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Випадкове доручення"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Вибрати один раз"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Запобігання Рівненню без Вмінь"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Перемкнути передплату для адмінів"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Змінити комісію (фіксовано)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Змінити комісію (відсоток)"
+      },
+      "Skill_Control_Item": {
+        "label": "Контроль Елементу Вміння"
+      },
+      "Skill_Ride_Item": {
+        "label": "Предмет Вміння Поїздки"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Поїздка голоду за метр"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Час до голоду маяка зменшується"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Відкривається в Творі Рюкзак"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Скидає пакет коли помре власника"
+      },
+      "Update_Check": {
+        "label": "Перевірити наявність оновлень"
+      },
+      "Update_Download": {
+        "label": "Завантажити оновлення"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Menu — {{menuId}}",
+    "selectMenu": "Виберіть меню з бічної панелі.",
+    "notFound": "Меню <0>{{menuId}}</0> не знайдено в робочій області.",
+    "previewLanguage": "Мова попереднього перегляду:",
+    "slotWithSection": "Слот {{slot}} — секція: <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot {{slot}} — no section",
+    "clickSlot": "Натисніть слот, щоб вибрати його розділ."
+  },
+  "mobXp": {
+    "title": "Нагороди Mob XP",
+    "sections": "Розділи досвіду",
+    "searchPlaceholder": "Пошук мобів…",
+    "searchLabel": "Пошук мобів",
+    "entryCount_one": "Вхід {{count}}",
+    "entryCount_other": "Статті {{count}}",
+    "addCustom": "+ Додати власний моб",
+    "noMatch": "Немає мобів, які відповідають вашому пошуку.",
+    "noCustom": "Немає жодного користувацького мобів. Додайте його, щоб отримати XP для імені мобів.",
+    "noEntries": "Немає записів у цьому файлі.",
+    "colMob": "Моб",
+    "colMin": "Мін",
+    "colMax": "Макс",
+    "remove": "Видалити {{name}}",
+    "tabs": {
+      "Default": "Типово",
+      "Custom": "Користувацька"
+    },
+    "help": {
+      "Default": "Досвід отримано, коли домашні тварини вбивають ванільного моба.",
+      "Custom": "XP для митного моба (наприклад MythicMobs). Встановіть точне ім'я мобів."
+    },
+    "promptCustomName": "Ім'я настроюваного моба (точне ім'я моба, наприклад, ідентифікатор MythicMobs):"
+  },
+  "localeEditor": {
+    "title": "Локаль - {{language}}",
+    "selectLanguage": "Оберіть мову з бічної панелі.",
+    "promptKey": "Перевизначити ключ (наприклад Message.Pet.Spawn):",
+    "invalidKey": "Ключі не можуть містити пробіли або \"=\".",
+    "duplicateKey": "Цей ключ вже має перевизначення .",
+    "view": "Перегляд локалі",
+    "tabOverrides": "Мої перевизначення",
+    "tabAll": "Усі рядки",
+    "searchPlaceholder": "Search keys or text…",
+    "searchLabel": "Пошук локальних ключів або тексту",
+    "onlyOverridden": "Показати лише перевизначені",
+    "overrideCount": "{{shown}} з {{total}} перевизначення",
+    "keyCount_one": "Ключ {{count}}",
+    "keyCount_other": "Клавіші {{count}}",
+    "addOverride": "+ Додати перевизначення",
+    "noOverrides": "Немає замін для <0>{{language}}</0> поки що. Перейдіть на <1>{{tabAll}}</1>, щоб переглянути та змінити значення за замовчуванням.",
+    "noOverrideMatch": "Пошук не відповідає заміщенню.",
+    "loadError": "Не вдалося завантажити стандартні рядки для <0>{{language}}</0> з GitHub. Ви все ще можете додати заміну вручну з режиму \"{{tabOverrides}}.",
+    "loadingDefaults": "Завантаження рядків за замовчуванням…",
+    "noStringMatch": "Немає рядків, які б відповідали вашому пошуку.",
+    "colKey": "Ключ",
+    "colDefault": "Типово",
+    "colOverride": "Перевизначити",
+    "noDefault": "(немає за замовчуванням)",
+    "remove": "Видалити {{key}}",
+    "reset": "Скинути {{key}} на типові"
+  },
+  "petShops": {
+    "title": "Домашні магазини",
+    "shops": "Магазини",
+    "promptShopId": "Новий ідентифікатор магазину (літери, цифри, підкреслення - напр. premium):",
+    "invalidShopId": "Ід магазину може містити лише літери, цифри та підкреслення.",
+    "duplicateShop": "Магазин з назвою \"{{key}}\" вже існує.",
+    "confirmDeleteShop": "Видалити \"{{name}}\" магазин і всіх його домашніх тварин?",
+    "addShop": "+ Додати магазин",
+    "deleteShop": "Видалити цей магазин",
+    "noShops": "Жодних магазинів не визначено. Додайте одного, щоб почати продажі домашні тварини.",
+    "displayName": "Ім'я для відображення",
+    "defaultShop": "Магазин за замовчуванням",
+    "defaultShopHint": "Відкритий /petshop без аргументів.",
+    "menuPosition": "Позиція меню",
+    "balanceType": "Тип балансу",
+    "balanceTypeHint": "Куди зникають гроші.",
+    "balanceOwner": "Власник балансу",
+    "balanceOwnerBank": "Назва банку сховища.",
+    "balanceOwnerPlayer": "UUID. Гравець",
+    "iconMaterial": "Матеріал іконок",
+    "iconMaterialHint": "Елемент, що відображається в меню магазину (напр. скриня, яйце).",
+    "iconGlowing": "Свічення іконок",
+    "pets": "Домашні улюбленці",
+    "searchPets": "Search pets…",
+    "searchPetsLabel": "Шукати домашні тварини в цьому магазині",
+    "petCount": "{{shown}} {{total}}",
+    "addPet": "+ Додати домашній тварину",
+    "promptPetId": "Новий ідентифікатор тваринки (літери, цифри, підкреслення - наприклад, baby_wolf):",
+    "invalidPetId": "Ідентифікатор тварина може містити лише літери, цифри та знаки підкреслення.",
+    "duplicatePet": "Тварину \"{{key}}\" вже існує в цьому магазині.",
+    "noPets": "У цьому магазині поки що немає домашніх улюбленців.",
+    "noPetMatch": "Жодних домашніх улюбленців, які відповідають вашому пошуку.",
+    "removePet": "Видалити {{name}}",
+    "petType": "Тип домашніх тварин",
+    "petTypeHint": "MyPet домашні тварини, наприклад WOLF, OCELOT.",
+    "price": "Ціна",
+    "startingExp": "Запуск досвіду",
+    "positionHint": "-1 = автозаповнення.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Необов'язкове ім'я виконавчого дерева.",
+    "description": "Опис (на один рядок)",
+    "options": "Опції (по одному в рядку)",
+    "optionsHint": "напр. параметри для дитини або типу."
+  },
+  "petTypes": {
+    "title": "Типи домашніх тварин",
+    "search": "Search pet types…",
+    "searchLabel": "Пошук типів домашніх тварин",
+    "noMatch": "Не знайдено жодного типу.",
+    "noTypes": "Немає домашніх тварин у цьому файлі.",
+    "deleteTitle": "Видалити цей власний тип домашнього екрану",
+    "deleteButton": ":wastebaske: Видалити домашній улюбленець",
+    "confirmDelete": "Видалити порожній шаблон \"{{name}}\"? Це видалить весь розділ конфігурації петеро.",
+    "confirmDeleteTitle": "Видалити свій домашній улюбленець",
+    "confirmDeleteConfirm": "Видалити",
+    "complexValue": "Складне значення — редагувати через raw YAML.",
+    "model": "Модель",
+    "modelHelp": "Цей домашній улюбленець з кастомною 3D моделлю з плагіна моделі-провайдера (ModelEngine, BetterModel, ItemsAdder, or MythicMobs) замість відображення його зникнення зникнення. Залиште постачальника порожнім, щоб зберегти вигляд за замовчуванням.",
+    "provider": "Постачальник",
+    "modelId": "ID моделі",
+    "modelCollision": "<0>{{provider}}</0> модель \"<1>{{id}}</1>\" вже використовується улюбленим типом \"<2>{{other}}</2>\". Кожен користувацький тип потребує унікальної моделі - плагін в іншому випадку пропускає одне з них при завантаженні.",
+    "nameHeight": "Висота імені",
+    "nameHeightHelp": "Вертикальне зміщення для назви пета над моделлю.",
+    "createCustom": "➕ Створити домашній улюбленець",
+    "typeCount": "{{shown}} з {{total}} типів",
+    "animations": "Анімація",
+    "animationsHint": "— додаткове ім'я замінюється"
+  },
+  "menuSection": {
+    "notFound": "Розділ <0>{{sectionId}}</0> не знайдено в <1>{{menuId}}</1>.",
+    "removed": "Розділ <0>{{sectionId}}</0> видалений з цього меню (написано як <1>null</1>).",
+    "resetDefault": "Відновити типові",
+    "removeSection": "Видалити розділ",
+    "confirmRemove": "Видалити розділ \"{{sectionId}}\"? Ця дія очистить її слот на полотні — переустановіть його через \"Відновити за замовчуванням\", якщо змінити думку.",
+    "confirmRemoveTitle": "Видалити розділ",
+    "confirmRemoveConfirm": "Видалити",
+    "statefulNotice": "Цей розділ визначає елементи окремого стану (<0>області</0>). Поля внизу редагують базу <1>елемент</1>, які застосовуються лише тоді, коли перекривається станом.",
+    "material": "Матеріал",
+    "column": "Колонка",
+    "row": "Рядок",
+    "glow": "Світіння",
+    "soundOnClick": "Звук при натисканні",
+    "soundKey": "Ключ",
+    "soundVolume": "Об'єм",
+    "soundPitch": "Пек",
+    "pitchRangeHelp": "В даний час діапазон висота - редагування тут замінює його фіксованим значенням.",
+    "title": "Найменування",
+    "lore": "Лоре"
+  },
+  "petWizard": {
+    "titleAvenue": "Створити домашню тварину — вибрати шлях",
+    "titleModel": "Створити користувацьку тварину — налаштувати модель",
+    "titleIdentity": "Створити свого домашнього улюбленця — ідентифікація і тіло",
+    "titleStats": "Створити свій килим - статистика",
+    "titleReview": "Створити свій килим - огляд",
+    "progress": "Процес чарівника",
+    "chooseHow": "Виберіть, як ви хочете створити власний петель.",
+    "buildFromModel": "Побудуйте істоту зі моделі",
+    "modelSource": "Джерело моделі",
+    "defaultModel": "Модель за замовчуванням",
+    "sourceOnlyItemsAdder": "Моделі ItemsAdder це вміст пакунків - обрати наявний ідентифікатор.",
+    "sourceOnlyMythicMobs": "MythicMobs моби визначились в конфігураціях MythicMobs — виберіть наявний тип мобів.",
+    "modelId": "ID моделі",
+    "modelIdRegisteredHelp": "Виберіть модель, що зареєстрована в {{provider}}.",
+    "modelIdManualHelp": "Не виявлено жодних моделей для {{provider}}. Введіть ID моделі вручну.",
+    "modelIdRequired": "Потрібний ID моделі.",
+    "uploadLabel": "Завантажити .bmodel",
+    "uploadReconnecting": "Повторне підключення — зачекайте поки сесія відновиться перед завантаженням.",
+    "uploadNeedsSession": "Вивантаження потребує живого <0>/mypet редактора</0> сеансу — підключіться до одної, щоб увімкнути це.",
+    "uploadExplainer": "Uploads to {{provider}}; the model appears for players once {{provider}} regenerates its resource pack and clients re-download it. The file name (without <0>.bbmodel</0>) becomes the model id, so it must match the blueprint id declared inside the model.",
+    "uploading": "Вивантаження…",
+    "uploadDone": "Вивантажено — ідентифікатор моделі, зазначений на \"{{modelId}}\".",
+    "uploadFailed": "Помилка вивантаження.",
+    "nameHeight": "Назва висоти (необов'язково)",
+    "nameHeightHelp": "Вертикальне зміщення для назви пета над моделлю.",
+    "modelCollision": "<0>{{provider}}</0> модель \"<1>{{modelId}}</1>\" вже використовується улюбленим типом \"<2>{{other}}</2>\". Модель - це особистість домашнього улюбленця, так що кожен користувацький тип потребує унікальну модель - вибрати іншу (плагін буде інакше пропустити цей тип при завантаженні).",
+    "creatureName": "Назва істоти",
+    "creatureNameHelp": "Внутрішній ключ налаштування для домашнього улюбленого типу (наприклад, FrostDragon). Повинно бути унікальним.",
+    "hostMob": "Хост мобів",
+    "hostMobHelp": "Перший тип ванілії Bukkit який забезпечує базовий об'єкт для цієї тварини.",
+    "health": "Здоров'я (РР)",
+    "healthHelp": "Очки здоров'я цієї тварини (наприклад, 20 = 10 серця).",
+    "walkSpeed": "Швидкість ходьби",
+    "walkSpeedHelp": "Атрибут швидкості руху (наприклад, 0.3 - стандартна швидкість ходу).",
+    "food": "Їжа (одна річ в рядку)",
+    "foodHelp": "Предмети, які годують цю домашню тварину, наприклад, пшеницю. Залиште порожнім, щоб успадкувати їжу господаря.",
+    "leash": "Вимоги до Призову",
+    "leashHelp": "Умови, які повинні містити привести для роботи на цьому улюбленому (напр. Wid, Baby).",
+    "leashNeedsSession": "Вимоги до стилю потребують живої сесії.",
+    "reviewIntro": "Наступний розділ буде додано до <0>pet-config.yml</0>:",
+    "back": "Відмінити",
+    "next": "Уперед",
+    "create": "Створити",
+    "nameRequired": "Потрібне ім'я."
+  }
+}

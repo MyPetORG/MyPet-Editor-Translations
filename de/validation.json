@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Unbekannte Fähigkeit: {{skillId}}",
+    "noUpgrades": "Fertigkeit muss mindestens ein Upgrade haben",
+    "firstLevelRequired": "Mindestens ein Feld muss für die erste Ebene angegeben werden",
+    "invalidLevelKey": "Ungültiges Levelschlüsselformat",
+    "duplicateLevel": "Doppelter Levelschlüssel: {{level}}",
+    "invalidRange": "Ungültiger Level Bereich",
+    "emptyField": "{{field}} darf nicht leer sein",
+    "invalidNumber": "{{field}} muss eine gültige Zahl sein",
+    "invalidPlusNumber": "{{field}} muss eine signierte Zahl sein (z.B. +1 oder +0.5)",
+    "minValue": "{{field}} muss mindestens {{min}} sein",
+    "maxValue": "{{field}} muss höchstens {{max}} sein",
+    "requiredField": "{{field}} ist erforderlich",
+    "emptyRequirementKey": "Benutzerdefinierter Schlüssel darf nicht leer sein",
+    "emptyRequirementValue": "Benutzerdefinierter Anforderungswert darf nicht leer sein",
+    "emptySkilltreeRequirement": "Fähigkeitsbaum-Anforderung muss einen Fähigkeitsbaum ausgewählt haben",
+    "emptyPermissionRequirement": "Berechtigungsanforderung darf nicht leer sein",
+    "unknownField": "Unbekanntes Feld \"{{field}}\" (so wie es ist, wird der Server es ignorieren)",
+    "badNumber": "{{field}} muss eine signierte Zahl wie \"+5\" oder \"-2.5\" sein",
+    "badInteger": "{{field}} muss eine signierte ganze Zahl wie \"+5\" sein",
+    "badBoolean": "{{field}} muss wahr oder falsch sein",
+    "badEnum": "{{field}} muss einer der aufgelisteten Werte sein",
+    "badGroup": "{{field}} muss ein Objekt sein",
+    "badList": "{{field}} muss eine Liste der Einträge sein",
+    "badListInteger": "{{field}} muss eine ganze Zahl wie 6 sein",
+    "badListNumber": "{{field}} muss eine Zahl wie 6 oder 2,5 sein",
+    "badListString": "{{field}} muss Text sein"
+  }
+}

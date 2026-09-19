@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Onbekende vaardigheid: {{skillId}}",
+    "noUpgrades": "Vaardigheid moet ten minste één upgrade hebben",
+    "firstLevelRequired": "Ten minste één veld moet worden opgegeven voor het eerste niveau",
+    "invalidLevelKey": "Ongeldig niveau-sleutelformaat",
+    "duplicateLevel": "Dubbele level sleutel: {{level}}",
+    "invalidRange": "Ongeldig level bereik",
+    "emptyField": "{{field}} mag niet leeg zijn",
+    "invalidNumber": "{{field}} moet een geldig nummer zijn",
+    "invalidPlusNumber": "{{field}} moet een ondertekend nummer zijn (bijv. +1 of +0.5)",
+    "minValue": "{{field}} moet minstens {{min}} zijn",
+    "maxValue": "{{field}} mag maximaal {{max}} zijn",
+    "requiredField": "{{field}} is vereist",
+    "emptyRequirementKey": "Aangepaste vereiste sleutel kan niet leeg zijn",
+    "emptyRequirementValue": "Aangepaste verplichte waarde mag niet leeg zijn",
+    "emptySkilltreeRequirement": "Vaardigheidboom vereiste moet een vaardigheidsboom hebben geselecteerd",
+    "emptyPermissionRequirement": "Toestemmingsvereiste mag niet leeg zijn",
+    "unknownField": "Onbekend veld \"{{field}}\" (behouden als-is, de server zal het negeren)",
+    "badNumber": "{{field}} moet een ondertekend nummer zijn zoals \"+5\" of \"-2.5\"",
+    "badInteger": "{{field}} moet een ondertekend geheel nummer zijn, zoals \"+5\"",
+    "badBoolean": "{{field}} moet waar of onwaar zijn",
+    "badEnum": "{{field}} moet een van de vermelde waarden zijn",
+    "badGroup": "{{field}} moet een object zijn",
+    "badList": "{{field}} moet een lijst van items zijn",
+    "badListInteger": "{{field}} moet een heel getal zijn zoals 6",
+    "badListNumber": "{{field}} moet een getal zijn zoals 6 of 2,5",
+    "badListString": "{{field}} moet tekst zijn"
+  }
+}

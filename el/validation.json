@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Unknown skill: {{skillId}}",
+    "noUpgrades": "Η δεξιότητα πρέπει να έχει τουλάχιστον μία αναβάθμιση",
+    "firstLevelRequired": "Πρέπει να προβλέπεται τουλάχιστον ένα πεδίο για το πρώτο επίπεδο",
+    "invalidLevelKey": "Μη έγκυρη μορφή κλειδιού επιπέδου",
+    "duplicateLevel": "Duplicate level key: {{level}}",
+    "invalidRange": "Μη έγκυρο εύρος επιπέδων",
+    "emptyField": "Το {{field}} δεν μπορεί να είναι κενό",
+    "invalidNumber": "{{field}} πρέπει να είναι έγκυρος αριθμός",
+    "invalidPlusNumber": "{{field}} must be a signed number (e.g., +1 or +0.5)",
+    "minValue": "{{field}} πρέπει να είναι τουλάχιστον {{min}}",
+    "maxValue": "{{field}} πρέπει να είναι το πολύ {{max}}",
+    "requiredField": "{{field}} is required",
+    "emptyRequirementKey": "Το προσαρμοσμένο κλειδί απαιτήσεων δεν μπορεί να είναι κενό",
+    "emptyRequirementValue": "Η προσαρμοσμένη τιμή απαίτησης δεν μπορεί να είναι κενή",
+    "emptySkilltreeRequirement": "Οι απαιτήσεις σε δέντρο δεξιοτήτων πρέπει να έχουν επιλέξει ένα δέντρο δεξιοτήτων",
+    "emptyPermissionRequirement": "Η απαίτηση δικαιωμάτων δεν μπορεί να είναι κενή",
+    "unknownField": "Άγνωστο πεδίο \"{{field}}\" (διατηρείται ως έχει, ο διακομιστής θα το αγνοήσει)",
+    "badNumber": "{{field}} πρέπει να είναι ένας υπογεγραμμένος αριθμός όπως \"+5\" ή \"-2.5\"",
+    "badInteger": "Το {{field}} πρέπει να είναι ένας ακέραιος αριθμός όπως \"+5\"",
+    "badBoolean": "{{field}} πρέπει να είναι αληθής ή ψευδής",
+    "badEnum": "{{field}} πρέπει να είναι μία από τις τιμές που εμφανίζονται",
+    "badGroup": "Το {{field}} πρέπει να είναι αντικείμενο",
+    "badList": "{{field}} πρέπει να είναι μια λίστα με καταχωρήσεις",
+    "badListInteger": "{{field}} πρέπει να είναι ένας ολόκληρος αριθμός όπως 6",
+    "badListNumber": "{{field}} πρέπει να είναι ένας αριθμός όπως 6 ή 2.5",
+    "badListString": "{{field}} πρέπει να είναι κείμενο"
+  }
+}
