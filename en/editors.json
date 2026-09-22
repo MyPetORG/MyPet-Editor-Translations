@@ -3,7 +3,8 @@
     "noWorkspace": "No workspace loaded. Open a session with <0>/mypet editor</0> or load an example bundle.",
     "viewFile": "View file",
     "actions": "Actions",
-    "parseError": "YAML parse error: {{message}}"
+    "parseError": "YAML parse error: {{message}}",
+    "notImplemented": "This editor is not yet implemented. Navigation is wired up so you can select this entry, but the form is not ready."
   },
   "configEditor": {
     "sections": "Config sections",
@@ -343,7 +344,66 @@
     "createCustom": "➕ Create custom pet",
     "typeCount": "{{shown}} of {{total}} types",
     "animations": "Animations",
-    "animationsHint": "— optional name overrides"
+    "animationsHint": "— optional name overrides",
+    "fields": {
+      "HP": {
+        "label": "Health (HP)"
+      },
+      "Speed": {
+        "label": "Walk Speed"
+      },
+      "OverrideFlySpeed": {
+        "label": "Override Fly Speed"
+      },
+      "FlySpeed": {
+        "label": "Fly Speed"
+      },
+      "Food": {
+        "label": "Food (one item per line)",
+        "help": "Items that tame/feed this pet, e.g. bone."
+      },
+      "LeashItem": {
+        "label": "Leash Item",
+        "help": "Item used to tame, e.g. lead."
+      },
+      "LeashRequirements": {
+        "label": "Leash Requirements",
+        "help": "Flags like Tamed, Baby, Owner — one per line."
+      },
+      "GrowUpItem": {
+        "label": "Grow-Up Item",
+        "help": "Item that ages a baby up (baby-capable pets)."
+      },
+      "CustomRespawnTimeFactor": {
+        "label": "Respawn Time Factor"
+      },
+      "CustomRespawnTimeFixed": {
+        "label": "Respawn Time Fixed"
+      },
+      "ReleaseOnDeath": {
+        "label": "Release On Death"
+      },
+      "RemoveAfterRelease": {
+        "label": "Remove After Release"
+      },
+      "RetainEquipmentOnTame": {
+        "label": "Retain Equipment On Tame",
+        "help": "Keeps the armor and weapons a wild mob was wearing when it is tamed, as real pet equipment that drops on death and release. Off strips the gear and drops it where the mob stood. Equipment-capable pet types only."
+      },
+      "Model": {
+        "label": "Model"
+      },
+      "AllowMetamorphosis": {
+        "label": "Allow Metamorphosis",
+        "help": "Lets a Tadpole pet mature into a Frog pet after vanilla's 20-minute timer. The pet keeps its name, level, XP and skill state, but permanently becomes a Frog — including losing Tadpole-only skilltrees. Off (the default) freezes the timer so the pet stays a Tadpole."
+      },
+      "Brain_Disabled": {
+        "label": "Disabled Brain AI (one per line)",
+        "help": "Vanilla brain AI to switch off, e.g. activity:fight or behavior:SonicBoom. Clearing this restores vanilla AI — for Piglin Brutes, Piglins, Hoglins and Zoglins that means the pet will attack its owner. Takes effect the next time the pet spawns."
+      }
+    },
+    "animationsNote": "MyPet plays each of these by its default name (the label). Override one only if your model names it differently; leave blank to use the default. Walk/idle/run/jump are handled by the model plugin and are not configured here.",
+    "removeModel": "Remove model"
   },
   "menuSection": {
     "notFound": "Section <0>{{sectionId}}</0> not found in <1>{{menuId}}</1>.",
@@ -364,7 +424,14 @@
     "soundPitch": "Pitch",
     "pitchRangeHelp": "Currently a pitch range — editing here replaces it with a fixed value.",
     "title": "Title",
-    "lore": "Lore"
+    "lore": "Lore",
+    "sectionLabel": "Section:",
+    "unknownType": "unknown type",
+    "tabRaw": "Raw",
+    "tabPreview": "Preview",
+    "textViewLabel": "{{label}} view",
+    "validationIssues_one": "{{count}} validation issue",
+    "validationIssues_other": "{{count}} validation issues"
   },
   "petWizard": {
     "titleAvenue": "Create custom pet — Choose avenue",
@@ -410,6 +477,25 @@
     "back": "Back",
     "next": "Next",
     "create": "Create",
-    "nameRequired": "Name is required."
+    "nameRequired": "Name is required.",
+    "avenues": {
+      "BetterModel": "Build a brand-new creature rendered with a BetterModel model. Requires a Java 25 server.",
+      "ModelEngine": "Build a brand-new creature rendered with a ModelEngine model.",
+      "ItemsAdder": "Build a brand-new creature using an ItemsAdder model.",
+      "MythicMobs": "Build a creature from a MythicMob — MyPet spawns the real MythicMob and adopts it; it keeps its model and turns back into the MythicMob on release."
+    },
+    "installToEnable": "Install {{provider}} to enable",
+    "nameCharset": "Use only letters, numbers, and underscores (no dots or spaces).",
+    "nameExists": "\"{{name}}\" already exists in pet-config.yml.",
+    "previewError": "(preview error)",
+    "readFileFailed": "Failed to read the selected file.",
+    "sourceRegistered": "Registered model",
+    "sourceDefault": "MyPet default",
+    "providerLabel": "Provider:",
+    "defaultModelNote": "Uses one of MyPet's bundled default models — no external model plugin content required.",
+    "models": {
+      "capybara": "Capybara",
+      "chameleon": "Chameleon"
+    }
   }
 }
