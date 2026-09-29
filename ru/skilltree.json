@@ -173,11 +173,18 @@
     "every": "каждый",
     "from": "от",
     "until": "до",
-    "keyPreview": "→ ключ: \"{{key}}\""
+    "keyPreview": "→ ключ: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamond или base64:… (от /petadmin info item)",
-    "addRow": "+ Добавить"
+    "addRow": "+ Добавить",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "Имя",
@@ -191,11 +198,18 @@
     "speciesCount_other": "Виды {{count}}",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "Lv до {{max}}"
+    "levelMax": "Lv до {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "В этом проекте пока нет дерева умений.",
-    "layingOut": "Разметка холста…"
+    "layingOut": "Разметка холста…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "Требуется тип",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "Мин. и Макс должны быть цифрами",
     "valuesNonNegative": "Значения должны быть ≥ 0",
     "maxGteMin": "Макс должен быть ≥ мин"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }
