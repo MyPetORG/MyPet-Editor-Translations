@@ -173,11 +173,18 @@
     "every": "fiecare",
     "from": "din",
     "until": "până",
-    "keyPreview": "→ cheie: \"{{key}}\""
+    "keyPreview": "→ cheie: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamond sau base64:… (de la /petadmin info item)",
-    "addRow": "+ Adaugă"
+    "addRow": "+ Adaugă",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "Nume",
@@ -191,11 +198,18 @@
     "speciesCount_other": "{{count}} specii",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "Lv până la {{max}}"
+    "levelMax": "Lv până la {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "Nici o abilitate în acest spațiu de lucru încă.",
-    "layingOut": "Pânză pânze…"
+    "layingOut": "Pânză pânze…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "Este necesar petType",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "Numărul minim și maxim trebuie să fie numere",
     "valuesNonNegative": "Valorile trebuie să fie ≥ 0",
     "maxGteMin": "Max trebuie să fie ≥ Min"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }
