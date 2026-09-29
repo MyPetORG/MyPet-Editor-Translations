@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Neznámá dovednost: {{skillId}}",
+    "noUpgrades": "Dovednost musí mít alespoň jeden upgrade",
+    "firstLevelRequired": "Pro první úroveň musí být uvedeno alespoň jedno pole",
+    "invalidLevelKey": "Neplatný formát klíče úrovně",
+    "duplicateLevel": "Duplikovat klíč úrovně: {{level}}",
+    "invalidRange": "Neplatný rozsah úrovně",
+    "emptyField": "{{field}} nemůže být prázdný",
+    "invalidNumber": "{{field}} musí být platné číslo",
+    "invalidPlusNumber": "{{field}} musí být podepsané číslo (např. +1 nebo +0.5)",
+    "minValue": "{{field}} musí být alespoň {{min}}",
+    "maxValue": "{{field}} musí být nanejvýše {{max}}",
+    "requiredField": "{{field}} je povinné",
+    "emptyRequirementKey": "Vlastní požadavek klíč nemůže být prázdný",
+    "emptyRequirementValue": "Hodnota vlastního požadavku nemůže být prázdná",
+    "emptySkilltreeRequirement": "Požadavek na dovednostní strom musí mít vybraný dovednostní strom",
+    "emptyPermissionRequirement": "Požadavek oprávnění nemůže být prázdný",
+    "unknownField": "Neznámé pole \"{{field}}\" (ponecháno jako, server ho bude ignorovat)",
+    "badNumber": "{{field}} musí být podepsané číslo jako \"+5\" nebo \"-2.5\"",
+    "badInteger": "{{field}} musí být podepsané celé číslo jako \"+5\"",
+    "badBoolean": "{{field}} musí být pravda nebo nepravda",
+    "badEnum": "{{field}} musí být jedna z uvedených hodnot",
+    "badGroup": "{{field}} musí být objekt",
+    "badList": "{{field}} musí být seznam položek",
+    "badListInteger": "{{field}} musí být celé číslo jako 6",
+    "badListNumber": "{{field}} musí být číslo jako 6 nebo 2.5",
+    "badListString": "{{field}} musí být text"
+  }
+}

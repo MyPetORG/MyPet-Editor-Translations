@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Intet arbeidsområde lastet. Åpne en økt med <0>/mypet editor</0> eller last en eksempelpakke.",
+    "viewFile": "Vis fil",
+    "actions": "Handlinger",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Konfig. seksjoner",
+    "tabs": {
+      "general": "Generelt",
+      "database": "Databasen",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Erfaring",
+      "permissions": "Tillatelser",
+      "names": "Navn",
+      "skills": "Ferdigheter",
+      "updates": "Oppdateringer"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Eier kan angripe kjæledyr"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Deaktiver Kjæledyr vs Spiller"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Kjæledyr Drap gi Spiller Belønninger"
+      },
+      "OverwriteLanguages": {
+        "label": "Overskriv språk",
+        "help": "Tving en språkkode (f.eks. en, de_DE). Tom = automatisk deteksjon."
+      },
+      "Leash_AllowRanged": {
+        "label": "Tillat Streket Leashing"
+      },
+      "Leash_Consume": {
+        "label": "Bruk søppelpost"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Følg startavstand"
+      },
+      "Repository_Type": {
+        "label": "Type kodelager"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Konverter fra",
+        "help": "Valgfritt: migrere fra en annen backend ved neste start."
+      },
+      "Repository_LoadDelay": {
+        "label": "Last forsinkelse (ticks)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQL vert"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL Database"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL bruker"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQL passord"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Tabellprefiks"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Tegnkoding"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Maks antall tilkoblinger"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Standard tidsfaktor"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Standard tid fast"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Spillerens tidsfaktor"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Spillerens tid Fikset"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Gjenoppståd tid deaktivert"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Økonomi kost-faktor"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Økonomikostnader fikset"
+      },
+      "HungerSystem_Active": {
+        "label": "Sult system Aktiv"
+      },
+      "HungerSystem_Time": {
+        "label": "Sult Spark tid"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Metning pr. strøm"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Skade faktor"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Skade satt"
+      },
+      "Exp_LevelCap": {
+        "label": "Nivå Hette"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Skade-Vektet XP distribusjon"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Tap XP ved Død"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP tap (fikset)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP Tap (prosent)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Global XP modifikator"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Passiv % pr. monster"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Nivå Beregningsmodus"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Kurve · Lineær Basis"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Kurve · Strømfaktor"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Curve · Power Exponent"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Kurve · Eksponentiell base"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Kurve · Eksponentiell vekst"
+      },
+      "Permissions_Extended": {
+        "label": "Utvidet Tillatelser"
+      },
+      "Name_MaxLength": {
+        "label": "Maks lengde navn"
+      },
+      "Name_Tag_Show": {
+        "label": "Vis navnelogg"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Prefiks for navnelogg"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Navn etikett suffiks"
+      },
+      "Name_Filter": {
+        "label": "Filtrerte ord (en per linje)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Automatisk tildeling"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Tilfeldig tildeling"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Velg en gang"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Hindre utjevning uten ferietre"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Bytt avgift for administratorer"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Bytt avgift (rettet)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Bytt avgift (prosent)"
+      },
+      "Skill_Control_Item": {
+        "label": "Kontrollér ferdighetselement"
+      },
+      "Skill_Ride_Item": {
+        "label": "Ta ferdighetspoeng"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Rid Sult Per Meter"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Lykt Sult Reduser tid"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Backpack åpner i Kreativ"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Backpack slipper når eier ies"
+      },
+      "Update_Check": {
+        "label": "Se etter oppdateringer"
+      },
+      "Update_Download": {
+        "label": "Last ned oppdateringer"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Meny – {{menuId}}",
+    "selectMenu": "Velg en meny fra sidepanelet.",
+    "notFound": "Meny <0>{{menuId}}</0> ikke funnet i arbeidsområdet.",
+    "previewLanguage": "Forhåndsvis språk:",
+    "slotWithSection": "Spor {{slot}} – seksjon: <0>{{sectionId}}</0>",
+    "slotNoSection": "Spor {{slot}} – ingen seksjon",
+    "clickSlot": "Klikk en plass for å velge seksjonen."
+  },
+  "mobXp": {
+    "title": "Mob XP belønninger",
+    "sections": "XP seksjoner",
+    "searchPlaceholder": "Søk vesener…",
+    "searchLabel": "Søk vesener",
+    "entryCount_one": "{{count}} oppføring",
+    "entryCount_other": "{{count}} oppføringer",
+    "addCustom": "+ Legg til egendefinert mob",
+    "noMatch": "Ingen vesener samsvarer med søket ditt.",
+    "noCustom": "Ingen tilpassede mobs ennå. Legg til en for å gi XP for navngitt mob.",
+    "noEntries": "Ingen oppføringer i denne filen.",
+    "colMob": "Vesendel",
+    "colMin": "Minimum",
+    "colMax": "Maks",
+    "remove": "Fjern {{name}}",
+    "tabs": {
+      "Default": "Standard",
+      "Custom": "Egendefinert"
+    },
+    "help": {
+      "Default": "XP tildelt når kjæledyr dreper en vaniljemann.",
+      "Custom": "XP for tilpassede vesener (f.eks. MythicMobs). Match mob's eksakte navn."
+    },
+    "promptCustomName": "Egendefinert mob navn (mob's nøyaktige visningsnavn, f.eks en MythicMobs id):"
+  },
+  "localeEditor": {
+    "title": "Språk – {{language}}",
+    "selectLanguage": "Velg et språk fra sidestolpen.",
+    "promptKey": "Overstyr nøkkel (eks. Meldinge.Pet.Spawn):",
+    "invalidKey": "Nøklene kan ikke inneholde mellomrom eller \"=\".",
+    "duplicateKey": "Den nøkkelen har allerede en overstyring.",
+    "view": "Lokal visning",
+    "tabOverrides": "Mine overstyringer",
+    "tabAll": "Alle strenger",
+    "searchPlaceholder": "Søk etter nøkler eller tekst…",
+    "searchLabel": "Søk i språknøkler eller tekst",
+    "onlyOverridden": "Vis bare overstyrte",
+    "overrideCount": "Overføringer av {{shown}} av {{total}}",
+    "keyCount_one": "{{count}} nøkkel",
+    "keyCount_other": "{{count}} nøkler",
+    "addOverride": "+ Legg til overstyring",
+    "noOverrides": "Ingen overstyringer for <0>{{language}}</0> ennå. Bytt til <1>{{tabAll}}</1> for å bla gjennom og overstyre standardinnstillingene.",
+    "noOverrideMatch": "Ingen overstyringer samsvarer med søket ditt.",
+    "loadError": "Kunne ikke laste standard strenger for <0>{{language}}</0> fra GitHub. Du kan fremdeles legge til overstyringer manuelt fra \"{{tabOverrides}}-visning.",
+    "loadingDefaults": "Laster inn standard strenger…",
+    "noStringMatch": "Ingen strenger samsvarer med søket ditt.",
+    "colKey": "Nøkkel",
+    "colDefault": "Standard",
+    "colOverride": "Overstyr",
+    "noDefault": "(ingen standard)",
+    "remove": "Fjern {{key}}",
+    "reset": "Reset {{key}} to default"
+  },
+  "petShops": {
+    "title": "Kjæledyr Butikker",
+    "shops": "Butikker",
+    "promptShopId": "Ny butikk-id (bokstaver, tall, understrekingstegn - for eksempel premium):",
+    "invalidShopId": "Butikk-id kan bare inneholde bokstaver, tall og understrekingstegn.",
+    "duplicateShop": "En butikk med navn \"{{key}}\" finnes allerede.",
+    "confirmDeleteShop": "Slette butikken \"{{name}}og alle dens kjæledyr?",
+    "addShop": "+ Legg til butikk",
+    "deleteShop": "Slett denne butikken",
+    "noShops": "Ingen butikker definert. Legg til en for å begynne å selge kjæledyper.",
+    "displayName": "Vis navn",
+    "defaultShop": "Standard butikk",
+    "defaultShopHint": "Åpnet av /petshop uten argumenter.",
+    "menuPosition": "Menyens posisjon",
+    "balanceType": "Saldo type",
+    "balanceTypeHint": "Hvor kjøpesum går.",
+    "balanceOwner": "Saldo Eier",
+    "balanceOwnerBank": "Hvelv banknavn.",
+    "balanceOwnerPlayer": "Spiller UUID.",
+    "iconMaterial": "Ikonet materiale",
+    "iconMaterialHint": "Elementet som vises i butikkmenyen (f.eks. kiste, egg).",
+    "iconGlowing": "Ikon glødende",
+    "pets": "Kjæledyr",
+    "searchPets": "Search pets…",
+    "searchPetsLabel": "Søk etter dyr i denne butikken",
+    "petCount": "{{shown}} av {{total}}",
+    "addPet": "+ Legg til kjæledyr",
+    "promptPetId": "Ny kjæledyr-id (bokstaver, tall, understrekingstegn — f.eks. baby_wolf):",
+    "invalidPetId": "Kjæledyrs id kan bare inneholde bokstaver, tall og understreker.",
+    "duplicatePet": "Et kjæledyr \"{{key}}\" finnes allerede i butikken.",
+    "noPets": "Ingen kjæledyr i butikken ennå.",
+    "noPetMatch": "Ingen dyr samsvarer med søket.",
+    "removePet": "Fjern {{name}}",
+    "petType": "Kjæledyr type",
+    "petTypeHint": "En mykjæledyr type, f.eks. WOLF, OCELOT.",
+    "price": "Pris",
+    "startingExp": "Starter EXP",
+    "positionHint": "-1 = auto-utfylling.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Valgfritt forhåndsinnstilling ferdighetstrenavn.",
+    "description": "Beskrivelse (én linje)",
+    "options": "Alternativer (en pr linje)",
+    "optionsHint": "f.eks. baby, eller type-spesifikke alternativer."
+  },
+  "petTypes": {
+    "title": "Kjæledyr typer",
+    "search": "Søk i kjæledyr typer…",
+    "searchLabel": "Søk kjæledyrtyper",
+    "noMatch": "Ingen typer samsvarer.",
+    "noTypes": "Ingen kjæledyr typer i denne filen.",
+    "deleteTitle": "Slette denne egendefinerte kjæledyrtypen",
+    "deleteButton": ":wastebask: Slett kjæledyr",
+    "confirmDelete": "Slett det egendefinerte kjæledyret \"{{name}}\"? Dette fjerner hele kjæledyr-konfigurasjon-seksjonen.",
+    "confirmDeleteTitle": "Slett egendefinert kjæledyr",
+    "confirmDeleteConfirm": "Slett",
+    "complexValue": "Kompleks-verdi – rediger via rå YAML.",
+    "model": "Modell",
+    "modelHelp": "Gjengi dette kjæledyret med en egendefinert 3D-modell fra en modell-leverandør plugin (ModelEngine, BetterModel, ItemsAdder, or MythicMobs) i stedet for sitt vanilla utseende. La leverandøren være tom for å beholde standardutseendet.",
+    "provider": "Leverandør",
+    "modelId": "Modell ID",
+    "modelCollision": "<0>{{provider}}</0> modell \"<1>{{id}}</1>\" er allerede brukt av kjæledyr typen \"<2>{{other}}</2>\". Hver egendefinerte type trenger en unik modell - utvidelsen vil i ellers hoppe over en av dem som blir lastet.",
+    "nameHeight": "Navn Høyde",
+    "nameHeightHelp": "Vertikal forskyvning for kjæledyrets navn tag over modellen.",
+    "createCustom": "➕ Opprett egendefinert kjæledyr",
+    "typeCount": "{{shown}} av {{total}} typer",
+    "animations": "Animasjoner",
+    "animationsHint": "— valgfri styring av navn"
+  },
+  "menuSection": {
+    "notFound": "Seksjon <0>{{sectionId}}</0> ikke funnet i <1>{{menuId}}</1>.",
+    "removed": "Seksjon <0>{{sectionId}}</0> fjernes fra denne menyen (skrevet som <1>null</1>).",
+    "resetDefault": "Tilbakestill til standard",
+    "removeSection": "Fjern seksjon",
+    "confirmRemove": "Fjern seksjonen \"{{sectionId}}? Dette fjerner plassen på lerretet — velg på nytt via \"Tilbakestill til standard\" hvis du endrer ditt sinn.",
+    "confirmRemoveTitle": "Fjern seksjon",
+    "confirmRemoveConfirm": "Fjern",
+    "statefulNotice": "Denne seksjonen definerer elementer per tilstand (<0>stater</0>). Feltene under redigerer base <1>element</1>, som bare gjelder når ingen statlig overstyrer det.",
+    "material": "Materiale",
+    "column": "Kolonne",
+    "row": "Rad",
+    "glow": "Glød",
+    "soundOnClick": "Lyd ved klikk",
+    "soundKey": "Nøkkel",
+    "soundVolume": "Volum",
+    "soundPitch": "Tonehøyde",
+    "pitchRangeHelp": "Foreløpig et stigningsområde - redigering her erstatter den med en fast verdi.",
+    "title": "Tittel",
+    "lore": "Bredd"
+  },
+  "petWizard": {
+    "titleAvenue": "Opprett egendefinert kjæledyr — Velg avenue",
+    "titleModel": "Opprett egendefinert kjæledyr — Konfigurer modell",
+    "titleIdentity": "Opprett egendefinert kjæledyr — Identitet og hoveddel",
+    "titleStats": "Opprette egendefinert kjæledyr — Statistikk",
+    "titleReview": "Opprette egendefinert kjæledyr — Gjennomgå",
+    "progress": "Veiviseren utvikler seg",
+    "chooseHow": "Velg hvordan du vil opprette ditt egendefinerte kjæledyre.",
+    "buildFromModel": "Bygg en skapning fra en modell",
+    "modelSource": "Modell kilde",
+    "defaultModel": "Standard modell",
+    "sourceOnlyItemsAdder": "ElementsAdder modeller er innholdspakker – velg en eksisterende id.",
+    "sourceOnlyMythicMobs": "MythicMobs mobs er definert i MythicMobs configs - velg en eksisterende vesentype.",
+    "modelId": "Modell ID",
+    "modelIdRegisteredHelp": "Velg en modell som er registrert med {{provider}}.",
+    "modelIdManualHelp": "Ingen modeller funnet for {{provider}}. Angi en modell-ID manuelt.",
+    "modelIdRequired": "Modell ID er påkrevd.",
+    "uploadLabel": "Last opp .bbmodel",
+    "uploadReconnecting": "Gjenoppretter — vent på at sesjonen kobles til før den lastes opp.",
+    "uploadNeedsSession": "Opplasting trenger en live <0>/mypet editor</0> session — koble en for å aktivere dette.",
+    "uploadExplainer": "Opplasting til {{provider}}; modellen ser ut for spillere når {{provider}} regenererer sin ressurspakke og klienter laster ned den på nytt. Filnavnet (uten <0>.bbbmodel</0>) blir modell-ID, så det må matche blåkopi-id deklarert i modellen.",
+    "uploading": "Laster opp…",
+    "uploadDone": "Lastet opp — modell ID satt til \"{{modelId}}\".",
+    "uploadFailed": "Opplasting mislyktes.",
+    "nameHeight": "Navn høyde (valgfritt)",
+    "nameHeightHelp": "Vertikal forskyvning for kjæledyrets navn tag over modellen.",
+    "modelCollision": "<0>{{provider}}</0> modell \"<1>{{modelId}}</1>\" er allerede brukt av kjæledyr typen \"<2>{{other}}</2>\". Modell er identiteten til et kjæledyr, så hver enkelt type trenger en unik modell — velg en annen (utvidelsen vil ellers hoppe over denne typen ved last).",
+    "creatureName": "Skapning navn",
+    "creatureNameHelp": "Intern kjæledyr-config nøkkel for denne kjæledyr typen (f.eks FrostDragon). Må være unik.",
+    "hostMob": "Vertsskap*",
+    "hostMobHelp": "Den vanilla Bukkit mob typen som tilbyr basis enheten for dette kjæledyret.",
+    "health": "Helse (HP)",
+    "healthHelp": "Basishelsepunkter for dette kjæledyret (f.eks. 20 = 10 hjerter).",
+    "walkSpeed": "Gå hastighet",
+    "walkSpeedHelp": "Fart for bevegelseshastighet (f.eks. 0,3 er standard gå hastighet).",
+    "food": "Mat (en vare per linje)",
+    "foodHelp": "Gjenstander som mater denne kjæledyret, f.eks. hvete. La stå tomt for å arve vertskapets mat.",
+    "leash": "Krav til løpenge",
+    "leashHelp": "Forhold som må holdes for å lede til arbeidet med dette kjæledyret (f.eks. Hvit, Baby).",
+    "leashNeedsSession": "Krav til vannmassene trenger en live-økt.",
+    "reviewIntro": "Følgende seksjon vil bli lagt til <0>pet-config.yml</0>:",
+    "back": "Tilbake",
+    "next": "Neste",
+    "create": "Opprett",
+    "nameRequired": "Navn er påkrevd."
+  }
+}

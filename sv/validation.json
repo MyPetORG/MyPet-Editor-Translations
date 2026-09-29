@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Okänd skicklighet: {{skillId}}",
+    "noUpgrades": "Färdigheten måste ha minst en uppgradering",
+    "firstLevelRequired": "Minst ett fält måste anges för den första nivån",
+    "invalidLevelKey": "Ogiltigt nivånyckelformat",
+    "duplicateLevel": "Duplicera nivånyckel: {{level}}",
+    "invalidRange": "Ogiltigt nivåintervall",
+    "emptyField": "{{field}} kan inte vara tomt",
+    "invalidNumber": "{{field}} måste vara ett giltigt nummer",
+    "invalidPlusNumber": "{{field}} måste vara ett signerat nummer (t.ex. +1 eller +0.5)",
+    "minValue": "{{field}} måste vara minst {{min}}",
+    "maxValue": "{{field}} måste vara som mest {{max}}",
+    "requiredField": "{{field}} krävs",
+    "emptyRequirementKey": "Anpassad kravnyckel kan inte vara tom",
+    "emptyRequirementValue": "Anpassat kravvärde kan inte vara tomt",
+    "emptySkilltreeRequirement": "Skilltree-kravet måste ha ett skilltree valt",
+    "emptyPermissionRequirement": "Behörighetskrav kan inte vara tomt",
+    "unknownField": "Okänt fält \"{{field}}\" (hålls som as-is, servern kommer att ignorera det)",
+    "badNumber": "{{field}} måste vara ett signerat nummer som \"+5\" eller \"-2.5\"",
+    "badInteger": "{{field}} måste vara ett signerat heltal som \"+5\"",
+    "badBoolean": "{{field}} måste vara sant eller falskt",
+    "badEnum": "{{field}} måste vara ett av de angivna värdena",
+    "badGroup": "{{field}} måste vara ett objekt",
+    "badList": "{{field}} måste vara en lista över poster",
+    "badListInteger": "{{field}} måste vara ett heltal som 6",
+    "badListNumber": "{{field}} måste vara ett tal som 6 eller 2.5",
+    "badListString": "{{field}} måste vara text"
+  }
+}

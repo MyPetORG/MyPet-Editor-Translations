@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "No skilltree selected",
+    "description": "Select a skilltree from the sidebar, or import .st.json files to get started.",
+    "loadDefaultsCta": "Load Defaults"
+  },
+  "tabs": {
+    "properties": "Properties",
+    "appearance": "Appearance",
+    "eligiblePets": "Eligible Pets",
+    "requirements": "Requirements",
+    "notifications": "Notifications",
+    "skills": "Skills",
+    "timeline": "Timeline"
+  },
+  "inspector": {
+    "expand": "Expand inspector",
+    "collapse": "Collapse inspector",
+    "requirementsHint": "Edges show the first Skilltree group; all requirements are editable here."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Combat",
+    "inheritance": "Inheritance",
+    "inheritancePlaceholder": "Select parent skilltree...",
+    "weight": "Weight",
+    "weightPlaceholder": "15",
+    "permission": "Permission",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Name",
+    "namePlaceholder": "Combat",
+    "iconMaterial": "Icon Material",
+    "iconMaterialPlaceholder": "stone_axe",
+    "glowing": "Glowing",
+    "description": "Description",
+    "descriptionPlaceholder": "A combat-focused skilltree...",
+    "viewJson": "View JSON",
+    "jsonPreview": "Preview of the selected skilltree as JSON."
+  },
+  "eligiblePets": {
+    "title": "Eligible Pets",
+    "none": "None",
+    "all": "All (*)",
+    "selected": "Selected",
+    "includeFutureMobs": "Include mobs from future Minecraft updates",
+    "allPetsNotice": "All Pets listed here, including Pets from future updates, will be eligible for this Skill.",
+    "noPetsNotice": "No Pets will be eligible for this Skill.",
+    "loading": "Loading latest Minecraft entities…",
+    "loadError": "Failed to load mob list from minecraft-data",
+    "customHeading": "From pet-config",
+    "customHint": "Custom pet types defined in this server's pet-config.yml.",
+    "unrecognizedHeading": "Unrecognized",
+    "unrecognizedNotice": "These entries match no Minecraft mob and no pet-config type."
+  },
+  "requirements": {
+    "title": "Requirements",
+    "minLevel": "Minimum Pet Level",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Maximum Pet Level",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Add Requirement",
+    "requirementType": "Requirement Type",
+    "permission": "Permission",
+    "permissionPlaceholder": "TestPermission",
+    "skilltree": "Skilltree",
+    "noSkilltree": "No Skilltree",
+    "custom": "Custom",
+    "customKey": "Custom Key",
+    "customKeyPlaceholder": "CustomName",
+    "customValue": "Custom Value",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "There are no permission, Skilltree, or custom requirements for this Skilltree.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Copy permission"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "addNotification": "Add Notification",
+    "message": "Message",
+    "messagePlaceholder": "{{owner}}'s pet {{pet}} has reached level {{level}}!"
+  },
+  "skills": {
+    "title": "Skills",
+    "addSkill": "Add Skill",
+    "selectSkill": "Select a skill...",
+    "noSkills": "No skills yet.",
+    "removeSkill": "Remove skill",
+    "addUpgrade": "Add Upgrade",
+    "editUpgrade": "Edit Upgrade",
+    "noUpgrades": "No upgrades yet.",
+    "level": "Level {{level}}",
+    "levels": "Levels",
+    "everyLevel": "Every level",
+    "everyNLevels": "Every {{n}} levels",
+    "everyNLevelsFrom": "Every {{n}} levels from level {{start}} onward",
+    "everyNLevelsBetween": "Every {{n}} levels between levels {{start}} and {{end}}",
+    "fixedLevels": "Level: {{levels}}",
+    "skillExists": "This skill already exists.",
+    "unknownSkill": "Unknown skill",
+    "levelList": "Levels {{levels}}",
+    "everyLevelRange": "Every level ({{start}}-{{until}})",
+    "everyNLevelsRange": "Every {{n}} levels ({{start}}-{{until}})",
+    "everyLevelFrom": "Every level from {{start}}",
+    "everyNLevelsFromStart": "Every {{n}} levels from {{start}}"
+  },
+  "levelModal": {
+    "title": "Select Levels",
+    "fixed": "Fixed",
+    "dynamic": "Dynamic",
+    "fixedHelp": "Enter one or more levels (space/comma separated)",
+    "fixedPlaceholder": "e.g. 1 3 5 or 1,3,5",
+    "every": "Every (required)",
+    "startFrom": "Start from level (optional)",
+    "until": "Until level (optional)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ New skilltree",
+    "searchPlaceholder": "Search skilltrees…",
+    "noMatches": "No matches",
+    "undo": "Undo",
+    "redo": "Redo",
+    "moreActions": "More actions",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Delete skilltree",
+    "deleteConfirm": "Delete {{name}}?",
+    "deleteConfirmWithRefs": "Delete {{name}}? Other trees referencing it will show a dangling-reference badge.",
+    "speciesPlaceholder": "Species…",
+    "exitJourney": "Exit journey mode"
+  },
+  "journey": {
+    "panelTitle": "Journey: {{species}}",
+    "levelLabel": "Level",
+    "currentTreeLabel": "Current tree",
+    "freshPet": "none — fresh pet",
+    "clickHint": "Simulating: click a highlighted tree to choose it",
+    "reset": "Reset to fresh pet",
+    "permissionNote": "Permission requirements assumed granted",
+    "previewTitle": "Inventory preview",
+    "requiresLevel": "Requires level {{level}}",
+    "clickToApply": "Click to apply",
+    "noneAvailable": "There are <red>no</red> skilltrees available for <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} eligible"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Edit raw…",
+      "editRawTitle": "Edit raw: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Requirement",
+      "kindInheritance": "Inheritance",
+      "requirement": "{{prerequisite}} is a requirement of {{owner}}",
+      "anyOf": "Satisfied by any one of: {{list}}",
+      "inheritance": "{{owner}} inherits the skills of {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} is a requirement of each of the {{count}} skilltrees in this stack"
+    }
+  },
+  "validation": {
+    "error": "Validation error",
+    "hasErrors": "This skilltree has validation errors",
+    "skillHasErrors": "This skill has validation errors",
+    "issueInSkill": "Validation issue in this skill. Expand to edit values."
+  },
+  "timeline": {
+    "inspectLevel": "Inspect level",
+    "modeSingle": "Single",
+    "modeLevels": "Levels",
+    "modeRepeat": "Repeat",
+    "atLevel": "at level",
+    "levels": "levels",
+    "every": "every",
+    "from": "from",
+    "until": "until",
+    "keyPreview": "→ key: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamond or base64:… (from /petadmin info item)",
+    "addRow": "+ Add"
+  },
+  "node": {
+    "namePlaceholder": "Name",
+    "iconPlaceholder": "Icon material",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Click to expand",
+    "allSpecies": "all species",
+    "noSpecies": "no species",
+    "speciesCount_one": "{{count}} species",
+    "speciesCount_other": "{{count}} species",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Lv up to {{max}}"
+  },
+  "canvas": {
+    "empty": "No skilltrees in this workspace yet.",
+    "layingOut": "Laying out canvas…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType is required",
+    "priceExpNonNegative": "Price and EXP must be ≥ 0",
+    "minMaxNumbers": "Min and Max must be numbers",
+    "valuesNonNegative": "Values must be ≥ 0",
+    "maxGteMin": "Max must be ≥ Min"
+  }
+}

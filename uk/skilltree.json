@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Не вибрано дерево вмінь",
+    "description": "Виберіть дерево вміннь з бічної панелі або імпортуйте .st.json для початку.",
+    "loadDefaultsCta": "Типові значення"
+  },
+  "tabs": {
+    "properties": "Властивості",
+    "appearance": "Зовнішній вигляд",
+    "eligiblePets": "Пильні домашні улюбленці",
+    "requirements": "Вимоги",
+    "notifications": "Сповіщення",
+    "skills": "Навики",
+    "timeline": "Хронологія"
+  },
+  "inspector": {
+    "expand": "Розгорнути інспектор",
+    "collapse": "Згорнути інспектор",
+    "requirementsHint": "Ребра показують першу групу Вміння дерева; всі вимоги можна редагувати тут."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Бій",
+    "inheritance": "Спадкування",
+    "inheritancePlaceholder": "Вибрати батьківський навичк...",
+    "weight": "Вага",
+    "weightPlaceholder": "15",
+    "permission": "Дозвіл",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Ім'я",
+    "namePlaceholder": "Бій",
+    "iconMaterial": "Матеріал іконок",
+    "iconMaterialPlaceholder": "кам'яний_вісь",
+    "glowing": "Світильник",
+    "description": "Опис",
+    "descriptionPlaceholder": "Вміння, орієнтоване на бій...",
+    "viewJson": "Перегляд JSON",
+    "jsonPreview": "Попередній перегляд вибраного дерева вмінь як JSON."
+  },
+  "eligiblePets": {
+    "title": "Пильні домашні улюбленці",
+    "none": "Без ефекту",
+    "all": "Всі (*)",
+    "selected": "Вибрано",
+    "includeFutureMobs": "Включає мобів з майбутніх оновлень Minecraft",
+    "allPetsNotice": "Усі домашні тварини, перераховані тут, включно з домашніми оновленнями, матимуть право на це вміння.",
+    "noPetsNotice": "Жодного домашнього улюбленця не матимуть право на це вміння.",
+    "loading": "Завантаження останніх об'єктів Minecraft…",
+    "loadError": "Не вдалося завантажити моб список за допомогою minecraft-даних",
+    "customHeading": "Від кет-конфігурації",
+    "customHint": "Користувальницькі домашні типи тварин визначені в pet-config.yml.",
+    "unrecognizedHeading": "Нерозпізнано",
+    "unrecognizedNotice": "Ці записи не збігаються з Minecraft mob і не мають типу пет-конфігурації."
+  },
+  "requirements": {
+    "title": "Вимоги",
+    "minLevel": "Мінімальний рівень домашнього улюбленця",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Максимальний рівень домашнього улюбленця",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Додати вимоги",
+    "requirementType": "Тип вимоги",
+    "permission": "Дозвіл",
+    "permissionPlaceholder": "Тестування дозволу",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Без Скіллдерева",
+    "custom": "Користувацька",
+    "customKey": "Спеціальний ключ",
+    "customKeyPlaceholder": "Користувальницьке ім'я",
+    "customValue": "Власне Значення",
+    "customValuePlaceholder": "Бупбіп",
+    "noRequirements": "Немає дозволів, Вмінням або Вимоги для цього Вміння.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Копіювати дозвіл"
+  },
+  "notifications": {
+    "title": "Сповіщення",
+    "addNotification": "Додати сповіщення",
+    "message": "Повідомлення",
+    "messagePlaceholder": "{{owner}}корпус {{pet}} досяг рівня {{level}}"
+  },
+  "skills": {
+    "title": "Навики",
+    "addSkill": "Додати Вміння",
+    "selectSkill": "Виберіть навичку...",
+    "noSkills": "Ще немає навичок.",
+    "removeSkill": "Видалити вміння",
+    "addUpgrade": "Додати покращення",
+    "editUpgrade": "Редагувати оновлення",
+    "noUpgrades": "Оновлень поки немає.",
+    "level": "Level {{level}}",
+    "levels": "Рівні",
+    "everyLevel": "Кожен рівень",
+    "everyNLevels": "Кожен рівень {{n}}",
+    "everyNLevelsFrom": "Every {{n}} levels from level {{start}} onward",
+    "everyNLevelsBetween": "Every {{n}} levels between levels {{start}} and {{end}}",
+    "fixedLevels": "Level: {{levels}}",
+    "skillExists": "Це вміння вже існує.",
+    "unknownSkill": "Невідома навичка",
+    "levelList": "Рівні {{levels}}",
+    "everyLevelRange": "Кожен рівень ({{start}}-{{until}})",
+    "everyNLevelsRange": "Кожен рівень {{n}} ({{start}}-{{until}})",
+    "everyLevelFrom": "Кожен рівень з {{start}}",
+    "everyNLevelsFromStart": "Кожен рівень {{n}} від {{start}}"
+  },
+  "levelModal": {
+    "title": "Оберіть рівні",
+    "fixed": "Виправлена",
+    "dynamic": "Динамічний",
+    "fixedHelp": "Введіть один або декілька рівнів (пробіл/кома розділено)",
+    "fixedPlaceholder": "напр. 1 3 5 або 1,3,5",
+    "every": "Кожні (обов'язково)",
+    "startFrom": "Почати з рівня (необов'язково)",
+    "until": "До рівня (необов'язково)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Нове дерево вмінь",
+    "searchPlaceholder": "Search skilltrees…",
+    "noMatches": "Збігів немає",
+    "undo": "Скасувати",
+    "redo": "Повторити дію",
+    "moreActions": "Більше дій",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Видалити дерево навичок",
+    "deleteConfirm": "Видалити {{name}}?",
+    "deleteConfirmWithRefs": "Видалити {{name}}? Інші дерева, на які посилаються, покаже значок з небезпечним посиланням.",
+    "speciesPlaceholder": "Species…",
+    "exitJourney": "Вихід з режиму поїздки"
+  },
+  "journey": {
+    "panelTitle": "Journey: {{species}}",
+    "levelLabel": "Рівень",
+    "currentTreeLabel": "Поточне дерево",
+    "freshPet": "ніхто — свіжий килим",
+    "clickHint": "Моделювання: натисніть на виділене дерево, щоб вибрати його",
+    "reset": "Скинути до початкового улюбленця",
+    "permissionNote": "Передбачені вимоги дозволів отримані",
+    "previewTitle": "Попередній перегляд інвентарю",
+    "requiresLevel": "Вимагає рівень {{level}}",
+    "clickToApply": "Натисніть для застосування",
+    "noneAvailable": "Відсутні <red>навички та навичок</red> для <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} eligible"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Редагувати сирий…",
+      "editRawTitle": "Edit raw: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Вимога",
+      "kindInheritance": "Спадкування",
+      "requirement": "{{prerequisite}} є вимогою {{owner}}",
+      "anyOf": "Satisfied by any one of: {{list}}",
+      "inheritance": "{{owner}} успадковує вміння {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} - це вимога кожного з дерев {{count}} в цьому стеку"
+    }
+  },
+  "validation": {
+    "error": "Помилка перевірки",
+    "hasErrors": "Це дерево навичок має помилки перевірки",
+    "skillHasErrors": "Це вміння має помилки перевірки",
+    "issueInSkill": "Проблема перевірки в цьому вмінні. Розширте для редагування значень."
+  },
+  "timeline": {
+    "inspectLevel": "Оглянути рівень",
+    "modeSingle": "Сингл",
+    "modeLevels": "Рівні",
+    "modeRepeat": "Повторити",
+    "atLevel": "на рівні",
+    "levels": "рівні",
+    "every": "кожні",
+    "from": "від",
+    "until": "до",
+    "keyPreview": "→ key: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamond або base64:… (від інформації про /petadmin)",
+    "addRow": "+ Додати"
+  },
+  "node": {
+    "namePlaceholder": "Ім'я",
+    "iconPlaceholder": "Матеріал іконок",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Натисніть, щоб розгорнути",
+    "allSpecies": "всі види",
+    "noSpecies": "немає видів",
+    "speciesCount_one": "{{count}} видів",
+    "speciesCount_other": "{{count}} видів",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Перейти до {{max}}"
+  },
+  "canvas": {
+    "empty": "Відсутні вмінні дерева для цієї робочої області.",
+    "layingOut": "Програмування полотна…"
+  },
+  "entry": {
+    "petTypeRequired": "Потрібен PetType",
+    "priceExpNonNegative": "Ціна і Досвід повинні бути ≥ 0",
+    "minMaxNumbers": "Мін. і Макс. повинні бути числами",
+    "valuesNonNegative": "Значення повинні бути ≥ 0",
+    "maxGteMin": "Макс повинен бути ≥ Min"
+  }
+}

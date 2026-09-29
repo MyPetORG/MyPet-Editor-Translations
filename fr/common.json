@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Sélectionnez une zone de configuration dans la barre latérale."
+  },
+  "actions": {
+    "import": "Importer",
+    "export": "Exporter",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "delete": "Effacer",
+    "add": "Ajouter",
+    "remove": "Enlever",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "ok": "OK",
+    "confirm": "Confirmer",
+    "done": "Terminer",
+    "loadDefaults": "Charger les paramètres par défaut",
+    "chooseFiles": "Choisir les fichiers",
+    "copyJson": "Copier JSON",
+    "download": "Télécharger",
+    "selectAll": "Tout sélectionner",
+    "deselectAll": "Tout désélectionner",
+    "copy": "Copie"
+  },
+  "autosave": {
+    "saved": "Sauvegardé",
+    "savedAt": "Sauvegardé {{time}}",
+    "saving": "Sauvegarde automatique…",
+    "pending": "Changements non enregistrés",
+    "justNow": "À l'instant",
+    "secondsAgo": "Il y a {{s}}s",
+    "minutesAgo": "Il y a {{m}}m",
+    "hoursAgo": "Il y a {{h}}h"
+  },
+  "modals": {
+    "import": {
+      "title": "Importer des arbres d'aptitudes",
+      "description": "Déposez un fichier .zip (plusieurs arborescences) ou un seul fichier .st.json.",
+      "dragHere": "Glissez et déposez des fichiers ici",
+      "or": "ou",
+      "reading": "Lecture des fichiers…"
+    },
+    "confirm": {
+      "title": "Confirmer",
+      "deleteTree": "Supprimer l'arbre d'aptitude \"{{id}} \" ?",
+      "deleteSkill": "Supprimer la compétence \"{{id}} \" ?",
+      "loadDefaults": "Cela remplacera vos arbres d'aptitudes actuels par les exemples par défaut et effacera votre brouillon local. Continuer ?"
+    },
+    "alert": {
+      "title": "Alerte",
+      "importFailed": "Impossible d'importer le(s) fichier(s).",
+      "exportBlocked": "Exportation bloquée : arbre(s) d'aptitudes {{count}} a des erreurs de validation.\n\nArborescences non valides : {{names}}\n\nVeuillez corriger toutes les erreurs de validation avant l'exportation.",
+      "noTreesToExport": "Aucun arbre d'aptitude à exporter.",
+      "duplicateId": "Un arbre d'aptitude avec cet ID existe déjà.",
+      "loadDefaultsFailed": "Échec du chargement des exemples par défaut",
+      "jsonCopied": "JSON copié dans le presse-papier",
+      "jsonCopyFailed": "Échec de la copie JSON"
+    },
+    "viewSource": "Voir la source"
+  },
+  "language": {
+    "select": "Sélectionner une langue",
+    "loading": "Chargement des traductions en cours..."
+  },
+  "tooltip": {
+    "breakdown": "Répartition",
+    "total": "Total",
+    "goHome": "Aller à la page d'accueil",
+    "allChangesSaved": "Toutes les modifications enregistrées",
+    "saveChanges": "Enregistrer les modifications",
+    "importFile": "Importer .st.json",
+    "loadDefaults": "Charger les arbres d'exemple par défaut",
+    "exportZip": "Exporter tous les arbres vers un zip",
+    "delete": "Supprimer",
+    "openDocs": "Ouvrir la documentation MyPet",
+    "switchToLight": "Passer en thème clair",
+    "switchToDark": "Passer en thème sombre",
+    "tipOnKofi": "Soutenir ce projet sur Ko-fi"
+  },
+  "footer": {
+    "builtBy": "Construit avec ❤️ par",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Gras",
+    "italic": "Italic",
+    "underline": "Souligné",
+    "strikethrough": "Barré",
+    "reset": "Réinitialiser",
+    "placeholder": "Entrer le texte du MiniMessage. Utilisez la barre d'outils pour insérer des étiquettes."
+  },
+  "common": {
+    "none": "(Aucun)",
+    "noOptions": "(Aucune option)"
+  },
+  "sidebar": {
+    "title": "Arbres d'aptitudes",
+    "newSkilltree": "Nouvel arbre d'aptitudes",
+    "order": "Commander {{order}}",
+    "expand": "Agrandir",
+    "collapse": "Réduire",
+    "expandSidebar": "Agrandir la barre latérale",
+    "collapseSidebar": "Réduire la barre latérale",
+    "reorder": "Réorganiser",
+    "dragToReorder": "Glisser pour réordonner",
+    "reviewSave": "Réviser & Enregistrer",
+    "nothingToSave": "Aucune modification non enregistrée",
+    "configSections": "Sections de configuration",
+    "category": {
+      "general": "Généraux",
+      "pets": "Animaux de compagnie",
+      "experience": "Expérience",
+      "skilltrees": "Arbres d'aptitudes",
+      "locale": "Locale",
+      "hooks": "Crochets",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Aucun espace de travail chargé",
+    "expiringSoon": "Session expirant bientôt",
+    "demoData": "Exemple de données · les modifications ne seront pas enregistrées",
+    "rejected": "Le serveur a rejeté les modifications."
+  },
+  "editors": {
+    "config": {
+      "label": "Configuration principale"
+    },
+    "petConfig": {
+      "label": "Configuration des animaux de compagnie"
+    },
+    "expConfig": {
+      "label": "Récompenses d'XP de Mob"
+    },
+    "petShops": {
+      "label": "Boutiques d'animaux de compagnie"
+    },
+    "skilltrees": {
+      "label": "Arbres d'aptitudes"
+    },
+    "locale": {
+      "label": "Locale"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Connexion à votre serveur",
+    "loadingSubtitle": "Chargement de la configuration…",
+    "trustTitle": "Autoriser ce navigateur",
+    "trustSubtitle": "Ce navigateur n'est pas encore approuvé. Exécutez ce jeu pour vous connecter :",
+    "trustWaiting": "En attente d'autorisation…",
+    "noSessionTitle": "Aucune session active",
+    "noSessionSubtitle": "Exécutez <0>/mypet editor</0> en jeu et ouvrez le lien qu'il vous donne.",
+    "tryDemo": "Essayez la démo",
+    "demoHint": "Explorez chaque éditeur avec des données d'exemple — aucun serveur nécessaire.",
+    "endedTitle": "La session de l'éditeur est terminée",
+    "endedSubtitle": "Le serveur l'a fermé, ou il a expiré. Lancez <0>/mypet editor</0> en jeu pour en démarrer un nouveau, puis ouvrez le nouveau lien qu'il vous donne."
+  },
+  "reviewSave": {
+    "title": "Réviser & Enregistrer",
+    "noChanges": "Aucune modification non enregistrée.",
+    "summary_one": "Fichier {{count}} avec modifications non enregistrées",
+    "summary_other": "Fichiers {{count}} avec des modifications non enregistrées",
+    "tagRemoved": "enlevé",
+    "tagAdded": "Ajouté",
+    "empty": "(vide)",
+    "apply": "Appliquer les modifications",
+    "applying": "Application de…",
+    "hintNoChanges": "Aucune modification à appliquer.",
+    "hintNotConnected": "Connectez d'abord une session en direct — exécutez /mypet éditeur et autorisez le navigateur.",
+    "hintNoSession": "Aucune session active.",
+    "hintReady": "Écrivez ces modifications sur le serveur et rechargez-les.",
+    "formattingOnly": "Formatage uniquement (sans changement de valeur)",
+    "stAdded": "{{count}} ajouté",
+    "stRemoved": "{{count}} supprimé",
+    "stModified": "{{count}} modifié",
+    "stBroken": "{{count}} broken file(s) changed",
+    "noNetChange": "pas de changement net",
+    "localeSummary": "Clés {{keys}} dans la(les) langue(s) {{langs}}",
+    "applyFailed": "Impossible d'appliquer les modifications"
+  },
+  "sessionClosed": {
+    "title": "Session fermée",
+    "body": "La session de l'éditeur web a pris fin (fermé en jeu ou expiré). Les modifications ne peuvent plus être enregistrées — exécutez à nouveau <0>/mypet editor</0> pour démarrer une nouvelle session.",
+    "viewReadOnly": "Voir en lecture seule"
+  }
+}

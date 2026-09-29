@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Wählen Sie einen Konfigurationsbereich aus der Seitenleiste."
+  },
+  "actions": {
+    "import": "Importieren",
+    "export": "ZIP exportieren",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "add": "Neu",
+    "remove": "Entfernen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "ok": "Ok",
+    "confirm": "Bestätigen",
+    "done": "Fertig",
+    "loadDefaults": "Load-Standard",
+    "chooseFiles": "Dateien auswählen",
+    "copyJson": "JSON kopieren",
+    "download": "Download",
+    "selectAll": "Alle auswählen",
+    "deselectAll": "Alle abwählen",
+    "copy": "Kopieren"
+  },
+  "autosave": {
+    "saved": "Gespeichert",
+    "savedAt": "Gespeicherter {{time}}",
+    "saving": "Automatisch…",
+    "pending": "Ungespeicherte Änderungen",
+    "justNow": "gerade jetzt",
+    "secondsAgo": "{{s}}s vor",
+    "minutesAgo": "{{m}}m vor",
+    "hoursAgo": "{{h}}h vor"
+  },
+  "modals": {
+    "import": {
+      "title": "Fähigkeitenbäume importieren",
+      "description": "Ziehen Sie eine .zip (mehrere Bäume) oder eine einzelne .st.json-Datei.",
+      "dragHere": "Drag & Drop Dateien hier",
+      "or": "oder",
+      "reading": "Lese Dateien…"
+    },
+    "confirm": {
+      "title": "Bestätigen",
+      "deleteTree": "Skillbaum \"{{id}} \"löschen?",
+      "deleteSkill": "Fähigkeit \"{{id}} \"entfernen?",
+      "loadDefaults": "Dies wird deine aktuellen Fertigkeitenbäume durch die Standardbeispiele ersetzen und deinen lokalen Entwurf löschen. Fortfahren?"
+    },
+    "alert": {
+      "title": "Warnung",
+      "importFailed": "Fehler beim Importieren der Datei(en).",
+      "exportBlocked": "Export blockiert: {{count}} skilltree(s) haben Validierungsfehler.\n\nUngültige Bäume: {{names}}\n\nBitte beheben Sie alle Validierungsfehler vor dem Exportieren.",
+      "noTreesToExport": "Keine Skillbäume zu exportieren.",
+      "duplicateId": "Ein Kompetenzbaum mit dieser ID existiert bereits.",
+      "loadDefaultsFailed": "Fehler beim Laden der Standardbeispiele",
+      "jsonCopied": "JSON in Zwischenablage kopiert",
+      "jsonCopyFailed": "Fehler beim Kopieren von JSON"
+    },
+    "viewSource": "Quelle anzeigen"
+  },
+  "language": {
+    "select": "Sprache auswählen",
+    "loading": "Lade Übersetzungen..."
+  },
+  "tooltip": {
+    "breakdown": "Aufschlüsselung",
+    "total": "Gesamt",
+    "goHome": "Gehe nach Hause",
+    "allChangesSaved": "Alle Änderungen gespeichert",
+    "saveChanges": "Änderungen speichern",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Standardbeispielbäume laden",
+    "exportZip": "Alle Bäume in einen Reißverschluss exportieren",
+    "delete": "Löschen",
+    "openDocs": "MyHaus-Dokumentation öffnen",
+    "switchToLight": "Zum Lichtmodus wechseln",
+    "switchToDark": "Zum dunklen Modus wechseln",
+    "tipOnKofi": "Unterstütze dieses Projekt auf Ko-fi"
+  },
+  "footer": {
+    "builtBy": "gebaut mit ❤️ von",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Unterstrichen",
+    "strikethrough": "Schlag",
+    "reset": "Reset",
+    "placeholder": "MiniMessage Text eingeben. Symbolleiste zum Einfügen von Tags verwenden."
+  },
+  "common": {
+    "none": "(Kein)",
+    "noOptions": "(Keine Optionen)"
+  },
+  "sidebar": {
+    "title": "Fähigkeitsbäume",
+    "newSkilltree": "Neuer Kompetenzbaum",
+    "order": "Order {{order}}",
+    "expand": "Erweitern",
+    "collapse": "Einklappen",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Seitenleiste einklappen",
+    "reorder": "Umsortieren",
+    "dragToReorder": "Ziehen um neu zu ordnen",
+    "reviewSave": "Bewertung & Speichern",
+    "nothingToSave": "Keine ungespeicherten Änderungen",
+    "configSections": "Konfigurationssektionen",
+    "category": {
+      "general": "Allgemein",
+      "pets": "Haustiere",
+      "experience": "Erfahrung",
+      "skilltrees": "Fähigkeitsbäume",
+      "locale": "Lokal",
+      "hooks": "Hooks",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Kein Arbeitsbereich geladen",
+    "expiringSoon": "Sitzung läuft bald ab",
+    "demoData": "Beispieldaten · Änderungen werden nicht gespeichert",
+    "rejected": "Der Server hat die Änderungen abgelehnt."
+  },
+  "editors": {
+    "config": {
+      "label": "Hauptkonfiguration"
+    },
+    "petConfig": {
+      "label": "Haustierkonfiguration"
+    },
+    "expConfig": {
+      "label": "Mob-XP-Belohnungen"
+    },
+    "petShops": {
+      "label": "Haustiergeschäfte"
+    },
+    "skilltrees": {
+      "label": "Fähigkeitsbäume"
+    },
+    "locale": {
+      "label": "Lokal"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Verbinde mit Ihrem Server",
+    "loadingSubtitle": "Konfiguration wird geladen…",
+    "trustTitle": "Diesen Browser autorisieren",
+    "trustSubtitle": "Diesem Browser ist noch nicht vertraut. Führen Sie dieses in-game aus, um sich zu verbinden:",
+    "trustWaiting": "Warte auf Autorisierung…",
+    "noSessionTitle": "Keine aktive Sitzung",
+    "noSessionSubtitle": "Führen Sie <0>/mypet editor</0> im Spiel aus und öffnen Sie den Link, den es Ihnen gibt.",
+    "tryDemo": "Demo testen",
+    "demoHint": "Entdecken Sie jeden Editor mit Beispieldaten — kein Server erforderlich.",
+    "endedTitle": "Diese Editor-Sitzung ist beendet",
+    "endedSubtitle": "Der Server schloss es, oder es war abgelaufen. Führen Sie <0>/mypet editor</0> im Spiel aus, um ein neues zu starten und öffnen Sie dann den neuen Link, den er Ihnen bietet."
+  },
+  "reviewSave": {
+    "title": "Bewertung & Speichern",
+    "noChanges": "Keine ungespeicherten Änderungen.",
+    "summary_one": "{{count}} Datei mit ungespeicherten Änderungen",
+    "summary_other": "{{count}} Dateien mit ungespeicherten Änderungen",
+    "tagRemoved": "entfernt",
+    "tagAdded": "hinzugefügt",
+    "empty": "(leer)",
+    "apply": "Änderungen anwenden",
+    "applying": "Anwenden…",
+    "hintNoChanges": "Keine Änderungen anzuwenden.",
+    "hintNotConnected": "Verbinden Sie zuerst eine Live-Session — führen Sie /mypet Editor aus und autorisieren Sie den Browser.",
+    "hintNoSession": "Keine aktive Sitzung.",
+    "hintReady": "Schreiben Sie diese Änderungen auf den Server und laden Sie sie neu.",
+    "formattingOnly": "Nur Formatierung (keine Werteänderungen)",
+    "stAdded": "{{count}} hinzugefügt",
+    "stRemoved": "{{count}} entfernt",
+    "stModified": "{{count}} geändert",
+    "stBroken": "{{count}} defekte Datei(en) geändert",
+    "noNetChange": "keine Netzänderung",
+    "localeSummary": "{{keys}} Schlüssel(e) über {{langs}} Sprache(n)",
+    "applyFailed": "Fehler beim Anwenden der Änderungen"
+  },
+  "sessionClosed": {
+    "title": "Sitzung geschlossen",
+    "body": "Die Sitzung des Web-Editors wurde beendet (geschlossen im Spiel oder Timeout). Änderungen können nicht mehr gespeichert werden — Führen Sie <0>/mypet editor</0> erneut aus, um eine neue Sitzung zu starten.",
+    "viewReadOnly": "Nur-Lese-Ansicht"
+  }
+}

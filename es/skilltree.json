@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Ningún árbol de habilidades seleccionado",
+    "description": "Seleccione un árbol de habilidades de la barra lateral o importe archivos .st.json para empezar.",
+    "loadDefaultsCta": "Cargar valores por defecto"
+  },
+  "tabs": {
+    "properties": "Propiedades",
+    "appearance": "Apariencia",
+    "eligiblePets": "Mascotas elegibles",
+    "requirements": "Requisitos",
+    "notifications": "Notificaciones",
+    "skills": "Habilidades",
+    "timeline": "Línea de tiempo"
+  },
+  "inspector": {
+    "expand": "Expandir inspector",
+    "collapse": "Colapsar inspector",
+    "requirementsHint": "Los bordes muestran el primer grupo de habilidades; todos los requisitos son editables aquí."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Combate",
+    "inheritance": "Herencia",
+    "inheritancePlaceholder": "Seleccionar árbol de habilidades padre...",
+    "weight": "Peso",
+    "weightPlaceholder": "15",
+    "permission": "Permiso",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Nombre",
+    "namePlaceholder": "Combate",
+    "iconMaterial": "Icono Material",
+    "iconMaterialPlaceholder": "hacha de piedra",
+    "glowing": "Brillante",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Un árbol de habilidades enfocado en combate...",
+    "viewJson": "Ver JSON",
+    "jsonPreview": "Vista previa del árbol de habilidades seleccionado como JSON."
+  },
+  "eligiblePets": {
+    "title": "Mascotas elegibles",
+    "none": "Ninguna",
+    "all": "Todo (*)",
+    "selected": "Seleccionado",
+    "includeFutureMobs": "Incluye mobs de futuras actualizaciones de Minecraft",
+    "allPetsNotice": "Todas las mascotas que aparecen en esta lista, incluidas las mascotas de futuras actualizaciones, serán elegibles para esta habilidad.",
+    "noPetsNotice": "No habrá mascotas elegibles para esta habilidad.",
+    "loading": "Cargando las últimas entidades de Minecraft…",
+    "loadError": "Error al cargar la lista de mob desde minecraft-data",
+    "customHeading": "Desde pet-config",
+    "customHint": "Tipos de mascotas personalizados definidos en este servidor pet-config.yml.",
+    "unrecognizedHeading": "No reconocido",
+    "unrecognizedNotice": "Estas entradas no coinciden con ningún mob de Minecraft y ningún tipo de configuración de mascotas."
+  },
+  "requirements": {
+    "title": "Requisitos",
+    "minLevel": "Nivel mínimo de mascota",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Nivel máximo de mascota",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Añadir requerimiento",
+    "requirementType": "Tipo de requerimiento",
+    "permission": "Permiso",
+    "permissionPlaceholder": "Permiso de prueba",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Sin árbol de habilidades",
+    "custom": "Personalizado",
+    "customKey": "Clave personalizada",
+    "customKeyPlaceholder": "Nombre Personalizado",
+    "customValue": "Valor personalizado",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "No hay permiso, árbol de habilidades o requisitos personalizados para este árbol de habilidades.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Copiar permiso"
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "addNotification": "Añadir notificación",
+    "message": "Mensaje",
+    "messagePlaceholder": "¡La mascota de {{owner}} {{pet}} ha alcanzado el nivel {{level}}!"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "addSkill": "Añadir Habilidad",
+    "selectSkill": "Seleccione una habilidad...",
+    "noSkills": "Aún no hay habilidades.",
+    "removeSkill": "Eliminar habilidad",
+    "addUpgrade": "Añadir actualización",
+    "editUpgrade": "Editar Actualización",
+    "noUpgrades": "Aún no hay actualizaciones.",
+    "level": "Nivel {{level}}",
+    "levels": "Niveles",
+    "everyLevel": "Cada nivel",
+    "everyNLevels": "Cada nivel {{n}}",
+    "everyNLevelsFrom": "Cada nivel {{n}} desde el nivel {{start}} en adelante",
+    "everyNLevelsBetween": "Cada nivel {{n}} entre los niveles {{start}} y {{end}}",
+    "fixedLevels": "Nivel: {{levels}}",
+    "skillExists": "Esta habilidad ya existe.",
+    "unknownSkill": "Habilidad desconocida",
+    "levelList": "Niveles {{levels}}",
+    "everyLevelRange": "Cada nivel ({{start}}-{{until}})",
+    "everyNLevelsRange": "Cada nivel {{n}} ({{start}}-{{until}})",
+    "everyLevelFrom": "Cada nivel de {{start}}",
+    "everyNLevelsFromStart": "Cada nivel {{n}} de {{start}}"
+  },
+  "levelModal": {
+    "title": "Seleccionar niveles",
+    "fixed": "Fijado",
+    "dynamic": "Dinámica",
+    "fixedHelp": "Introduzca uno o más niveles (espacio/coma separados)",
+    "fixedPlaceholder": "ej. 1 3 5 o 1,3,5",
+    "every": "Cada (requerido)",
+    "startFrom": "Empezar desde el nivel (opcional)",
+    "until": "Hasta el nivel (opcional)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Nuevo árbol de habilidades",
+    "searchPlaceholder": "Buscar árboles de habilidades…",
+    "noMatches": "Sin coincidencias",
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "moreActions": "Más acciones",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Eliminar árbol de habilidades",
+    "deleteConfirm": "¿Eliminar {{name}}?",
+    "deleteConfirmWithRefs": "¿Eliminar {{name}}? Otros árboles referenciándolo mostrarán una insignia de referencia en peligro.",
+    "speciesPlaceholder": "Especies…",
+    "exitJourney": "Salir del modo viaje"
+  },
+  "journey": {
+    "panelTitle": "Diario: {{species}}",
+    "levelLabel": "Nivel",
+    "currentTreeLabel": "Árbol actual",
+    "freshPet": "ninguno — pet fresco",
+    "clickHint": "Simulando: haga clic en un árbol resaltado para elegirlo",
+    "reset": "Restablecer a pet fresco",
+    "permissionNote": "Requisitos de permiso asumidos",
+    "previewTitle": "Vista previa del inventario",
+    "requiresLevel": "Requiere nivel {{level}}",
+    "clickToApply": "Haga clic para aplicar",
+    "noneAvailable": "There are <red>no</red> skilltrees available for <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} eligible"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Editar raw…",
+      "editRawTitle": "Editar crudo: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Requisito",
+      "kindInheritance": "Herencia",
+      "requirement": "{{prerequisite}} es un requisito de {{owner}}",
+      "anyOf": "Satisfecho por cualquiera de: {{list}}",
+      "inheritance": "{{owner}} hereda las habilidades de {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} es un requisito de cada uno de los árboles de habilidades {{count}} en esta pila"
+    }
+  },
+  "validation": {
+    "error": "Error de validación",
+    "hasErrors": "Este árbol tiene errores de validación",
+    "skillHasErrors": "Esta habilidad tiene errores de validación",
+    "issueInSkill": "Problema de validación en esta habilidad. Amplíe para editar valores."
+  },
+  "timeline": {
+    "inspectLevel": "Inspeccionar nivel",
+    "modeSingle": "Único",
+    "modeLevels": "Niveles",
+    "modeRepeat": "Repetir",
+    "atLevel": "en el nivel",
+    "levels": "niveles",
+    "every": "cada",
+    "from": "de",
+    "until": "hasta",
+    "keyPreview": "→ llave: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamond o base64:… (de /petadmin info item)",
+    "addRow": "+ Añadir"
+  },
+  "node": {
+    "namePlaceholder": "Nombre",
+    "iconPlaceholder": "Material del icono",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Haga clic para expandir",
+    "allSpecies": "todas las especies",
+    "noSpecies": "no hay especies",
+    "speciesCount_one": "especie {{count}}",
+    "speciesCount_other": "especie {{count}}",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Nv hasta {{max}}"
+  },
+  "canvas": {
+    "empty": "Aún no hay árboles de habilidad en este espacio de trabajo.",
+    "layingOut": "Saliendo del lienzo…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType es requerido",
+    "priceExpNonNegative": "Precio y EXP deben ser ± 0",
+    "minMaxNumbers": "Mínimo y máximo deben ser números",
+    "valuesNonNegative": "Los valores deben ser ± 0",
+    "maxGteMin": "Máximo debe ser ± min"
+  }
+}

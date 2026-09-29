@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Wybierz obszar konfiguracyjny z paska bocznego."
+  },
+  "actions": {
+    "import": "Importuj",
+    "export": "Wyeksportuj jako ZIP",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "add": "Dodaj",
+    "remove": "Usuń",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "ok": "OK",
+    "confirm": "Potwierdź",
+    "done": "Gotowe",
+    "loadDefaults": "Załaduj domyślne",
+    "chooseFiles": "Wybierz pliki",
+    "copyJson": "Skopiuj JSON",
+    "download": "Pobierz",
+    "selectAll": "Zaznacz wszystko",
+    "deselectAll": "Odznacz wszystkie",
+    "copy": "Kopiuj"
+  },
+  "autosave": {
+    "saved": "Zapisano",
+    "savedAt": "Zapisano {{time}}",
+    "saving": "Autozapis…",
+    "pending": "Niezapisane zmiany",
+    "justNow": "właśnie teraz",
+    "secondsAgo": "{{s}}s temu",
+    "minutesAgo": "{{m}}m temu",
+    "hoursAgo": "{{h}}h temu"
+  },
+  "modals": {
+    "import": {
+      "title": "Importuj drzewka umiejętności",
+      "description": "Upuść plik .zip (wiele drzewek) lub pojedynczy plik .st.json.",
+      "dragHere": "Przeciągnij i upuść pliki tutaj",
+      "or": "lub",
+      "reading": "Wczytywanie plików…"
+    },
+    "confirm": {
+      "title": "Potwierdź",
+      "deleteTree": "Usunąć drzewko umiejętności \"{{id}}\"?",
+      "deleteSkill": "Usunąć umiejętność \"{{id}}\"?",
+      "loadDefaults": "To zastąpi Twoje bieżące drzewka umiejętności domyślnymi przykładami i wyczyści Twój lokalny szkic. Kontynuować?"
+    },
+    "alert": {
+      "title": "Powiadomienie",
+      "importFailed": "Nie udało się zaimportować plik(ów).",
+      "exportBlocked": "Eksport zablokowany: {{count}} drzewka umiejętności mają błędy walidacji.\n\nNieprawidłowka drzewa: {{names}}\n\nPopraw wszystkie błędy walidacyjne przed eksportem.",
+      "noTreesToExport": "Brak drzewek umiejętności do eksportu.",
+      "duplicateId": "Drzewko umiejętności z tym ID już istnieje.",
+      "loadDefaultsFailed": "Nie udało się załadować domyślnych przykładów",
+      "jsonCopied": "JSON skopiowano do schowka",
+      "jsonCopyFailed": "Kopiowanie JSON nie powiodło się"
+    },
+    "viewSource": "Zobacz źródło"
+  },
+  "language": {
+    "select": "Wybierz język",
+    "loading": "Wczytywanie tłumaczeń..."
+  },
+  "tooltip": {
+    "breakdown": "Podział",
+    "total": "Łącznie",
+    "goHome": "Przejdź do strony głównej",
+    "allChangesSaved": "Wszystkie zmiany zostały zapisane",
+    "saveChanges": "Zapisz zmiany",
+    "importFile": "Importuj .st.json",
+    "loadDefaults": "Załaduj domyślne przykładowe drzewka",
+    "exportZip": "Eksportuj wszystkie drzewka do zip",
+    "delete": "Usuń",
+    "openDocs": "Otwórz dokumentację MyPet",
+    "switchToLight": "Przełącz na tryb jasny",
+    "switchToDark": "Przełącz na tryb ciemny",
+    "tipOnKofi": "Wesprzyj ten projekt na Ko-fi"
+  },
+  "footer": {
+    "builtBy": "zaprojektowany z ❤️ przez",
+    "tip": "Wsparcie"
+  },
+  "richText": {
+    "bold": "Pogrubienie",
+    "italic": "Zakrzywiony",
+    "underline": "Podkreślenie",
+    "strikethrough": "Przekreślenie",
+    "reset": "Resetuj",
+    "placeholder": "Wprowadź tekst mini wiadomości. Użyj paska narzędzi, aby wstawić tagi."
+  },
+  "common": {
+    "none": "(Brak)",
+    "noOptions": "(Brak opcji)"
+  },
+  "sidebar": {
+    "title": "Drzewka umiejętności",
+    "newSkilltree": "Nowe drzewko umiejętności",
+    "order": "Kolejność {{order}}",
+    "expand": "Rozwiń",
+    "collapse": "Zwiń",
+    "expandSidebar": "Rozwiń pasek boczny",
+    "collapseSidebar": "Zwiń pasek boczny",
+    "reorder": "Zmień kolejność",
+    "dragToReorder": "Przeciągnij, aby zmienić kolejność",
+    "reviewSave": "Przejrzyj i Zapisz",
+    "nothingToSave": "Brak niezapisanych zmian",
+    "configSections": "Sekcje konfiguracji",
+    "category": {
+      "general": "Ogólny",
+      "pets": "Zwierzęta domowe",
+      "experience": "Doświadczenie",
+      "skilltrees": "Drzewka umiejętności",
+      "locale": "Język",
+      "hooks": "Haki",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Nie załadowano projektu",
+    "expiringSoon": "Sesja wygasa wkrótce",
+    "demoData": "Przykładowe dane · zmiany nie zostaną zapisane",
+    "rejected": "Serwer odrzucił zmiany."
+  },
+  "editors": {
+    "config": {
+      "label": "Konfiguracja główna"
+    },
+    "petConfig": {
+      "label": "Konfiguracja zwierzęcia"
+    },
+    "expConfig": {
+      "label": "Nagrody mobów PD"
+    },
+    "petShops": {
+      "label": "Sklepy ze zwierząt domowych"
+    },
+    "skilltrees": {
+      "label": "Drzewka umiejętności"
+    },
+    "locale": {
+      "label": "Język"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Łączenie z serwerem",
+    "loadingSubtitle": "Ładowanie konfiguracji…",
+    "trustTitle": "Autoryzuj tę przeglądarkę",
+    "trustSubtitle": "Ta przeglądarka nie jest jeszcze zaufana. Uruchom tę grę aby się połączyć:",
+    "trustWaiting": "Oczekiwanie na autoryzację…",
+    "noSessionTitle": "Brak aktywnej sesji",
+    "noSessionSubtitle": "Uruchom <0>/mypet editor</0> w grze i otwórz link, który Ci da.",
+    "tryDemo": "Wypróbuj demo",
+    "demoHint": "Przeglądaj każdy edytor za pomocą przykładowych danych — serwer nie jest potrzebny.",
+    "endedTitle": "Ta sesja edytora zakończyła się",
+    "endedSubtitle": "Serwer został zamknięty lub upłynął limit czasu. Uruchom edytor <0>/mypet </0> w grze, aby rozpocząć nowy, a następnie otwórz nowy link, który Ci da."
+  },
+  "reviewSave": {
+    "title": "Przejrzyj i Zapisz",
+    "noChanges": "Brak niezapisanych zmian.",
+    "summary_one": "Plik {{count}} z niezapisanymi zmianami",
+    "summary_other": "{{count}} plików z niezapisanymi zmianami",
+    "tagRemoved": "usunięto",
+    "tagAdded": "dodany",
+    "empty": "(puste)",
+    "apply": "Zastosuj zmiany",
+    "applying": "Stosowanie…",
+    "hintNoChanges": "Brak zmian do zastosowania.",
+    "hintNotConnected": "Połącz sesję na żywo - uruchom /mypet edytor i autoryzuj przeglądarkę.",
+    "hintNoSession": "Brak aktywnej sesji.",
+    "hintReady": "Zapisz te zmiany na serwerze i załaduj ponownie.",
+    "formattingOnly": "Tylko formatowanie (bez zmian wartości)",
+    "stAdded": "Dodano {{count}}",
+    "stRemoved": "Usunięto {{count}}",
+    "stModified": "{{count}} zmodyfikowano",
+    "stBroken": "{{count}} uszkodzony plik(i) został zmieniony",
+    "noNetChange": "bez zmiany sieci",
+    "localeSummary": "{{keys}} kluczy w języku(-ach) {{langs}}",
+    "applyFailed": "Nie udało się zastosować zmian"
+  },
+  "sessionClosed": {
+    "title": "Sesja zamknięta",
+    "body": "Sesja edytora sieci Web zakończyła się (zamknięta w grze lub wygasła). Zmiany nie mogą być już zapisywane — uruchom ponownie <0>/mypet editor</0> aby rozpocząć nową sesję.",
+    "viewReadOnly": "Zobacz tylko do odczytu"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Kein Arbeitsbereich geladen. Öffnen Sie eine Sitzung mit <0>/mypet editor</0> oder laden Sie ein Beispielbündel.",
+    "viewFile": "Datei anzeigen",
+    "actions": "Aktionen",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Sektionen konfigurieren",
+    "tabs": {
+      "general": "Allgemein",
+      "database": "Datenbank",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Erfahrung",
+      "permissions": "Berechtigungen",
+      "names": "Namen",
+      "skills": "Fertigkeiten",
+      "updates": "Updates"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Besitzer kann Haustier angreifen"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Haustier-Vs-Spieler deaktivieren"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Haustiere Kills geben Spielerbelohnungen"
+      },
+      "OverwriteLanguages": {
+        "label": "Sprache überschreiben",
+        "help": "Erzwinge einen Locale-Code (z.B. de_DE). Leer = Auto-Erkennung."
+      },
+      "Leash_AllowRanged": {
+        "label": "Erlaube Fernkampf Leashing"
+      },
+      "Leash_Consume": {
+        "label": "Verbrauche Leash Item"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Start-Distanz folgen"
+      },
+      "Repository_Type": {
+        "label": "Repository-Typ"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Konvertieren von",
+        "help": "Optional: Beim nächsten Start von einem anderen Backend migrieren."
+      },
+      "Repository_LoadDelay": {
+        "label": "Ladeverzögerung (Ticks)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQL-Host"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL-Datenbank"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL-Benutzer"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQL-Passwort"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Tabellenpräfix"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Zeichenkodierung"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Max. Verbindungen"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Standard-Zeitfaktor"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Standardzeit fixiert"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Spieler-Zeitfaktor"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Spielerzeit fest"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Respawn-Zeit deaktiviert"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Wirtschaftlicher Kostenfaktor"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Wirtschaftliche Kosten behoben"
+      },
+      "HungerSystem_Active": {
+        "label": "Hungersystem aktiv"
+      },
+      "HungerSystem_Time": {
+        "label": "Hunger-Tick-Zeit"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Sättigung pro Feed"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Schadensfaktor"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Schaden behoben"
+      },
+      "Exp_LevelCap": {
+        "label": "Level Cap"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Schadengewichtete XP-Verteilung"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Verliere XP bei Tod"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP-Verlust (behoben)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP-Verlust (Prozent)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Globaler XP-Modifikator"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Passiv% pro Monster"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Ebenenberechnungsmodus"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Kurve · Lineare Basis"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Kurve · Kraftfaktor"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Kurve · Kraft-Exponent"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Kurve · Exponentielle Basis"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Kurve · Exponentielles Wachstum"
+      },
+      "Permissions_Extended": {
+        "label": "Erweiterte Berechtigungen"
+      },
+      "Name_MaxLength": {
+        "label": "Maximale Namenslänge"
+      },
+      "Name_Tag_Show": {
+        "label": "Namensschild anzeigen"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Name Tag Präfix"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Namens-Tag-Suffix"
+      },
+      "Name_Filter": {
+        "label": "Gefilterte Wörter (ein pro Zeile)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Automatische Zuordnung"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Zufällige Zuordnung"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Einmal auswählen"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Verhindere Levelling ohne Fähigkeitsbaum"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Gebühr für Admins wechseln"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Wechseln Gebühr (fest)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Wechseln Gebühr (Prozent)"
+      },
+      "Skill_Control_Item": {
+        "label": "Fähigkeiten-Element steuern"
+      },
+      "Skill_Ride_Item": {
+        "label": "Reitfertigkeit Item"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Hunger pro Meter fahren"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Bake Hunger Verkürzung Zeit"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Rucksack Öffnet sich in Creative"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Rucksack Drops wenn der Besitzer stirbt"
+      },
+      "Update_Check": {
+        "label": "Nach Updates suchen"
+      },
+      "Update_Download": {
+        "label": "Updates herunterladen"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Menü — {{menuId}}",
+    "selectMenu": "Wählen Sie ein Menü aus der Seitenleiste.",
+    "notFound": "Menü <0>{{menuId}}</0> nicht im Arbeitsbereich gefunden.",
+    "previewLanguage": "Sprachvorschau:",
+    "slotWithSection": "Slot- {{slot}} — Abschnitt <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot- {{slot}} — kein Abschnitt",
+    "clickSlot": "Klicken Sie auf einen Slot um seinen Bereich auszuwählen."
+  },
+  "mobXp": {
+    "title": "Mob-XP-Belohnungen",
+    "sections": "XP Sektionen",
+    "searchPlaceholder": "Suche Mobs…",
+    "searchLabel": "Mobs suchen",
+    "entryCount_one": "{{count}} Eintrag",
+    "entryCount_other": "{{count}} Einträge",
+    "addCustom": "+ Eigenen Mob hinzufügen",
+    "noMatch": "Keine Mobs entsprechen deiner Suche.",
+    "noCustom": "Noch keine eigenen Mobs. Füge einen hinzu, um XP für einen benannten Mob zu geben.",
+    "noEntries": "Keine Einträge in dieser Datei.",
+    "colMob": "Mopp",
+    "colMin": "Min",
+    "colMax": "Max.",
+    "remove": "{{name}} entfernen",
+    "tabs": {
+      "Default": "Standard",
+      "Custom": "Eigene"
+    },
+    "help": {
+      "Default": "XP vergeben, wenn ein Haustier einen Vanillemob tötet.",
+      "Custom": "XP für benutzerdefinierte Mobs (z.B. MythicMobs). Passen Sie den genauen Namen des Mobs an."
+    },
+    "promptCustomName": "Benutzerdefinierter Mob-Name (der genaue Anzeigename des Mobs, z.B. eine MythicMobs-Id):"
+  },
+  "localeEditor": {
+    "title": "Sprache — {{language}}",
+    "selectLanguage": "Wählen Sie eine Sprache aus der Seitenleiste.",
+    "promptKey": "Schlüssel überschreiben (z.B. Message.Pet.Spawn):",
+    "invalidKey": "Schlüssel dürfen keine Leerzeichen oder \"=\" enthalten.",
+    "duplicateKey": "Dieser Schlüssel hat bereits eine Übertreibung.",
+    "view": "Lokale Ansicht",
+    "tabOverrides": "Meine Überschreibungen",
+    "tabAll": "Alle Zeichenketten",
+    "searchPlaceholder": "Suchtasten oder Text…",
+    "searchLabel": "Lokale Schlüssel oder Text suchen",
+    "onlyOverridden": "Nur überschrieben anzeigen",
+    "overrideCount": "{{shown}} von {{total}} Überschreibungen",
+    "keyCount_one": "{{count}} Schlüssel",
+    "keyCount_other": "{{count}} Schlüssel",
+    "addOverride": "+ Override hinzufügen",
+    "noOverrides": "Keine Überschreibungen für <0>{{language}}</0> noch. Wechseln Sie zu <1>{{tabAll}}</1> um die Standardwerte zu durchsuchen und zu überschreiben.",
+    "noOverrideMatch": "Keine Überschreibungen stimmen mit Ihrer Suche überein.",
+    "loadError": "Standardzeichenketten für <0>{{language}}</0> von GitHub konnten nicht geladen werden. Sie können weiterhin manuell Überschreibungen aus der \"{{tabOverrides}}\" Ansicht hinzufügen.",
+    "loadingDefaults": "Standardzeichenketten werden geladen…",
+    "noStringMatch": "Keine Zeichenketten stimmen mit Ihrer Suche überein.",
+    "colKey": "Schlüssel",
+    "colDefault": "Standard",
+    "colOverride": "Überschreiben",
+    "noDefault": "(kein Standard)",
+    "remove": "{{key}} entfernen",
+    "reset": "{{key}} auf Standard zurücksetzen"
+  },
+  "petShops": {
+    "title": "Haustiergeschäfte",
+    "shops": "Läden",
+    "promptShopId": "Neue Shop-Id (Buchstaben, Zahlen, Unterstriche — z.B. Premium):",
+    "invalidShopId": "Shop-Id darf nur Buchstaben, Zahlen und Unterstriche enthalten.",
+    "duplicateShop": "Ein Shop namens \"{{key}}\" existiert bereits.",
+    "confirmDeleteShop": "Den \"{{name}}\" Shop und all seine Haustiere löschen?",
+    "addShop": "+ Shop hinzufügen",
+    "deleteShop": "Diesen Shop löschen",
+    "noShops": "Keine Geschäfte definiert. Fügen Sie einen hinzu, um Haustiere zu verkaufen.",
+    "displayName": "Anzeigename",
+    "defaultShop": "Standard-Shop",
+    "defaultShopHint": "Öffnet von /petshop ohne Argumente.",
+    "menuPosition": "Menüposition",
+    "balanceType": "Kontotyp",
+    "balanceTypeHint": "Wohin Geld fließt.",
+    "balanceOwner": "Kontoinhaber",
+    "balanceOwnerBank": "Name der Tresorbank.",
+    "balanceOwnerPlayer": "Spieler-UUID.",
+    "iconMaterial": "Icon-Material",
+    "iconMaterialHint": "Artikel im Shop-Menü (z.B. Brust, Eier).",
+    "iconGlowing": "Symbol leuchten",
+    "pets": "Haustiere",
+    "searchPets": "Suche Haustiere…",
+    "searchPetsLabel": "Haustiere in diesem Shop suchen",
+    "petCount": "{{shown}} von {{total}}",
+    "addPet": "+ Tier hinzufügen",
+    "promptPetId": "Neue Haustier-Id (Buchstaben, Zahlen, Unterstrich — z.B. baby_wolf):",
+    "invalidPetId": "Haustier-Id darf nur Buchstaben, Zahlen und Unterstriche enthalten.",
+    "duplicatePet": "Ein Haustier \"{{key}}\" existiert bereits in diesem Shop.",
+    "noPets": "Noch keine Haustiere in diesem Shop.",
+    "noPetMatch": "Keine Tiere stimmen mit Ihrer Suche überein.",
+    "removePet": "{{name}} entfernen",
+    "petType": "Tierart",
+    "petTypeHint": "Ein MyPet Haustier, z.B. WOLF, OCELOT.",
+    "price": "Preis",
+    "startingExp": "EXP starten",
+    "positionHint": "-1 = Auto-füllen.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Optionaler Voreinstellung Skilltree Name.",
+    "description": "Beschreibung (jeweils eine Zeile)",
+    "options": "Optionen (eine pro Zeile)",
+    "optionsHint": "z.B. Baby, oder typspezifische Optionen."
+  },
+  "petTypes": {
+    "title": "Tierarten",
+    "search": "Suche Haustierarten…",
+    "searchLabel": "Suche Haustiertypen",
+    "noMatch": "Keine Typen passen.",
+    "noTypes": "Keine Haustier-Typen in dieser Datei.",
+    "deleteTitle": "Diesen eigenen Tiertyp löschen",
+    "deleteButton": "🗑️ Tier löschen",
+    "confirmDelete": "Das benutzerdefinierte Haustier \"{{name}}\"löschen? Dies entfernt den gesamten Abschnitt \"Haustierkonfiguration\".",
+    "confirmDeleteTitle": "Eigenes Tier löschen",
+    "confirmDeleteConfirm": "Löschen",
+    "complexValue": "Komplexe Werte — bearbeiten über roh YAML.",
+    "model": "Modell",
+    "modelHelp": "Rendern Sie dieses Haustier mit einem benutzerdefinierten 3D-Modell von einem Model-Provider-Plugin (ModelEngine, BetterModel, ItemsAdder, oder MythicMobs) anstatt dessen Vanille. Lassen Sie den Provider leer, um das Standardaussehen zu behalten.",
+    "provider": "Anbieter",
+    "modelId": "Modell-Id",
+    "modelCollision": "<0>{{provider}}</0> Modell \"<1>{{id}}</1>\" wird bereits vom Tiertyp \"<2>{{other}}</2>\" verwendet. Jeder benutzerdefinierte Typ benötigt ein einzigartiges Modell — andernfalls wird das Plugin eines davon beim Laden überspringen.",
+    "nameHeight": "Name Höhe",
+    "nameHeightHelp": "Vertikaler Versatz für das Namensschild des Tieres oberhalb des Modells.",
+    "createCustom": "➕ Eigenes Tier erstellen",
+    "typeCount": "{{shown}} von {{total}} Typen",
+    "animations": "Animationen",
+    "animationsHint": "— Optionaler Name überschreibt"
+  },
+  "menuSection": {
+    "notFound": "Abschnitt <0>{{sectionId}}</0> nicht gefunden in <1>{{menuId}}</1>.",
+    "removed": "Abschnitt <0>{{sectionId}}</0> wird aus diesem Menü entfernt (geschrieben als <1>null</1>).",
+    "resetDefault": "Auf Standard zurücksetzen",
+    "removeSection": "Abschnitt entfernen",
+    "confirmRemove": "Den Abschnitt \"{{sectionId}}\" entfernen? Damit wird der Slot auf der Leinwand gelöscht — wählen Sie ihn über \"Auf Standard zurücksetzen\" neu, wenn Sie Ihre Meinung ändern.",
+    "confirmRemoveTitle": "Abschnitt entfernen",
+    "confirmRemoveConfirm": "Entfernen",
+    "statefulNotice": "Dieser Abschnitt definiert die Statusangaben (<0>states</0>). Die Felder unten bearbeiten die Basis <1>item</1>, was nur gilt, wenn kein Status sie überschreibt.",
+    "material": "Material",
+    "column": "Spalte",
+    "row": "Zeile",
+    "glow": "Glühen",
+    "soundOnClick": "Ton bei Klick",
+    "soundKey": "Schlüssel",
+    "soundVolume": "Lautstärke",
+    "soundPitch": "Neigung",
+    "pitchRangeHelp": "Momentan ein Pitchbereich — die Bearbeitung hier ersetzt ihn durch einen festen Wert.",
+    "title": "Titel",
+    "lore": "Lore"
+  },
+  "petWizard": {
+    "titleAvenue": "Eigenes Haustier erstellen — Allee wählen",
+    "titleModel": "Eigenes Haustier erstellen — Modell konfigurieren",
+    "titleIdentity": "Eigenes Tier erstellen — Identität & Körper",
+    "titleStats": "Eigenes Tier erstellen — Statistik",
+    "titleReview": "Eigenes Haustier erstellen — Überprüfung",
+    "progress": "Assistentenfortschritt",
+    "chooseHow": "Wähle aus, wie du dein eigenes Haustier erstellen möchtest.",
+    "buildFromModel": "Baue eine Kreatur aus einem Modell",
+    "modelSource": "Modellquelle",
+    "defaultModel": "Standardmodell",
+    "sourceOnlyItemsAdder": "ItemsAdder Modelle sind Content-Packs — wähle eine vorhandene ID.",
+    "sourceOnlyMythicMobs": "MythicMobs Mobs sind in MythicMobs Konfigurationen definiert — wähle einen existierenden Mob-Typ.",
+    "modelId": "Modell-ID",
+    "modelIdRegisteredHelp": "Wählen Sie ein mit {{provider}} registriertes Modell aus.",
+    "modelIdManualHelp": "Keine Modelle für {{provider}}erkannt. Geben Sie eine Model-ID manuell ein.",
+    "modelIdRequired": "Modell-ID ist erforderlich.",
+    "uploadLabel": ".bbmodel hochladen",
+    "uploadReconnecting": "Erneut verbinden — warten Sie, bis die Sitzung sich erneut verbindet, bevor Sie hochladen.",
+    "uploadNeedsSession": "Das Hochladen benötigt eine Live-<0>/mypet editor</0> Session — verbinde einen, um dies zu aktivieren.",
+    "uploadExplainer": "Uploads auf {{provider}}; das Modell erscheint für Spieler, sobald {{provider}} sein Ressourcenpaket regeneriert und die Clients es erneut herunterladen. Der Dateiname (ohne <0>.bbmodel</0>) wird zur Model-Id, also muss er mit der im Modell angegebenen Blaupausen-Id übereinstimmen.",
+    "uploading": "Hochladen…",
+    "uploadDone": "Hochgeladen — Modell ID auf \"{{modelId}} \" gesetzt.",
+    "uploadFailed": "Upload fehlgeschlagen.",
+    "nameHeight": "Namenshöhe (optional)",
+    "nameHeightHelp": "Vertikaler Versatz für das Namensschild des Tieres oberhalb des Modells.",
+    "modelCollision": "<0>{{provider}}</0> Modell \"<1>{{modelId}}</1>\" wird bereits vom Tiertyp \"<2>{{other}}</2>\" verwendet. Ein Modell ist die Identität eines Haustieres, so dass jeder benutzerdefinierte Typ ein einzigartiges Modell benötigt — wähle ein anderes (andernfalls würde das Plugin diesen Typ beim Laden überspringen).",
+    "creatureName": "Kreaturenname",
+    "creatureNameHelp": "Der interne Haustierkonfigurationsschlüssel für diesen Tiertyp (z.B. FrostDrachen). Muss einzigartig sein.",
+    "hostMob": "Host Mob",
+    "hostMobHelp": "Der Vanille Bukkit Mob-Typ, der die Basiseinheit für dieses Haustier bereitstellt.",
+    "health": "Gesundheit (HP)",
+    "healthHelp": "Basis-Gesundheitspunkte für dieses Haustier (z.B. 20 = 10 Herzen).",
+    "walkSpeed": "Laufgeschwindigkeit",
+    "walkSpeedHelp": "Bewegungsgeschwindigkeit (z.B. 0.3 ist die übliche Laufgeschwindigkeit).",
+    "food": "Nahrung (ein Element pro Zeile)",
+    "foodHelp": "Gegenstände, die dieses Tier ernähren, z. B. Weizen. Lassen Sie leer, um die Nahrung des Wirtsmob zu erben.",
+    "leash": "Leinenanforderungen",
+    "leashHelp": "Bedingungen, die für die Arbeit an diesem Haustier gelten müssen (z.B. Wild, Baby).",
+    "leashNeedsSession": "Die Leinenanforderungen benötigen eine Live-Sitzung.",
+    "reviewIntro": "Der folgende Abschnitt wird <0>pet-config.yml</0> hinzugefügt:",
+    "back": "Zurück",
+    "next": "Nächste",
+    "create": "Anlegen",
+    "nameRequired": "Name ist erforderlich."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "サイドバーから構成エリアを選択します。"
+  },
+  "actions": {
+    "import": "インポート",
+    "export": "ZIP のエクスポート",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "add": "追加",
+    "remove": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "ok": "OK",
+    "confirm": "確認する",
+    "done": "完了",
+    "loadDefaults": "デフォルトを読み込む",
+    "chooseFiles": "ファイルを選択",
+    "copyJson": "JSONをコピー",
+    "download": "ダウンロード",
+    "selectAll": "すべて選択",
+    "deselectAll": "すべての選択を解除",
+    "copy": "コピー"
+  },
+  "autosave": {
+    "saved": "保存しました",
+    "savedAt": "保存された {{time}}",
+    "saving": "Autosaving…",
+    "pending": "保存されていない変更",
+    "justNow": "ちょうど今",
+    "secondsAgo": "{{s}}秒前",
+    "minutesAgo": "{{m}}m ago",
+    "hoursAgo": "{{h}}h ago"
+  },
+  "modals": {
+    "import": {
+      "title": "スキルツリーをインポート",
+      "description": ".zip (複数のツリー) または単一の .st.json ファイルをドロップします。",
+      "dragHere": "ここにファイルをドラッグ＆ドロップ",
+      "or": "または",
+      "reading": "Reading files…"
+    },
+    "confirm": {
+      "title": "確認する",
+      "deleteTree": "スキルツリー \"{{id}}\" を削除しますか？",
+      "deleteSkill": "スキル「{{id}}」を削除しますか？",
+      "loadDefaults": "これはあなたの現在のスキルツリーをデフォルトの例に置き換えて、あなたのローカルドラフトをクリアします。続行しますか？"
+    },
+    "alert": {
+      "title": "アラート",
+      "importFailed": "ファイルのインポートに失敗しました。",
+      "exportBlocked": "エクスポートがブロックされました: {{count}} スキルツリーには検証エラーがあります。\n\n無効なツリー: {{names}}\n\nエクスポートする前にすべての検証エラーを修正してください。",
+      "noTreesToExport": "エクスポートするスキルツリーがありません。",
+      "duplicateId": "そのIDを持つスキルツリーは既に存在します。",
+      "loadDefaultsFailed": "デフォルトの例を読み込めませんでした",
+      "jsonCopied": "JSONをクリップボードにコピーしました",
+      "jsonCopyFailed": "JSONのコピーに失敗しました"
+    },
+    "viewSource": "ソースを表示"
+  },
+  "language": {
+    "select": "言語を選択",
+    "loading": "翻訳を読み込み中..."
+  },
+  "tooltip": {
+    "breakdown": "破壊",
+    "total": "合計",
+    "goHome": "ホームへ移動",
+    "allChangesSaved": "すべての変更が保存されました",
+    "saveChanges": "変更を保存",
+    "importFile": "Import .st.json",
+    "loadDefaults": "デフォルトの例の木を読み込む",
+    "exportZip": "すべての木をzip形式でエクスポート",
+    "delete": "削除",
+    "openDocs": "MyPetのドキュメントを開く",
+    "switchToLight": "ライトモードに切り替える",
+    "switchToDark": "ダークモードに切り替える",
+    "tipOnKofi": "Ko-Fiでこのプロジェクトを支援する"
+  },
+  "footer": {
+    "builtBy": "作成者: ❤️",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "アンダーライン",
+    "strikethrough": "攻撃",
+    "reset": "Reset",
+    "placeholder": "MiniMessage テキストを入力します。タグを挿入するにはツールバーを使用します。"
+  },
+  "common": {
+    "none": "(なし)",
+    "noOptions": "(オプションなし)"
+  },
+  "sidebar": {
+    "title": "スキルツリー",
+    "newSkilltree": "新しいスキル",
+    "order": "注文 {{order}}",
+    "expand": "展開",
+    "collapse": "折りたたむ",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "サイドバーを閉じる",
+    "reorder": "並び替え",
+    "dragToReorder": "ドラッグして並べ替え",
+    "reviewSave": "レビューと保存",
+    "nothingToSave": "保存されていない変更はありません",
+    "configSections": "設定セクション",
+    "category": {
+      "general": "全般",
+      "pets": "ペット",
+      "experience": "経験",
+      "skilltrees": "スキルツリー",
+      "locale": "ロケール",
+      "hooks": "フック",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "ワークスペースが読み込まれていません",
+    "expiringSoon": "セッションの期限が近日切れます",
+    "demoData": "例データ・変更は保存されません",
+    "rejected": "サーバーは変更を拒否しました。"
+  },
+  "editors": {
+    "config": {
+      "label": "メイン設定"
+    },
+    "petConfig": {
+      "label": "ペット設定"
+    },
+    "expConfig": {
+      "label": "Mob XP報酬"
+    },
+    "petShops": {
+      "label": "ペットショップ"
+    },
+    "skilltrees": {
+      "label": "スキルツリー"
+    },
+    "locale": {
+      "label": "ロケール"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "サーバーに接続しています",
+    "loadingSubtitle": "Loading configuration…",
+    "trustTitle": "このブラウザーを認証してください",
+    "trustSubtitle": "このブラウザーはまだ信頼されていません。接続するにはゲーム内で実行してください：",
+    "trustWaiting": "Waiting for authorization…",
+    "noSessionTitle": "アクティブなセッションがありません",
+    "noSessionSubtitle": "<0>/mypet editor</0>をゲーム内で実行し、与えるリンクを開きます。",
+    "tryDemo": "デモを試す",
+    "demoHint": "すべてのエディタをサンプルデータで探索します — サーバーは必要ありません。",
+    "endedTitle": "このエディタセッションは終了しました",
+    "endedSubtitle": "サーバーはそれを閉じたか、またはタイムアウトしました。<0>/mypet editor</0>をゲーム内で実行して、新しいものを開始し、それがあなたに与える新鮮なリンクを開きます。"
+  },
+  "reviewSave": {
+    "title": "レビューと保存",
+    "noChanges": "未保存の変更はありません。",
+    "summary_one": "保存されていない変更のある{{count}} ファイル",
+    "summary_other": "保存されていない変更のある{{count}} ファイル",
+    "tagRemoved": "removed",
+    "tagAdded": "追加",
+    "empty": "(空)",
+    "apply": "変更を適用",
+    "applying": "Applying…",
+    "hintNoChanges": "適用する変更はありません。",
+    "hintNotConnected": "ライブセッションを最初に接続します。/mypet エディターを実行してブラウザを認証します。",
+    "hintNoSession": "アクティブなセッションはありません。",
+    "hintReady": "これらの変更をサーバーに書き込み、再ロードします。",
+    "formattingOnly": "書式設定のみ (値の変更はありません)",
+    "stAdded": "{{count}} が追加されました",
+    "stRemoved": "{{count}} を削除しました",
+    "stModified": "{{count}} が変更されました",
+    "stBroken": "{{count}} 壊れたファイルが変更されました",
+    "noNetChange": "ネット変更なし",
+    "localeSummary": "{{keys}} 言語間の {{langs}} キー",
+    "applyFailed": "変更を適用できませんでした"
+  },
+  "sessionClosed": {
+    "title": "セッションが終了しました",
+    "body": "Webエディタセッションは終了しました(ゲーム内、またはタイムアウトしました)。 変更を保存できません — 再び<0>/mypet editor</0>を実行して新しいセッションを開始します。",
+    "viewReadOnly": "読み取り専用を表示"
+  }
+}

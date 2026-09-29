@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Unknown skill: {{skillId}}",
+    "noUpgrades": "技能必须至少有一个升级",
+    "firstLevelRequired": "第一级必须至少提供一个字段",
+    "invalidLevelKey": "无效级别密钥格式",
+    "duplicateLevel": "Duplicate level key: {{level}}",
+    "invalidRange": "无效级别范围",
+    "emptyField": "{{field}} cannot be empty",
+    "invalidNumber": "{{field}} must be a valid number",
+    "invalidPlusNumber": "{{field}} must be a signed number (e.g., +1 or +0.5)",
+    "minValue": "{{field}} must be at least {{min}}",
+    "maxValue": "{{field}} must be at most {{max}}",
+    "requiredField": "{{field}} is required",
+    "emptyRequirementKey": "自定义要求键不能为空",
+    "emptyRequirementValue": "自定义要求值不能为空",
+    "emptySkilltreeRequirement": "技能树要求必须选择技能树",
+    "emptyPermissionRequirement": "权限要求不能为空",
+    "unknownField": "Unknown field \"{{field}}\" (kept as-is, the server will ignore it)",
+    "badNumber": "{{field}} must be a signed number like \"+5\" or \"-2.5\"",
+    "badInteger": "{{field}} must be a signed whole number like \"+5\"",
+    "badBoolean": "{{field}} must be true or false",
+    "badEnum": "{{field}} must be one of the listed values",
+    "badGroup": "{{field}} must be an object",
+    "badList": "{{field}} must be a list of entries",
+    "badListInteger": "{{field}} must be a whole number like 6",
+    "badListNumber": "{{field}} must be a number like 6 or 2.5",
+    "badListString": "{{field}} must be text"
+  }
+}

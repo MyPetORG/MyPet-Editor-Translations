@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Valitse asetusalue sivupalkista. @ info: whatsthis"
+  },
+  "actions": {
+    "import": "Tuo",
+    "export": "Vie ZIP",
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "delete": "Poista",
+    "add": "Lisää",
+    "remove": "Poista",
+    "edit": "Muokkaa",
+    "close": "Sulje",
+    "ok": "Ok",
+    "confirm": "Vahvista",
+    "done": "Valmis",
+    "loadDefaults": "Lataa Oletukset",
+    "chooseFiles": "Valitse tiedostot",
+    "copyJson": "Kopioi JSON",
+    "download": "Lataa",
+    "selectAll": "Valitse Kaikki",
+    "deselectAll": "Poista Kaikki Valinnat",
+    "copy": "Kopioi"
+  },
+  "autosave": {
+    "saved": "Tallennettu",
+    "savedAt": "Tallennettu {{time}}",
+    "saving": "Autosaving…",
+    "pending": "Tallentamattomat muutokset",
+    "justNow": "juuri nyt",
+    "secondsAgo": "{{s}}s sitten",
+    "minutesAgo": "{{m}}m sitten",
+    "hoursAgo": "{{h}}tuntia sitten"
+  },
+  "modals": {
+    "import": {
+      "title": "Tuo taitopuut",
+      "description": "Pudota .zip (useita puita) tai yksi .st.json tiedosto.",
+      "dragHere": "Vedä ja pudota tiedostot tähän",
+      "or": "tai",
+      "reading": "Reading files…"
+    },
+    "confirm": {
+      "title": "Vahvista",
+      "deleteTree": "Poista taitopuu \"{{id}}\"?",
+      "deleteSkill": "Poista taito\"{{id}}\"?",
+      "loadDefaults": "Tämä korvaa nykyiset taitopuut oletusesimerkeillä ja tyhjentää paikallisen luonnoksen. Jatketaanko?"
+    },
+    "alert": {
+      "title": "Hälytys",
+      "importFailed": "Tiedoston (tiedostojen) tuonti epäonnistui.",
+      "exportBlocked": "Vienti estetty: {{count}} taito(e)lla on validointivirheitä.\n\nVirheelliset puut: {{names}}\n\nOle hyvä ja korjaa kaikki validointivirheet ennen vientiä.",
+      "noTreesToExport": "Ei vietäviä taitoja.",
+      "duplicateId": "Taitopuu tällä ID:llä on jo olemassa.",
+      "loadDefaultsFailed": "Oletusesimerkkien lataaminen epäonnistui",
+      "jsonCopied": "JSON kopioitu leikepöydälle",
+      "jsonCopyFailed": "JSONin kopiointi epäonnistui"
+    },
+    "viewSource": "Näytä lähde"
+  },
+  "language": {
+    "select": "Valitse kieli",
+    "loading": "Ladataan käännöksiä..."
+  },
+  "tooltip": {
+    "breakdown": "Jaottelu",
+    "total": "Yhteensä",
+    "goHome": "Siirry kotiin",
+    "allChangesSaved": "Kaikki muutokset tallennettu",
+    "saveChanges": "Tallenna muutokset",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Lataa oletusesimerkkipuut",
+    "exportZip": "Vie kaikki puut postinumeroon",
+    "delete": "Poista",
+    "openDocs": "Avaa MyPet-dokumentaatio",
+    "switchToLight": "Vaihda valotilaan",
+    "switchToDark": "Vaihda tummaan tilaan",
+    "tipOnKofi": "Tue tätä projektia Ko-fi-sivustolla"
+  },
+  "footer": {
+    "builtBy": "rakennettu ❤️ by",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Alleviivaa",
+    "strikethrough": "Lakko",
+    "reset": "Reset",
+    "placeholder": "Syötä MiniMessage teksti. Käytä työkalupalkkia lisätäksesi tageja."
+  },
+  "common": {
+    "none": "(tyhjä)",
+    "noOptions": "(Ei vaihtoehtoja)"
+  },
+  "sidebar": {
+    "title": "Taidot",
+    "newSkilltree": "Uusi taitopuu",
+    "order": "Tilaus {{order}}",
+    "expand": "Laajenna",
+    "collapse": "Kutista",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Pienennä sivupalkki",
+    "reorder": "Järjestä",
+    "dragToReorder": "Vedä järjestääksesi uudelleen",
+    "reviewSave": "Arvostelu & Tallenna",
+    "nothingToSave": "Ei tallentamattomia muutoksia",
+    "configSections": "Konfiguraation osat",
+    "category": {
+      "general": "Yleiset",
+      "pets": "Lemmikit",
+      "experience": "Kokemus",
+      "skilltrees": "Taidot",
+      "locale": "Lokaatio",
+      "hooks": "Koukut",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Työtilaa ei ole ladattu",
+    "expiringSoon": "Istunto päättyy pian",
+    "demoData": "Esimerkki dataa · muutoksia ei tallenneta",
+    "rejected": "Palvelin hylkäsi muutokset."
+  },
+  "editors": {
+    "config": {
+      "label": "Pääasetukset"
+    },
+    "petConfig": {
+      "label": "Aseta Asetukset"
+    },
+    "expConfig": {
+      "label": "Mob XP -palkinnot"
+    },
+    "petShops": {
+      "label": "Lemmikkieläimet Kaupat"
+    },
+    "skilltrees": {
+      "label": "Taidot"
+    },
+    "locale": {
+      "label": "Lokaatio"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Yhdistetään palvelimeen",
+    "loadingSubtitle": "Ladataan konfiguraatiota…",
+    "trustTitle": "Salli tämä selain",
+    "trustSubtitle": "Tämä selain ei ole vielä luotettu. Suorita tämä peli yhteyttä:",
+    "trustWaiting": "Odotetaan valtuutusta…",
+    "noSessionTitle": "Ei aktiivista istuntoa",
+    "noSessionSubtitle": "Suorita <0>/mypet editori</0> pelissä ja avaa linkki, jonka se antaa sinulle.",
+    "tryDemo": "Kokeile demoa",
+    "demoHint": "Tutki jokaista editoria esimerkkitiedoilla — palvelinta ei tarvita.",
+    "endedTitle": "Tämä muokkaimen istunto on päättynyt",
+    "endedSubtitle": "Palvelin sulki sen, tai se aikakatkaistiin. Suorita <0>/mypet editori</0> pelissä aloittaaksesi uuden ja avaa sitten uuden linkin, jonka se antaa sinulle."
+  },
+  "reviewSave": {
+    "title": "Arvostelu & Tallenna",
+    "noChanges": "Ei tallentamattomia muutoksia.",
+    "summary_one": "{{count}} tiedosto tallentamattomilla muutoksilla",
+    "summary_other": "{{count}} tiedostoa tallentamattomilla muutoksilla",
+    "tagRemoved": "poistettu",
+    "tagAdded": "lisätty",
+    "empty": "(tyhjä)",
+    "apply": "Ota Muutokset Käyttöön",
+    "applying": "Asetetaan…",
+    "hintNoChanges": "Ei muutoksia sovellettavaksi.",
+    "hintNotConnected": "Yhdistä live session ensin — suorita /mypet editori ja valtuuta selain.",
+    "hintNoSession": "Ei aktiivista istuntoa.",
+    "hintReady": "Kirjoita nämä muutokset palvelimeen ja lataa uudelleen.",
+    "formattingOnly": "Alustetaan vain (ei arvonmuutoksia)",
+    "stAdded": "{{count}} lisätty",
+    "stRemoved": "{{count}} poistettu",
+    "stModified": "{{count}} muokattu",
+    "stBroken": "{{count}} rikkinäiset tiedosto(t) muutettu",
+    "noNetChange": "ei nettomuutosta",
+    "localeSummary": "{{keys}} key(s) across {{langs}} language(s)",
+    "applyFailed": "Muutosten käyttöönotto epäonnistui"
+  },
+  "sessionClosed": {
+    "title": "Istunto suljettu",
+    "body": "Web-editor-istunto on päättynyt (suljettu pelin aikana tai ajastettu). Muutoksia ei voida enää tallentaa — suorita <0>/mypet editor</0> uudelleen aloittaaksesi uuden istunnon.",
+    "viewReadOnly": "Näytä vain-luku"
+  }
+}

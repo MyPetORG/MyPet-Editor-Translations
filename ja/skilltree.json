@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "スキルツリーが選択されていません",
+    "description": "サイドバーからスキルツリーを選択するか、.st.json ファイルをインポートして開始します。",
+    "loadDefaultsCta": "デフォルトを読み込む"
+  },
+  "tabs": {
+    "properties": "プロパティー",
+    "appearance": "外観",
+    "eligiblePets": "対象のペット",
+    "requirements": "要件",
+    "notifications": "通知",
+    "skills": "スキル",
+    "timeline": "タイムライン"
+  },
+  "inspector": {
+    "expand": "インスペクターを展開",
+    "collapse": "インスペクターを閉じる",
+    "requirementsHint": "エッジは最初のSkilltree グループを表示します。すべての要件はここで編集できます。"
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Combat",
+    "inheritance": "継承",
+    "inheritancePlaceholder": "親スキルツリーを選択...",
+    "weight": "重量",
+    "weightPlaceholder": "15",
+    "permission": "アクセス許可",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "名前",
+    "namePlaceholder": "Combat",
+    "iconMaterial": "アイコン",
+    "iconMaterialPlaceholder": "stone_axe",
+    "glowing": "<unk>",
+    "description": "説明",
+    "descriptionPlaceholder": "戦闘に焦点を当てたスキルツリー...",
+    "viewJson": "JSONを表示",
+    "jsonPreview": "選択したスキルツリーを JSON としてプレビューします。"
+  },
+  "eligiblePets": {
+    "title": "対象のペット",
+    "none": "なし",
+    "all": "すべて(*)",
+    "selected": "選択済み",
+    "includeFutureMobs": "将来の Minecraft アップデートから mob を含める",
+    "allPetsNotice": "今後のアップデートのペットを含め、ここに記載されているすべてのペットは、このスキルの対象となります。",
+    "noPetsNotice": "このスキルの資格はありません。",
+    "loading": "Loading latest Minecraft entities…",
+    "loadError": "Minecraft-dataからMobリストを読み込めませんでした",
+    "customHeading": "Pet-config から",
+    "customHint": "このサーバーの pet-config.yml で定義されているカスタム ペットの種類。",
+    "unrecognizedHeading": "認識できません",
+    "unrecognizedNotice": "これらのエントリは Minecraft Mob と pet-config タイプに一致しません。"
+  },
+  "requirements": {
+    "title": "要件",
+    "minLevel": "最低ペットレベル",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "最大ペットレベル",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "必要条件を追加",
+    "requirementType": "条件タイプ",
+    "permission": "アクセス許可",
+    "permissionPlaceholder": "テスト権限",
+    "skilltree": "Skilltree",
+    "noSkilltree": "スキルツリーなし",
+    "custom": "カスタム",
+    "customKey": "カスタム キー",
+    "customKeyPlaceholder": "カスタム名",
+    "customValue": "カスタム値",
+    "customValuePlaceholder": "ブープビープ",
+    "noRequirements": "このスキルツリーに対する許可、スキルツリー、カスタム要件はありません。",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "アクセス許可をコピー"
+  },
+  "notifications": {
+    "title": "通知",
+    "addNotification": "通知を追加",
+    "message": "メッセージ",
+    "messagePlaceholder": "{{owner}}のペット {{pet}} が {{level}}レベルに達しました！"
+  },
+  "skills": {
+    "title": "スキル",
+    "addSkill": "スキルを追加",
+    "selectSkill": "スキルを選択...",
+    "noSkills": "スキルがありません。",
+    "removeSkill": "スキルを削除",
+    "addUpgrade": "アップグレードを追加",
+    "editUpgrade": "アップグレードを編集",
+    "noUpgrades": "アップグレードはまだありません。",
+    "level": "レベル {{level}}",
+    "levels": "レベル",
+    "everyLevel": "すべてのレベル",
+    "everyNLevels": "すべての {{n}} レベル",
+    "everyNLevelsFrom": "レベル {{n}} 以降の {{start}} レベル",
+    "everyNLevelsBetween": "{{n}} レベルごとの {{start}} レベルと {{end}}レベル",
+    "fixedLevels": "レベル: {{levels}}",
+    "skillExists": "このスキルは既に存在します。",
+    "unknownSkill": "未知のスキル",
+    "levelList": "レベル {{levels}}",
+    "everyLevelRange": "すべてのレベル ({{start}}-{{until}})",
+    "everyNLevelsRange": "{{n}} レベルごと ({{start}}-{{until}})",
+    "everyLevelFrom": "{{start}} からのすべてのレベル",
+    "everyNLevelsFromStart": "Every {{n}} levels from {{start}}"
+  },
+  "levelModal": {
+    "title": "レベルを選択",
+    "fixed": "固定",
+    "dynamic": "ダイナミック",
+    "fixedHelp": "1つ以上のレベルを入力してください（スペース/カンマ区切り）",
+    "fixedPlaceholder": "例: 1 3 5 または 1,3,5",
+    "every": "すべて（必須）",
+    "startFrom": "レベルから開始 (オプション)",
+    "until": "レベルまで (オプション)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ 新しいスキルツリー",
+    "searchPlaceholder": "Search skilltrees…",
+    "noMatches": "一致するものはありません",
+    "undo": "元に戻す",
+    "redo": "Redo",
+    "moreActions": "その他のアクション",
+    "duplicate": "Duplicate",
+    "deleteTitle": "スキルツリーを削除",
+    "deleteConfirm": "{{name}} を削除しますか？",
+    "deleteConfirmWithRefs": "{{name}}を削除しますか? 参照している他のツリーには、dangling-reference バッジが表示されます。",
+    "speciesPlaceholder": "種…",
+    "exitJourney": "旅モードを終了"
+  },
+  "journey": {
+    "panelTitle": "ジャーニー: {{species}}",
+    "levelLabel": "レベル",
+    "currentTreeLabel": "現在のツリー",
+    "freshPet": "なし - 新鮮なペット",
+    "clickHint": "シミュレーション: ハイライトされたツリーをクリックして選択します",
+    "reset": "新鮮なペットにリセット",
+    "permissionNote": "許可要件が付与されたと想定されています",
+    "previewTitle": "インベントリのプレビュー",
+    "requiresLevel": "レベル {{level}}が必要です",
+    "clickToApply": "クリックして適用",
+    "noneAvailable": "<red></red> <aqua>{{species}}</aqua> で利用可能なスキルツリーはありません。",
+    "eligibleCount": "{{count}} eligible"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Edit raw…",
+      "editRawTitle": "生の編集: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "要件",
+      "kindInheritance": "継承",
+      "requirement": "{{prerequisite}} は {{owner}} の要件です",
+      "anyOf": "{{list}} のいずれかに満足しています",
+      "inheritance": "{{owner}} は {{prerequisite}} のスキルを継承します",
+      "clusterRequirement": "{{prerequisite}} は、このスタック内の {{count}} スキルツリーのそれぞれの要件です。"
+    }
+  },
+  "validation": {
+    "error": "検証エラー",
+    "hasErrors": "このスキルツリーに検証エラーがあります",
+    "skillHasErrors": "このスキルには検証エラーがあります",
+    "issueInSkill": "このスキルの検証問題。拡張して値を編集します。"
+  },
+  "timeline": {
+    "inspectLevel": "レベルを調査する",
+    "modeSingle": "Single",
+    "modeLevels": "レベル",
+    "modeRepeat": "繰り返し",
+    "atLevel": "レベル",
+    "levels": "レベル",
+    "every": "すべての",
+    "from": "from",
+    "until": "まで",
+    "keyPreview": "→ キー: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamondまたはbase64:… (/petadmin info item)",
+    "addRow": "+ 追加"
+  },
+  "node": {
+    "namePlaceholder": "名前",
+    "iconPlaceholder": "アイコン",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "クリックして展開します",
+    "allSpecies": "すべての種",
+    "noSpecies": "種はありません",
+    "speciesCount_one": "{{count}} 種",
+    "speciesCount_other": "{{count}} 種",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "レベルアップ（ {{max}}）"
+  },
+  "canvas": {
+    "empty": "このワークスペースにはスキルツリーがありません。",
+    "layingOut": "Laying out canvas…"
+  },
+  "entry": {
+    "petTypeRequired": "PetTypeは必須です",
+    "priceExpNonNegative": "価格と経験値は0以上でなければなりません",
+    "minMaxNumbers": "最小値と最大値は数字でなければなりません",
+    "valuesNonNegative": "値は0以上でなければなりません",
+    "maxGteMin": "最大値は最低値でなければなりません"
+  }
+}

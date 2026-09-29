@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "No workspace loaded. Open a session with <0>/mypet editor</0> or load an example bundle.",
+    "viewFile": "View file",
+    "actions": "Actions",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Config sections",
+    "tabs": {
+      "general": "General",
+      "database": "Database",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Experience",
+      "permissions": "Permissions",
+      "names": "Names",
+      "skills": "Skills",
+      "updates": "Updates"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Owner Can Attack Pet"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Disable Pet vs Player"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Pet Kills Give Player Rewards"
+      },
+      "OverwriteLanguages": {
+        "label": "Overwrite Language",
+        "help": "Force a locale code (e.g. en, de_DE). Blank = auto-detect."
+      },
+      "Leash_AllowRanged": {
+        "label": "Allow Ranged Leashing"
+      },
+      "Leash_Consume": {
+        "label": "Consume Leash Item"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Follow Start Distance"
+      },
+      "Repository_Type": {
+        "label": "Repository Type"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Convert From",
+        "help": "Optional: migrate from another backend on next start."
+      },
+      "Repository_LoadDelay": {
+        "label": "Load Delay (ticks)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQL Host"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL Database"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL User"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQL Password"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Table Prefix"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Character Encoding"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Max Connections"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Default Time Factor"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Default Time Fixed"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Player Time Factor"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Player Time Fixed"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Respawn Time Disabled"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Economy Cost Factor"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Economy Cost Fixed"
+      },
+      "HungerSystem_Active": {
+        "label": "Hunger System Active"
+      },
+      "HungerSystem_Time": {
+        "label": "Hunger Tick Time"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Saturation Per Feed"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Damage Factor"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Damage Fixed"
+      },
+      "Exp_LevelCap": {
+        "label": "Level Cap"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Damage-Weighted XP Distribution"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Lose XP on Death"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP Loss (fixed)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP Loss (percent)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Global XP Modifier"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Passive % Per Monster"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Level Calculation Mode"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Curve · Linear Base"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Curve · Power Factor"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Curve · Power Exponent"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Curve · Exponential Base"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Curve · Exponential Growth"
+      },
+      "Permissions_Extended": {
+        "label": "Extended Permissions"
+      },
+      "Name_MaxLength": {
+        "label": "Max Name Length"
+      },
+      "Name_Tag_Show": {
+        "label": "Show Name Tag"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Name Tag Prefix"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Name Tag Suffix"
+      },
+      "Name_Filter": {
+        "label": "Filtered Words (one per line)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Automatic Assignment"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Random Assignment"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Choose Once"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Prevent Levelling Without Skilltree"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Switch Fee for Admins"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Switch Fee (fixed)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Switch Fee (percent)"
+      },
+      "Skill_Control_Item": {
+        "label": "Control Skill Item"
+      },
+      "Skill_Ride_Item": {
+        "label": "Ride Skill Item"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Ride Hunger Per Meter"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Beacon Hunger Decrease Time"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Backpack Opens in Creative"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Backpack Drops When Owner Dies"
+      },
+      "Update_Check": {
+        "label": "Check for Updates"
+      },
+      "Update_Download": {
+        "label": "Download Updates"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Menu — {{menuId}}",
+    "selectMenu": "Select a menu from the sidebar.",
+    "notFound": "Menu <0>{{menuId}}</0> not found in the workspace.",
+    "previewLanguage": "Preview language:",
+    "slotWithSection": "Slot {{slot}} — section: <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot {{slot}} — no section",
+    "clickSlot": "Click a slot to select its section."
+  },
+  "mobXp": {
+    "title": "Mob XP Rewards",
+    "sections": "XP sections",
+    "searchPlaceholder": "Search mobs…",
+    "searchLabel": "Search mobs",
+    "entryCount_one": "{{count}} entry",
+    "entryCount_other": "{{count}} entries",
+    "addCustom": "+ Add custom mob",
+    "noMatch": "No mobs match your search.",
+    "noCustom": "No custom mobs yet. Add one to give XP for a named mob.",
+    "noEntries": "No entries in this file.",
+    "colMob": "Mob",
+    "colMin": "Min",
+    "colMax": "Max",
+    "remove": "Remove {{name}}",
+    "tabs": {
+      "Default": "Default",
+      "Custom": "Custom"
+    },
+    "help": {
+      "Default": "XP awarded when a pet kills a vanilla mob.",
+      "Custom": "XP for custom-named mobs (e.g. MythicMobs). Match the mob’s exact name."
+    },
+    "promptCustomName": "Custom mob name (the mob’s exact display name, e.g. a MythicMobs id):"
+  },
+  "localeEditor": {
+    "title": "Locale — {{language}}",
+    "selectLanguage": "Select a language from the sidebar.",
+    "promptKey": "Override key (e.g. Message.Pet.Spawn):",
+    "invalidKey": "Keys can’t contain spaces or \"=\".",
+    "duplicateKey": "That key already has an override.",
+    "view": "Locale view",
+    "tabOverrides": "My overrides",
+    "tabAll": "All strings",
+    "searchPlaceholder": "Search keys or text…",
+    "searchLabel": "Search locale keys or text",
+    "onlyOverridden": "Show only overridden",
+    "overrideCount": "{{shown}} of {{total}} overrides",
+    "keyCount_one": "{{count}} key",
+    "keyCount_other": "{{count}} keys",
+    "addOverride": "+ Add override",
+    "noOverrides": "No overrides for <0>{{language}}</0> yet. Switch to <1>{{tabAll}}</1> to browse and override defaults.",
+    "noOverrideMatch": "No overrides match your search.",
+    "loadError": "Couldn’t load default strings for <0>{{language}}</0> from GitHub. You can still add overrides manually from the \"{{tabOverrides}}\" view.",
+    "loadingDefaults": "Loading default strings…",
+    "noStringMatch": "No strings match your search.",
+    "colKey": "Key",
+    "colDefault": "Default",
+    "colOverride": "Override",
+    "noDefault": "(no default)",
+    "remove": "Remove {{key}}",
+    "reset": "Reset {{key}} to default"
+  },
+  "petShops": {
+    "title": "Pet Shops",
+    "shops": "Shops",
+    "promptShopId": "New shop id (letters, numbers, underscore — e.g. premium):",
+    "invalidShopId": "Shop id may only contain letters, numbers, and underscores.",
+    "duplicateShop": "A shop named \"{{key}}\" already exists.",
+    "confirmDeleteShop": "Delete the \"{{name}}\" shop and all its pets?",
+    "addShop": "+ Add shop",
+    "deleteShop": "Delete this shop",
+    "noShops": "No shops defined. Add one to start selling pets.",
+    "displayName": "Display Name",
+    "defaultShop": "Default shop",
+    "defaultShopHint": "Opened by /petshop with no arguments.",
+    "menuPosition": "Menu Position",
+    "balanceType": "Balance Type",
+    "balanceTypeHint": "Where purchase money goes.",
+    "balanceOwner": "Balance Owner",
+    "balanceOwnerBank": "Vault bank name.",
+    "balanceOwnerPlayer": "Player UUID.",
+    "iconMaterial": "Icon Material",
+    "iconMaterialHint": "Item shown in the shop menu (e.g. chest, egg).",
+    "iconGlowing": "Icon Glowing",
+    "pets": "Pets",
+    "searchPets": "Search pets…",
+    "searchPetsLabel": "Search pets in this shop",
+    "petCount": "{{shown}} of {{total}}",
+    "addPet": "+ Add pet",
+    "promptPetId": "New pet id (letters, numbers, underscore — e.g. baby_wolf):",
+    "invalidPetId": "Pet id may only contain letters, numbers, and underscores.",
+    "duplicatePet": "A pet \"{{key}}\" already exists in this shop.",
+    "noPets": "No pets in this shop yet.",
+    "noPetMatch": "No pets match your search.",
+    "removePet": "Remove {{name}}",
+    "petType": "Pet Type",
+    "petTypeHint": "A MyPet pet type, e.g. WOLF, OCELOT.",
+    "price": "Price",
+    "startingExp": "Starting EXP",
+    "positionHint": "-1 = auto-fill.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Optional preset skilltree name.",
+    "description": "Description (one line each)",
+    "options": "Options (one per line)",
+    "optionsHint": "e.g. baby, or type-specific options."
+  },
+  "petTypes": {
+    "title": "Pet Types",
+    "search": "Search pet types…",
+    "searchLabel": "Search pet types",
+    "noMatch": "No types match.",
+    "noTypes": "No pet types in this file.",
+    "deleteTitle": "Delete this custom pet type",
+    "deleteButton": "🗑 Delete pet",
+    "confirmDelete": "Delete the custom pet \"{{name}}\"? This removes its entire pet-config section.",
+    "confirmDeleteTitle": "Delete custom pet",
+    "confirmDeleteConfirm": "Delete",
+    "complexValue": "Complex value — edit via raw YAML.",
+    "model": "Model",
+    "modelHelp": "Render this pet with a custom 3D model from a model-provider plugin (ModelEngine, BetterModel, ItemsAdder, or MythicMobs) instead of its vanilla appearance. Leave the provider empty to keep the default look.",
+    "provider": "Provider",
+    "modelId": "Model Id",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{id}}</1>\" is already used by the pet type \"<2>{{other}}</2>\". Each custom type needs a unique model — the plugin will otherwise skip one of them on load.",
+    "nameHeight": "Name Height",
+    "nameHeightHelp": "Vertical offset for the pet’s name tag above the model.",
+    "createCustom": "➕ Create custom pet",
+    "typeCount": "{{shown}} of {{total}} types",
+    "animations": "Animations",
+    "animationsHint": "— optional name overrides"
+  },
+  "menuSection": {
+    "notFound": "Section <0>{{sectionId}}</0> not found in <1>{{menuId}}</1>.",
+    "removed": "Section <0>{{sectionId}}</0> is removed from this menu (written as <1>null</1>).",
+    "resetDefault": "Reset to default",
+    "removeSection": "Remove section",
+    "confirmRemove": "Remove the \"{{sectionId}}\" section? This clears its slot on the canvas — reselect it via \"Reset to default\" if you change your mind.",
+    "confirmRemoveTitle": "Remove section",
+    "confirmRemoveConfirm": "Remove",
+    "statefulNotice": "This section defines per-state items (<0>states</0>). The fields below edit the base <1>item</1>, which only applies when no state overrides it.",
+    "material": "Material",
+    "column": "Column",
+    "row": "Row",
+    "glow": "Glow",
+    "soundOnClick": "Sound on click",
+    "soundKey": "Key",
+    "soundVolume": "Volume",
+    "soundPitch": "Pitch",
+    "pitchRangeHelp": "Currently a pitch range — editing here replaces it with a fixed value.",
+    "title": "Title",
+    "lore": "Lore"
+  },
+  "petWizard": {
+    "titleAvenue": "Create custom pet — Choose avenue",
+    "titleModel": "Create custom pet — Configure model",
+    "titleIdentity": "Create custom pet — Identity & body",
+    "titleStats": "Create custom pet — Stats",
+    "titleReview": "Create custom pet — Review",
+    "progress": "Wizard progress",
+    "chooseHow": "Choose how you want to create your custom pet.",
+    "buildFromModel": "Build a creature from a model",
+    "modelSource": "Model source",
+    "defaultModel": "Default model",
+    "sourceOnlyItemsAdder": "ItemsAdder models are content packs — pick an existing id.",
+    "sourceOnlyMythicMobs": "MythicMobs mobs are defined in MythicMobs configs — pick an existing mob type.",
+    "modelId": "Model ID",
+    "modelIdRegisteredHelp": "Select a model registered with {{provider}}.",
+    "modelIdManualHelp": "No models detected for {{provider}}. Enter a model ID manually.",
+    "modelIdRequired": "Model ID is required.",
+    "uploadLabel": "Upload .bbmodel",
+    "uploadReconnecting": "Reconnecting — wait for the session to reconnect before uploading.",
+    "uploadNeedsSession": "Uploading needs a live <0>/mypet editor</0> session — connect one to enable this.",
+    "uploadExplainer": "Uploads to {{provider}}; the model appears for players once {{provider}} regenerates its resource pack and clients re-download it. The file name (without <0>.bbmodel</0>) becomes the model id, so it must match the blueprint id declared inside the model.",
+    "uploading": "Uploading…",
+    "uploadDone": "Uploaded — model ID set to \"{{modelId}}\".",
+    "uploadFailed": "Upload failed.",
+    "nameHeight": "Name Height (optional)",
+    "nameHeightHelp": "Vertical offset for the pet’s name tag above the model.",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{modelId}}</1>\" is already used by the pet type \"<2>{{other}}</2>\". A model is a pet’s identity, so each custom type needs a unique model — pick a different one (the plugin would otherwise skip this type on load).",
+    "creatureName": "Creature name",
+    "creatureNameHelp": "The internal pet-config key for this pet type (e.g. FrostDragon). Must be unique.",
+    "hostMob": "Host mob",
+    "hostMobHelp": "The vanilla Bukkit mob type that provides the base entity for this pet.",
+    "health": "Health (HP)",
+    "healthHelp": "Base health points for this pet (e.g. 20 = 10 hearts).",
+    "walkSpeed": "Walk speed",
+    "walkSpeedHelp": "Movement speed attribute (e.g. 0.3 is the standard walk speed).",
+    "food": "Food (one item per line)",
+    "foodHelp": "Items that feed this pet, e.g. wheat. Leave empty to inherit the host mob’s food.",
+    "leash": "Leash requirements",
+    "leashHelp": "Conditions that must hold for a lead to work on this pet (e.g. Wild, Baby).",
+    "leashNeedsSession": "Leash requirements need a live session.",
+    "reviewIntro": "The following section will be added to <0>pet-config.yml</0>:",
+    "back": "Back",
+    "next": "Next",
+    "create": "Create",
+    "nameRequired": "Name is required."
+  }
+}

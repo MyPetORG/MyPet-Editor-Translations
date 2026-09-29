@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Nici o abilitate selectată",
+    "description": "Selectați o abilitate din bara laterală sau importați fișiere .st.json pentru a începe.",
+    "loadDefaultsCta": "Încarcă setările implicite"
+  },
+  "tabs": {
+    "properties": "Proprietăți",
+    "appearance": "Aspectul",
+    "eligiblePets": "Animale de companie eligibile",
+    "requirements": "Cerințe",
+    "notifications": "Notificări",
+    "skills": "Competențe",
+    "timeline": "Cronologie"
+  },
+  "inspector": {
+    "expand": "Extinde inspectorul",
+    "collapse": "Restrânge inspectorul",
+    "requirementsHint": "Marginile arată primul grup de abilități; toate cerințele sunt editabile aici."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Luptă",
+    "inheritance": "Moștenire",
+    "inheritancePlaceholder": "Selectați abilitatea părinte...",
+    "weight": "Greutate",
+    "weightPlaceholder": "15",
+    "permission": "Permisiune",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Nume",
+    "namePlaceholder": "Luptă",
+    "iconMaterial": "Material Pictograma",
+    "iconMaterialPlaceholder": "topor",
+    "glowing": "strălucire",
+    "description": "Descriere",
+    "descriptionPlaceholder": "O abilitate focalizată pe luptă...",
+    "viewJson": "Vezi JSON",
+    "jsonPreview": "Previzualizează abilitățile selectate ca JSON."
+  },
+  "eligiblePets": {
+    "title": "Animale de companie eligibile",
+    "none": "Niciunul",
+    "all": "Toate (*)",
+    "selected": "Selectate",
+    "includeFutureMobs": "Include mob-uri din viitoarele actualizări ale Minecraft",
+    "allPetsNotice": "Toate animalele de companie listate aici, inclusiv animalele de companie din actualizările viitoare, vor fi eligibile pentru această Abilitate.",
+    "noPetsNotice": "Niciun animal de companie nu va fi eligibil pentru această aptitudine.",
+    "loading": "Se încarcă cele mai recente entități Minecraft…",
+    "loadError": "Încărcarea listei de mob din minecraft-data a eșuat",
+    "customHeading": "Din configurarea animalelor de companie",
+    "customHint": "Tipuri de animale de companie personalizate definite în acest server-config.yml.",
+    "unrecognizedHeading": "Nerecunoscut",
+    "unrecognizedNotice": "Aceste intrări nu se potrivesc cu nici un mob Minecraft și nici un tip de configurare de animale de companie."
+  },
+  "requirements": {
+    "title": "Cerințe",
+    "minLevel": "Nivel minim animal de companie",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Nivel Maxim Pet",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Adaugă Cerințe",
+    "requirementType": "Tipul Cerinței",
+    "permission": "Permisiune",
+    "permissionPlaceholder": "Permisiune de testare",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Fără Abilitate",
+    "custom": "Personalizat",
+    "customKey": "Cheie personalizată",
+    "customKeyPlaceholder": "Nume personalizat",
+    "customValue": "Valoare personalizată",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "Nu există permisiune, abilitate sau cerințe personalizate pentru acest Skilltre.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Copiere permisiune"
+  },
+  "notifications": {
+    "title": "Notificări",
+    "addNotification": "Adaugă notificare",
+    "message": "Mesaj",
+    "messagePlaceholder": "{{owner}}companie {{pet}} a atins nivelul {{level}}!"
+  },
+  "skills": {
+    "title": "Competențe",
+    "addSkill": "Adaugă Abilitate",
+    "selectSkill": "Selectează o abilitate...",
+    "noSkills": "Nici o abilitate încă.",
+    "removeSkill": "Elimină abilitate",
+    "addUpgrade": "Adaugă actualizare",
+    "editUpgrade": "Editare actualizare",
+    "noUpgrades": "Nici o actualizare încă.",
+    "level": "Nivel {{level}}",
+    "levels": "Niveluri",
+    "everyLevel": "Fiecare nivel",
+    "everyNLevels": "Fiecare {{n}} nivele",
+    "everyNLevelsFrom": "Fiecare {{n}} niveluri de nivel {{start}} continuă.",
+    "everyNLevelsBetween": "Fiecare {{n}} niveluri între nivelurile {{start}} și {{end}}",
+    "fixedLevels": "Nivel: {{levels}}",
+    "skillExists": "Această abilitate există deja.",
+    "unknownSkill": "Abilitate necunoscută",
+    "levelList": "Levels {{levels}}",
+    "everyLevelRange": "Fiecare nivel ({{start}}-{{until}})",
+    "everyNLevelsRange": "Fiecare {{n}} nivele ({{start}}-{{until}})",
+    "everyLevelFrom": "Fiecare nivel din {{start}}",
+    "everyNLevelsFromStart": "Fiecare {{n}} niveluri din {{start}}"
+  },
+  "levelModal": {
+    "title": "Selectează nivele",
+    "fixed": "Fixat",
+    "dynamic": "Dinamic",
+    "fixedHelp": "Introduceți unul sau mai multe niveluri (spațiu/separate prin virgulă)",
+    "fixedPlaceholder": "de exemplu, 1 3 5 sau 1,3,5",
+    "every": "Fiecare (obligatoriu)",
+    "startFrom": "Începe de la nivel (opțional)",
+    "until": "Până la nivel (opţional)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Aptitudine nouă",
+    "searchPlaceholder": "Caută abilități…",
+    "noMatches": "Nicio potrivire",
+    "undo": "Anulează",
+    "redo": "Reface",
+    "moreActions": "Mai multe acțiuni",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Ștergere abilități",
+    "deleteConfirm": "Ștergeți {{name}}?",
+    "deleteConfirmWithRefs": "Ștergeți {{name}}? Alți copaci care fac referire la acesta vor afișa o insignă de referință care pune în pericol.",
+    "speciesPlaceholder": "Specii…",
+    "exitJourney": "Ieșire din modul călătorie"
+  },
+  "journey": {
+    "panelTitle": "Călătorie: {{species}}",
+    "levelLabel": "Nivel",
+    "currentTreeLabel": "Copac actual",
+    "freshPet": "niciunul – animal proaspăt",
+    "clickHint": "Simulare: click pe un arbore evidențiat pentru a-l alege",
+    "reset": "Resetează la animalele proaspete de companie",
+    "permissionNote": "Cerințe de permisiuni percepute",
+    "previewTitle": "Previzualizare inventar",
+    "requiresLevel": "Necesită nivel {{level}}",
+    "clickToApply": "Click pentru a aplica",
+    "noneAvailable": "Nu există deprinderi <red></red> disponibile pentru <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} eligibil"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Editare brută…",
+      "editRawTitle": "Editare raw: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Cerință",
+      "kindInheritance": "Moștenire",
+      "requirement": "{{prerequisite}} este o cerință de {{owner}}",
+      "anyOf": "Satisfacat de oricare dintre acestea: {{list}}",
+      "inheritance": "{{owner}} moștenește abilitățile lui {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} este o cerință pentru fiecare abilitate {{count}} din această stivă"
+    }
+  },
+  "validation": {
+    "error": "Eroare de validare",
+    "hasErrors": "Această calificare are erori de validare",
+    "skillHasErrors": "Această abilitate are erori de validare",
+    "issueInSkill": "Validare problemă în această abilitate. Extinde pentru a edita valorile."
+  },
+  "timeline": {
+    "inspectLevel": "Inspectează nivelul",
+    "modeSingle": "Singur",
+    "modeLevels": "Niveluri",
+    "modeRepeat": "Repetă",
+    "atLevel": "la nivel",
+    "levels": "nivele",
+    "every": "fiecare",
+    "from": "din",
+    "until": "până",
+    "keyPreview": "→ cheie: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamond sau base64:… (de la /petadmin info item)",
+    "addRow": "+ Adaugă"
+  },
+  "node": {
+    "namePlaceholder": "Nume",
+    "iconPlaceholder": "Material pictogramă",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Click pentru a extinde",
+    "allSpecies": "toate speciile",
+    "noSpecies": "nicio specie",
+    "speciesCount_one": "{{count}} specii",
+    "speciesCount_other": "{{count}} specii",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Lv până la {{max}}"
+  },
+  "canvas": {
+    "empty": "Nici o abilitate în acest spațiu de lucru încă.",
+    "layingOut": "Pânză pânze…"
+  },
+  "entry": {
+    "petTypeRequired": "Este necesar petType",
+    "priceExpNonNegative": "Preţul şi EXP trebuie să fie ≥ 0",
+    "minMaxNumbers": "Numărul minim și maxim trebuie să fie numere",
+    "valuesNonNegative": "Valorile trebuie să fie ≥ 0",
+    "maxGteMin": "Max trebuie să fie ≥ Min"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Työtilaa ei ladattu. Avaa istunto, jossa on <0>/mypet editori</0> tai lataa esimerkki nippu.",
+    "viewFile": "Näytä tiedosto",
+    "actions": "Toiminnot",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Määritä osat",
+    "tabs": {
+      "general": "Yleiset",
+      "database": "Tietokanta",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Kokemus",
+      "permissions": "Käyttöoikeudet",
+      "names": "Nimet",
+      "skills": "Taidot",
+      "updates": "Päivitykset"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Omistaja Voi Hyökkää Lemmikkiin"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Poista lemmikki vs. soitin käytöstä"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Pet Tappaa Anna Pelaaja Palkinnot"
+      },
+      "OverwriteLanguages": {
+        "label": "Korvaa Kieli",
+        "help": "Pakota paikallinen koodi (esim. fi, de_DE). Tyhjä = auto-detect."
+      },
+      "Leash_AllowRanged": {
+        "label": "Salli Ranged Leashing"
+      },
+      "Leash_Consume": {
+        "label": "Kuluta Väri-Esine"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Seuraa Aloitusetäisyyttä"
+      },
+      "Repository_Type": {
+        "label": "Repo Tyyppi"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Muunna Alkaen",
+        "help": "Valinnainen: siirry toisesta taustaosasta seuraavalla käynnistyksellä."
+      },
+      "Repository_LoadDelay": {
+        "label": "Kuormitusviive (punkit)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQL Isäntä"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL Tietokanta"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL Käyttäjä"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQL Salasana"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Taulun Etuliite"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Merkkikoodaus"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Yhteyksien Maksimi"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Oletus Aika Tekijä"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Oletus Aika Korjattu"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Pelaajan Ajan Kerroin"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Soittimen Aika Korjattu"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Respawn Aika Pois Käytöstä"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Taloudelliset Kustannustekijät"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Talouskustannukset Kiinteä"
+      },
+      "HungerSystem_Active": {
+        "label": "Nälkäjärjestelmä Aktiivinen"
+      },
+      "HungerSystem_Time": {
+        "label": "Nälkä Tick Time"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Kylläisyys Syötteessä"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Vahinkokerroin"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Vahingonkorvaus Korjattu"
+      },
+      "Exp_LevelCap": {
+        "label": "Tason Korkki"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Painotettu XP Jakelu"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Menettää XP kuolemalla"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP Tappio (kiinteä)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP Tappio (prosenttia)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Globaali XP-muokkain"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Passiivinen % Hirviötä Kohti"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Tason Laskentatila"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Kaari · Lineaarinen Pohja"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Kaari · Tehoste"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Kaari · Virrankulutus"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Kaavio · Eksponentiaalinen Pohja"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Kaavio · Eksponentiaalinen Kasvu"
+      },
+      "Permissions_Extended": {
+        "label": "Laajennetut Käyttöoikeudet"
+      },
+      "Name_MaxLength": {
+        "label": "Maksimi Nimi Pituus"
+      },
+      "Name_Tag_Show": {
+        "label": "Näytä Nimen Tunniste"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Nimen Tagin Etuliite"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Nimen Tagin Jälkiliite"
+      },
+      "Name_Filter": {
+        "label": "Suodatetut sanat (yksi per rivi)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Automaattinen Tehtävä"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Satunnainen Tehtävä"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Valitse Kerran"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Estä Taitopuuta Ilman Taitopuuta"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Vaihda maksusuoritusta ylläpitäjille"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Vaihda Maksu (korjattu)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Vaihda Maksu (prosenttia)"
+      },
+      "Skill_Control_Item": {
+        "label": "Ohjaa Taitokohde"
+      },
+      "Skill_Ride_Item": {
+        "label": "Kyydin Taitokohde"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Matka Nälkä Metriä Kohti"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Majakan Nälkä Vähennä Aikaa"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Repack Avaa luovassa muodossa"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Repun Pudotus Kun Omistaja kuolee"
+      },
+      "Update_Check": {
+        "label": "Tarkista päivitykset"
+      },
+      "Update_Download": {
+        "label": "Lataa Päivitykset"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Valikko — {{menuId}}",
+    "selectMenu": "Valitse valikko sivupalkista.",
+    "notFound": "Valikko <0>{{menuId}}</0> ei löytynyt työtilasta.",
+    "previewLanguage": "Esikatsele kieltä:",
+    "slotWithSection": "Slot {{slot}} — section: <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot {{slot}} – ei osaa",
+    "clickSlot": "Napsauta korttipaikkaa valitaksesi sen osan."
+  },
+  "mobXp": {
+    "title": "Mob XP -palkinnot",
+    "sections": "XP lohkot",
+    "searchPlaceholder": "Hae hirviöitä…",
+    "searchLabel": "Hae hirviöitä",
+    "entryCount_one": "{{count}} merkintä",
+    "entryCount_other": "{{count}} tietuetta",
+    "addCustom": "+ Lisää oma mob",
+    "noMatch": "Yksikään hirviö ei vastaa hakuasi.",
+    "noCustom": "Ei vielä omia hirviöitä. Lisää yksi antamaan XP nimeltä mob.",
+    "noEntries": "Ei merkintöjä tässä tiedostossa.",
+    "colMob": "Hirviö",
+    "colMin": "Minimi",
+    "colMax": "Maksimi",
+    "remove": "Remove {{name}}",
+    "tabs": {
+      "Default": "Oletus",
+      "Custom": "Mukautettu"
+    },
+    "help": {
+      "Default": "XP palkitaan, kun lemmikki tappaa vaniljamobin.",
+      "Custom": "XP yksilöityille hirviöille (esim. MythicMobs). Match the mobin tarkka nimi."
+    },
+    "promptCustomName": "Mukautettu mob nimi (mobin tarkka näytönnimi, esim. MythicMobs id):"
+  },
+  "localeEditor": {
+    "title": "Paikallinen – {{language}}",
+    "selectLanguage": "Valitse kieli sivupalkista.",
+    "promptKey": "Ohita avain (esim. viesti.Pet.Spawn):",
+    "invalidKey": "Avaimet eivät voi sisältää välilyöntejä tai \"=\".",
+    "duplicateKey": "Tämä avain on jo ohitettu.",
+    "view": "Lokaation näkymä",
+    "tabOverrides": "Omat ohitukset",
+    "tabAll": "Kaikki merkkijonot",
+    "searchPlaceholder": "Etsi avaimia tai tekstiä…",
+    "searchLabel": "Etsi lokaatio-avaimia tai tekstiä",
+    "onlyOverridden": "Näytä vain ohitettu",
+    "overrideCount": "{{shown}} of {{total}} overrides",
+    "keyCount_one": "{{count}} avain",
+    "keyCount_other": "{{count}} avainta",
+    "addOverride": "+ Lisää ylikirjoitus",
+    "noOverrides": "No overrides for <0>{{language}}</0> yet. Switch to <1>{{tabAll}}</1> to browse and override defaults.",
+    "noOverrideMatch": "Hakuasi vastaavia ohituksia ei löydy.",
+    "loadError": "Ei voitu ladata oletusmerkkijonoja <0>{{language}}</0> GitHubista. Voit silti lisätä ohituksia manuaalisesti \"{{tabOverrides}}\"-näkymästä.",
+    "loadingDefaults": "Ladataan oletusmerkkijonoja…",
+    "noStringMatch": "Mikään merkkijono ei vastaa hakuasi.",
+    "colKey": "Avain",
+    "colDefault": "Oletus",
+    "colOverride": "Ohita",
+    "noDefault": "(ei oletusarvoa)",
+    "remove": "Remove {{key}}",
+    "reset": "Reset {{key}} to default"
+  },
+  "petShops": {
+    "title": "Lemmikkieläimet Kaupat",
+    "shops": "Kaupat",
+    "promptShopId": "Uusi kaupan tunnus (kirjaimet, numerot, alaviiva – esim. premium):",
+    "invalidShopId": "Kaupan tunnus voi sisältää vain kirjaimia, numeroita ja alaviivoja.",
+    "duplicateShop": "Kauppa nimeltä \"{{key}}\" on jo olemassa.",
+    "confirmDeleteShop": "Poista \"{{name}}\" kauppa ja kaikki sen lemmikkit?",
+    "addShop": "+ Lisää kauppa",
+    "deleteShop": "Poista tämä kauppa",
+    "noShops": "Yhtään myymälää ei ole määritelty. Lisää yksi aloittaaksesi lemmikkieläinten myymisen.",
+    "displayName": "Näytön Nimi",
+    "defaultShop": "Oletus kauppa",
+    "defaultShopHint": "Avattu /petshop ilman argumentteja.",
+    "menuPosition": "Valikon Sijainti",
+    "balanceType": "Saldon Tyyppi",
+    "balanceTypeHint": "Mistä ostaa rahaa menee.",
+    "balanceOwner": "Saldon Omistaja",
+    "balanceOwnerBank": "Holvipankin nimi.",
+    "balanceOwnerPlayer": "Pelaaja UUID.",
+    "iconMaterial": "Kuvakkeen Materiaali",
+    "iconMaterialHint": "Tavara näytetään kaupan valikossa (esim. rinnassa, munassa).",
+    "iconGlowing": "Kuvakkeen Heijastus",
+    "pets": "Lemmikit",
+    "searchPets": "Hae lemmikkejä…",
+    "searchPetsLabel": "Hae lemmikkejä tästä kaupasta",
+    "petCount": "{{shown}} of {{total}}",
+    "addPet": "+ Lisää lemmikki",
+    "promptPetId": "Uusi lemmikkieläinten tunnus (kirjaimet, numerot, alaviiva – esim. baby_wolf):",
+    "invalidPetId": "Pet id voi sisältää vain kirjaimia, numeroita ja alaviivoja.",
+    "duplicatePet": "Lemmikki \"{{key}}\" on jo olemassa tässä kaupassa.",
+    "noPets": "Ei lemmikkejä tässä kaupassa vielä.",
+    "noPetMatch": "Mikään lemmikki ei vastaa hakuasi.",
+    "removePet": "Remove {{name}}",
+    "petType": "Lemmikkieläinten Tyyppi",
+    "petTypeHint": "MyPet lemmikkieläinten tyyppi, esim. WOLF, OCELOT.",
+    "price": "Hinta",
+    "startingExp": "Käynnistetään EXP",
+    "positionHint": "-1 = automaattinen täyttö.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Valinnainen esiasetus skilltree nimi.",
+    "description": "Kuvaus (kukin rivi)",
+    "options": "Vaihtoehdot (yksi per rivi)",
+    "optionsHint": "esim. vauva tai tyyppikohtaisia vaihtoehtoja."
+  },
+  "petTypes": {
+    "title": "Lemmikkieläinten Tyypit",
+    "search": "Etsi lemmikkieläinten tyypit…",
+    "searchLabel": "Hae lemmikkieläinten tyyppejä",
+    "noMatch": "Tyyppejä ei täsmää.",
+    "noTypes": "Tässä tiedostossa ei ole lemmikkityyppejä.",
+    "deleteTitle": "Poista tämä mukautettu lemmikkieläinten tyyppi",
+    "deleteButton": "🗑️ Poista lemmikki",
+    "confirmDelete": "Poista mukautettu lemmikki \"{{name}}\"? Tämä poistaa sen koko lemmikki-config osio.",
+    "confirmDeleteTitle": "Poista oma lemmikki",
+    "confirmDeleteConfirm": "Poista",
+    "complexValue": "Monimutkainen arvo – muokkaa raa'an YAML:n kautta.",
+    "model": "Malli",
+    "modelHelp": "Renderoi tämä lemmikki mukautetun 3D-mallin malli-tarjoajan plugin (ModelEngine, BetterModel, ItemsAdder, tai MythicMobs) sijaan sen vaniljan ulkonäkö. Jätä tarjoaja tyhjäksi pitääksesi oletuksena ulkonäön.",
+    "provider": "Tarjoaja",
+    "modelId": "Mallin Tunnus",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{id}}</1>\" is already used by the pet type \"<2>{{other}}</2>\". Each custom type needs a unique model — the plugin will otherwise skip one of them on load.",
+    "nameHeight": "Nimi Korkeus",
+    "nameHeightHelp": "Vertikaalinen siirtymä lemmikin nimikirjaimella mallin yläpuolella.",
+    "createCustom": "➕ Luo oma lemmikki",
+    "typeCount": "{{shown}} of {{total}} types",
+    "animations": "Animaatiot",
+    "animationsHint": "— valinnaiset nimien ohitukset"
+  },
+  "menuSection": {
+    "notFound": "Osiota <0>{{sectionId}}</0> ei löytynyt <1>{{menuId}}</1>.",
+    "removed": "Osa <0>{{sectionId}}</0> poistetaan tästä valikosta (kirjoitettu <1>null</1>).",
+    "resetDefault": "Palauta oletukset",
+    "removeSection": "Poista osio",
+    "confirmRemove": "Poista \"{{sectionId}}\" -osio? Tämä tyhjentää sen ruudussa — valitse se uudelleen \"Palauta oletukseksi\" jos muutat mieltäsi.",
+    "confirmRemoveTitle": "Poista osio",
+    "confirmRemoveConfirm": "Poista",
+    "statefulNotice": "Tässä osiossa määritellään erilliset kohteet (<0>states</0>). Alla olevat kentät muokkaavat pohjaa <1>item</1>, jota sovelletaan vain, jos mitään tilaa ei ylikirjoiteta.",
+    "material": "Materiaali",
+    "column": "Sarake",
+    "row": "Rivi",
+    "glow": "Hehku",
+    "soundOnClick": "Ääni napsautettaessa",
+    "soundKey": "Avain",
+    "soundVolume": "Tilavuus",
+    "soundPitch": "Piki",
+    "pitchRangeHelp": "Tällä hetkellä kentän alue — muokkaus täällä korvaa sen kiinteällä arvolla.",
+    "title": "Otsikko",
+    "lore": "Lore"
+  },
+  "petWizard": {
+    "titleAvenue": "Luo mukautettu lemmikki - Valitse avenue",
+    "titleModel": "Luo mukautettu lemmikki — Määritä malli",
+    "titleIdentity": "Luo mukautettu lemmikki — Identiteetti ja runko",
+    "titleStats": "Luo mukautettu lemmikki — Tilastot",
+    "titleReview": "Luo mukautettu lemmikki — Arvostele",
+    "progress": "Ohjattu edistyminen",
+    "chooseHow": "Valitse, miten haluat luoda mukautetun lemmikin.",
+    "buildFromModel": "Rakenna olento mallista",
+    "modelSource": "Mallin lähde",
+    "defaultModel": "Oletus malli",
+    "sourceOnlyItemsAdder": "ItemsAdder mallit ovat sisältöpaketteja – valitse olemassa oleva id.",
+    "sourceOnlyMythicMobs": "MythicMobs mobs määritellään MythicMobs configs – valitse olemassa oleva mob tyyppi.",
+    "modelId": "Malli ID",
+    "modelIdRegisteredHelp": "Valitse malli, joka on rekisteröity {{provider}}.",
+    "modelIdManualHelp": "Mallia ei havaittu kohteessa {{provider}}. Anna mallin ID manuaalisesti.",
+    "modelIdRequired": "Malli ID vaaditaan.",
+    "uploadLabel": "Lataa .bbmodel",
+    "uploadReconnecting": "Yhdistetään uudelleen — odota kunnes istunto muodostetaan uudelleen ennen latausta.",
+    "uploadNeedsSession": "Lataus vaatii live <0>/mypet editorin</0> istunnon — yhdistä se ottaaksesi tämän käyttöön.",
+    "uploadExplainer": "Uploads to {{provider}}; the model appears for players once {{provider}} regenerates its resource pack and clients re-download it. The file name (without <0>.bbmodel</0>) becomes the model id, so it must match the blueprint id declared inside the model.",
+    "uploading": "Lähetetään…",
+    "uploadDone": "Ladattu — malli ID asetettu \"{{modelId}}\".",
+    "uploadFailed": "Lataus epäonnistui.",
+    "nameHeight": "Nimen Korkeus (Valinnainen)",
+    "nameHeightHelp": "Vertikaalinen siirtymä lemmikin nimikirjaimella mallin yläpuolella.",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{modelId}}</1>\" is already used by the pet type \"<2>{{other}}</2>\". A model is a pet’s identity, so each custom type needs a unique model — pick a different one (the plugin would otherwise skip this type on load).",
+    "creatureName": "Olennon nimi",
+    "creatureNameHelp": "Sisäinen lemmikki-asetusavain tälle lemmikkieläinten tyypille (esim. FrostDragon). Täytyy olla ainutlaatuinen.",
+    "hostMob": "Isäntä mob",
+    "hostMobHelp": "Vanilla Bukkit mob tyyppi, joka tarjoaa perusyksikön tälle lemmikille.",
+    "health": "Terveys (HP)",
+    "healthHelp": "Tämän lemmikin terveyskohdat (esim. 20 = 10 sydäntä).",
+    "walkSpeed": "Kävelyn nopeus",
+    "walkSpeedHelp": "Liikkeen nopeuden attribuutti (esim. 0,3 on tavanomainen kävelynopeus).",
+    "food": "Ruoka (yksi tuote riviä kohti)",
+    "foodHelp": "Esineet jotka ruokkivat tätä lemmikkiä, esim. vehnää. Jätä tyhjäksi periäksesi isäntääiti ruoan.",
+    "leash": "Vähätuhkaa koskevat vaatimukset",
+    "leashHelp": "Edellytykset, joissa on oltava lyijyä tähän lemmikkieläinten työhön (esim. Wild, Baby).",
+    "leashNeedsSession": "Vähemmän vaatimusta tarvitaan elävä istunto.",
+    "reviewIntro": "Seuraava osio lisätään <0>pet-config.yml</0>:",
+    "back": "Takaisin",
+    "next": "Seuraava",
+    "create": "Luo",
+    "nameRequired": "Nimi vaaditaan."
+  }
+}

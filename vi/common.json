@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Chọn một khu vực cấu hình từ thanh bên."
+  },
+  "actions": {
+    "import": "Nhập",
+    "export": "Xuất ZIP",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "add": "Thêm",
+    "remove": "Gỡ",
+    "edit": "Sửa",
+    "close": "Đóng",
+    "ok": "OK",
+    "confirm": "Xác nhận",
+    "done": "Xong",
+    "loadDefaults": "Tải mặc định",
+    "chooseFiles": "Chọn tệp",
+    "copyJson": "Sao chép JSON",
+    "download": "Tải xuống",
+    "selectAll": "Chọn tất cả",
+    "deselectAll": "Bỏ chọn tất cả",
+    "copy": "Sao chép"
+  },
+  "autosave": {
+    "saved": "Đã lưu",
+    "savedAt": "Đã lưu {{time}}",
+    "saving": "Đang tự động lưu…",
+    "pending": "Thay đổi chưa lưu",
+    "justNow": "vừa xong",
+    "secondsAgo": "{{s}} giây trước",
+    "minutesAgo": "{{m}} phút trước",
+    "hoursAgo": "{{h}} giờ trước"
+  },
+  "modals": {
+    "import": {
+      "title": "Nhập cây kỹ năng",
+      "description": "Thả một tệp .zip (nhiều cây) hoặc một tệp .st.json.",
+      "dragHere": "Kéo và thả tệp vào đây",
+      "or": "hoặc",
+      "reading": "Đang đọc tệp…"
+    },
+    "confirm": {
+      "title": "Xác nhận",
+      "deleteTree": "Xóa cây kỹ năng \"{{id}}\"?",
+      "deleteSkill": "Gỡ kỹ năng \"{{id}}\"?",
+      "loadDefaults": "Thao tác này sẽ thay thế các cây kỹ năng hiện tại bằng những ví dụ mặc định và xóa bản nháp cục bộ của bạn. Tiếp tục?"
+    },
+    "alert": {
+      "title": "Cảnh báo",
+      "importFailed": "Không thể nhập tệp.",
+      "exportBlocked": "Xuất bị chặn: {{count}} cây kỹ năng có lỗi kiểm tra.\n\nCây không hợp lệ: {{names}}\n\nVui lòng sửa hết lỗi kiểm tra trước khi xuất.",
+      "noTreesToExport": "Không có cây kỹ năng nào để xuất.",
+      "duplicateId": "Đã tồn tại một cây kỹ năng với ID đó.",
+      "loadDefaultsFailed": "Không thể tải các ví dụ mặc định",
+      "jsonCopied": "Đã sao chép JSON vào bộ nhớ tạm",
+      "jsonCopyFailed": "Không thể sao chép JSON"
+    },
+    "viewSource": "Xem mã nguồn"
+  },
+  "language": {
+    "select": "Chọn ngôn ngữ",
+    "loading": "Đang tải bản dịch..."
+  },
+  "tooltip": {
+    "breakdown": "Chi tiết",
+    "total": "Tổng",
+    "goHome": "Về trang chủ",
+    "allChangesSaved": "Đã lưu mọi thay đổi",
+    "saveChanges": "Lưu thay đổi",
+    "importFile": "Nhập .st.json",
+    "loadDefaults": "Tải các cây ví dụ mặc định",
+    "exportZip": "Xuất tất cả cây ra một tệp zip",
+    "delete": "Xóa",
+    "openDocs": "Mở tài liệu MyPet",
+    "switchToLight": "Chuyển sang chế độ sáng",
+    "switchToDark": "Chuyển sang chế độ tối",
+    "tipOnKofi": "Ủng hộ dự án này trên Ko-fi"
+  },
+  "footer": {
+    "builtBy": "được tạo với ❤️ bởi",
+    "tip": "☕ Ủng hộ"
+  },
+  "richText": {
+    "bold": "Đậm",
+    "italic": "Nghiêng",
+    "underline": "Gạch chân",
+    "strikethrough": "Gạch ngang",
+    "reset": "Đặt lại",
+    "placeholder": "Nhập văn bản MiniMessage. Dùng thanh công cụ để chèn thẻ."
+  },
+  "common": {
+    "none": "(Không có)",
+    "noOptions": "(Không có tùy chọn)"
+  },
+  "sidebar": {
+    "title": "Cây kỹ năng",
+    "newSkilltree": "Cây kỹ năng mới",
+    "order": "Thứ tự {{order}}",
+    "expand": "Mở rộng",
+    "collapse": "Thu gọn",
+    "expandSidebar": "Mở rộng thanh bên",
+    "collapseSidebar": "Thu gọn thanh bên",
+    "reorder": "Sắp xếp lại",
+    "dragToReorder": "Kéo để sắp xếp lại",
+    "reviewSave": "Xem lại & Lưu",
+    "nothingToSave": "Không có thay đổi chưa lưu",
+    "configSections": "Các mục cấu hình",
+    "category": {
+      "general": "Chung",
+      "pets": "Thú cưng",
+      "experience": "Kinh nghiệm",
+      "skilltrees": "Cây kỹ năng",
+      "locale": "Ngôn ngữ",
+      "hooks": "Hooks",
+      "menus": "Menu"
+    }
+  },
+  "session": {
+    "noWorkspace": "Chưa tải không gian làm việc",
+    "expiringSoon": "Phiên sắp hết hạn",
+    "demoData": "Dữ liệu ví dụ · thay đổi sẽ không được lưu",
+    "rejected": "Máy chủ đã từ chối các thay đổi."
+  },
+  "editors": {
+    "config": {
+      "label": "Cấu hình chính"
+    },
+    "petConfig": {
+      "label": "Cấu hình thú cưng"
+    },
+    "expConfig": {
+      "label": "Thưởng XP theo mob"
+    },
+    "petShops": {
+      "label": "Cửa hàng thú cưng"
+    },
+    "skilltrees": {
+      "label": "Cây kỹ năng"
+    },
+    "locale": {
+      "label": "Ngôn ngữ"
+    },
+    "hooksConfig": {
+      "label": "Cấu hình Hooks"
+    },
+    "menus": {
+      "label": "Menu"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Đang kết nối tới máy chủ của bạn",
+    "loadingSubtitle": "Đang tải cấu hình…",
+    "trustTitle": "Cấp quyền cho trình duyệt này",
+    "trustSubtitle": "Trình duyệt này chưa được tin cậy. Chạy lệnh sau trong game để kết nối:",
+    "trustWaiting": "Đang chờ cấp quyền…",
+    "noSessionTitle": "Không có phiên hoạt động",
+    "noSessionSubtitle": "Chạy <0>/mypet editor</0> trong game rồi mở liên kết mà lệnh đó đưa cho bạn.",
+    "tryDemo": "Dùng thử bản demo",
+    "demoHint": "Khám phá mọi trình chỉnh sửa với dữ liệu ví dụ — không cần máy chủ.",
+    "endedTitle": "Phiên chỉnh sửa này đã kết thúc",
+    "endedSubtitle": "Máy chủ đã đóng phiên, hoặc phiên đã hết thời gian chờ. Chạy <0>/mypet editor</0> trong game để bắt đầu phiên mới, rồi mở liên kết mới mà lệnh đó đưa cho bạn."
+  },
+  "reviewSave": {
+    "title": "Xem lại & Lưu",
+    "noChanges": "Không có thay đổi chưa lưu.",
+    "summary_one": "{{count}} tệp có thay đổi chưa lưu",
+    "summary_other": "{{count}} tệp có thay đổi chưa lưu",
+    "tagRemoved": "đã gỡ",
+    "tagAdded": "đã thêm",
+    "empty": "(trống)",
+    "apply": "Áp dụng thay đổi",
+    "applying": "Đang áp dụng…",
+    "hintNoChanges": "Không có thay đổi nào để áp dụng.",
+    "hintNotConnected": "Hãy kết nối một phiên trực tiếp trước — chạy /mypet editor và cấp quyền cho trình duyệt.",
+    "hintNoSession": "Không có phiên hoạt động.",
+    "hintReady": "Ghi các thay đổi này lên máy chủ rồi tải lại.",
+    "formattingOnly": "Chỉ thay đổi định dạng (giá trị không đổi)",
+    "stAdded": "{{count}} đã thêm",
+    "stRemoved": "{{count}} đã gỡ",
+    "stModified": "{{count}} đã sửa",
+    "stBroken": "{{count}} tệp lỗi đã thay đổi",
+    "noNetChange": "không có thay đổi thực tế",
+    "localeSummary": "{{keys}} khóa trên {{langs}} ngôn ngữ",
+    "applyFailed": "Không thể áp dụng thay đổi"
+  },
+  "sessionClosed": {
+    "title": "Phiên đã đóng",
+    "body": "Phiên chỉnh sửa trên web đã kết thúc (bị đóng trong game, hoặc hết thời gian chờ). Không thể lưu thay đổi nữa — chạy lại <0>/mypet editor</0> để bắt đầu một phiên mới.",
+    "viewReadOnly": "Xem ở chế độ chỉ đọc"
+  }
+}

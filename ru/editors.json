@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Рабочая область не загружена. Откройте сессию с редактором <0>/mypet</0> или загрузите набор примеров.",
+    "viewFile": "Просмотр файла",
+    "actions": "Действия",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Разделы конфигурации",
+    "tabs": {
+      "general": "Общие положения",
+      "database": "База данных",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Опыт работы",
+      "permissions": "Права доступа",
+      "names": "Имена",
+      "skills": "Навыки",
+      "updates": "Обновления"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Владелец может атаковать питомца"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Отключить питомец против игрока"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Награда за убийство питомца"
+      },
+      "OverwriteLanguages": {
+        "label": "Перезаписать язык",
+        "help": "Принудительный код локали (например, en, de_DE). Пустое значение = автоопределение."
+      },
+      "Leash_AllowRanged": {
+        "label": "Разрешить дальнее литье"
+      },
+      "Leash_Consume": {
+        "label": "Использовать Лизинг"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Следить за расстоянием начала"
+      },
+      "Repository_Type": {
+        "label": "Тип репозитория"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Конвертировать из",
+        "help": "Необязательно: перейти из другого бэкэнда при следующем запуске."
+      },
+      "Repository_LoadDelay": {
+        "label": "Задержка загрузки (тики)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQL хост"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "База данных MySQL"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL пользователь"
+      },
+      "Repository_MySQL_Password": {
+        "label": "Пароль MySQL"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Префикс таблиц"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Кодировка"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Максимум подключений"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Временной Коэффициент по умолчанию"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Исправлено время по умолчанию"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Фактор времени игрока"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Время игрока зафиксировано"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Время возрождения отключено"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Коэффициент экономических затрат"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Затраты на экономию"
+      },
+      "HungerSystem_Active": {
+        "label": "Активная система голода"
+      },
+      "HungerSystem_Time": {
+        "label": "Время Тика Голода"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Насыщенность в ленте"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Коэффициент урона"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Урон по ремонту"
+      },
+      "Exp_LevelCap": {
+        "label": "Кепка уровня"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Распределение Опыта с учётом урона"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Потеря опыта при смерти"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP Потери (исправлено)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP Потери (в процентах)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Глобальный модификатор XP"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Пассивный % на монстра"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Режим расчёта уровня"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Кривая · Линейное основание"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Кривая · Коэффициент мощности"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Кривая · Экспонент мощности"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Кривая · Экспоненциальная база"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Кривая · Экспоненциальный Рост"
+      },
+      "Permissions_Extended": {
+        "label": "Расширенные права доступа"
+      },
+      "Name_MaxLength": {
+        "label": "Макс. длина имени"
+      },
+      "Name_Tag_Show": {
+        "label": "Показать именную табличку"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Префикс Именного Тега"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Суффикс Именной Теги"
+      },
+      "Name_Filter": {
+        "label": "Отфильтрованные слова (по одному в строке)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Автоматическое задание"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Случайное назначение"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Выберите один раз"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Предотвратить повышение уровня без дерева навыков"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Плата за переключение для администраторов"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Плата за переключение (фиксированная)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Плата переключателя (%)"
+      },
+      "Skill_Control_Item": {
+        "label": "Элемент управления навыком"
+      },
+      "Skill_Ride_Item": {
+        "label": "Предмет навыка поездки"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Поездка с голодом за метр"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Уменьшение времени голода маяка"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Рюкзак открывается в Creative"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Рюкзак выбрасывает когда владелец Dies"
+      },
+      "Update_Check": {
+        "label": "Проверить обновления"
+      },
+      "Update_Download": {
+        "label": "Скачать обновления"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Меню — {{menuId}}",
+    "selectMenu": "Выберите меню из боковой панели.",
+    "notFound": "Меню <0>{{menuId}}</0> не найдено в рабочей области.",
+    "previewLanguage": "Предпросмотр языка:",
+    "slotWithSection": "Слот {{slot}} — секция: <0>{{sectionId}}</0>",
+    "slotNoSection": "Ячейка {{slot}} — нет секции",
+    "clickSlot": "Нажмите на слот, чтобы выбрать его раздел."
+  },
+  "mobXp": {
+    "title": "Награды Моба Опыта",
+    "sections": "Разделы XP",
+    "searchPlaceholder": "Поиск мобов…",
+    "searchLabel": "Поиск мобов",
+    "entryCount_one": "{{count}} запись",
+    "entryCount_other": "{{count}} записей",
+    "addCustom": "+ Добавить собственный моб",
+    "noMatch": "Мобы не соответствуют вашему запросу.",
+    "noCustom": "Еще нет пользовательских мобов. Добавьте один, чтобы дать XP для именованного моба.",
+    "noEntries": "Нет записей в этом файле.",
+    "colMob": "Моб",
+    "colMin": "Мин",
+    "colMax": "Макс",
+    "remove": "Удалить {{name}}",
+    "tabs": {
+      "Default": "По умолчанию",
+      "Custom": "Пользовательский"
+    },
+    "help": {
+      "Default": "Опыт начисляется при уничтожении питомца.",
+      "Custom": "Опыт для мобов с индивидуальным названием (например, MythicMobs). Сопоставьте точное название моба."
+    },
+    "promptCustomName": "Пользовательское имя моба (отображаемое имя моба, например ID MythicMobs):"
+  },
+  "localeEditor": {
+    "title": "Локаль — {{language}}",
+    "selectLanguage": "Выберите язык из боковой панели.",
+    "promptKey": "Переопределить ключ (например, Message.Pet.Spawn):",
+    "invalidKey": "Ключи не могут содержать пробелы или \"=\".",
+    "duplicateKey": "Этот ключ уже имеет переопределение.",
+    "view": "Вид локали",
+    "tabOverrides": "Мои переопределения",
+    "tabAll": "Все строки",
+    "searchPlaceholder": "Поиск ключей или текста…",
+    "searchLabel": "Поиск ключей или текста локали",
+    "onlyOverridden": "Показать только переданные",
+    "overrideCount": "{{shown}} из {{total}} переопределений",
+    "keyCount_one": "{{count}} ключ",
+    "keyCount_other": "{{count}} ключи",
+    "addOverride": "+ Добавить переопределение",
+    "noOverrides": "Нет переопределения для <0>{{language}}</0>. Переключитесь на <1>{{tabAll}}</1> для просмотра и переопределения по умолчанию.",
+    "noOverrideMatch": "Нет переопределений по вашему запросу.",
+    "loadError": "Не удалось загрузить строки по умолчанию для <0>{{language}}</0> из GitHub. Вы можете добавить переопределения вручную из представления \"{{tabOverrides}}\".",
+    "loadingDefaults": "Загрузка строк по умолчанию…",
+    "noStringMatch": "Нет строк, соответствующих вашему запросу.",
+    "colKey": "Спецификация",
+    "colDefault": "По умолчанию",
+    "colOverride": "Переопределить",
+    "noDefault": "(по умолчанию)",
+    "remove": "Удалить {{key}}",
+    "reset": "Сброс {{key}} по умолчанию"
+  },
+  "petShops": {
+    "title": "Магазины для питомцев",
+    "shops": "Магазины",
+    "promptShopId": "ID нового магазина (буквы, цифры, подчеркивание — напр. премиум):",
+    "invalidShopId": "ID магазина может содержать только буквы, цифры и знаки подчеркивания.",
+    "duplicateShop": "Магазин с названием \"{{key}}\" уже существует.",
+    "confirmDeleteShop": "Удалить магазин \"{{name}}\" и все его питомцы?",
+    "addShop": "+ Добавить магазин",
+    "deleteShop": "Удалить этот магазин",
+    "noShops": "Магазин не определен. Добавьте магазин, чтобы начать продавать домашних животных.",
+    "displayName": "Показать имя",
+    "defaultShop": "Магазин по умолчанию",
+    "defaultShopHint": "Открыт /petshop без аргументов.",
+    "menuPosition": "Позиция меню",
+    "balanceType": "Тип баланса",
+    "balanceTypeHint": "Где покупаются деньги.",
+    "balanceOwner": "Владелец баланса",
+    "balanceOwnerBank": "Название банка хранилища.",
+    "balanceOwnerPlayer": "UUID игрока.",
+    "iconMaterial": "Материал значка",
+    "iconMaterialHint": "Элемент, показанный в меню магазина (например, сундук, яйца).",
+    "iconGlowing": "Светящаяся иконка",
+    "pets": "Питомцы",
+    "searchPets": "Поиск домашних животных…",
+    "searchPetsLabel": "Поиск питомцев в этом магазине",
+    "petCount": "{{shown}} из {{total}}",
+    "addPet": "+ Добавить питомца",
+    "promptPetId": "Новый id питомца (буквы, цифры, подчеркивание — например, baby_wolf):",
+    "invalidPetId": "Идентификатор питомета может содержать только буквы, цифры и знаки подчеркивания.",
+    "duplicatePet": "Питомник \"{{key}}\" уже существует в этом магазине.",
+    "noPets": "В этом магазине пока нет домашних животных.",
+    "noPetMatch": "Нет домашних животных, соответствующих вашему запросу.",
+    "removePet": "Удалить {{name}}",
+    "petType": "Тип питомца",
+    "petTypeHint": "Тип питомца MyPet, например WOLF, OCELOT.",
+    "price": "Цена",
+    "startingExp": "Начиная EXP",
+    "positionHint": "-1 = автозаполнение.",
+    "skilltree": "Дерево навыков",
+    "skilltreeHint": "Необязательное имя шаблона.",
+    "description": "Описание (по одной строке)",
+    "options": "Опции (по одному в строке)",
+    "optionsHint": "Например, baby, or type-specific options."
+  },
+  "petTypes": {
+    "title": "Типы питомцев",
+    "search": "Поиск типов питомцев…",
+    "searchLabel": "Поиск типов питомцев",
+    "noMatch": "Типы не совпадают.",
+    "noTypes": "В этом файле нет типов питомцев.",
+    "deleteTitle": "Удалить этот пользовательский тип питомца",
+    "deleteButton": "🗑️ Удалить питомца",
+    "confirmDelete": "Удалить пользовательский питомец \"{{name}}\"? Это удалит всю секцию pet-config.",
+    "confirmDeleteTitle": "Удалить питомца",
+    "confirmDeleteConfirm": "Удалить",
+    "complexValue": "Сложное значение — редактируйте через raw YAML.",
+    "model": "Модель",
+    "modelHelp": "Рендер этого питомца с пользовательской 3D-моделью из плагина модельного провайдера (ModelEngine, BetterModel, ItemsAdder, или MythicMobs) вместо его ванильного внешнего вида. Оставьте поле пустым для отображения по умолчанию.",
+    "provider": "Поставщик",
+    "modelId": "ID модели",
+    "modelCollision": "<0>{{provider}}</0> модель \"<1>{{id}}</1>\" уже используется типом животного \"<2>{{other}}</2>\". Каждому пользовательскому типу нужна уникальная модель — плагин в противном случае будет пропускать один из них при загрузке.",
+    "nameHeight": "Название высоты",
+    "nameHeightHelp": "Смещение названия питомца по вертикали.",
+    "createCustom": "➕ Создать свой питомец",
+    "typeCount": "{{shown}} из {{total}} типов",
+    "animations": "Анимация",
+    "animationsHint": "— необязательные переопределения имени"
+  },
+  "menuSection": {
+    "notFound": "Раздел <0>{{sectionId}}</0> не найден в <1>{{menuId}}</1>.",
+    "removed": "Раздел <0>{{sectionId}}</0> удалён из этого меню (записан как <1>null</1>).",
+    "resetDefault": "Сброс по умолчанию",
+    "removeSection": "Удалить секцию",
+    "confirmRemove": "Удалить раздел \"{{sectionId}}\"? Это очищает слот на холсте — переустановите его с помощью \"Reset to default\" если вы передумаете.",
+    "confirmRemoveTitle": "Удалить секцию",
+    "confirmRemoveConfirm": "Удалить",
+    "statefulNotice": "Этот раздел определяет элементы для каждого состояния (<0>states</0>). Поля ниже редактируются базой <1>item</1>, что применяется только если состояние не переопределяет его.",
+    "material": "Материал",
+    "column": "Столбец",
+    "row": "Строка",
+    "glow": "Свечение",
+    "soundOnClick": "Звук при нажатии",
+    "soundKey": "Спецификация",
+    "soundVolume": "Объем",
+    "soundPitch": "Питч",
+    "pitchRangeHelp": "В настоящее время диапазон высот — редактирование здесь заменяет его на фиксированное значение.",
+    "title": "Заголовок",
+    "lore": "Лора"
+  },
+  "petWizard": {
+    "titleAvenue": "Создать собственный питомец — Выберите профиль",
+    "titleModel": "Создание собственного питомца — Настройка модели",
+    "titleIdentity": "Создание собственного питомца — личность и тело",
+    "titleStats": "Создать собственный питомец — Статистика",
+    "titleReview": "Создать собственный питомец — обзор",
+    "progress": "Прогресс мастера",
+    "chooseHow": "Выберите, как вы хотите создать своего питомца.",
+    "buildFromModel": "Построить существо из модели",
+    "modelSource": "Источник модели",
+    "defaultModel": "Модель по умолчанию",
+    "sourceOnlyItemsAdder": "Модели ItemsAdder - это пакеты контента — выберите существующий id.",
+    "sourceOnlyMythicMobs": "Мобы MythicMobs определены в настройках MythicMobs — выберите существующий тип моба.",
+    "modelId": "ID модели",
+    "modelIdRegisteredHelp": "Выберите модель, зарегистрированную с {{provider}}.",
+    "modelIdManualHelp": "Модели для {{provider}}не обнаружены. Введите ID модели вручную.",
+    "modelIdRequired": "Требуется ID модели.",
+    "uploadLabel": "Загрузить .bbmodel",
+    "uploadReconnecting": "Повторное подключение — ожидание переподключения сессии перед загрузкой.",
+    "uploadNeedsSession": "Для загрузки требуется <0>/mypet редактор</0> сеанс — подключите его для включения.",
+    "uploadExplainer": "Загружает {{provider}}; модель появляется для игроков после того, как {{provider}} перегенерирует набор ресурсов и клиенты перескачают его. Имя файла (без <0>.bbmodel</0>) становится идентификатором модели, поэтому оно должно соответствовать идентификатору чертежа, объявленному внутри модели.",
+    "uploading": "Загрузка…",
+    "uploadDone": "Загружено — ID модели установлен на \"{{modelId}}\".",
+    "uploadFailed": "Не удалось загрузить.",
+    "nameHeight": "Высота имени (необязательно)",
+    "nameHeightHelp": "Смещение названия питомца по вертикали.",
+    "modelCollision": "<0>{{provider}}</0> модель \"<1>{{modelId}}</1>\" уже используется типом животного \"<2>{{other}}</2>\". Модель - это личность питомца, для каждого типа нужна уникальная модель — выберите другую модель (плагин при загрузке будет пропускать этот тип).",
+    "creatureName": "Имя существа",
+    "creatureNameHelp": "Внутренний ключ pet-config для данного типа питомца (например, FrostDragon). Должен быть уникальным.",
+    "hostMob": "Хост-моб",
+    "hostMobHelp": "Моба ванильного типа Bukkit, который предоставляет базовую сущность для этого питомца.",
+    "health": "Здравоохранение (HP)",
+    "healthHelp": "Базовые очки здоровья этого питомца (например, 20 = 10 сердец).",
+    "walkSpeed": "Скорость прогулки",
+    "walkSpeedHelp": "Атрибут скорости движения (например, 0.3 - стандартная скорость ходьбы).",
+    "food": "Еда (по одному элементу в строке)",
+    "foodHelp": "Элементы, кормившие этого питомца, например, пшеницу. Оставьте пустым, чтобы наследовать корм моба.",
+    "leash": "Требования в отношении аренды",
+    "leashHelp": "Условия, которые должны содержать для работы с этим питомцем (например, Wild, Baby).",
+    "leashNeedsSession": "Leash requirements need a live session.",
+    "reviewIntro": "Следующий раздел будет добавлен в <0>pet-config.yml</0>:",
+    "back": "Назад",
+    "next": "Следующий",
+    "create": "Создать",
+    "nameRequired": "Необходимо ввести название."
+  }
+}

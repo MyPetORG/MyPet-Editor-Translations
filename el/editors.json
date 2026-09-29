@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Δεν φορτώθηκε χώρος εργασίας. Ανοίξτε μια συνεδρία με <0>/mypet editor</0> ή φορτώστε ένα παράδειγμα πακέτου.",
+    "viewFile": "Προβολή αρχείου",
+    "actions": "Ενέργειες",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Διαμόρφωση τμημάτων",
+    "tabs": {
+      "general": "Γενικά",
+      "database": "Βάση Δεδομένων",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Εμπειρία",
+      "permissions": "Δικαιώματα",
+      "names": "Ονόματα",
+      "skills": "Δεξιότητες",
+      "updates": "Ενημερώσεις"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Ιδιοκτήτης Μπορεί Να Επιτεθεί Κατοικίδιο Ζώο"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Απενεργοποίηση του Pet vs Player"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Pet Kills Δώστε Ανταμοιβές Παίκτη"
+      },
+      "OverwriteLanguages": {
+        "label": "Αντικατάσταση Γλώσσας",
+        "help": "Επιβολή τοπικού κώδικα (π.χ. en, de_DE). Κενό = αυτόματη ανίχνευση."
+      },
+      "Leash_AllowRanged": {
+        "label": "Να Επιτρέπεται Η Μίσθωση"
+      },
+      "Leash_Consume": {
+        "label": "Καταναλώστε Το Στοιχείο Λέβητας"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Απόσταση Ακολούθησης Έναρξης"
+      },
+      "Repository_Type": {
+        "label": "Τύπος Χώρου Αποθήκευσης"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Μετατροπή Από",
+        "help": "Προαιρετικό: μετεγκατάσταση από άλλο σύστημα υποστήριξης στην επόμενη εκκίνηση."
+      },
+      "Repository_LoadDelay": {
+        "label": "Φόρτωση Καθυστέρησης (ticks)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "Διακομιστής MySQL"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "Βάση Δεδομένων MySQL"
+      },
+      "Repository_MySQL_User": {
+        "label": "Χρήστης MySQL"
+      },
+      "Repository_MySQL_Password": {
+        "label": "Κωδικός Πρόσβασης MySQL"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Πρόθεμα Πίνακα"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Κωδικοποίηση Χαρακτήρων"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Μέγιστες Συνδέσεις"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Προεπιλεγμένος Παράγοντας Χρόνου"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Προεπιλεγμένος Χρόνος Σταθερός"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Παράγοντας Χρόνου Παίκτη"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Χρόνος Παίκτη Σταθερή"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Χρόνος Ανανέωσης Απενεργοποιημένος"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Συντελεστής Οικονομίας Κόστους"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Σταθερό Οικονομικό Κόστος"
+      },
+      "HungerSystem_Active": {
+        "label": "Σύστημα Πείνας Ενεργό"
+      },
+      "HungerSystem_Time": {
+        "label": "Ώρα Πείνας Τικ"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Κορεσμός Ανά Ροή"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Συντελεστής Ζημιών"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Σταθερή Ζημιά"
+      },
+      "Exp_LevelCap": {
+        "label": "Επίπεδο Καπάκι"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Κατανομή XP Με Βλάβη"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Χάστε XP στο θάνατο"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "Απώλεια XP (σταθερή)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP Απώλεια (τοις εκατό)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Καθολικός Τροποποιητής Xp"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Παθητικό % Ανά Τέρας"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Λειτουργία Υπολογισμού Επιπέδου"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Καμπύλη · Γραμμική Βάση"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Καμπύλη · Συντελεστής Ισχύος"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Καμπύλη · Εκθέτης Ισχύος"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Καμπύλη · Εκθετική Βάση"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Καμπύλη · Εκθετική Ανάπτυξη"
+      },
+      "Permissions_Extended": {
+        "label": "Εκτεταμένα Δικαιώματα"
+      },
+      "Name_MaxLength": {
+        "label": "Μέγιστο Μήκος Ονόματος"
+      },
+      "Name_Tag_Show": {
+        "label": "Εμφάνιση Ετικέτας Ονόματος"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Πρόθεμα Ετικέτας Ονόματος"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Επίθεμα Ετικέτας Ονόματος"
+      },
+      "Name_Filter": {
+        "label": "Φιλτραρισμένες λέξεις (μία ανά γραμμή)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Αυτόματη Ανάθεση"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Τυχαία Ανάθεση"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Επιλέξτε Μία Φορά"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Αποτροπή Ισοπέδωσης Χωρίς Skilltree"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Εναλλαγή αμοιβής για διαχειριστές"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Εναλλαγή Χρέωσης (Διορθώθηκε)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Χρέωση Διακόπτη (τοις εκατό)"
+      },
+      "Skill_Control_Item": {
+        "label": "Στοιχείο Δεξιότητας Ελέγχου"
+      },
+      "Skill_Ride_Item": {
+        "label": "Στοιχείο Δεξιότητας Ride"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Ride Hunger Per Meter"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Χρόνος Μείωσης Του Φάρου Πείνας"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Το σακίδιο ανοίγει στο Δημιουργικό"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Σακίδιο Σταγόνες Όταν Ο Ιδιοκτήτης Χυτά"
+      },
+      "Update_Check": {
+        "label": "Έλεγχος για ενημερώσεις"
+      },
+      "Update_Download": {
+        "label": "Ενημερώσεις Λήψης"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Menu — {{menuId}}",
+    "selectMenu": "Επιλέξτε ένα μενού από την πλαϊνή μπάρα.",
+    "notFound": "Μενού <0>{{menuId}}</0> δεν βρέθηκε στο χώρο εργασίας.",
+    "previewLanguage": "Γλώσσα προεπισκόπησης:",
+    "slotWithSection": "Υποδοχή {{slot}} — ενότητα: <0>{{sectionId}}</0>",
+    "slotNoSection": "Υποδοχή {{slot}} - καμία ενότητα",
+    "clickSlot": "Κάντε κλικ σε μια υποδοχή για να επιλέξετε την ενότητά της."
+  },
+  "mobXp": {
+    "title": "Ανταμοιβές Πλασμάτων Xp",
+    "sections": "Τομείς XP",
+    "searchPlaceholder": "Search mobs…",
+    "searchLabel": "Αναζήτηση σε πλάσματα",
+    "entryCount_one": "{{count}} entry",
+    "entryCount_other": "{{count}} entries",
+    "addCustom": "+ Προσθήκη προσαρμοσμένου mob",
+    "noMatch": "Δεν υπάρχουν πλάσματα ταιριάζουν με την αναζήτησή σας.",
+    "noCustom": "Δεν υπάρχουν ακόμα προσαρμοσμένα πλάσματα. Προσθέστε ένα για να δώσετε XP για ένα όχλο.",
+    "noEntries": "Δεν υπάρχουν καταχωρήσεις σε αυτό το αρχείο.",
+    "colMob": "Πλασμα",
+    "colMin": "Ελάχιστο",
+    "colMax": "Μέγιστο",
+    "remove": "Remove {{name}}",
+    "tabs": {
+      "Default": "Προεπιλογή",
+      "Custom": "Προσαρμοσμένο"
+    },
+    "help": {
+      "Default": "Η XP βραβεύτηκε όταν ένα κατοικίδιο ζώο σκοτώνει ένα τέρας βανίλιας.",
+      "Custom": "XP για επί παραγγελία πλάσματα (π.χ. MythicMobs). Ταιριάξτε το ακριβές όνομα του πλάσματος."
+    },
+    "promptCustomName": "Προσαρμοσμένο όνομα πλασμάτων (το ακριβές όνομα του πλάσματος, π.χ. μια ταυτότητα MythicMobs):"
+  },
+  "localeEditor": {
+    "title": "Locale — {{language}}",
+    "selectLanguage": "Επιλέξτε μια γλώσσα από την πλαϊνή μπάρα.",
+    "promptKey": "Παράκαμψη κλειδιού (π.χ. Message.Pet.Spawn):",
+    "invalidKey": "Τα πλήκτρα δεν μπορούν να περιέχουν κενά ή \"=\".",
+    "duplicateKey": "Αυτό το κλειδί έχει ήδη αντικατασταθεί.",
+    "view": "Τοπική προβολή",
+    "tabOverrides": "Οι παρακάμψεις μου",
+    "tabAll": "Όλες οι συμβολοσειρές",
+    "searchPlaceholder": "Search keys or text…",
+    "searchLabel": "Αναζήτηση τοπικών πλήκτρων ή κειμένου",
+    "onlyOverridden": "Εμφάνιση μόνο αντικαταστάθηκε",
+    "overrideCount": "{{shown}} of {{total}} overrides",
+    "keyCount_one": "{{count}} key",
+    "keyCount_other": "{{count}} keys",
+    "addOverride": "+ Προσθήκη παράκαμψης",
+    "noOverrides": "Χωρίς παρακάμψεις για <0>{{language}}</0> ακόμα. Αλλάξτε σε <1>{{tabAll}}</1> για να περιηγηθείτε και να παρακάμψετε τις προεπιλογές.",
+    "noOverrideMatch": "Δεν υπάρχουν αναπροσαρμογές ταιριάζουν με την αναζήτησή σας.",
+    "loadError": "Δεν ήταν δυνατή η φόρτωση προεπιλεγμένων συμβολοσειρών για <0>{{language}}</0> από το GitHub. Μπορείτε ακόμα να προσθέσετε χειροκίνητα αναπροσαρμογές από την προβολή \"{{tabOverrides}}\".",
+    "loadingDefaults": "Loading default strings…",
+    "noStringMatch": "Καμία συμβολοσειρά δεν ταιριάζει με την αναζήτησή σας.",
+    "colKey": "Κλειδί",
+    "colDefault": "Προεπιλογή",
+    "colOverride": "Παράκαμψη",
+    "noDefault": "(χωρίς προεπιλογή)",
+    "remove": "Remove {{key}}",
+    "reset": "Επαναφορά {{key}} στις προεπιλογές"
+  },
+  "petShops": {
+    "title": "Καταστήματα Κατοικιδίων",
+    "shops": "Καταστήματα",
+    "promptShopId": "Νέο αναγνωριστικό καταστήματος (γράμματα, αριθμοί, κάτω παύλα — π.χ. πριμοδότηση):",
+    "invalidShopId": "Το id καταστήματος μπορεί να περιέχει μόνο γράμματα, αριθμούς και κάτω παύλες.",
+    "duplicateShop": "Ένα κατάστημα με το όνομα \"{{key}}\" υπάρχει ήδη.",
+    "confirmDeleteShop": "Διαγράψτε το κατάστημα \"{{name}}\" και όλα τα κατοικίδια ζώα?",
+    "addShop": "+ Προσθήκη καταστήματος",
+    "deleteShop": "Διαγραφή καταστήματος",
+    "noShops": "Δεν ορίστηκαν καταστήματα. Προσθέστε ένα για να αρχίσετε να πουλάτε κατοικίδια ζώα.",
+    "displayName": "Εμφανιζόμενο Όνομα",
+    "defaultShop": "Προεπιλεγμένο κατάστημα",
+    "defaultShopHint": "Ανοίχθηκε από το /petshop χωρίς επιχειρήματα.",
+    "menuPosition": "Θέση Μενού",
+    "balanceType": "Τύπος Υπολοίπου",
+    "balanceTypeHint": "Όπου πηγαίνει η αγορά χρημάτων.",
+    "balanceOwner": "Ιδιοκτήτης Υπολοίπου",
+    "balanceOwnerBank": "Όνομα τράπεζας θησαυροφυλακίου.",
+    "balanceOwnerPlayer": "UUID Παίκτη.",
+    "iconMaterial": "Υλικό Εικονιδίων",
+    "iconMaterialHint": "Το στοιχείο εμφανίζεται στο μενού του καταστήματος (π.χ. στήθος, αυγό).",
+    "iconGlowing": "Λαμπερό Εικονίδιο",
+    "pets": "Κατοικίδια",
+    "searchPets": "Search pets…",
+    "searchPetsLabel": "Αναζήτηση κατοικίδιων ζώων σε αυτό το κατάστημα",
+    "petCount": "{{shown}} of {{total}}",
+    "addPet": "+ Προσθήκη κατοικιδίου",
+    "promptPetId": "Νέο αναγνωριστικό κατοικίδιου ζώου (γράμματα, αριθμοί, κάτω παύλα — π.χ. baby_wolf):",
+    "invalidPetId": "Το Pet id μπορεί να περιέχει μόνο γράμματα, αριθμούς και κάτω παύλες.",
+    "duplicatePet": "Ένα κατοικίδιο ζώο \"{{key}}\" υπάρχει ήδη σε αυτό το κατάστημα.",
+    "noPets": "Δεν υπάρχουν κατοικίδια σε αυτό το κατάστημα ακόμα.",
+    "noPetMatch": "Κανένα κατοικίδιο δεν ταιριάζει με την αναζήτησή σας.",
+    "removePet": "Remove {{name}}",
+    "petType": "Τύπος Κατοικιδίου",
+    "petTypeHint": "Ένας τύπος κατοικίδιου ζώου MyPet, π.χ. WOLF, OCELOT.",
+    "price": "Τιμή",
+    "startingExp": "Αρχική ΛΗΞΗ",
+    "positionHint": "-1 = αυτόματη πλήρωση.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Προαιρετικό προκαθορισμένο όνομα skilltree",
+    "description": "Περιγραφή (μία γραμμή η καθεμία)",
+    "options": "Επιλογές (μία ανά γραμμή)",
+    "optionsHint": "π.χ. επιλογές για μωρό, ή για τον τύπο."
+  },
+  "petTypes": {
+    "title": "Τύποι Κατοικιδίων",
+    "search": "Search pet types…",
+    "searchLabel": "Αναζήτηση τύπων κατοικίδιων ζώων",
+    "noMatch": "Δεν ταιριάζουν οι τύποι.",
+    "noTypes": "Δεν υπάρχουν τύποι κατοικίδιων ζώων σε αυτό το αρχείο.",
+    "deleteTitle": "Διαγραφή αυτού του προσαρμοσμένου τύπου κατοικίδιων ζώων",
+    "deleteButton": "🗑️ Διαγραφή κατοικίδιου ζώου",
+    "confirmDelete": "Διαγράψτε το προσαρμοσμένο κατοικίδιο ζώο \"{{name}}\"? Αυτό αφαιρεί ολόκληρο το τμήμα διαμόρφωσης κατοικίδιων ζώων.",
+    "confirmDeleteTitle": "Διαγραφή προσαρμοσμένου κατοικιδίου",
+    "confirmDeleteConfirm": "Διαγραφή",
+    "complexValue": "Σύνθετη τιμή — επεξεργασία μέσω ακατέργαστου YAML.",
+    "model": "Μοντέλο",
+    "modelHelp": "Αποτύπωσε αυτό το κατοικίδιο ζώο με ένα προσαρμοσμένο μοντέλο 3D από ένα plugin παροχής μοντέλου (ModelEngine, BetterModel, ItemsAdder, ή MythicMobs) αντί για την εμφάνιση της βανίλιας. Αφήστε τον πάροχο κενό για να κρατήσετε την προεπιλεγμένη εμφάνιση.",
+    "provider": "Πάροχος",
+    "modelId": "Αναγνωριστικό Μοντέλου",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{id}}</1>\" χρησιμοποιείται ήδη από τον τύπο κατοικίδιου ζώου \"<2>{{other}}</2>\". Κάθε προσαρμοσμένος τύπος χρειάζεται ένα μοναδικό μοντέλο - το plugin διαφορετικά θα παραλείψει ένα από αυτά κατά τη φόρτωση.",
+    "nameHeight": "Όνομα Ύψος",
+    "nameHeightHelp": "Κάθετη μετατόπιση για την ετικέτα ονόματος κατοικίδιου ζώου πάνω από το μοντέλο.",
+    "createCustom": "➕ Δημιουργία προσαρμοσμένου κατοικίδιου ζώου",
+    "typeCount": "{{shown}} των τύπων {{total}}",
+    "animations": "Εφέ",
+    "animationsHint": "— προαιρετικές παρακάμψεις ονόματος"
+  },
+  "menuSection": {
+    "notFound": "Τμήμα <0>{{sectionId}}</0> δεν βρέθηκε στο <1>{{menuId}}</1>.",
+    "removed": "Η ενότητα <0>{{sectionId}}</0> αφαιρείται από αυτό το μενού (γραμμένο ως <1>null</1>).",
+    "resetDefault": "Επαναφορά προεπιλογών",
+    "removeSection": "Αφαίρεση τμήματος",
+    "confirmRemove": "Αφαιρέστε την ενότητα \"{{sectionId}}\"? Αυτό καθαρίζει την υποδοχή του στον καμβά - επιλέξτε ξανά μέσω \"Επαναφορά στην προεπιλογή\" αν αλλάξετε γνώμη.",
+    "confirmRemoveTitle": "Αφαίρεση τμήματος",
+    "confirmRemoveConfirm": "Αφαίρεση",
+    "statefulNotice": "Αυτή η ενότητα ορίζει στοιχεία ανά πολιτεία (<0>states</0>). Τα παρακάτω πεδία επεξεργάζονται τη βάση <1>item</1>, η οποία ισχύει μόνο όταν καμία κατάσταση δεν την παρακάμπτει.",
+    "material": "Υλικό",
+    "column": "Στήλη",
+    "row": "Γραμμή",
+    "glow": "Λάμψη",
+    "soundOnClick": "Ήχος με κλικ",
+    "soundKey": "Κλειδί",
+    "soundVolume": "Όγκος",
+    "soundPitch": "Τόνος",
+    "pitchRangeHelp": "Επί του παρόντος ένα εύρος βήματος βήματος - η επεξεργασία εδώ το αντικαθιστά με μια σταθερή τιμή.",
+    "title": "Τίτλος",
+    "lore": "Πυρήνας"
+  },
+  "petWizard": {
+    "titleAvenue": "Δημιουργία προσαρμοσμένου κατοικίδιου ζώου — Επιλέξτε λεωφόρο",
+    "titleModel": "Δημιουργία προσαρμοσμένου κατοικίδιου ζώου — Ρύθμιση μοντέλου",
+    "titleIdentity": "Δημιουργία προσαρμοσμένου κατοικίδιου ζώου — Ταυτότητα & σώμα",
+    "titleStats": "Δημιουργία προσαρμοσμένου κατοικίδιου ζώου — Στατιστικά",
+    "titleReview": "Δημιουργία προσαρμοσμένου κατοικίδιου ζώου — Κριτική",
+    "progress": "Πρόοδος οδηγού",
+    "chooseHow": "Επιλέξτε πώς θέλετε να δημιουργήσετε το προσαρμοσμένο κατοικίδιο ζώο σας.",
+    "buildFromModel": "Φτιάξτε ένα πλάσμα από ένα μοντέλο",
+    "modelSource": "Πηγή μοντέλου",
+    "defaultModel": "Προεπιλεγμένο μοντέλο",
+    "sourceOnlyItemsAdder": "Τα μοντέλα ItemsAdder είναι πακέτα περιεχομένου - επιλέξτε ένα υπάρχον id",
+    "sourceOnlyMythicMobs": "Τα MythicMobs mobs ορίζονται στα configs MythicMobs - επιλέξτε έναν υπάρχοντα τύπο πλασμάτων .",
+    "modelId": "Αναγνωριστικό Μοντέλο",
+    "modelIdRegisteredHelp": "Επιλέξτε ένα μοντέλο καταχωρημένο με {{provider}}.",
+    "modelIdManualHelp": "Κανένα μοντέλο δεν εντοπίστηκε για το {{provider}}. Εισαγάγετε χειροκίνητα ένα ID μοντέλου.",
+    "modelIdRequired": "Απαιτείται ID υποδείγματος.",
+    "uploadLabel": "Ανεβάστε .bbmodel",
+    "uploadReconnecting": "Επανασύνδεση — περιμένετε την επανασύνδεση της συνεδρίας πριν την αποστολή.",
+    "uploadNeedsSession": "Η αποστολή χρειάζεται ένα ζωντανό <0>/mypet editor</0> session - συνδέστε ένα για να το ενεργοποιήσετε.",
+    "uploadExplainer": "Μεταφορτώσεις στο {{provider}}. Το μοντέλο εμφανίζεται για τους παίκτες μόλις το {{provider}} αναπαράγει το πακέτο πόρων του και τους πελάτες που το ξανακατεβάσουν. Το όνομα αρχείου (χωρίς <0>.bbmodel</0>) γίνεται το αναγνωριστικό μοντέλου, οπότε πρέπει να ταιριάζει με το αναγνωριστικό σχεδιαγράμματος που δηλώνεται μέσα στο μοντέλο.",
+    "uploading": "Uploading…",
+    "uploadDone": "Μεταφορτώθηκε - ID μοντέλου που ορίστηκε σε \"{{modelId}}\".",
+    "uploadFailed": "Η μεταφόρτωση απέτυχε.",
+    "nameHeight": "Ύψος Ονόματος (Προαιρετικό)",
+    "nameHeightHelp": "Κάθετη μετατόπιση για την ετικέτα ονόματος κατοικίδιου ζώου πάνω από το μοντέλο.",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{modelId}}</1>\" χρησιμοποιείται ήδη από τον τύπο κατοικίδιου ζώου \"<2>{{other}}</2>\". Ένα μοντέλο είναι η ταυτότητα ενός κατοικίδιου ζώου, έτσι κάθε προσαρμοσμένος τύπος χρειάζεται ένα μοναδικό μοντέλο - επιλέξτε ένα διαφορετικό (το plugin διαφορετικά θα παραλείψει αυτό το είδος κατά τη φόρτωση).",
+    "creatureName": "Όνομα δημιουργήματος",
+    "creatureNameHelp": "Το εσωτερικό κλειδί συντροφιάς-config για αυτό το είδος κατοικίδιου ζώου (π.χ. FrostDragon). Πρέπει να είναι μοναδικό.",
+    "hostMob": "Πλέον εξυπηρετητή",
+    "hostMobHelp": "Ο τύπος πλασμάτων βανίλιας Bukkit που παρέχει την οντότητα βάσης για αυτό το κατοικίδιο ζώο.",
+    "health": "Υγεία (ΥΕ)",
+    "healthHelp": "Βασικά σημεία υγείας για αυτό το κατοικίδιο ζώο (π.χ. 20 = 10 καρδιές).",
+    "walkSpeed": "Ταχύτητα περιπάτου",
+    "walkSpeedHelp": "Χαρακτηριστικό ταχύτητας κίνησης (π.χ. 0.3 είναι η τυπική ταχύτητα περιπάτου).",
+    "food": "Τρόφιμα (ένα στοιχείο ανά γραμμή)",
+    "foodHelp": "Στοιχεία που τροφοδοτούν αυτό το κατοικίδιο ζώο, π.χ. σιτάρι. Αφήστε κενό για να κληρονομήσετε το φαγητό του οικοδεσπότη.",
+    "leash": "Απαιτήσεις λουρίδας",
+    "leashHelp": "Προϋποθέσεις που πρέπει να κρατούν για να οδηγήσουν σε εργασία σε αυτό το κατοικίδιο ζώο (π.χ. Wild, Baby).",
+    "leashNeedsSession": "Οι απαιτήσεις του Leash χρειάζονται μια ζωντανή συνεδρία.",
+    "reviewIntro": "Η ακόλουθη ενότητα θα προστεθεί στο <0>pet-config.yml</0>:",
+    "back": "Πίσω",
+    "next": "Επόμενο",
+    "create": "Δημιουργία",
+    "nameRequired": "Απαιτείται όνομα."
+  }
+}
