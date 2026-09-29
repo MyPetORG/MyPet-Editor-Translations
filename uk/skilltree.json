@@ -173,11 +173,18 @@
     "every": "кожні",
     "from": "від",
     "until": "до",
-    "keyPreview": "→ key: \"{{key}}\""
+    "keyPreview": "→ key: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamond або base64:… (від інформації про /petadmin)",
-    "addRow": "+ Додати"
+    "addRow": "+ Додати",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "Ім'я",
@@ -191,11 +198,18 @@
     "speciesCount_other": "{{count}} видів",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "Перейти до {{max}}"
+    "levelMax": "Перейти до {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "Відсутні вмінні дерева для цієї робочої області.",
-    "layingOut": "Програмування полотна…"
+    "layingOut": "Програмування полотна…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "Потрібен PetType",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "Мін. і Макс. повинні бути числами",
     "valuesNonNegative": "Значення повинні бути ≥ 0",
     "maxGteMin": "Макс повинен бути ≥ Min"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }
