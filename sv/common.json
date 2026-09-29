@@ -56,7 +56,9 @@
       "duplicateId": "En skilltree med detta ID finns redan.",
       "loadDefaultsFailed": "Det gick inte att ladda standardexempel",
       "jsonCopied": "JSON kopierades till urklipp",
-      "jsonCopyFailed": "Det gick inte att kopiera JSON"
+      "jsonCopyFailed": "Det gick inte att kopiera JSON",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "Visa källa"
   },
@@ -116,13 +118,34 @@
       "locale": "Lokalt",
       "hooks": "Krokar",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "Ingen arbetsyta laddad",
     "expiringSoon": "Sessionen löper ut snart",
     "demoData": "Exempel på data · ändringar sparas inte",
-    "rejected": "Servern avvisade ändringarna."
+    "rejected": "Servern avvisade ändringarna.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} trasiga fil(er) ändrade",
     "noNetChange": "ingen nettoförändring",
     "localeSummary": "{{keys}} tangenter över {{langs}} språk",
-    "applyFailed": "Misslyckades att tillämpa ändringar"
+    "applyFailed": "Misslyckades att tillämpa ändringar",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "Färdighetsträd",
+      "locale": "Lokalt"
+    }
   },
   "sessionClosed": {
     "title": "Sessionen är stängd",
     "body": "Webbredigerarsessionen har avslutats (stängt i spelet, eller tidsinställt ut). Ändringar kan inte längre sparas — kör <0>/mypet editor</0> igen för att starta en ny session.",
     "viewReadOnly": "Visa skrivskyddad"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }
