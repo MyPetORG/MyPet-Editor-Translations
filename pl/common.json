@@ -56,7 +56,9 @@
       "duplicateId": "Drzewko umiejętności z tym ID już istnieje.",
       "loadDefaultsFailed": "Nie udało się załadować domyślnych przykładów",
       "jsonCopied": "JSON skopiowano do schowka",
-      "jsonCopyFailed": "Kopiowanie JSON nie powiodło się"
+      "jsonCopyFailed": "Kopiowanie JSON nie powiodło się",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "Zobacz źródło"
   },
@@ -116,13 +118,34 @@
       "locale": "Język",
       "hooks": "Haki",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "Nie załadowano projektu",
     "expiringSoon": "Sesja wygasa wkrótce",
     "demoData": "Przykładowe dane · zmiany nie zostaną zapisane",
-    "rejected": "Serwer odrzucił zmiany."
+    "rejected": "Serwer odrzucił zmiany.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} uszkodzony plik(i) został zmieniony",
     "noNetChange": "bez zmiany sieci",
     "localeSummary": "{{keys}} kluczy w języku(-ach) {{langs}}",
-    "applyFailed": "Nie udało się zastosować zmian"
+    "applyFailed": "Nie udało się zastosować zmian",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "Drzewka umiejętności",
+      "locale": "Język"
+    }
   },
   "sessionClosed": {
     "title": "Sesja zamknięta",
     "body": "Sesja edytora sieci Web zakończyła się (zamknięta w grze lub wygasła). Zmiany nie mogą być już zapisywane — uruchom ponownie <0>/mypet editor</0> aby rozpocząć nową sesję.",
     "viewReadOnly": "Zobacz tylko do odczytu"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }
