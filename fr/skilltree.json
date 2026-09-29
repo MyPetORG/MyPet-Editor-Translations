@@ -173,11 +173,18 @@
     "every": "tous les",
     "from": "de",
     "until": "jusqu'au",
-    "keyPreview": "→ clé: \"{{key}}\""
+    "keyPreview": "→ clé: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamant ou base64:… (à partir de /petadmin info item)",
-    "addRow": "+ Ajouter"
+    "addRow": "+ Ajouter",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "Nom",
@@ -191,11 +198,18 @@
     "speciesCount_other": "Espèce {{count}}",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "De niveau supérieur à {{max}}"
+    "levelMax": "De niveau supérieur à {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "Aucun arbre de compétences dans cet espace de travail pour le moment.",
-    "layingOut": "Mise en page de la toile…"
+    "layingOut": "Mise en page de la toile…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "Le PetType est requis",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "Min et Max doivent être des nombres",
     "valuesNonNegative": "Les valeurs doivent être †0",
     "maxGteMin": "Le maximum doit être inférieur au min"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }

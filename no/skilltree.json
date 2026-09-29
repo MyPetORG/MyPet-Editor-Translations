@@ -173,11 +173,18 @@
     "every": "hver",
     "from": "fra",
     "until": "til",
-    "keyPreview": "→ Nøkkel: \"{{key}}\""
+    "keyPreview": "→ Nøkkel: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamond eller base64:… (fra /petadmin informasjonselement)",
-    "addRow": "+ Legg til"
+    "addRow": "+ Legg til",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "Navn",
@@ -191,11 +198,18 @@
     "speciesCount_other": "{{count}} arter",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "Nivå Nivå til {{max}}"
+    "levelMax": "Nivå Nivå til {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "Ingen ferdighetstrær i dette arbeidsområde ennå.",
-    "layingOut": "Laying out canvas…"
+    "layingOut": "Laying out canvas…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "PetType kreves",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "Min og maks må være tall",
     "valuesNonNegative": "Verdier må være ≥ 0",
     "maxGteMin": "Maks må være ≥ Min"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }

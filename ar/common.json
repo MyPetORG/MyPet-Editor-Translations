@@ -56,7 +56,9 @@
       "duplicateId": "توجد بالفعل شجرة مهارة بهذا المعرف.",
       "loadDefaultsFailed": "فشل تحميل الأمثلة الافتراضية",
       "jsonCopied": "تم نسخ JSON إلى الحافظة",
-      "jsonCopyFailed": "فشل في نسخ JSON"
+      "jsonCopyFailed": "فشل في نسخ JSON",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "عرض المصدر"
   },
@@ -116,13 +118,34 @@
       "locale": "محلي",
       "hooks": "الروابط",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "لم يتم تحميل فضاء العمل",
     "expiringSoon": "تنتهي الجلسة قريبا",
     "demoData": "مثال البيانات · لن يتم حفظ التغييرات",
-    "rejected": "رفض الخادم التغييرات."
+    "rejected": "رفض الخادم التغييرات.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} broken file(s) changed",
     "noNetChange": "لا يوجد تغيير في الشبكة",
     "localeSummary": "{{keys}} key(s) across {{langs}} language(s)",
-    "applyFailed": "فشل في تطبيق التغييرات"
+    "applyFailed": "فشل في تطبيق التغييرات",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "أشجار المهارات",
+      "locale": "محلي"
+    }
   },
   "sessionClosed": {
     "title": "تم إغلاق الجلسة",
     "body": "انتهت جلسة محرر الويب (مغلقة داخل اللعبة، أو انتهت مدتها). لا يمكن حفظ التغييرات بعد الآن — قم بتشغيل <0>/mypet editor</0> مرة أخرى لبدء جلسة جديدة.",
     "viewReadOnly": "عرض القراءة فقط"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }

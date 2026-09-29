@@ -56,7 +56,9 @@
       "duplicateId": "Een vaardigheidsboom met dat ID bestaat al.",
       "loadDefaultsFailed": "Fout bij het laden van standaard voorbeelden",
       "jsonCopied": "JSON gekopieerd naar klembord",
-      "jsonCopyFailed": "Kon JSON niet kopiëren"
+      "jsonCopyFailed": "Kon JSON niet kopiëren",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "Bron bekijken"
   },
@@ -116,13 +118,34 @@
       "locale": "Lokalisatie",
       "hooks": "Haken",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "Geen werkruimte geladen",
     "expiringSoon": "Sessie verloopt binnenkort",
     "demoData": "Voorbeeld gegevens · wijzigingen zullen niet worden opgeslagen",
-    "rejected": "De server heeft de wijzigingen afgewezen."
+    "rejected": "De server heeft de wijzigingen afgewezen.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} defecte bestand(en) gewijzigd",
     "noNetChange": "geen netto wijziging",
     "localeSummary": "{{keys}} sleutel(s) over {{langs}} talen",
-    "applyFailed": "Wijzigingen toepassen mislukt"
+    "applyFailed": "Wijzigingen toepassen mislukt",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "Vaardigheid",
+      "locale": "Lokalisatie"
+    }
   },
   "sessionClosed": {
     "title": "Sessie gesloten",
     "body": "De web-editor sessie is beëindigd (gesloten in-game of timed out). Wijzigingen kunnen niet langer worden opgeslagen — uitvoeren <0>/mypet editor</0> om een nieuwe sessie te starten.",
     "viewReadOnly": "Bekijk alleen-lezen"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }

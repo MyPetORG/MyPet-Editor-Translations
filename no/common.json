@@ -56,7 +56,9 @@
       "duplicateId": "Et ferdighetstre med ID-en finnes allerede.",
       "loadDefaultsFailed": "Kunne ikke laste inn standardeksempler",
       "jsonCopied": "JSON kopiert til utklippstavlen",
-      "jsonCopyFailed": "Kan ikke kopiere JSON"
+      "jsonCopyFailed": "Kan ikke kopiere JSON",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "Vis kilde"
   },
@@ -116,13 +118,34 @@
       "locale": "Språk",
       "hooks": "Kroker",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "Ingen arbeidsområde lastet",
     "expiringSoon": "Økten utløper snart",
     "demoData": "Eksempel data · Endringer vil ikke lagres",
-    "rejected": "Tjeneren avviste endringene."
+    "rejected": "Tjeneren avviste endringene.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} ødelagte fil(er) endret",
     "noNetChange": "ingen nettoendring",
     "localeSummary": "{{keys}} nøkler over {{langs}} språk",
-    "applyFailed": "Mislyktes i å bruke endringer"
+    "applyFailed": "Mislyktes i å bruke endringer",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "Skilttrær",
+      "locale": "Språk"
+    }
   },
   "sessionClosed": {
     "title": "Økt avsluttet",
     "body": "Internettredaktør økten er avsluttet (lukket i spillet, eller fått tidsavbrudd). Endringene kan ikke lenger lagres - kjøre <0>/mypet editor</0> igjen for å starte en ny sesjon.",
     "viewReadOnly": "Vis skrivebeskyttet"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }

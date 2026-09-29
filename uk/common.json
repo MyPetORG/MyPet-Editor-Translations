@@ -56,7 +56,9 @@
       "duplicateId": "Вмінне дерево з таким Ідентифікатором уже існує.",
       "loadDefaultsFailed": "Не вдалося завантажити приклади за замовчуванням",
       "jsonCopied": "JSON скопійовано до буфера обміну",
-      "jsonCopyFailed": "Не вдалося скопіювати JSON"
+      "jsonCopyFailed": "Не вдалося скопіювати JSON",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "Переглянути початковий код"
   },
@@ -116,13 +118,34 @@
       "locale": "Локалізація",
       "hooks": "Хуки",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "Немає завантаженого робочого простору",
     "expiringSoon": "Сеанс незабаром закінчується",
     "demoData": "Приклад даних · Не збережені зміни",
-    "rejected": "Сервер відхилив зміни."
+    "rejected": "Сервер відхилив зміни.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} пошкоджених файл(ів) змінено",
     "noNetChange": "немає зміни мережі",
     "localeSummary": "Ключ {{keys}} на всій мові {{langs}} (у)",
-    "applyFailed": "Не вдалося застосувати зміни"
+    "applyFailed": "Не вдалося застосувати зміни",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "Скіллдерева",
+      "locale": "Локалізація"
+    }
   },
   "sessionClosed": {
     "title": "Сесію закрито",
     "body": "Сесія веб-редактора закінчилася (закрита в грі, або обмежена). Зміни більше не можуть бути збережені - запустіть <0>/mypet редактор</0> ще раз для початку нової сесії.",
     "viewReadOnly": "Переглянути тільки для читання"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }

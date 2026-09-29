@@ -3,7 +3,8 @@
     "noWorkspace": "Kein Arbeitsbereich geladen. Öffnen Sie eine Sitzung mit <0>/mypet editor</0> oder laden Sie ein Beispielbündel.",
     "viewFile": "Datei anzeigen",
     "actions": "Aktionen",
-    "parseError": "YAML parse error: {{message}}"
+    "parseError": "YAML parse error: {{message}}",
+    "notImplemented": "This editor is not yet implemented. Navigation is wired up so you can select this entry, but the form is not ready."
   },
   "configEditor": {
     "sections": "Sektionen konfigurieren",
@@ -343,7 +344,90 @@
     "createCustom": "➕ Eigenes Tier erstellen",
     "typeCount": "{{shown}} von {{total}} Typen",
     "animations": "Animationen",
-    "animationsHint": "— Optionaler Name überschreibt"
+    "animationsHint": "— Optionaler Name überschreibt",
+    "fields": {
+      "HP": {
+        "label": "Gesundheit (HP)"
+      },
+      "Speed": {
+        "label": "Walk Speed"
+      },
+      "OverrideFlySpeed": {
+        "label": "Override Fly Speed"
+      },
+      "FlySpeed": {
+        "label": "Fly Speed"
+      },
+      "Food": {
+        "label": "Nahrung (ein Element pro Zeile)",
+        "help": "Items that tame/feed this pet, e.g. bone."
+      },
+      "LeashItem": {
+        "label": "Leash Item",
+        "help": "Item used to tame, e.g. lead."
+      },
+      "LeashRequirements": {
+        "label": "Leash Requirements",
+        "help": "Flags like Tamed, Baby, Owner — one per line."
+      },
+      "GrowUpItem": {
+        "label": "Grow-Up Item",
+        "help": "Item that ages a baby up (baby-capable pets)."
+      },
+      "CustomRespawnTimeFactor": {
+        "label": "Respawn Time Factor"
+      },
+      "CustomRespawnTimeFixed": {
+        "label": "Respawn Time Fixed"
+      },
+      "ReleaseOnDeath": {
+        "label": "Release On Death"
+      },
+      "RemoveAfterRelease": {
+        "label": "Remove After Release"
+      },
+      "RetainEquipmentOnTame": {
+        "label": "Retain Equipment On Tame",
+        "help": "Keeps the armor and weapons a wild mob was wearing when it is tamed, as real pet equipment that drops on death and release. Off strips the gear and drops it where the mob stood. Equipment-capable pet types only."
+      },
+      "Model": {
+        "label": "Modell"
+      },
+      "AllowMetamorphosis": {
+        "label": "Allow Metamorphosis",
+        "help": "Lets a Tadpole pet mature into a Frog pet after vanilla's 20-minute timer. The pet keeps its name, level, XP and skill state, but permanently becomes a Frog — including losing Tadpole-only skilltrees. Off (the default) freezes the timer so the pet stays a Tadpole."
+      },
+      "Brain_Disabled": {
+        "label": "Disabled Brain AI (one per line)",
+        "help": "Vanilla brain AI to switch off, e.g. activity:fight or behavior:SonicBoom. Clearing this restores vanilla AI — for Piglin Brutes, Piglins, Hoglins and Zoglins that means the pet will attack its owner. Takes effect the next time the pet spawns."
+      },
+      "TeleportDistance": {
+        "label": "Teleport Distance",
+        "help": "How many blocks this pet type can fall behind its owner before it teleports to them. The plugin default is 32."
+      },
+      "EnabledWildAttackers": {
+        "label": "Enabled Wild Attackers (one per line)",
+        "help": "Vanilla mobs allowed to pick this pet type as a target on their own, by mob id (iron_golem, wolf, warden). Empty (the default) means no wild mob hunts this pet unprovoked; add * to allow every mob. A mob the pet hits, or a golem defending a villager the pet hurt, still fights back regardless."
+      },
+      "CanExplode": {
+        "label": "Can Explode",
+        "help": "Lets a Sulfur Cube pet that has absorbed TNT detonate when ignited. Off (the default) cancels the explosion and clears the fuse, so a cube fed TNT cannot blow up next to its owner."
+      },
+      "AllowShearing": {
+        "label": "Allow Shearing",
+        "help": "Lets players use shears on a Sulfur Cube pet to pop out its absorbed block. Vanilla shearing also kills the cube, so this is off by default — otherwise any passer-by could one-click somebody's pet to death."
+      },
+      "Skill_Backpack_OpenInWater": {
+        "label": "Backpack: Open In Water",
+        "help": "Lets the owner open this pet's backpack while the pet is standing in water or lava. On by default for pets that swim — fish, squids, guardians, dolphins, axolotls, drowned, frogs, turtles — since blocking it in water blocks it everywhere they live. Off for land pets, whose owners get the \"is swimming\" refusal as before."
+      },
+      "CurseNearbyPlayers": {
+        "label": "Curse Nearby Players",
+        "help": "Lets an Elder Guardian pet keep vanilla's curse pulse: every minute it gives Mining Fatigue II for 5 minutes, plus the jumpscare and sound, to every survival player within 50 blocks — not just its owner. Off by default, since a pet parked in a base would otherwise grind everyone's mining to a halt."
+      }
+    },
+    "animationsNote": "MyPet plays each of these by its default name (the label). Override one only if your model names it differently; leave blank to use the default. Walk/idle/run/jump are handled by the model plugin and are not configured here.",
+    "removeModel": "Remove model"
   },
   "menuSection": {
     "notFound": "Abschnitt <0>{{sectionId}}</0> nicht gefunden in <1>{{menuId}}</1>.",
@@ -364,7 +448,14 @@
     "soundPitch": "Neigung",
     "pitchRangeHelp": "Momentan ein Pitchbereich — die Bearbeitung hier ersetzt ihn durch einen festen Wert.",
     "title": "Titel",
-    "lore": "Lore"
+    "lore": "Lore",
+    "sectionLabel": "Section:",
+    "unknownType": "unknown type",
+    "tabRaw": "Raw",
+    "tabPreview": "Preview",
+    "textViewLabel": "{{label}} view",
+    "validationIssues_one": "{{count}} validation issue",
+    "validationIssues_other": "{{count}} validation issues"
   },
   "petWizard": {
     "titleAvenue": "Eigenes Haustier erstellen — Allee wählen",
@@ -410,6 +501,25 @@
     "back": "Zurück",
     "next": "Nächste",
     "create": "Anlegen",
-    "nameRequired": "Name ist erforderlich."
+    "nameRequired": "Name ist erforderlich.",
+    "avenues": {
+      "BetterModel": "Build a brand-new creature rendered with a BetterModel model. Requires a Java 25 server.",
+      "ModelEngine": "Build a brand-new creature rendered with a ModelEngine model.",
+      "ItemsAdder": "Build a brand-new creature using an ItemsAdder model.",
+      "MythicMobs": "Build a creature from a MythicMob — MyPet spawns the real MythicMob and adopts it; it keeps its model and turns back into the MythicMob on release."
+    },
+    "installToEnable": "Install {{provider}} to enable",
+    "nameCharset": "Use only letters, numbers, and underscores (no dots or spaces).",
+    "nameExists": "\"{{name}}\" already exists in pet-config.yml.",
+    "previewError": "(preview error)",
+    "readFileFailed": "Failed to read the selected file.",
+    "sourceRegistered": "Registered model",
+    "sourceDefault": "MyPet default",
+    "providerLabel": "Provider:",
+    "defaultModelNote": "Uses one of MyPet's bundled default models — no external model plugin content required.",
+    "models": {
+      "capybara": "Capybara",
+      "chameleon": "Chameleon"
+    }
   }
 }

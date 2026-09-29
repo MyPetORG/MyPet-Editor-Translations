@@ -173,11 +173,18 @@
     "every": "كل",
     "from": "من",
     "until": "حتى",
-    "keyPreview": "unnamed@@2 مفتاح: \"{{key}}\""
+    "keyPreview": "unnamed@@2 مفتاح: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "Minecraft:الماس أو base64:… (من عنصر معلومات /petadmin)",
-    "addRow": "+ إضافة"
+    "addRow": "+ إضافة",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "الاسم",
@@ -191,11 +198,18 @@
     "speciesCount_other": "أنواع {{count}}",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "مستوى يصل إلى {{max}}"
+    "levelMax": "مستوى يصل إلى {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "لا توجد أشجار مهارة في مساحة العمل هذه حتى الآن.",
-    "layingOut": "تخطيط قصاصة…"
+    "layingOut": "تخطيط قصاصة…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "PetType مطلوب",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "يجب أن يكون الحد الأدنى والحد الأقصى أرقاما",
     "valuesNonNegative": "القيم يجب أن تكون ± 0",
     "maxGteMin": "يجب أن يكون الحد الأقصى ± الحد الأدنى"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }

@@ -56,7 +56,9 @@
       "duplicateId": "そのIDを持つスキルツリーは既に存在します。",
       "loadDefaultsFailed": "デフォルトの例を読み込めませんでした",
       "jsonCopied": "JSONをクリップボードにコピーしました",
-      "jsonCopyFailed": "JSONのコピーに失敗しました"
+      "jsonCopyFailed": "JSONのコピーに失敗しました",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "ソースを表示"
   },
@@ -116,13 +118,34 @@
       "locale": "ロケール",
       "hooks": "フック",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "ワークスペースが読み込まれていません",
     "expiringSoon": "セッションの期限が近日切れます",
     "demoData": "例データ・変更は保存されません",
-    "rejected": "サーバーは変更を拒否しました。"
+    "rejected": "サーバーは変更を拒否しました。",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} 壊れたファイルが変更されました",
     "noNetChange": "ネット変更なし",
     "localeSummary": "{{keys}} 言語間の {{langs}} キー",
-    "applyFailed": "変更を適用できませんでした"
+    "applyFailed": "変更を適用できませんでした",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "スキルツリー",
+      "locale": "ロケール"
+    }
   },
   "sessionClosed": {
     "title": "セッションが終了しました",
     "body": "Webエディタセッションは終了しました(ゲーム内、またはタイムアウトしました)。 変更を保存できません — 再び<0>/mypet editor</0>を実行して新しいセッションを開始します。",
     "viewReadOnly": "読み取り専用を表示"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }

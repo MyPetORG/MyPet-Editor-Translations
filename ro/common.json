@@ -56,7 +56,9 @@
       "duplicateId": "Un talent cu acest ID există deja.",
       "loadDefaultsFailed": "Încărcarea exemplelor implicite a eșuat",
       "jsonCopied": "JSON copiat în clipboard",
-      "jsonCopyFailed": "Copierea JSON a eșuat"
+      "jsonCopyFailed": "Copierea JSON a eșuat",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "Vezi sursa"
   },
@@ -116,13 +118,34 @@
       "locale": "Localizare",
       "hooks": "Cârlige",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "Niciun spațiu de lucru încărcat",
     "expiringSoon": "Sesiunea expiră în curând",
     "demoData": "Exemplu de date · modificările nu vor fi salvate",
-    "rejected": "Serverul a respins modificările."
+    "rejected": "Serverul a respins modificările.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} fișier(e) stricat(e) modificat",
     "noNetChange": "nicio modificare netă",
     "localeSummary": "{{keys}} taste pentru {{langs}} limba(i)",
-    "applyFailed": "Nu s-au putut aplica modificările"
+    "applyFailed": "Nu s-au putut aplica modificările",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "Abilități",
+      "locale": "Localizare"
+    }
   },
   "sessionClosed": {
     "title": "Sesiune închisă",
     "body": "Sesiunea editorului de web s-a încheiat (s-a închis în joc, sau a expirat). Modificările nu mai pot fi salvate - rulați <0>/mypet editor din nou pentru a începe o nouă sesiune.",
     "viewReadOnly": "Vizualizare numai în citire"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }

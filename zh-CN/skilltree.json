@@ -173,11 +173,18 @@
     "every": "每",
     "from": "来自",
     "until": "至",
-    "keyPreview": "→ key: \"{{key}}\""
+    "keyPreview": "→ key: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamond or base64:… (from /petadmin info item)",
-    "addRow": "+ 添加"
+    "addRow": "+ 添加",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "名称",
@@ -191,11 +198,18 @@
     "speciesCount_other": "{{count}} species",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "Lv up to {{max}}"
+    "levelMax": "Lv up to {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "此工作区内尚无技能树。",
-    "layingOut": "Laying out canvas…"
+    "layingOut": "Laying out canvas…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "PettType 是必填项",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "最小和最大值必须为数字",
     "valuesNonNegative": "数值必须必须是必须的 unnamed@@0",
     "maxGteMin": "最大值必须是必须是必须的最小值"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }

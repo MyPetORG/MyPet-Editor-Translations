@@ -173,11 +173,18 @@
     "every": "ogni",
     "from": "da",
     "until": "fino a",
-    "keyPreview": "→ chiave: \"{{key}}\""
+    "keyPreview": "→ chiave: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamante o base64:… (da /petadmin info item)",
-    "addRow": "+ Aggiungi"
+    "addRow": "+ Aggiungi",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "Nome",
@@ -191,11 +198,18 @@
     "speciesCount_other": "{{count}} specie",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "Lv fino a {{max}}"
+    "levelMax": "Lv fino a {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "Ancora nessuna abilità in questo spazio di lavoro.",
-    "layingOut": "Laying out canvas…"
+    "layingOut": "Laying out canvas…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "PetType è obbligatorio",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "Min e Max devono essere numeri",
     "valuesNonNegative": "I valori devono essere ≥ 0",
     "maxGteMin": "Il massimo deve essere ≥ Min"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }

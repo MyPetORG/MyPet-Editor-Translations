@@ -56,7 +56,9 @@
       "duplicateId": "该ID的技能树已经存在。",
       "loadDefaultsFailed": "加载默认技能树失败",
       "jsonCopied": "JSON已复制到剪贴板",
-      "jsonCopyFailed": "复制JSON失败"
+      "jsonCopyFailed": "复制JSON失败",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "查看源"
   },
@@ -116,13 +118,34 @@
       "locale": "区域设置",
       "hooks": "钩子",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "未加载工作区",
     "expiringSoon": "会话即将过期",
     "demoData": "示例数据 · 将不会保存",
-    "rejected": "服务器拒绝了更改。"
+    "rejected": "服务器拒绝了更改。",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} broken file(s) changed",
     "noNetChange": "无净变化",
     "localeSummary": "{{keys}} key(s) across {{langs}} language(s)",
-    "applyFailed": "应用更改失败"
+    "applyFailed": "应用更改失败",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "技能树",
+      "locale": "区域设置"
+    }
   },
   "sessionClosed": {
     "title": "会话已关闭",
     "body": "Web 编辑器会话已经结束 (游戏内关闭或超时)。 无法再保存更改——再次运行 <0>/mypet editor</0> 以开始新的会话。",
     "viewReadOnly": "查看只读"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }
