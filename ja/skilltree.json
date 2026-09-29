@@ -173,11 +173,18 @@
     "every": "すべての",
     "from": "from",
     "until": "まで",
-    "keyPreview": "→ キー: \"{{key}}\""
+    "keyPreview": "→ キー: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamondまたはbase64:… (/petadmin info item)",
-    "addRow": "+ 追加"
+    "addRow": "+ 追加",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "名前",
@@ -191,11 +198,18 @@
     "speciesCount_other": "{{count}} 種",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "レベルアップ（ {{max}}）"
+    "levelMax": "レベルアップ（ {{max}}）",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "このワークスペースにはスキルツリーがありません。",
-    "layingOut": "Laying out canvas…"
+    "layingOut": "Laying out canvas…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "PetTypeは必須です",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "最小値と最大値は数字でなければなりません",
     "valuesNonNegative": "値は0以上でなければなりません",
     "maxGteMin": "最大値は最低値でなければなりません"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }
