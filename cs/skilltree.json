@@ -173,11 +173,18 @@
     "every": "každý",
     "from": "od",
     "until": "do",
-    "keyPreview": "→ Klávesa: \"{{key}}\""
+    "keyPreview": "→ Klávesa: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamantový nebo základní64:… (z /petadmin info item)",
-    "addRow": "+ Přidat"
+    "addRow": "+ Přidat",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "Název",
@@ -191,11 +198,18 @@
     "speciesCount_other": "{{count}} druh",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "Lv až na {{max}}"
+    "levelMax": "Lv až na {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "V tomto pracovním prostoru zatím nejsou žádné dovednosti.",
-    "layingOut": "Odkládání plátna…"
+    "layingOut": "Odkládání plátna…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "PetType je povinný",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "Minimální a maximální hodnota musí být čísla",
     "valuesNonNegative": "Hodnoty musí být ≥ 0",
     "maxGteMin": "Max musí být ≥ Min"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }
