@@ -56,7 +56,9 @@
       "duplicateId": "Дерево навыков с таким ID уже существует.",
       "loadDefaultsFailed": "Не удалось загрузить примеры по умолчанию",
       "jsonCopied": "JSON скопирован в буфер обмена",
-      "jsonCopyFailed": "Не удалось скопировать JSON"
+      "jsonCopyFailed": "Не удалось скопировать JSON",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "Источник"
   },
@@ -116,13 +118,34 @@
       "locale": "Язык",
       "hooks": "Хуки",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "Рабочая область не загружена",
     "expiringSoon": "Сессия истекает в ближайшее время",
     "demoData": "Примеры данных · изменения не будут сохранены",
-    "rejected": "Сервер отклонил изменения."
+    "rejected": "Сервер отклонил изменения.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} повреждённый(е) файл(ы) изменен",
     "noNetChange": "нет изменения сети",
     "localeSummary": "{{keys}} ключ(ы) по {{langs}} языку(ам)",
-    "applyFailed": "Не удалось применить изменения"
+    "applyFailed": "Не удалось применить изменения",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "Дерево навыков",
+      "locale": "Язык"
+    }
   },
   "sessionClosed": {
     "title": "Сеанс закрыт",
     "body": "Сессия веб-редактора закончилась (закрыта в игре или истекла). Изменения больше не могут быть сохранены — запустите <0>/mypet editor</0> снова, чтобы начать новую сессию.",
     "viewReadOnly": "Просмотр только для чтения"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }
