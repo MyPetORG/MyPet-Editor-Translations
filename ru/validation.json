@@ -26,5 +26,18 @@
     "badListInteger": "{{field}} должен быть целым числом, как 6",
     "badListNumber": "{{field}} должен быть числом как 6 или 2.5",
     "badListString": "{{field}} должен быть текстом"
+  },
+  "menu": {
+    "rowsRange": "rows must be between 1 and 6",
+    "unknownType": "unknown section type '{{type}}'",
+    "colRange": "col {{col}} is outside 0..8",
+    "rowRange": "row {{row}} is outside 0..{{max}}",
+    "slotCollision": "slot collision at col {{col}}, row {{row}} with '{{other}}'",
+    "regionFit": "region {{col}},{{row}} {{width}}x{{height}} does not fit a {{cols}}x{{rows}} grid"
+  },
+  "json": {
+    "invalid": "Invalid JSON",
+    "notObject": "Skilltree must be a JSON object",
+    "missingId": "Missing required field: ID"
   }
 }
