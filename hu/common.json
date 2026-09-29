@@ -56,7 +56,9 @@
       "duplicateId": "A skilltree with that ID already exists.",
       "loadDefaultsFailed": "Failed to load default examples",
       "jsonCopied": "JSON copied to clipboard",
-      "jsonCopyFailed": "Failed to copy JSON"
+      "jsonCopyFailed": "Failed to copy JSON",
+      "copied": "Copied to clipboard.",
+      "copyFailed": "Could not copy to the clipboard."
     },
     "viewSource": "View source"
   },
@@ -116,13 +118,34 @@
       "locale": "Locale",
       "hooks": "Hooks",
       "menus": "Menus"
-    }
+    },
+    "resize": "Resize sidebar",
+    "languageListFailed": "Couldn't load the default language list from GitHub — showing server languages only."
   },
   "session": {
     "noWorkspace": "No workspace loaded",
     "expiringSoon": "Session expiring soon",
     "demoData": "Example data · changes won’t be saved",
-    "rejected": "The server rejected the changes."
+    "rejected": "The server rejected the changes.",
+    "errors": {
+      "uploadRejected": "The server rejected the model upload.",
+      "closedBeforeUpload": "The editor session closed before the upload was confirmed.",
+      "closedBeforeChange": "The editor session closed before the changes were confirmed.",
+      "supersededChange": "Superseded by a newer change request.",
+      "changeTimeout": "The server did not confirm the changes in time.",
+      "sendChangeFailed": "Failed to send the change request.",
+      "supersededUpload": "Superseded by a newer upload.",
+      "uploadTimeout": "The server did not confirm the upload in time.",
+      "sendUploadFailed": "Failed to send the upload request.",
+      "noActiveSession": "No active editor session — cannot upload a model."
+    },
+    "status": {
+      "disconnected": "Offline",
+      "connecting": "Connecting…",
+      "awaiting-trust": "Awaiting trust",
+      "connected": "Live"
+    },
+    "demoMode": "Demo mode"
   },
   "editors": {
     "config": {
@@ -184,11 +207,32 @@
     "stBroken": "{{count}} broken file(s) changed",
     "noNetChange": "no net change",
     "localeSummary": "{{keys}} key(s) across {{langs}} language(s)",
-    "applyFailed": "Failed to apply changes"
+    "applyFailed": "Failed to apply changes",
+    "files": {
+      "config": "Main Config (config.yml)",
+      "petConfig": "Pet Types (pet-config.yml)",
+      "expConfig": "Mob XP (exp-config.yml)",
+      "petShops": "Pet Shops (pet-shops.yml)",
+      "skilltrees": "Skilltrees",
+      "locale": "Locale"
+    }
   },
   "sessionClosed": {
     "title": "Session closed",
     "body": "The web editor session has ended (closed in-game, or timed out). Changes can no longer be saved — run <0>/mypet editor</0> again to start a new session.",
     "viewReadOnly": "View read-only"
+  },
+  "changelog": {
+    "title": "What's new in the editor",
+    "empty": "No changes to show yet.",
+    "release": "{{version}} · {{date}}",
+    "upcoming": "Upcoming · in this alpha, not released yet",
+    "showOlder_one": "Show {{count}} older release",
+    "showOlder_other": "Show {{count}} older releases",
+    "openTooltip": "What's new in the editor"
+  },
+  "field": {
+    "noneSelected": "— none —",
+    "current": "{{value}} (current)"
   }
 }
