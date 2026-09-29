@@ -173,11 +173,18 @@
     "every": "joka",
     "from": "alkaen",
     "until": "kunnes",
-    "keyPreview": "→ avain: \"{{key}}\""
+    "keyPreview": "→ avain: \"{{key}}\"",
+    "petSpecsAtLevel": "Pet specs @ Lv {{level}}",
+    "unlocksAtLevel": "— unlocks Lv {{level}}",
+    "inheritedReadOnly": "Inherited (read-only)",
+    "editCell": "Edit {{skill}} @ {{level}}",
+    "addCell": "Add {{skill}} @ {{level}}"
   },
   "generatedSkill": {
     "itemPlaceholder": "minecraft:diamond tai Base64:… (from /petadmin info item)",
-    "addRow": "+ Lisää"
+    "addRow": "+ Lisää",
+    "valueTrue": "true",
+    "valueFalse": "false"
   },
   "node": {
     "namePlaceholder": "Nimi",
@@ -191,11 +198,18 @@
     "speciesCount_other": "{{count}} lajia",
     "levelRange": "Lv {{min}}-{{max}}",
     "levelMin": "Lv {{min}}+",
-    "levelMax": "Lv jopa {{max}}"
+    "levelMax": "Lv jopa {{max}}",
+    "badgeRequirements": "+{{count}} req",
+    "badgeDangling": "{{count}} dangling",
+    "badgeUnknownSpecies": "{{count}} unknown species"
   },
   "canvas": {
     "empty": "Tässä työtilassa ei vielä ole taitopuita.",
-    "layingOut": "Laying out canvas…"
+    "layingOut": "Laying out canvas…",
+    "collapseGroup": "· Collapse",
+    "deleteEdge_one": "Delete edge",
+    "deleteEdge_other": "Delete {{count}} edges",
+    "inheritFrom": "Inherit {{target}} from {{source}}"
   },
   "entry": {
     "petTypeRequired": "PetType vaaditaan",
@@ -203,5 +217,12 @@
     "minMaxNumbers": "Minimi ja Max on oltava numeroita",
     "valuesNonNegative": "Arvojen on oltava ≥ 0",
     "maxGteMin": "Maksimi on oltava ≥ Min"
+  },
+  "connect": {
+    "require": "Require {{target}} → {{source}}",
+    "inherit": "Inherit {{target}} from {{source}}",
+    "replaceInheritance": "Replace inheritance (currently {{parent}})",
+    "wouldCycle": "{{target}} already leads back to {{source}} through inheritance.",
+    "dialogLabel": "Connect {{source}} and {{target}}"
   }
 }
