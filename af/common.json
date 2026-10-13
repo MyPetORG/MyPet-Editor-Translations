@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Select a configuration area from the sidebar."
+  },
+  "actions": {
+    "import": "Import",
+    "export": "Export ZIP",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "add": "Add",
+    "remove": "Remove",
+    "edit": "Edit",
+    "close": "Close",
+    "ok": "OK",
+    "confirm": "Confirm",
+    "done": "Done",
+    "loadDefaults": "Load Defaults",
+    "chooseFiles": "Choose files",
+    "copyJson": "Copy JSON",
+    "download": "Download",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "copy": "Copy"
+  },
+  "autosave": {
+    "saved": "Saved",
+    "savedAt": "Saved {{time}}",
+    "saving": "Autosaving…",
+    "pending": "Unsaved changes",
+    "justNow": "just now",
+    "secondsAgo": "{{s}}s ago",
+    "minutesAgo": "{{m}}m ago",
+    "hoursAgo": "{{h}}h ago"
+  },
+  "modals": {
+    "import": {
+      "title": "Import skilltrees",
+      "description": "Drop a .zip (multiple trees) or a single .st.json file.",
+      "dragHere": "Drag & drop files here",
+      "or": "or",
+      "reading": "Reading files…"
+    },
+    "confirm": {
+      "title": "Confirm",
+      "deleteTree": "Delete skilltree \"{{id}}\"?",
+      "deleteSkill": "Remove skill \"{{id}}\"?",
+      "loadDefaults": "This will replace your current skilltrees with the default examples and clear your local draft. Continue?"
+    },
+    "alert": {
+      "title": "Alert",
+      "importFailed": "Failed to import file(s).",
+      "exportBlocked": "Export blocked: {{count}} skilltree(s) have validation errors.\n\nInvalid trees: {{names}}\n\nPlease fix all validation errors before exporting.",
+      "noTreesToExport": "No skilltrees to export.",
+      "duplicateId": "A skilltree with that ID already exists.",
+      "loadDefaultsFailed": "Failed to load default examples",
+      "jsonCopied": "JSON copied to clipboard",
+      "jsonCopyFailed": "Failed to copy JSON"
+    },
+    "viewSource": "View source"
+  },
+  "language": {
+    "select": "Select language",
+    "loading": "Loading translations..."
+  },
+  "tooltip": {
+    "breakdown": "Breakdown",
+    "total": "Total",
+    "goHome": "Go to home",
+    "allChangesSaved": "All changes saved",
+    "saveChanges": "Save changes",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Load default example trees",
+    "exportZip": "Export all trees to a zip",
+    "delete": "Delete",
+    "openDocs": "Open MyPet documentation",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "tipOnKofi": "Support this project on Ko-fi"
+  },
+  "footer": {
+    "builtBy": "built with ❤️ by",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Underline",
+    "strikethrough": "Strike",
+    "reset": "Reset",
+    "placeholder": "Enter MiniMessage text. Use toolbar to insert tags."
+  },
+  "common": {
+    "none": "(None)",
+    "noOptions": "(No options)"
+  },
+  "sidebar": {
+    "title": "Skilltrees",
+    "newSkilltree": "New skilltree",
+    "order": "Order {{order}}",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Collapse sidebar",
+    "reorder": "Reorder",
+    "dragToReorder": "Drag to reorder",
+    "reviewSave": "Review & Save",
+    "nothingToSave": "No unsaved changes",
+    "configSections": "Configuration sections",
+    "category": {
+      "general": "General",
+      "pets": "Pets",
+      "experience": "Experience",
+      "skilltrees": "Skilltrees",
+      "locale": "Locale",
+      "hooks": "Hooks",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "No workspace loaded",
+    "expiringSoon": "Session expiring soon",
+    "demoData": "Example data · changes won’t be saved",
+    "rejected": "The server rejected the changes."
+  },
+  "editors": {
+    "config": {
+      "label": "Main Config"
+    },
+    "petConfig": {
+      "label": "Pet Config"
+    },
+    "expConfig": {
+      "label": "Mob XP Rewards"
+    },
+    "petShops": {
+      "label": "Pet Shops"
+    },
+    "skilltrees": {
+      "label": "Skilltrees"
+    },
+    "locale": {
+      "label": "Locale"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Connecting to your server",
+    "loadingSubtitle": "Loading configuration…",
+    "trustTitle": "Authorize this browser",
+    "trustSubtitle": "This browser isn’t trusted yet. Run this in-game to connect:",
+    "trustWaiting": "Waiting for authorization…",
+    "noSessionTitle": "No active session",
+    "noSessionSubtitle": "Run <0>/mypet editor</0> in-game and open the link it gives you.",
+    "tryDemo": "Try the demo",
+    "demoHint": "Explore every editor with example data — no server needed.",
+    "endedTitle": "This editor session has ended",
+    "endedSubtitle": "The server closed it, or it timed out. Run <0>/mypet editor</0> in-game to start a new one, then open the fresh link it gives you."
+  },
+  "reviewSave": {
+    "title": "Review & Save",
+    "noChanges": "No unsaved changes.",
+    "summary_one": "{{count}} file with unsaved changes",
+    "summary_other": "{{count}} files with unsaved changes",
+    "tagRemoved": "removed",
+    "tagAdded": "added",
+    "empty": "(empty)",
+    "apply": "Apply Changes",
+    "applying": "Applying…",
+    "hintNoChanges": "No changes to apply.",
+    "hintNotConnected": "Connect a live session first — run /mypet editor and authorize the browser.",
+    "hintNoSession": "No active session.",
+    "hintReady": "Write these changes to the server and reload.",
+    "formattingOnly": "Formatting only (no value changes)",
+    "stAdded": "{{count}} added",
+    "stRemoved": "{{count}} removed",
+    "stModified": "{{count}} modified",
+    "stBroken": "{{count}} broken file(s) changed",
+    "noNetChange": "no net change",
+    "localeSummary": "{{keys}} key(s) across {{langs}} language(s)",
+    "applyFailed": "Failed to apply changes"
+  },
+  "sessionClosed": {
+    "title": "Session closed",
+    "body": "The web editor session has ended (closed in-game, or timed out). Changes can no longer be saved — run <0>/mypet editor</0> again to start a new session.",
+    "viewReadOnly": "View read-only"
+  }
+}

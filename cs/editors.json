@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Žádný pracovní prostor nenačten. Otevřete relaci s <0>/mypet editorem</0> nebo nahrajte ukázkový balíček.",
+    "viewFile": "Zobrazit soubor",
+    "actions": "Akce",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Konfigurační sekce",
+    "tabs": {
+      "general": "Obecná ustanovení",
+      "database": "Databáze",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Zkušenosti",
+      "permissions": "Práva",
+      "names": "Jména",
+      "skills": "Dovednosti",
+      "updates": "Aktualizace"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Majitel může zaútočit na sadu"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Zakázat Pet vs přehrávač"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Prasečí zabíjí dávat hráči odměny"
+      },
+      "OverwriteLanguages": {
+        "label": "Přepsat jazyk",
+        "help": "Vynutit locale kód (např. en, de_DE). Prázdný = automatický detektor."
+      },
+      "Leash_AllowRanged": {
+        "label": "Povolit Ranged Leashing"
+      },
+      "Leash_Consume": {
+        "label": "Spustit položku Leash"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Vzdálenost zahájení sledování"
+      },
+      "Repository_Type": {
+        "label": "Typ repozitáře"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Převést z",
+        "help": "Volitelné: při příštím startu migrovat z jiného backendu."
+      },
+      "Repository_LoadDelay": {
+        "label": "Zpoždění načtení (tiky)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "Server MySQL"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL databáze"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL uživatel"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQL heslo"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Předpona tabulek"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Kódování znaků"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Maximální počet připojení"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Výchozí faktor času"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Výchozí čas opraven"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Faktor času hráče"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Čas hráče opraven"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Respawn Time vypnut"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Faktor nákladů ekonomie"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Náklady na ekonomii"
+      },
+      "HungerSystem_Active": {
+        "label": "Hlad aktivní"
+      },
+      "HungerSystem_Time": {
+        "label": "Čas zaškrtnutí hladomoru"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Saturace na kanál"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Faktor poškození"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Poškození pevná"
+      },
+      "Exp_LevelCap": {
+        "label": "Úroveň čepice"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Škodlivá distribuce XP"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Prohra XP při smrti"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "Ztráta XP (pevná)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "Ztráta XP (procenta)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Globální modifikátor XP"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Pasivní % na monstrum"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Režim výpočtu úrovně"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Křivka · Lineární základna"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Křivka · Faktor výkonu"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Křivka · Exponent moci"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Křivka · Exponenciální základna"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Křivka · Exponenciální růst"
+      },
+      "Permissions_Extended": {
+        "label": "Rozšířená oprávnění"
+      },
+      "Name_MaxLength": {
+        "label": "Maximální délka jména"
+      },
+      "Name_Tag_Show": {
+        "label": "Zobrazit název tagu"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Předpona názvu značky"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Přípona štítku jména"
+      },
+      "Name_Filter": {
+        "label": "Filtrovaná slova (jedno na řádek)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Automatické přiřazení"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Náhodné přiřazení"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Vyberte jednou"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Zabránit úrovním bez dovedností"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Přepnout poplatek pro správce"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Přepnout poplatek (pevný)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Přepnout poplatek (v procentech)"
+      },
+      "Skill_Control_Item": {
+        "label": "Ovládat položku dovedností"
+      },
+      "Skill_Ride_Item": {
+        "label": "Předmět dovednosti při jízdě"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Jízda na metr"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Čas snížení hladovění majáku"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Otevření batohu v Creative"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Vypadání batohu když vlastník zemřel"
+      },
+      "Update_Check": {
+        "label": "Zkontrolovat aktualizace"
+      },
+      "Update_Download": {
+        "label": "Stáhnout aktualizace"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Nabídka — {{menuId}}",
+    "selectMenu": "Vyberte nabídku z postranního panelu.",
+    "notFound": "Nabídka <0>{{menuId}}</0> nebyla nalezena v pracovním prostoru.",
+    "previewLanguage": "Náhled jazyka:",
+    "slotWithSection": "Slot {{slot}} – sekce: <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot {{slot}} — žádná sekce",
+    "clickSlot": "Kliknutím na pozici vyberte její sekci."
+  },
+  "mobXp": {
+    "title": "Odměny XP stvoření",
+    "sections": "Profily ve tvaru XP",
+    "searchPlaceholder": "Hledat stvoření…",
+    "searchLabel": "Hledat stvoření",
+    "entryCount_one": "{{count}} vstup",
+    "entryCount_other": "{{count}} položky",
+    "addCustom": "+ Přidat vlastní stvoření",
+    "noMatch": "Hledání neodpovídá žádná stvoření.",
+    "noCustom": "Zatím žádná vlastní stvoření. Přidejte jeden, který dá XP pro pojmenované stvoření.",
+    "noEntries": "Žádné záznamy v tomto souboru.",
+    "colMob": "stvoření",
+    "colMin": "Min.",
+    "colMax": "Max.",
+    "remove": "Odstranit {{name}}",
+    "tabs": {
+      "Default": "Výchozí",
+      "Custom": "Vlastní"
+    },
+    "help": {
+      "Default": "XP udělil, když domácí mazlíček zabije vanilkový mob.",
+      "Custom": "XP pro stvoření s vlastním jménem (např. MythicMobs). Odpovídá přesnému názvu stvoření."
+    },
+    "promptCustomName": "Vlastní název stvoření (přesné zobrazovací jméno stvoření, např. MythicMobs id):"
+  },
+  "localeEditor": {
+    "title": "Lokální — {{language}}",
+    "selectLanguage": "Vyberte jazyk z postranního panelu.",
+    "promptKey": "Přepsat klíč (např. Message.Pet.Spawn):",
+    "invalidKey": "Klíče nemohou obsahovat mezery nebo \"=\".",
+    "duplicateKey": "Tento klíč již má přepsání.",
+    "view": "Lokální zobrazení",
+    "tabOverrides": "Moje přepsání",
+    "tabAll": "Všechny řetězce",
+    "searchPlaceholder": "Hledat klíče nebo text…",
+    "searchLabel": "Hledat národní klíče nebo text",
+    "onlyOverridden": "Zobrazit pouze přepsané",
+    "overrideCount": "{{shown}} z {{total}} přepsání",
+    "keyCount_one": "{{count}} klíč",
+    "keyCount_other": "Klávesy {{count}}",
+    "addOverride": "+ Přidat přepsání",
+    "noOverrides": "Zatím žádné přepsání pro <0>{{language}}</0>. Přepněte na <1>{{tabAll}}</1> pro procházení a přepsání výchozích hodnot.",
+    "noOverrideMatch": "Hledání neodpovídá žádné přepsání.",
+    "loadError": "Nelze načíst výchozí řetězce pro <0>{{language}}</0> z GitHubu. Stále můžete přidat přepsání ručně z zobrazení \"{{tabOverrides}}.",
+    "loadingDefaults": "Načítání výchozích řetězců…",
+    "noStringMatch": "Hledání neodpovídají žádné řetězce.",
+    "colKey": "Klíč",
+    "colDefault": "Výchozí",
+    "colOverride": "Přepsat",
+    "noDefault": "(bez výchozího nastavení)",
+    "remove": "Odstranit {{key}}",
+    "reset": "Obnovit {{key}} na výchozí"
+  },
+  "petShops": {
+    "title": "Obchody s mazlíčky",
+    "shops": "Obchody",
+    "promptShopId": "ID nového obchodu (písmena, čísla, podtržítko – např. premium):",
+    "invalidShopId": "ID obchodu může obsahovat pouze písmena, čísla a podtržítka.",
+    "duplicateShop": "Obchod s názvem \"{{key}}již existuje.",
+    "confirmDeleteShop": "Smazat obchod \"{{name}}a všechny jeho domácí mazlíčky?",
+    "addShop": "+ Přidat obchod",
+    "deleteShop": "Odstranit tento obchod",
+    "noShops": "Nebyly definovány žádné obchody. Přidejte jeden pro zahájení prodeje zvířat v zájmovém chovu.",
+    "displayName": "Zobrazované jméno",
+    "defaultShop": "Výchozí obchod",
+    "defaultShopHint": "Otevřeno /petshop bez argumentů.",
+    "menuPosition": "Pozice nabídky",
+    "balanceType": "Typ zůstatku",
+    "balanceTypeHint": "Kde jde koupit peníze.",
+    "balanceOwner": "Vlastník zůstatku",
+    "balanceOwnerBank": "Název banky trezoru.",
+    "balanceOwnerPlayer": "UUID přehrávače.",
+    "iconMaterial": "Materiál ikony",
+    "iconMaterialHint": "Položka zobrazená v nabídce obchodu (např. truhla, vejce).",
+    "iconGlowing": "Zapnutí ikony",
+    "pets": "Domácí zvířata",
+    "searchPets": "Hledat mazlíčky…",
+    "searchPetsLabel": "Hledat mazlíčky v tomto obchodě",
+    "petCount": "{{shown}} z {{total}}",
+    "addPet": "+ Přidat mazlíčka",
+    "promptPetId": "Nové ID v zájmovém chovu (písmena, čísla, podtržítko – např. baby_wolf):",
+    "invalidPetId": "ID v zájmovém chovu může obsahovat pouze písmena, čísla a podtržítka.",
+    "duplicatePet": "Domácí zvířata \"{{key}}\" již v tomto obchodě existují.",
+    "noPets": "Zatím v tomto obchodě nejsou žádná zvířata v zájmovém chovu.",
+    "noPetMatch": "Hledání neodpovídají žádné sady v zájmovém chovu.",
+    "removePet": "Odstranit {{name}}",
+    "petType": "Typ prasete",
+    "petTypeHint": "Typ MyPet v zájmovém chovu, např. WOLF, OCELOT.",
+    "price": "Cena",
+    "startingExp": "Zahájení EXP",
+    "positionHint": "-1 = automatická plnění.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Volitelný název dovednostních stromů přednastavení",
+    "description": "Popis (jeden řádek)",
+    "options": "Možnosti (jeden na řádek)",
+    "optionsHint": "např. dětské nebo typové možnosti."
+  },
+  "petTypes": {
+    "title": "Typy zvířat v zájmovém chovu",
+    "search": "Hledat typy mazlíčků…",
+    "searchLabel": "Hledat typy mazlíčků",
+    "noMatch": "Žádné typy neodpovídají.",
+    "noTypes": "V tomto souboru nejsou žádné typy mazlíčků.",
+    "deleteTitle": "Odstranit tento vlastní typ mazlíčka",
+    "deleteButton": "🗑️ Odstranit domácí mazlíček",
+    "confirmDelete": "Odstranit vlastní domácí mazlíčko \"{{name}}\"? Odstraní celou sekci pro nastavení domácích mazlíčků.",
+    "confirmDeleteTitle": "Odstranit vlastní domácí mazlíček",
+    "confirmDeleteConfirm": "Vymazat",
+    "complexValue": "Složitá hodnota – upravit pomocí syrového YAML.",
+    "model": "Vzor",
+    "modelHelp": "Vykreslete tento domácí mazlíček s vlastním 3D modelem z modele-provider pluginu (ModelEngine, BetterModel, ItemsAdder, nebo MythicMobs) místo jeho vanilského vzhledu. Pro zachování výchozího vzhledu ponechte poskytovatele prázdný.",
+    "provider": "Poskytovatel",
+    "modelId": "Id modelu",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{id}}</1>\" je již používán pro domácí mazlíčka typu \"<2>{{other}}</2>\". Každý vlastní typ potřebuje unikátní model - plugin jej při načtení přeskočí.",
+    "nameHeight": "Výška jména",
+    "nameHeightHelp": "Vertikální odsazení názvu zvířete v zájmovém chovu nad modelem.",
+    "createCustom": "➕ Vytvořit vlastní domácí mazlíček",
+    "typeCount": "{{shown}} typů {{total}}",
+    "animations": "Animace",
+    "animationsHint": "– volitelný název přepsání"
+  },
+  "menuSection": {
+    "notFound": "Sekce <0>{{sectionId}}</0> nenalezena v <1>{{menuId}}</1>.",
+    "removed": "Sekce <0>{{sectionId}}</0> je z tohoto menu odstraněna (napsáno jako <1>null</1>).",
+    "resetDefault": "Obnovit výchozí",
+    "removeSection": "Odstranit sekci",
+    "confirmRemove": "Odstranit sekci \"{{sectionId}}\" ? To vyčistí jeho pozici na plátně — znovu jej vyberte přes \"Obnovit výchozí nastavení\", pokud změníte svůj názor.",
+    "confirmRemoveTitle": "Odstranit sekci",
+    "confirmRemoveConfirm": "Odebrat",
+    "statefulNotice": "Tato sekce definuje položky pro každý stát (<0>stát</0>). Pole níže upravují základnu <1>položky</1>, což platí pouze v případě, že není stav přepsán.",
+    "material": "Materiál",
+    "column": "Sloupec",
+    "row": "Řádek",
+    "glow": "bubble raider",
+    "soundOnClick": "Zvuk po kliknutí",
+    "soundKey": "Klíč",
+    "soundVolume": "Objem",
+    "soundPitch": "Smola",
+    "pitchRangeHelp": "Momentálně je dosah stoupání – úprava zde ho nahradí pevnou hodnotou.",
+    "title": "Hlava 1 – Celkem",
+    "lore": "Lore"
+  },
+  "petWizard": {
+    "titleAvenue": "Vytvořit vlastní mazlíčko – vybrat cestu",
+    "titleModel": "Vytvořit vlastní mazlíčka – Konfigurace modelu",
+    "titleIdentity": "Vytvořte si vlastní mazlíčka – identita a tělo",
+    "titleStats": "Vytvořit vlastní mazlíčka – statistiky",
+    "titleReview": "Vytvořit vlastní mazlíčka - recenzi",
+    "progress": "Průběh průvodce",
+    "chooseHow": "Vyberte si, jak chcete vytvořit vlastní mazlíčka.",
+    "buildFromModel": "Postav stvoření z modelu",
+    "modelSource": "Zdroj modelu",
+    "defaultModel": "Výchozí model",
+    "sourceOnlyItemsAdder": "ItemsAdder modely jsou balíčky obsahu – vyberte existující id.",
+    "sourceOnlyMythicMobs": "Mobs MythicMobs je definován v MythicMobs konfiguracích – vyberte existující typ monsta.",
+    "modelId": "ID modelu",
+    "modelIdRegisteredHelp": "Vyberte model registrovaný u {{provider}}.",
+    "modelIdManualHelp": "Pro {{provider}}nebyly nalezeny žádné modely. Zadejte ID modelu ručně.",
+    "modelIdRequired": "Je vyžadováno ID modelu.",
+    "uploadLabel": "Nahrát .bbbmodel",
+    "uploadReconnecting": "Opětovné připojení — počkejte, až se sezení znovu připojí před odesláním.",
+    "uploadNeedsSession": "Nahrávání vyžaduje živou <0>/mypet editor</0> relaci - připojte jednu k tomuto nastavení.",
+    "uploadExplainer": "Nahrává do {{provider}}; model se objeví pro hráče, jakmile {{provider}} obnoví svůj balíček zdrojů a klienty jej znovu stáhnou. Název souboru (bez <0>.bbmodel</0>) se stane idem modelu, takže musí odpovídat ID plánu deklarovanému uvnitř modelu.",
+    "uploading": "Nahrávání…",
+    "uploadDone": "Nahráno — ID modelu nastaveno na \"{{modelId}}\".",
+    "uploadFailed": "Nahrávání se nezdařilo.",
+    "nameHeight": "Výška jména (volitelné)",
+    "nameHeightHelp": "Vertikální odsazení názvu zvířete v zájmovém chovu nad modelem.",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{modelId}}</1>\" je již používán pro domácí mazlíčka typu \"<2>{{other}}</2>\". Model je identita petice, takže každý vlastní typ potřebuje unikátní model – vyberte jiný (plugin by jinak tento typ při zatížení přeskočil).",
+    "creatureName": "Název tvoření",
+    "creatureNameHelp": "Interní klíč k mazlíčku (např. FrostDragon). Musí být jedinečný.",
+    "hostMob": "Hostitelské stvoření",
+    "hostMobHelp": "vanilla Bukkit typ stvoření, který poskytuje základní entitu pro tento mazlíček.",
+    "health": "Zdraví (HP)",
+    "healthHelp": "Základní zdravotní body pro toto zvíře (např. 20 = 10 srdcí).",
+    "walkSpeed": "Rychlost jízdy",
+    "walkSpeedHelp": "Atribut rychlosti pohybu (např. 0.3 je standardní procházková rychlost).",
+    "food": "Jídlo (jedna položka na řádek)",
+    "foodHelp": "Položky, které krmit toto zvíře, např. pšenici. Ponechte prázdné pro zdědění hostitele jídla.",
+    "leash": "Leasingové požadavky",
+    "leashHelp": "Podmínky, které musí být dodrženy pro vedení práce na tomto zvířeti (např. Wild, Baby).",
+    "leashNeedsSession": "Požadavky na plavbu vyžadují živou relaci.",
+    "reviewIntro": "Do sekce <0>pet-config.yml</0>:",
+    "back": "Zpět",
+    "next": "Další",
+    "create": "Vytvořit",
+    "nameRequired": "Název je povinný."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Selecione uma área de configuração da barra lateral."
+  },
+  "actions": {
+    "import": "Importação",
+    "export": "Exportar ZIP",
+    "save": "Guardar",
+    "cancel": "cancelar",
+    "delete": "excluir",
+    "add": "Adicionar",
+    "remove": "Excluir",
+    "edit": "Alterar",
+    "close": "FECHAR",
+    "ok": "Certo",
+    "confirm": "Confirmar",
+    "done": "Concluído",
+    "loadDefaults": "Carregar Padrões",
+    "chooseFiles": "Escolher arquivos",
+    "copyJson": "Copiar JSON",
+    "download": "BAIXAR",
+    "selectAll": "Selecionar Todos",
+    "deselectAll": "Desmarcar Todos",
+    "copy": "copiar"
+  },
+  "autosave": {
+    "saved": "Salvo",
+    "savedAt": "Salvo {{time}}",
+    "saving": "Salvando Automaticamente…",
+    "pending": "Alterações não salvas",
+    "justNow": "neste momento",
+    "secondsAgo": "{{s}}s ago",
+    "minutesAgo": "{{m}}m ago",
+    "hoursAgo": "{{h}}h ago"
+  },
+  "modals": {
+    "import": {
+      "title": "Importar Árvores",
+      "description": "Solte um .zip (várias árvores) ou um único arquivo .st.json.",
+      "dragHere": "Arraste e solte arquivos aqui",
+      "or": "ou",
+      "reading": "Lendo arquivos…"
+    },
+    "confirm": {
+      "title": "Confirmar",
+      "deleteTree": "Excluir skill tree \"{{id}}\"?",
+      "deleteSkill": "Remover habilidade \"{{id}}\"?",
+      "loadDefaults": "Isso irá substituir suas árvores de habilidades atuais pelos exemplos padrão e irá limpar seu rascunho local. Continuar?"
+    },
+    "alert": {
+      "title": "Avisos",
+      "importFailed": "Falha ao importar arquivo(s).",
+      "exportBlocked": "Exportação bloqueada: {{count}} habilidade(s) possuem erros de validação.\n\nÁrvore inválida: {{names}}\n\nPor favor, corrija todos os erros de validação antes de exportar.",
+      "noTreesToExport": "Nenhuma árvore de habilidade para exportar.",
+      "duplicateId": "Uma árvore de habilidades com esse ID já existe.",
+      "loadDefaultsFailed": "Falha ao carregar exemplos padrão",
+      "jsonCopied": "JSON copiado para área de transferência",
+      "jsonCopyFailed": "Falha ao copiar JSON"
+    },
+    "viewSource": "Ver código fonte"
+  },
+  "language": {
+    "select": "Selecione o idioma",
+    "loading": "Carregando traduções..."
+  },
+  "tooltip": {
+    "breakdown": "Detalhamento",
+    "total": "Total:",
+    "goHome": "Ir para casa",
+    "allChangesSaved": "Todas as alterações salvas",
+    "saveChanges": "Salvar as alterações",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Carregar árvores de exemplo padrão",
+    "exportZip": "Exportar todas as árvores para um zip",
+    "delete": "excluir",
+    "openDocs": "Abrir documentação do MyPet",
+    "switchToLight": "Alternar para o modo claro",
+    "switchToDark": "Mudar para o modo escuro",
+    "tipOnKofi": "Apoie este projeto em Ko-fi"
+  },
+  "footer": {
+    "builtBy": "construído com ❤️ por",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Sublinhar",
+    "strikethrough": "Golpe",
+    "reset": "Reset",
+    "placeholder": "Insira o texto da MiniMessagem. Use a barra de ferramentas para inserir tags."
+  },
+  "common": {
+    "none": "(Nenhum)",
+    "noOptions": "(Sem opções)"
+  },
+  "sidebar": {
+    "title": "Árvores habilidosas",
+    "newSkilltree": "Nova árvore de habilidades",
+    "order": "Pedido {{order}}",
+    "expand": "Expandir",
+    "collapse": "Recolher",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Fechar barra lateral",
+    "reorder": "Reordenar",
+    "dragToReorder": "Arraste para reordenar",
+    "reviewSave": "Revisão & Salvar",
+    "nothingToSave": "Nenhuma alteração não salva",
+    "configSections": "Seções de configuração",
+    "category": {
+      "general": "Gerais",
+      "pets": "Animais",
+      "experience": "Experiência",
+      "skilltrees": "Árvores habilidosas",
+      "locale": "Localidade",
+      "hooks": "Hooks",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Nenhum espaço de trabalho carregado",
+    "expiringSoon": "Sessão expirada em breve",
+    "demoData": "Dados de exemplo · mudanças não serão salvas",
+    "rejected": "O servidor rejeitou as mudanças."
+  },
+  "editors": {
+    "config": {
+      "label": "Configuração principal"
+    },
+    "petConfig": {
+      "label": "Configuração de Animais"
+    },
+    "expConfig": {
+      "label": "Recompensas de XP de Criaturas"
+    },
+    "petShops": {
+      "label": "Lojas de Mascotes"
+    },
+    "skilltrees": {
+      "label": "Árvores habilidosas"
+    },
+    "locale": {
+      "label": "Localidade"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Conectando ao seu servidor",
+    "loadingSubtitle": "Carregando configuração…",
+    "trustTitle": "Autorizar este navegador",
+    "trustSubtitle": "Este navegador ainda não é confiável. Execute este jogo para se conectar:",
+    "trustWaiting": "Aguardando autorização…",
+    "noSessionTitle": "Nenhuma sessão ativa",
+    "noSessionSubtitle": "Execute <0>/mypet editor</0> no jogo e abra o link que lhe dá.",
+    "tryDemo": "Experimente a demonstração",
+    "demoHint": "Explore todos os editores com dados de exemplo — nenhum servidor precisa.",
+    "endedTitle": "A sessão do editor foi encerrada",
+    "endedSubtitle": "O servidor fechou o tempo, ou ele expirou. Execute <0>/mypet editor</0> no jogo para iniciar um novo, e então abra o link novo que lhe será dado."
+  },
+  "reviewSave": {
+    "title": "Revisão & Salvar",
+    "noChanges": "Nenhuma alteração não salva.",
+    "summary_one": "Arquivo {{count}} com alterações não salvas",
+    "summary_other": "Arquivos {{count}} com alterações não salvas",
+    "tagRemoved": "removido",
+    "tagAdded": "adicionado",
+    "empty": "(vazio)",
+    "apply": "Aplicar alterações",
+    "applying": "Aplicando…",
+    "hintNoChanges": "Nenhuma mudança a ser aplicada.",
+    "hintNotConnected": "Conecte uma sessão ao vivo primeiro — execute o editor /mypet e autorize o navegador.",
+    "hintNoSession": "Nenhuma sessão ativa.",
+    "hintReady": "Escreva estas alterações no servidor e recarregue.",
+    "formattingOnly": "Formatação apenas (sem alterações de valor)",
+    "stAdded": "{{count}} adicionado",
+    "stRemoved": "{{count}} removido",
+    "stModified": "{{count}} modified",
+    "stBroken": "{{count}} arquivo(s) quebrado(s) alterado(s)",
+    "noNetChange": "sem alteração de rede",
+    "localeSummary": "{{keys}} chave(s) em {{langs}} idioma(s)",
+    "applyFailed": "Falha ao aplicar as alterações"
+  },
+  "sessionClosed": {
+    "title": "Sessão fechada",
+    "body": "A sessão do editor web terminou (fechou no jogo ou expirou). As alterações não podem mais ser salvas — execute <0>/mypet editor</0> novamente para iniciar uma nova sessão.",
+    "viewReadOnly": "Ver somente leitura"
+  }
+}

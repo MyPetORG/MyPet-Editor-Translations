@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Δεν επιλέχθηκε δέντρο δεξιοτήτων",
+    "description": "Επιλέξτε ένα skilltree από την πλαϊνή μπάρα ή εισάγετε αρχεία .st.json για να ξεκινήσετε.",
+    "loadDefaultsCta": "Φόρτωση Προεπιλογών"
+  },
+  "tabs": {
+    "properties": "Ιδιότητες",
+    "appearance": "Εμφάνιση",
+    "eligiblePets": "Επιλέξιμα Κατοικίδια",
+    "requirements": "Απαιτήσεις",
+    "notifications": "Ειδοποιήσεις",
+    "skills": "Δεξιότητες",
+    "timeline": "Χρονοδιάγραμμα"
+  },
+  "inspector": {
+    "expand": "Ανάπτυξη επιθεωρητή",
+    "collapse": "Σύμπτυξη επιθεωρητή",
+    "requirementsHint": "Οι άκρες δείχνουν την πρώτη ομάδα Skilltree και όλες οι απαιτήσεις είναι επεξεργάσιμες εδώ."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Μάχη",
+    "inheritance": "Κληρονομικότητα",
+    "inheritancePlaceholder": "Επιλέξτε γονέα δεξιοτεχνία...",
+    "weight": "Βάρος",
+    "weightPlaceholder": "15",
+    "permission": "Άδεια",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Όνομα",
+    "namePlaceholder": "Μάχη",
+    "iconMaterial": "Υλικό Εικονιδίων",
+    "iconMaterialPlaceholder": "πέτρα_τσεκούρι",
+    "glowing": "Λαμπερό",
+    "description": "Περιγραφή",
+    "descriptionPlaceholder": "Μια μάχη-εστιασμένη δεξιότητα...",
+    "viewJson": "Προβολή JSON",
+    "jsonPreview": "Προεπισκόπηση του επιλεγμένου δέντρου δεξιοτήτων ως JSON."
+  },
+  "eligiblePets": {
+    "title": "Επιλέξιμα Κατοικίδια",
+    "none": "Κανένα",
+    "all": "Όλα (*)",
+    "selected": "Επιλεγμένο",
+    "includeFutureMobs": "Συμπερίληψη πλασμάτων από μελλοντικές ενημερώσεις του Minecraft",
+    "allPetsNotice": "Όλα τα Κατοικίδια που αναφέρονται εδώ, συμπεριλαμβανομένων των Επιτρέπονται από μελλοντικές ενημερώσεις, θα είναι επιλέξιμα για αυτή τη δεξιότητα.",
+    "noPetsNotice": "Κανένα κατοικίδιο δεν θα είναι επιλέξιμο για αυτή τη δεξιότητα.",
+    "loading": "Φόρτωση των πιο πρόσφατων οντοτήτων του Minecraft…",
+    "loadError": "Αποτυχία φόρτωσης της λίστας πλασμάτων από δεδομένα minecraft-data",
+    "customHeading": "Από το pet-config",
+    "customHint": "Προσαρμοσμένοι τύποι κατοικίδιων ζώων ορίζονται στο pet-config.yml αυτού του διακομιστή.",
+    "unrecognizedHeading": "Μη Αναγνωρισμένο",
+    "unrecognizedNotice": "Αυτές οι καταχωρήσεις δεν ταιριάζουν με Minecraft mob και κανένα τύπο συντροφιάς-config."
+  },
+  "requirements": {
+    "title": "Απαιτήσεις",
+    "minLevel": "Ελάχιστο Επίπεδο Κατοικιδίων",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Μέγιστο Επίπεδο Κατοικιδίου",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Προσθήκη Απαίτησης",
+    "requirementType": "Τύπος Απαίτησης",
+    "permission": "Άδεια",
+    "permissionPlaceholder": "Άδεια Δοκιμής",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Χωρίς Skilltree",
+    "custom": "Προσαρμοσμένο",
+    "customKey": "Προσαρμοσμένο Κλειδί",
+    "customKeyPlaceholder": "Προσαρμοσμένο Όνομα",
+    "customValue": "Προσαρμοσμένη Τιμή",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "Δεν υπάρχει άδεια, Skilltree, ή προσαρμοσμένες απαιτήσεις για αυτό το Skilltree.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Αντιγραφή δικαιώματος"
+  },
+  "notifications": {
+    "title": "Ειδοποιήσεις",
+    "addNotification": "Προσθήκη Ειδοποίησης",
+    "message": "Μήνυμα",
+    "messagePlaceholder": "{{owner}}είναι κατοικίδιο ζώο {{pet}} έχει φτάσει σε επίπεδο {{level}}!"
+  },
+  "skills": {
+    "title": "Δεξιότητες",
+    "addSkill": "Προσθήκη Δεξιότητας",
+    "selectSkill": "Επιλέξτε μια δεξιότητα...",
+    "noSkills": "Δεν υπάρχουν ακόμη ικανότητες.",
+    "removeSkill": "Αφαίρεση δεξιοτήτων",
+    "addUpgrade": "Προσθήκη Αναβάθμισης",
+    "editUpgrade": "Επεξεργασία Αναβάθμισης",
+    "noUpgrades": "Καμία αναβάθμιση ακόμα.",
+    "level": "Level {{level}}",
+    "levels": "Επίπεδα",
+    "everyLevel": "Κάθε επίπεδο",
+    "everyNLevels": "Every {{n}} levels",
+    "everyNLevelsFrom": "Κάθε {{n}} επίπεδα από το επίπεδο {{start}} και μετά",
+    "everyNLevelsBetween": "Κάθε {{n}} επίπεδα μεταξύ των επιπέδων {{start}} και {{end}}",
+    "fixedLevels": "Level: {{levels}}",
+    "skillExists": "Αυτή η ικανότητα υπάρχει ήδη.",
+    "unknownSkill": "Άγνωστη δεξιότητα",
+    "levelList": "Levels {{levels}}",
+    "everyLevelRange": "Every level ({{start}}-{{until}})",
+    "everyNLevelsRange": "Every {{n}} levels ({{start}}-{{until}})",
+    "everyLevelFrom": "Κάθε επίπεδο από το {{start}}",
+    "everyNLevelsFromStart": "Every {{n}} levels from {{start}}"
+  },
+  "levelModal": {
+    "title": "Επιλογή Επιπέδων",
+    "fixed": "Σταθερό",
+    "dynamic": "Δυναμικό",
+    "fixedHelp": "Εισάγετε ένα ή περισσότερα επίπεδα (χωρισμένα με κενό/κόμμα)",
+    "fixedPlaceholder": "π.χ. 1 3 5 ή 1,3,5",
+    "every": "Κάθε (απαιτείται)",
+    "startFrom": "Έναρξη από επίπεδο (προαιρετικό)",
+    "until": "Μέχρι το επίπεδο (προαιρετικό)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Νέο δέντρο δεξιοτήτων",
+    "searchPlaceholder": "Search skilltrees…",
+    "noMatches": "Δεν υπάρχουν αντιστοιχίες",
+    "undo": "Αναίρεση",
+    "redo": "Επανάληψη",
+    "moreActions": "Περισσότερες ενέργειες",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Διαγράψτε το δέντρο δεξιοτήτων",
+    "deleteConfirm": "Delete {{name}}?",
+    "deleteConfirmWithRefs": "Διαγραφή {{name}}? Άλλα δέντρα που αναφέρονται σε αυτό θα δείξει ένα σήμα κινδύνου-αναφοράς.",
+    "speciesPlaceholder": "Είδος…",
+    "exitJourney": "Έξοδος από τη διαδρομή"
+  },
+  "journey": {
+    "panelTitle": "Journey: {{species}}",
+    "levelLabel": "Επίπεδο",
+    "currentTreeLabel": "Τρέχον δέντρο",
+    "freshPet": "κανένα — φρέσκο κατοικίδιο ζώο",
+    "clickHint": "Προσομοιώσεις: κάντε κλικ σε ένα τονισμένο δέντρο για να το επιλέξετε",
+    "reset": "Επαναφορά στο φρέσκο κατοικίδιο ζώο",
+    "permissionNote": "Υποτιθέμενες απαιτήσεις δικαιωμάτων",
+    "previewTitle": "Προεπισκόπηση αποθέματος",
+    "requiresLevel": "Requires level {{level}}",
+    "clickToApply": "Κλικ για εφαρμογή",
+    "noneAvailable": "Υπάρχουν <red>no</red> skilltrees διαθέσιμα για <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} eligible"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Επεξεργασία ακατέργαστου…",
+      "editRawTitle": "Edit raw: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Απαίτηση",
+      "kindInheritance": "Κληρονομικότητα",
+      "requirement": "Το {{prerequisite}} είναι μια απαίτηση του {{owner}}",
+      "anyOf": "Satisfied by any one of: {{list}}",
+      "inheritance": "Το {{owner}} κληρονομεί τις ικανότητες του {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} είναι μια απαίτηση του καθενός από τα {{count}} skilltrees σε αυτή τη στοίβα"
+    }
+  },
+  "validation": {
+    "error": "Σφάλμα επικύρωσης",
+    "hasErrors": "Αυτό το δέντρο δεξιοτήτων έχει σφάλματα επικύρωσης",
+    "skillHasErrors": "Αυτή η ικανότητα έχει σφάλματα επικύρωσης",
+    "issueInSkill": "Πρόβλημα επικύρωσης σε αυτήν την ικανότητα. Επέκταση για επεξεργασία τιμών."
+  },
+  "timeline": {
+    "inspectLevel": "Επιθεώρηση επιπέδου",
+    "modeSingle": "Μονό",
+    "modeLevels": "Επίπεδα",
+    "modeRepeat": "Επανάληψη",
+    "atLevel": "σε επίπεδο",
+    "levels": "επίπεδα",
+    "every": "κάθε",
+    "from": "από",
+    "until": "μέχρι",
+    "keyPreview": "→ κλειδί: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:διαμάντι ή βάση64:… (από το αντικείμενο πληροφοριών /petadmin)",
+    "addRow": "+ Προσθήκη"
+  },
+  "node": {
+    "namePlaceholder": "Όνομα",
+    "iconPlaceholder": "Υλικό εικονιδίων",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Κάντε κλικ για επέκταση",
+    "allSpecies": "όλα τα είδη",
+    "noSpecies": "κανένα είδος",
+    "speciesCount_one": "{{count}} είδος",
+    "speciesCount_other": "{{count}} είδος",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Lv up to {{max}}"
+  },
+  "canvas": {
+    "empty": "Δεν υπάρχουνδέντρα σε αυτό το χώρο εργασίας ακόμα.",
+    "layingOut": "Laying out canvas…"
+  },
+  "entry": {
+    "petTypeRequired": "Το PetType απαιτείται",
+    "priceExpNonNegative": "Η τιμή και η EXP πρέπει να είναι ≥ 0",
+    "minMaxNumbers": "Το ελάχιστο και το μέγιστο πρέπει να είναι αριθμοί",
+    "valuesNonNegative": "Οι τιμές πρέπει να είναι ≥ 0",
+    "maxGteMin": "Το μέγιστο πρέπει να είναι ≥ min"
+  }
+}

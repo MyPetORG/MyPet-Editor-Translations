@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Kỹ năng không xác định: {{skillId}}",
+    "noUpgrades": "Kỹ năng phải có ít nhất một nâng cấp",
+    "firstLevelRequired": "Phải điền ít nhất một trường cho cấp đầu tiên",
+    "invalidLevelKey": "Định dạng khóa cấp độ không hợp lệ",
+    "duplicateLevel": "Khóa cấp độ bị trùng: {{level}}",
+    "invalidRange": "Khoảng cấp độ không hợp lệ",
+    "emptyField": "{{field}} không được để trống",
+    "invalidNumber": "{{field}} phải là một số hợp lệ",
+    "invalidPlusNumber": "{{field}} phải là số có dấu (ví dụ: +1 hoặc +0.5)",
+    "minValue": "{{field}} phải ít nhất là {{min}}",
+    "maxValue": "{{field}} phải nhiều nhất là {{max}}",
+    "requiredField": "{{field}} là bắt buộc",
+    "emptyRequirementKey": "Khóa yêu cầu tùy chỉnh không được để trống",
+    "emptyRequirementValue": "Giá trị yêu cầu tùy chỉnh không được để trống",
+    "emptySkilltreeRequirement": "Yêu cầu cây kỹ năng phải chọn một cây kỹ năng",
+    "emptyPermissionRequirement": "Yêu cầu quyền không được để trống",
+    "unknownField": "Trường không xác định \"{{field}}\" (được giữ nguyên, máy chủ sẽ bỏ qua)",
+    "badNumber": "{{field}} phải là số có dấu như \"+5\" hoặc \"-2.5\"",
+    "badInteger": "{{field}} phải là số nguyên có dấu như \"+5\"",
+    "badBoolean": "{{field}} phải là true hoặc false",
+    "badEnum": "{{field}} phải là một trong các giá trị được liệt kê",
+    "badGroup": "{{field}} phải là một đối tượng",
+    "badList": "{{field}} phải là một danh sách các mục",
+    "badListInteger": "{{field}} phải là số nguyên như 6",
+    "badListNumber": "{{field}} phải là một số như 6 hoặc 2.5",
+    "badListString": "{{field}} phải là văn bản"
+  }
+}

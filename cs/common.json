@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Vyberte konfigurační oblast z postranního panelu."
+  },
+  "actions": {
+    "import": "Importovat",
+    "export": "Exportovat ZIP",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "delete": "Vymazat",
+    "add": "Přidat",
+    "remove": "Odebrat",
+    "edit": "Upravit",
+    "close": "Zavřít",
+    "ok": "OK",
+    "confirm": "Potvrdit",
+    "done": "Hotovo",
+    "loadDefaults": "Načíst výchozí hodnoty",
+    "chooseFiles": "Vybrat soubory",
+    "copyJson": "Kopírovat JSON",
+    "download": "Stáhnout",
+    "selectAll": "Vybrat vše",
+    "deselectAll": "Zrušit výběr všech",
+    "copy": "Kopírovat"
+  },
+  "autosave": {
+    "saved": "Uloženo",
+    "savedAt": "Uloženo {{time}}",
+    "saving": "Automatické ukládání…",
+    "pending": "Neuložené změny",
+    "justNow": "právě teď",
+    "secondsAgo": "Před {{s}}s",
+    "minutesAgo": "{{m}}m ago",
+    "hoursAgo": "{{h}}h ago"
+  },
+  "modals": {
+    "import": {
+      "title": "Importovat dovednosti",
+      "description": "Přetáhněte .zip (více stromů) nebo jeden .st.json soubor.",
+      "dragHere": "Sem přetáhněte soubory",
+      "or": "nebo",
+      "reading": "Čtení souborů…"
+    },
+    "confirm": {
+      "title": "Potvrdit",
+      "deleteTree": "Smazat dovednostní strom \"{{id}}\"?",
+      "deleteSkill": "Odstranit dovednost \"{{id}}\"?",
+      "loadDefaults": "Toto nahradí vaše aktuální dovednosti výchozími příklady a vyčistí váš místní koncept. Pokračovat?"
+    },
+    "alert": {
+      "title": "Upozornění",
+      "importFailed": "Nepodařilo se importovat soubor(y).",
+      "exportBlocked": "Export zablokován: dovednost {{count}} má chybu při ověřování.\n\nNeplatné stromy: {{names}}\n\nPřed exportem opravte všechny chyby ověření.",
+      "noTreesToExport": "Žádné dovednosti k exportu.",
+      "duplicateId": "Strom dovedností s tímto ID již existuje.",
+      "loadDefaultsFailed": "Nepodařilo se načíst výchozí příklady",
+      "jsonCopied": "JSON zkopírováno do schránky",
+      "jsonCopyFailed": "Kopírování JSON se nezdařilo"
+    },
+    "viewSource": "Zobrazit zdroj"
+  },
+  "language": {
+    "select": "Vyberte jazyk",
+    "loading": "Načítání překladů..."
+  },
+  "tooltip": {
+    "breakdown": "Rozdělení",
+    "total": "Celkem",
+    "goHome": "Přejít na domov",
+    "allChangesSaved": "Všechny změny byly uloženy",
+    "saveChanges": "Uložit změny",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Načíst výchozí příklady stromů",
+    "exportZip": "Exportovat všechny stromy na PSČ",
+    "delete": "Vymazat",
+    "openDocs": "Otevřít dokumentaci MyPet",
+    "switchToLight": "Přepnout do světelného režimu",
+    "switchToDark": "Přepnout do tmavého režimu",
+    "tipOnKofi": "Podpořte tento projekt na Ko-fi"
+  },
+  "footer": {
+    "builtBy": "vytvořeno s ❤️ od",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Podtrhnout",
+    "strikethrough": "Zaškrtnout",
+    "reset": "Reset",
+    "placeholder": "Zadejte text minizpráv. Použijte panel nástrojů pro vložení štítků."
+  },
+  "common": {
+    "none": "(Žádné)",
+    "noOptions": "(Žádné možnosti)"
+  },
+  "sidebar": {
+    "title": "Stromy dovedností",
+    "newSkilltree": "Nový strom dovedností",
+    "order": "Objednávka {{order}}",
+    "expand": "Rozbalit",
+    "collapse": "Sbalit",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Sbalit postranní panel",
+    "reorder": "Změnit pořadí",
+    "dragToReorder": "Přetažením změnit pořadí",
+    "reviewSave": "Recenze a uložení",
+    "nothingToSave": "Žádné neuložené změny",
+    "configSections": "Konfigurační sekce",
+    "category": {
+      "general": "Obecná ustanovení",
+      "pets": "Domácí zvířata",
+      "experience": "Zkušenosti",
+      "skilltrees": "Stromy dovedností",
+      "locale": "Místní prostředí",
+      "hooks": "Háčky",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Nenačteno žádné pracovní místo",
+    "expiringSoon": "Brzy vyprší relace",
+    "demoData": "Příklad dat · změny nebudou uloženy",
+    "rejected": "Server odmítl změny."
+  },
+  "editors": {
+    "config": {
+      "label": "Hlavní konfigurace"
+    },
+    "petConfig": {
+      "label": "Nastavit konfiguraci"
+    },
+    "expConfig": {
+      "label": "Odměny XP stvoření"
+    },
+    "petShops": {
+      "label": "Obchody s mazlíčky"
+    },
+    "skilltrees": {
+      "label": "Stromy dovedností"
+    },
+    "locale": {
+      "label": "Místní prostředí"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Připojování k serveru",
+    "loadingSubtitle": "Načítání konfigurace…",
+    "trustTitle": "Autorizovat tento prohlížeč",
+    "trustSubtitle": "Tento prohlížeč zatím není důvěryhodný. Pro připojení spusťte tuto hru:",
+    "trustWaiting": "Čekání na autorizaci…",
+    "noSessionTitle": "Žádná aktivní relace",
+    "noSessionSubtitle": "Spusťte <0>/mypet editor</0> ve hře a otevřete odkaz, který vám poskytuje.",
+    "tryDemo": "Vyzkoušejte demo",
+    "demoHint": "Prozkoumejte každý editor s příkladnými daty - žádný server není potřeba.",
+    "endedTitle": "Tato relace editoru skončila",
+    "endedSubtitle": "Server jej uzavřel nebo vypršel. Spusťte <0>/mypet editor</0> ve hře, abyste mohli začít novou, poté otevřete nový odkaz, který vám poskytuje."
+  },
+  "reviewSave": {
+    "title": "Recenze a uložení",
+    "noChanges": "Žádné neuložené změny.",
+    "summary_one": "{{count}} soubor s neuloženými změnami",
+    "summary_other": "{{count}} soubory s neuloženými změnami",
+    "tagRemoved": "odstraněno",
+    "tagAdded": "přidáno",
+    "empty": "(prázdný)",
+    "apply": "Použít změny",
+    "applying": "Aplikování…",
+    "hintNoChanges": "Žádné změny, které by se měly použít.",
+    "hintNotConnected": "Nejprve připojte živou relaci - spusťte /mypet editor a autorizujte prohlížeč.",
+    "hintNoSession": "Žádná aktivní relace.",
+    "hintReady": "Zapište tyto změny na server a načtěte znovu.",
+    "formattingOnly": "Pouze formátování (bez změny hodnot)",
+    "stAdded": "{{count}} přidán",
+    "stRemoved": "{{count}} odebrán",
+    "stModified": "{{count}} upraveno",
+    "stBroken": "{{count}} poškozené soubor(y) byly změněny",
+    "noNetChange": "žádná změna sítě",
+    "localeSummary": "{{keys}} klíč(e) napříč jazyky {{langs}}",
+    "applyFailed": "Aplikování změn se nezdařilo"
+  },
+  "sessionClosed": {
+    "title": "Relace uzavřena",
+    "body": "Relace webového editoru skončila (uzavřená ve hře nebo vypršela). Změny již nelze uložit - znovu spusťte <0>/mypet editor</0> pro zahájení nové relace.",
+    "viewReadOnly": "Zobrazit pouze pro čtení"
+  }
+}

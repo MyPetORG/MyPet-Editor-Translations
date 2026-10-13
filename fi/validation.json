@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Tuntematon taito: {{skillId}}",
+    "noUpgrades": "Taidossa on oltava vähintään yksi päivitys",
+    "firstLevelRequired": "Ensimmäiselle tasolle on annettava vähintään yksi kenttä",
+    "invalidLevelKey": "Virheellinen tason avaimen muoto",
+    "duplicateLevel": "Tason monistettu avain: {{level}}",
+    "invalidRange": "Virheellinen tasoväli",
+    "emptyField": "{{field}} ei voi olla tyhjä",
+    "invalidNumber": "{{field}} täytyy olla kelvollinen numero",
+    "invalidPlusNumber": "{{field}} on oltava allekirjoitettu numero (esim. +1 tai +0.5)",
+    "minValue": "{{field}} must be at least {{min}}",
+    "maxValue": "{{field}} must be at most {{max}}",
+    "requiredField": "{{field}} vaaditaan",
+    "emptyRequirementKey": "Mukautetun vaatimuksen avain ei voi olla tyhjä",
+    "emptyRequirementValue": "Mukautetun vaatimuksen arvo ei voi olla tyhjä",
+    "emptySkilltreeRequirement": "Skilltree vaatimus täytyy olla taitopuu valittu",
+    "emptyPermissionRequirement": "Lupavaatimus ei voi olla tyhjä",
+    "unknownField": "Tuntematon kenttä \"{{field}}\" (pidetty sellaisena, palvelin ohittaa sen)",
+    "badNumber": "{{field}} on allekirjoitettu numero kuten \"+5\" tai \"-2.5\"",
+    "badInteger": "{{field}} täytyy olla allekirjoitettu kokonaisluku kuten \"+5\"",
+    "badBoolean": "{{field}} on oltava tosi tai epätosi",
+    "badEnum": "{{field}} täytyy olla yksi listatuista arvoista",
+    "badGroup": "{{field}} täytyy olla objekti",
+    "badList": "{{field}} täytyy olla luettelo nimikkeistä",
+    "badListInteger": "{{field}} täytyy olla kokonaisluku kuin 6",
+    "badListNumber": "{{field}} on oltava numero kuten 6 tai 2.5",
+    "badListString": "{{field}} täytyy olla teksti"
+  }
+}

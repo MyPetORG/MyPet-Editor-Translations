@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Ukjent ferdighet: {{skillId}}",
+    "noUpgrades": "Ferdighet må ha minst en oppgradering",
+    "firstLevelRequired": "Minst ett felt må være levert for første nivå",
+    "invalidLevelKey": "Ugyldig format på nøkkel nivå",
+    "duplicateLevel": "Duplisert nivånøkkel: {{level}}",
+    "invalidRange": "Ugyldig nivå område",
+    "emptyField": "{{field}} kan ikke være tom",
+    "invalidNumber": "{{field}} må være et gyldig tall",
+    "invalidPlusNumber": "{{field}} må være et signert nummer (f.eks.: +1 eller +0.5)",
+    "minValue": "{{field}} må være minst {{min}}",
+    "maxValue": "{{field}} må være i det meste {{max}}",
+    "requiredField": "{{field}} er obligatorisk",
+    "emptyRequirementKey": "Egendefinert kravnøkkel kan ikke være tom",
+    "emptyRequirementValue": "Egendefinert kravverdi kan ikke være tom",
+    "emptySkilltreeRequirement": "Krav til trær må ha et ferdighetstre valgt",
+    "emptyPermissionRequirement": "Tillatelseskrav kan ikke være tomt",
+    "unknownField": "Ukjent felt \"{{field}}\" (oppbevart så, serveren vil ignorere den)",
+    "badNumber": "{{field}} må være et signert nummer som \"+5\" eller \"-2.5\"",
+    "badInteger": "{{field}} må være et signert hele nummer som \"+5\"",
+    "badBoolean": "{{field}} må være sant eller usann",
+    "badEnum": "{{field}} må være en av de listede verdiene",
+    "badGroup": "{{field}} må være et objekt",
+    "badList": "{{field}} må være en liste med oppføringer",
+    "badListInteger": "{{field}} må være et helt tall som 6",
+    "badListNumber": "{{field}} må være et tall som 6 eller 2.5",
+    "badListString": "{{field}} må være tekst"
+  }
+}

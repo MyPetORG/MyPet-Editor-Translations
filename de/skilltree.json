@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Kein Skilltree ausgewählt",
+    "description": "Wähle einen Skillbaum aus der Sidebar oder importiere .st.json Dateien, um loszulegen.",
+    "loadDefaultsCta": "Load-Standard"
+  },
+  "tabs": {
+    "properties": "Eigenschaften",
+    "appearance": "Erscheinung",
+    "eligiblePets": "Berechtigte Haustiere",
+    "requirements": "Anforderungen",
+    "notifications": "Benachrichtigungen",
+    "skills": "Fertigkeiten",
+    "timeline": "Zeitleiste"
+  },
+  "inspector": {
+    "expand": "Inspektor erweitern",
+    "collapse": "Inspektor einklappen",
+    "requirementsHint": "Kanten zeigen die erste Skilltree Gruppe; alle Anforderungen sind hier editierbar."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Kampf",
+    "inheritance": "Vererbung",
+    "inheritancePlaceholder": "Übergeordneten Fähigkeitsbaum auswählen...",
+    "weight": "Gewicht",
+    "weightPlaceholder": "15",
+    "permission": "Berechtigung",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Name",
+    "namePlaceholder": "Kampf",
+    "iconMaterial": "Icon-Material",
+    "iconMaterialPlaceholder": "stone_axe",
+    "glowing": "Glühen",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Ein kampffokussierter Fähigkeitsbaum...",
+    "viewJson": "JSON anzeigen",
+    "jsonPreview": "Vorschau des ausgewählten Skillbaums als JSON."
+  },
+  "eligiblePets": {
+    "title": "Berechtigte Haustiere",
+    "none": "Keine",
+    "all": "Alle (*)",
+    "selected": "Ausgewählt",
+    "includeFutureMobs": "Mobs von zukünftigen Minecraft-Updates einbeziehen",
+    "allPetsNotice": "Alle hier aufgeführten Haustiere, einschließlich der Haustiere von zukünftigen Updates, sind für diese Fähigkeit berechtigt.",
+    "noPetsNotice": "Keine Haustiere sind für diese Fähigkeit berechtigt.",
+    "loading": "Lade neueste Minecraft-Entitäten…",
+    "loadError": "Fehler beim Laden der Mob-Liste von Minecraft-Daten",
+    "customHeading": "Von pet-config",
+    "customHint": "Benutzerdefinierte Haustier-Typen, die in der pet-config.yml dieses Servers definiert sind.",
+    "unrecognizedHeading": "Unerkannt",
+    "unrecognizedNotice": "Diese Einträge stimmen mit keinem Minecraft Mob und keinem Haustier-Konfigurationstyp überein."
+  },
+  "requirements": {
+    "title": "Anforderungen",
+    "minLevel": "Minimale Haustierstufe",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Maximale Haustierstufe",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Anforderung hinzufügen",
+    "requirementType": "Anforderungstyp",
+    "permission": "Berechtigung",
+    "permissionPlaceholder": "Test-Berechtigung",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Kein Fähigkeitsbaum",
+    "custom": "Eigene",
+    "customKey": "Eigener Schlüssel",
+    "customKeyPlaceholder": "Eigener Name",
+    "customValue": "Eigener Wert",
+    "customValuePlaceholder": "BoopPiep",
+    "noRequirements": "Es gibt keine Berechtigung, Fähigkeitenbaum oder benutzerdefinierte Anforderungen für diesen Fähigkeitsbaum.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Berechtigung kopieren"
+  },
+  "notifications": {
+    "title": "Benachrichtigungen",
+    "addNotification": "Benachrichtigung hinzufügen",
+    "message": "Nachricht",
+    "messagePlaceholder": "{{owner}}'s Haustier {{pet}} hat Level {{level}} erreicht!"
+  },
+  "skills": {
+    "title": "Fertigkeiten",
+    "addSkill": "Fertigkeit hinzufügen",
+    "selectSkill": "Wähle eine Fähigkeit...",
+    "noSkills": "Noch keine Fähigkeiten.",
+    "removeSkill": "Fertigkeit entfernen",
+    "addUpgrade": "Upgrade hinzufügen",
+    "editUpgrade": "Upgrade bearbeiten",
+    "noUpgrades": "Noch keine Upgrades.",
+    "level": "Level {{level}}",
+    "levels": "Ebenen",
+    "everyLevel": "Jedes Level",
+    "everyNLevels": "Jedes {{n}} Level",
+    "everyNLevelsFrom": "Alle {{n}} Level ab Level {{start}}",
+    "everyNLevelsBetween": "Jede {{n}} Level zwischen Stufe {{start}} und {{end}}",
+    "fixedLevels": "Level: {{levels}}",
+    "skillExists": "Diese Fähigkeit existiert bereits.",
+    "unknownSkill": "Unbekannte Fertigkeit",
+    "levelList": "Levels {{levels}}",
+    "everyLevelRange": "Jedes Level ({{start}}-{{until}})",
+    "everyNLevelsRange": "Alle {{n}} Level ({{start}}-{{until}})",
+    "everyLevelFrom": "Jedes Level von {{start}}",
+    "everyNLevelsFromStart": "Alle {{n}} Level von {{start}}"
+  },
+  "levelModal": {
+    "title": "Level auswählen",
+    "fixed": "Feste",
+    "dynamic": "Dynamisch",
+    "fixedHelp": "Geben Sie eine oder mehrere Ebenen ein (Leerzeichen/Komma getrennt)",
+    "fixedPlaceholder": "z.B. 1 3 5 oder 1,3,5",
+    "every": "Alle (erforderlich)",
+    "startFrom": "Start von Ebene (optional)",
+    "until": "Bis Ebene (optional)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Neuer Kompetenzbaum",
+    "searchPlaceholder": "Suche Kompetenzbäume…",
+    "noMatches": "Keine Treffer",
+    "undo": "Rückgängig",
+    "redo": "Wiederholen",
+    "moreActions": "Weitere Aktionen",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Skilltree löschen",
+    "deleteConfirm": "{{name}} löschen?",
+    "deleteConfirmWithRefs": "{{name}}löschen? Andere Bäume, die darauf verweisen, zeigen ein Aushängeschild an.",
+    "speciesPlaceholder": "Arten…",
+    "exitJourney": "Reisemodus beenden"
+  },
+  "journey": {
+    "panelTitle": "Reise: {{species}}",
+    "levelLabel": "Level",
+    "currentTreeLabel": "Aktueller Baum",
+    "freshPet": "kein — frisches Tier",
+    "clickHint": "Simulieren: Klicke auf einen hervorgehobenen Baum um ihn auszuwählen",
+    "reset": "Auf neues Tier zurücksetzen",
+    "permissionNote": "Genehmigungsvoraussetzungen angenommen",
+    "previewTitle": "Inventar-Vorschau",
+    "requiresLevel": "Benötigt Level {{level}}",
+    "clickToApply": "Zum Anwenden klicken",
+    "noneAvailable": "Für <aqua>{{species}}</aqua> stehen <red>keine</red> Skillbäume zur Verfügung.",
+    "eligibleCount": "{{count}} berechtigt"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Rohe… bearbeiten",
+      "editRawTitle": "Rohe bearbeiten: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Anforderung",
+      "kindInheritance": "Vererbung",
+      "requirement": "{{prerequisite}} ist eine Anforderung von {{owner}}",
+      "anyOf": "Befriedigt von jedem von: {{list}}",
+      "inheritance": "{{owner}} erbt die Fähigkeiten von {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} ist eine Anforderung für jeden der {{count}} Skillbäume in diesem Stapel"
+    }
+  },
+  "validation": {
+    "error": "Validierungsfehler",
+    "hasErrors": "Dieser Kompetenzbaum hat Validierungsfehler",
+    "skillHasErrors": "Diese Fähigkeit hat Validierungsfehler",
+    "issueInSkill": "Validierungsproblem in dieser Fertigkeit. Erweitern um Werte zu bearbeiten."
+  },
+  "timeline": {
+    "inspectLevel": "Level untersuchen",
+    "modeSingle": "Einzeln",
+    "modeLevels": "Ebenen",
+    "modeRepeat": "Wiederholen",
+    "atLevel": "auf Ebene",
+    "levels": "stufen",
+    "every": "jede",
+    "from": "von",
+    "until": "bis",
+    "keyPreview": "→ Schlüssel: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamond oder base64:… (von /petadmin info item)",
+    "addRow": "+ Hinzufügen"
+  },
+  "node": {
+    "namePlaceholder": "Name",
+    "iconPlaceholder": "Symbolmaterial",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Klicken, um zu erweitern",
+    "allSpecies": "alle Arten",
+    "noSpecies": "keine Art",
+    "speciesCount_one": "{{count}} Arten",
+    "speciesCount_other": "{{count}} Arten",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Lv bis zu {{max}}"
+  },
+  "canvas": {
+    "empty": "Noch keine Skillbäume in diesem Arbeitsbereich.",
+    "layingOut": "Leinwand…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType ist erforderlich",
+    "priceExpNonNegative": "Preis und EXP müssen <unk> 0 sein",
+    "minMaxNumbers": "Min und Max müssen Zahlen sein",
+    "valuesNonNegative": "Werte müssen <unk> 0 sein",
+    "maxGteMin": "Max muss <unk> Min sein"
+  }
+}

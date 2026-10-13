@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "ワークスペースがロードされていません。<0>/mypet editor</0>でセッションを開くか、バンドル例を読み込みます。",
+    "viewFile": "ファイルを表示",
+    "actions": "アクション",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "設定セクション",
+    "tabs": {
+      "general": "全般",
+      "database": "データベース",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "経験",
+      "permissions": "アクセス許可",
+      "names": "名前",
+      "skills": "スキル",
+      "updates": "更新"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "所有者はペットを攻撃できます。"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "ペットとプレイヤーを無効にする"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Pet Kills Give Player Recompensas"
+      },
+      "OverwriteLanguages": {
+        "label": "言語を上書き",
+        "help": "ロケールコード (例: en, de_DE) を強制的に設定します。"
+      },
+      "Leash_AllowRanged": {
+        "label": "Ranged Leashing を許可"
+      },
+      "Leash_Consume": {
+        "label": "リーシュアイテムを消費する"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "開始距離をたどってください"
+      },
+      "Repository_Type": {
+        "label": "リポジトリタイプ"
+      },
+      "Repository_ConvertFrom": {
+        "label": "変換元",
+        "help": "オプション: 次の開始時に別のバックエンドから移行します。"
+      },
+      "Repository_LoadDelay": {
+        "label": "負荷遅延（ティック）"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQLホスト"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL データベース"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL ユーザー"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQLパスワード"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "テーブルのプレフィックス"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "文字エンコーディング"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "最大接続数"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "デフォルトの時間係数"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "既定の時間を修正"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "プレーヤーの時間係数"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "プレイヤーの時間を修正"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "リスポーン時間無効"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "経済のコスト係数"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "エコノミーコストを修正"
+      },
+      "HungerSystem_Active": {
+        "label": "飢餓システムが有効です"
+      },
+      "HungerSystem_Time": {
+        "label": "ハンガーティックタイム"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "フィードあたりの彩度"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "ダメージ係数"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "ダメージを修正"
+      },
+      "Exp_LevelCap": {
+        "label": "レベル上限"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Damage-Weighted XP Distribution"
+      },
+      "Exp_Loss_Drop": {
+        "label": "死亡時にXPを失います"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "損失経験値（固定）"
+      },
+      "Exp_Loss_Percent": {
+        "label": "損失経験値（パーセント）"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Global XP Modifier"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "モンスターあたりのパッシブ%"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "レベル計算モード"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "曲線・線形ベース"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "曲線 · 力率"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "カーブ・パワー指数表示"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "カーブ・指数ベース"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "カーブ・指数成長"
+      },
+      "Permissions_Extended": {
+        "label": "拡張権限"
+      },
+      "Name_MaxLength": {
+        "label": "最大名前の長さ"
+      },
+      "Name_Tag_Show": {
+        "label": "プレートを表示"
+      },
+      "Name_Tag_Prefix": {
+        "label": "プレートプレフィックス"
+      },
+      "Name_Tag_Suffix": {
+        "label": "プレートのサフィックス"
+      },
+      "Name_Filter": {
+        "label": "フィルタリングされた単語 (1行に1つ)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "自動割り当て"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "ランダム割り当て"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "一度だけ選択"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "スキルツリーなしでレベルアップを防止"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "管理者の料金を切り替える"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "料金の切り替え（固定）"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "料金の切り替え（パーセント）"
+      },
+      "Skill_Control_Item": {
+        "label": "コントロールスキルアイテム"
+      },
+      "Skill_Ride_Item": {
+        "label": "スキルに乗る"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "メートルあたりの満腹度"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "ビーコンの飢え時間減少"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "クリエイティブでバックパックを開きます"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "所有者が死亡するとバックパックが落ちます"
+      },
+      "Update_Check": {
+        "label": "アップデートの確認"
+      },
+      "Update_Download": {
+        "label": "アップデートをダウンロード"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "メニュー — {{menuId}}",
+    "selectMenu": "サイドバーからメニューを選択します。",
+    "notFound": "Menu <0>{{menuId}}</0> not found in the workspace",
+    "previewLanguage": "言語のプレビュー:",
+    "slotWithSection": "スロット {{slot}} — セクション: <0>{{sectionId}}</0>",
+    "slotNoSection": "スロット {{slot}} — セクションなし",
+    "clickSlot": "スロットをクリックしてセクションを選択します。"
+  },
+  "mobXp": {
+    "title": "Mob XP報酬",
+    "sections": "XPセクション",
+    "searchPlaceholder": "Search mobs…",
+    "searchLabel": "Mobを検索",
+    "entryCount_one": "{{count}} のエントリ",
+    "entryCount_other": "{{count}} 項目",
+    "addCustom": "+ モブを追加する",
+    "noMatch": "検索条件に一致するモブはありません。",
+    "noCustom": "カスタム モブはまだありません。名前付きモブの XP を与えるために追加してください。",
+    "noEntries": "このファイルにエントリはありません。",
+    "colMob": "Mob",
+    "colMin": "最小",
+    "colMax": "最大値",
+    "remove": "{{name}} を削除",
+    "tabs": {
+      "Default": "デフォルト",
+      "Custom": "カスタム"
+    },
+    "help": {
+      "Default": "ペットがバニラモブを倒したときにXPが授与されます。",
+      "Custom": "カスタム名付けられたモブのXP（MythicMobなど）。モブの名前を正確に一致させてください。"
+    },
+    "promptCustomName": "カスタムモブ名 (Mobの正確な表示名、例えばMythicMobs ID):"
+  },
+  "localeEditor": {
+    "title": "言語 — {{language}}",
+    "selectLanguage": "サイドバーから言語を選択します。",
+    "promptKey": "キー (例えば Message.Pet.Spawn):",
+    "invalidKey": "キーにはスペースや \"=\" を含めることはできません。",
+    "duplicateKey": "そのキーはすでにオーバーライドされています。",
+    "view": "ロケールビュー",
+    "tabOverrides": "オーバーライド",
+    "tabAll": "すべての文字列",
+    "searchPlaceholder": "Search keys or text…",
+    "searchLabel": "ロケールキーまたはテキストを検索",
+    "onlyOverridden": "オーバーライドのみ表示",
+    "overrideCount": "{{shown}} / {{total}} オーバーライド",
+    "keyCount_one": "{{count}} キー",
+    "keyCount_other": "{{count}} キー",
+    "addOverride": "+ オーバーライドを追加",
+    "noOverrides": "<0>{{language}}</0>のオーバーライドはまだありません。<1>{{tabAll}}</1>に切り替えてデフォルトをブラウズして上書きします。",
+    "noOverrideMatch": "検索条件に一致するオーバーライドはありません。",
+    "loadError": "GitHubから<0>{{language}}</0>のデフォルト文字列をロードできませんでした。「{{tabOverrides}}」ビューから手動で上書きを追加することができます。",
+    "loadingDefaults": "Loading default strings…",
+    "noStringMatch": "検索条件に一致する文字列はありません。",
+    "colKey": "キー",
+    "colDefault": "デフォルト",
+    "colOverride": "オーバーライド",
+    "noDefault": "(デフォルトではありません)",
+    "remove": "{{key}} を削除",
+    "reset": "{{key}} をデフォルトにリセット"
+  },
+  "petShops": {
+    "title": "ペットショップ",
+    "shops": "ショップ",
+    "promptShopId": "新しいショップID（文字、数字、アンダースコアなど）：",
+    "invalidShopId": "ショップ ID は文字、数字、アンダースコアのみを含めることができます。",
+    "duplicateShop": "\"{{key}}\" という名前のショップは既に存在します。",
+    "confirmDeleteShop": "「{{name}}」ショップとそのペットをすべて削除しますか？",
+    "addShop": "+ ショップを追加",
+    "deleteShop": "このショップを削除",
+    "noShops": "ショップが定義されていません。ペットの販売を開始するにはショップを追加してください。",
+    "displayName": "表示名",
+    "defaultShop": "デフォルトのショップ",
+    "defaultShopHint": "引数のない/petshopによって開かれました。",
+    "menuPosition": "メニュー位置",
+    "balanceType": "残高タイプ",
+    "balanceTypeHint": "お金を購入する場所。",
+    "balanceOwner": "残高の所有者",
+    "balanceOwnerBank": "銀行の名前を保管してください。",
+    "balanceOwnerPlayer": "プレイヤーUUID。",
+    "iconMaterial": "アイコン",
+    "iconMaterialHint": "ショップメニューに表示されるアイテム（例：チェスト、エッグ）",
+    "iconGlowing": "輝くアイコン",
+    "pets": "ペット",
+    "searchPets": "Search pets…",
+    "searchPetsLabel": "このショップでペットを検索",
+    "petCount": "{{shown}} / {{total}}",
+    "addPet": "+ ペットを追加",
+    "promptPetId": "新しいペットID（文字、数字、アンダースコア）：例えばbaby_wolf：",
+    "invalidPetId": "ペットIDには文字、数字、アンダースコアのみを含めることができます。",
+    "duplicatePet": "このショップにはすでにペット「{{key}}」が存在します。",
+    "noPets": "この店にはペットはまだいません。",
+    "noPetMatch": "検索に一致するペットはありません。",
+    "removePet": "{{name}} を削除",
+    "petType": "ペットの種類",
+    "petTypeHint": "MyPetのペットタイプ、例えばWOLF、OCELOT。",
+    "price": "価格",
+    "startingExp": "経験値開始",
+    "positionHint": "-1 = auto-fill",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "オプションのプリセットのスキルツリー名です。",
+    "description": "説明 (1 行ずつ)",
+    "options": "オプション (1行に1つ)",
+    "optionsHint": "例: baby or type-specific options."
+  },
+  "petTypes": {
+    "title": "ペットの種類",
+    "search": "Search pet types…",
+    "searchLabel": "ペットの種類を検索",
+    "noMatch": "タイプが一致しません。",
+    "noTypes": "このファイルにはペットの種類はありません。",
+    "deleteTitle": "このペットタイプを削除",
+    "deleteButton": ":wasteバスケット: ペットを削除",
+    "confirmDelete": "カスタム ペット \"{{name}}\" を削除しますか？これにより、ペット設定セクション全体が削除されます。",
+    "confirmDeleteTitle": "カスタム ペットを削除",
+    "confirmDeleteConfirm": "削除",
+    "complexValue": "複合値 — 生の YAML を使って編集します。",
+    "model": "モデル",
+    "modelHelp": "モデルプロバイダプラグイン(ModelEngine、BetterModel、ItemsAder、MythicMobs)からカスタム3Dモデルでこのペットをレンダリングします。 デフォルトの外観を維持するには、プロバイダを空のままにしてください。",
+    "provider": "プロバイダー",
+    "modelId": "モデル ID",
+    "modelCollision": "<0>{{provider}}</0>モデル\"<1>{{id}}</1>\"はすでにペットタイプ\"<2>{{other}}</2>\"で使用されています。 各カスタムタイプには固有のモデルが必要です — プラグインはロード時にそれらのいずれかをスキップします。",
+    "nameHeight": "名前の高さ",
+    "nameHeightHelp": "モデルの上のペットのネームタグの垂直オフセット。",
+    "createCustom": "➕ カスタム ペットを作成",
+    "typeCount": "{{shown}} / {{total}} タイプ",
+    "animations": "アニメーション",
+    "animationsHint": "— 任意の名前の上書き"
+  },
+  "menuSection": {
+    "notFound": "セクション <0>{{sectionId}}</0> は <1>{{menuId}}</1> に見つかりません。",
+    "removed": "セクション <0>{{sectionId}}</0> はこのメニューから削除されます (<1>null</1>と書かれています)。",
+    "resetDefault": "既定にリセット",
+    "removeSection": "セクションを削除",
+    "confirmRemove": "「{{sectionId}}」セクションを削除しますか? キャンバス上のスロットをクリアします — 気が変わった場合は、「デフォルトにリセット」で再選択します。",
+    "confirmRemoveTitle": "セクションを削除",
+    "confirmRemoveConfirm": "削除",
+    "statefulNotice": "このセクションでは、状態ごとのアイテム(<0>ステート</0>)を定義します。下のフィールドは、基本<1>アイテム</1>を編集します。これは、ステートが上書きされない場合にのみ適用されます。",
+    "material": "材料",
+    "column": "列",
+    "row": "行",
+    "glow": "Glow",
+    "soundOnClick": "クリック時の音",
+    "soundKey": "キー",
+    "soundVolume": "音量",
+    "soundPitch": "Pitch",
+    "pitchRangeHelp": "現在、ピッチ範囲 — ここで編集すると固定値に置き換えられます。",
+    "title": "タイトル",
+    "lore": "<unk>"
+  },
+  "petWizard": {
+    "titleAvenue": "カスタム ペットを作成 — 並びを選択してください",
+    "titleModel": "カスタム ペットを作成: モデルを構成する",
+    "titleIdentity": "カスタム ペットを作成 — アイデンティティと体",
+    "titleStats": "カスタム ペットを作成 — 統計情報",
+    "titleReview": "カスタム ペットを作成 - レビュー",
+    "progress": "ウィザードの進捗状況",
+    "chooseHow": "カスタム ペットを作成する方法を選択します。",
+    "buildFromModel": "モデルから生き物を作る",
+    "modelSource": "モデルソース",
+    "defaultModel": "デフォルトのモデル",
+    "sourceOnlyItemsAdder": "ItemsAdder モデルはコンテンツ パックです — 既存の id を選択します。",
+    "sourceOnlyMythicMobs": "MythicMobsモブはMythicMobsの設定で定義されています — 既存のMobタイプを選択します。",
+    "modelId": "モデル ID",
+    "modelIdRegisteredHelp": "{{provider}} に登録されたモデルを選択します。",
+    "modelIdManualHelp": "{{provider}}のモデルが検出されません。モデル ID を手動で入力してください。",
+    "modelIdRequired": "モデル ID は必須です。",
+    "uploadLabel": ".bbmodelをアップロード",
+    "uploadReconnecting": "Reconnecting — アップロードする前にセッションが再接続されるのを待ちます。",
+    "uploadNeedsSession": "アップロードにはライブ <0>/mypet editor</0> セッションが必要です — これを有効にするには 1 つ接続します。",
+    "uploadExplainer": "{{provider}}にアップロードします。 {{provider}} がリソースパックを再生成してクライアントが再ダウンロードすると、モデルはプレイヤーに表示されます。 ファイル名(<0>.bbmodel</0>を除く)はモデルIDになりますので、モデル内で宣言された青写真IDと一致する必要があります。",
+    "uploading": "Uploading…",
+    "uploadDone": "アップロード済み — モデル ID が \"{{modelId}}\" に設定されました。",
+    "uploadFailed": "アップロードに失敗しました。",
+    "nameHeight": "名前の高さ (オプション)",
+    "nameHeightHelp": "モデルの上のペットのネームタグの垂直オフセット。",
+    "modelCollision": "<0>{{provider}}</0>モデル\"<1>{{modelId}}</1>\"はすでにペットタイプ\"<2>{{other}}</2>\"で使用されています。 モデルはペットのアイデンティティです したがって、各カスタムタイプには固有のモデルが必要です — 別のモデルを選択します (プラグインはロード時にこのタイプをスキップします)。",
+    "creatureName": "生物名",
+    "creatureNameHelp": "このペットタイプの内部ペット設定キー（例：FrostDragon）。一意である必要があります。",
+    "hostMob": "ホスト Mob",
+    "hostMobHelp": "このペットのベースエンティティを提供するバニラBukkitモブタイプ。",
+    "health": "HP (HP)",
+    "healthHelp": "このペットの基本的な健康ポイント（例：20 = 10ハート）",
+    "walkSpeed": "歩行速度",
+    "walkSpeedHelp": "移動速度属性（例：0.3は標準歩行速度）。",
+    "food": "食品（1行に1つずつ）",
+    "foodHelp": "小麦などのペットに餌を与えるアイテム。ホストモブの食物を継承するには、空のままにします。",
+    "leash": "リーシュ要件",
+    "leashHelp": "リードがこのペット(例えばワイルド、ベイビー)で作業するために保持しなければならない条件。",
+    "leashNeedsSession": "リーシュの要件はライブセッションが必要です。",
+    "reviewIntro": "以下のセクションは <0>pet-config.yml</0>に追加されます。",
+    "back": "戻る",
+    "next": "次へ",
+    "create": "作成",
+    "nameRequired": "名前が必要です。"
+  }
+}

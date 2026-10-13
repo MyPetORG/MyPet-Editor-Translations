@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "لم يتم تحديد شجرة مهارة",
+    "description": "حدد شجرة مهارة من الشريط الجانبي، أو قم باستيراد ملفات .st.json للبدء.",
+    "loadDefaultsCta": "تحميل الافتراضي"
+  },
+  "tabs": {
+    "properties": "الخصائص",
+    "appearance": "المظهر",
+    "eligiblePets": "الحيوانات الأليفة المؤهلة",
+    "requirements": "المتطلبات",
+    "notifications": "الإشعارات",
+    "skills": "المهارات",
+    "timeline": "الخط"
+  },
+  "inspector": {
+    "expand": "توسيع المفتشين",
+    "collapse": "طي المفتش",
+    "requirementsHint": "الحواف تظهر مجموعة المهارة الأولى؛ جميع المتطلبات قابلة للتحرير هنا."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "القتال",
+    "inheritance": "الإرث",
+    "inheritancePlaceholder": "اختر المهارة الرئيسية...",
+    "weight": "الوزن",
+    "weightPlaceholder": "15",
+    "permission": "الصلاحية",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "الاسم",
+    "namePlaceholder": "القتال",
+    "iconMaterial": "مواد الأيقونة",
+    "iconMaterialPlaceholder": "فأس حجري",
+    "glowing": "التوهج",
+    "description": "الوصف",
+    "descriptionPlaceholder": "مهارة تركز على القتال...",
+    "viewJson": "عرض JSON",
+    "jsonPreview": "معاينة شجرة المهارة المحددة كJSON."
+  },
+  "eligiblePets": {
+    "title": "الحيوانات الأليفة المؤهلة",
+    "none": "لا",
+    "all": "الكل (*)",
+    "selected": "محدد",
+    "includeFutureMobs": "تضمين الغوغاء من تحديثات ماين كرافت المستقبلية",
+    "allPetsNotice": "جميع الحيوانات الأليفة المدرجة هنا، بما في ذلك الحيوانات الأليفة من التحديثات المستقبلية، ستكون مؤهلة لهذه المهارة.",
+    "noPetsNotice": "لن تكون الحيوانات الأليفة مؤهلة لهذه المهارة.",
+    "loading": "تحميل أحدث الكيانات Minecraft…",
+    "loadError": "فشل تحميل قائمة الغوغاء من Minecraft-data",
+    "customHeading": "من تهيئة الحيوانات الأليفة",
+    "customHint": "أنواع الحيوانات الأليفة المخصصة معرفة في هذا الخادم pet-config.yml.",
+    "unrecognizedHeading": "غير معترف به",
+    "unrecognizedNotice": "هذه الإدخالات لا تطابق مع غوغاء ماين كرافت ولا نوع تهيئة الحيوانات الأليفة."
+  },
+  "requirements": {
+    "title": "المتطلبات",
+    "minLevel": "الحد الأدنى لمستوى الحيوانات الأليفة",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "الحد الأقصى لمستوى الحيوانات الأليفة",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "إضافة شرط",
+    "requirementType": "نوع الشرط",
+    "permission": "الصلاحية",
+    "permissionPlaceholder": "صلاحية الاختبار",
+    "skilltree": "Skilltree",
+    "noSkilltree": "لا يوجد شجرة مهارة",
+    "custom": "مخصص",
+    "customKey": "مفتاح مخصص",
+    "customKeyPlaceholder": "اسم العميل",
+    "customValue": "قيمة مخصصة",
+    "customValuePlaceholder": "بوبي",
+    "noRequirements": "لا يوجد إذن أو شجرة مهارة أو متطلبات مخصصة لهذه الشجرة.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "نسخ الإذن"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "addNotification": "إضافة إشعار",
+    "message": "رسالة",
+    "messagePlaceholder": "الحيوانات الأليفة {{owner}} {{pet}} وصلت إلى المستوى {{level}}!"
+  },
+  "skills": {
+    "title": "المهارات",
+    "addSkill": "إضافة مهارة",
+    "selectSkill": "اختر مهارة...",
+    "noSkills": "لا توجد مهارات بعد.",
+    "removeSkill": "إزالة المهارة",
+    "addUpgrade": "إضافة ترقية",
+    "editUpgrade": "تعديل الترقية",
+    "noUpgrades": "لا توجد ترقيات بعد.",
+    "level": "المستوى {{level}}",
+    "levels": "المستويات",
+    "everyLevel": "كل مستوى",
+    "everyNLevels": "كل مستويات {{n}}",
+    "everyNLevelsFrom": "كل مستوى {{n}} من المستوى {{start}} وما بعده",
+    "everyNLevelsBetween": "كل مستوى {{n}} بين المستويين {{start}} و {{end}}",
+    "fixedLevels": "المستوى: {{levels}}",
+    "skillExists": "هذه المهارة موجودة بالفعل.",
+    "unknownSkill": "مهارة غير معروفة",
+    "levelList": "المستويات {{levels}}",
+    "everyLevelRange": "كل مستوى ({{start}}-{{until}})",
+    "everyNLevelsRange": "كل مستوى {{n}} ({{start}}-{{until}})",
+    "everyLevelFrom": "كل مستوى من {{start}}",
+    "everyNLevelsFromStart": "كل مستويات {{n}} من {{start}}"
+  },
+  "levelModal": {
+    "title": "حدد المستويات",
+    "fixed": "ثابت",
+    "dynamic": "ديناميكية",
+    "fixedHelp": "أدخل مستوى واحد أو أكثر (المساحة/الفاصلة مفصولة)",
+    "fixedPlaceholder": "مثال: 1 3 5 أو 1 3، 5",
+    "every": "كل (مطلوب)",
+    "startFrom": "البدء من المستوى (اختياري)",
+    "until": "حتى المستوى (اختياري)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ شجرة مهارات جديدة",
+    "searchPlaceholder": "البحث عن أشجار المهارات…",
+    "noMatches": "لا يوجد تطابق",
+    "undo": "التراجع",
+    "redo": "إعادة",
+    "moreActions": "المزيد من الإجراءات",
+    "duplicate": "Duplicate",
+    "deleteTitle": "حذف شجرة المهارة",
+    "deleteConfirm": "حذف {{name}}؟",
+    "deleteConfirmWithRefs": "حذف {{name}}? مشاهدة الأشجار الأخرى ستظهر شارة مرجعية متبصرة.",
+    "speciesPlaceholder": "الأنواع…",
+    "exitJourney": "وضع الخروج من الرحلة"
+  },
+  "journey": {
+    "panelTitle": "الرحلة: {{species}}",
+    "levelLabel": "المستوى",
+    "currentTreeLabel": "الشجرة الحالية",
+    "freshPet": "لا - الحيوانات الأليفة الطازجة",
+    "clickHint": "محاكاة: انقر فوق شجرة بارزة لاختيارها",
+    "reset": "إعادة التعيين إلى الحيوانات الأليفة الطازجة",
+    "permissionNote": "متطلبات الإذن المفترضة",
+    "previewTitle": "معاينة المخزون",
+    "requiresLevel": "يتطلب المستوى {{level}}",
+    "clickToApply": "انقر للتطبيق",
+    "noneAvailable": "هناك أشجار <red>لا</red> مهارات متوفرة ل <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} مؤهل"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "تحرير الخام…",
+      "editRawTitle": "تحرير الخام: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "الاشتراط",
+      "kindInheritance": "الإرث",
+      "requirement": "{{prerequisite}} هو شرط من {{owner}}",
+      "anyOf": "راضٍ من أي من: {{list}}",
+      "inheritance": "{{owner}} inherits the skills of {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} هو شرط لكل شجرة من مهارات {{count}} في هذا المكدس"
+    }
+  },
+  "validation": {
+    "error": "خطأ في التحقق",
+    "hasErrors": "هذه شجرة المهارة لديها أخطاء في التحقق",
+    "skillHasErrors": "هذه المهارة لديها أخطاء في التحقق",
+    "issueInSkill": "مشكلة التحقق في هذه المهارة. قم بتوسيع لتعديل القيم."
+  },
+  "timeline": {
+    "inspectLevel": "فحص المستوى",
+    "modeSingle": "فردي",
+    "modeLevels": "المستويات",
+    "modeRepeat": "كرر",
+    "atLevel": "على المستوى",
+    "levels": "المستويات",
+    "every": "كل",
+    "from": "من",
+    "until": "حتى",
+    "keyPreview": "unnamed@@2 مفتاح: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "Minecraft:الماس أو base64:… (من عنصر معلومات /petadmin)",
+    "addRow": "+ إضافة"
+  },
+  "node": {
+    "namePlaceholder": "الاسم",
+    "iconPlaceholder": "مواد الأيقونة",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "انقر للتوسع",
+    "allSpecies": "جميع الأنواع",
+    "noSpecies": "لا توجد أنواع",
+    "speciesCount_one": "أنواع {{count}}",
+    "speciesCount_other": "أنواع {{count}}",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "مستوى يصل إلى {{max}}"
+  },
+  "canvas": {
+    "empty": "لا توجد أشجار مهارة في مساحة العمل هذه حتى الآن.",
+    "layingOut": "تخطيط قصاصة…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType مطلوب",
+    "priceExpNonNegative": "يجب أن يكون السعر و EXP ± 0",
+    "minMaxNumbers": "يجب أن يكون الحد الأدنى والحد الأقصى أرقاما",
+    "valuesNonNegative": "القيم يجب أن تكون ± 0",
+    "maxGteMin": "يجب أن يكون الحد الأقصى ± الحد الأدنى"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Невідома навичка: {{skillId}}",
+    "noUpgrades": "Вміння повинно мати хоча б одне покращення",
+    "firstLevelRequired": "Принаймні одне поле має бути вказано для першого рівня",
+    "invalidLevelKey": "Неприпустимий формат ключа рівня",
+    "duplicateLevel": "Duplicate level key: {{level}}",
+    "invalidRange": "Недійсний рівень діапазону",
+    "emptyField": "{{field}} не може бути порожнім",
+    "invalidNumber": "{{field}} має бути дійсним числом",
+    "invalidPlusNumber": "{{field}} має бути знаком (наприклад, +1 або +0.5)",
+    "minValue": "{{field}} must be at least {{min}}",
+    "maxValue": "{{field}} must be at most {{max}}",
+    "requiredField": "{{field}} обов'язковий",
+    "emptyRequirementKey": "Користувацький ключ вимоги не може бути порожнім",
+    "emptyRequirementValue": "Необхідна умова не може бути порожньою",
+    "emptySkilltreeRequirement": "Вимоги до Skilltree повинні мати обрані дерево навичок",
+    "emptyPermissionRequirement": "Вимагати дозвіл не може бути порожнім",
+    "unknownField": "Невідоме поле \"{{field}}\" (зберігається так, як є, сервер буде ігнорувати його)",
+    "badNumber": "{{field}} має бути знаком символу \"+5\" або \"-2.5\"",
+    "badInteger": "{{field}} повинен бути підписаним на ціле число, на зразок \"+5\"",
+    "badBoolean": "{{field}} має бути істинним або хибним",
+    "badEnum": "{{field}} повинен бути одним з перерахованих значень",
+    "badGroup": "{{field}} повинен бути об'єктом",
+    "badList": "{{field}} має бути списком записів",
+    "badListInteger": "{{field}} має бути цілим числом, на зразок 6",
+    "badListNumber": "{{field}} має бути числом, схожим на 6 або 2.5",
+    "badListString": "{{field}} повинен бути текстом"
+  }
+}

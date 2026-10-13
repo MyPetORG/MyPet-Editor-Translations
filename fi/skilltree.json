@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Ei valittua taitopuuta",
+    "description": "Valitse taitopuu sivupalkista tai tuo .st.json tiedostoja aloittaaksesi.",
+    "loadDefaultsCta": "Lataa Oletukset"
+  },
+  "tabs": {
+    "properties": "Ominaisuudet",
+    "appearance": "Ulkoasu",
+    "eligiblePets": "Tukikelpoiset Lemmikkieläimet",
+    "requirements": "Vaatimukset",
+    "notifications": "Ilmoitukset",
+    "skills": "Taidot",
+    "timeline": "Aikajana"
+  },
+  "inspector": {
+    "expand": "Laajenna tarkastaja",
+    "collapse": "Kutista tarkastaja",
+    "requirementsHint": "Reunat näyttävät ensimmäisen Skilltree ryhmän; kaikki vaatimukset ovat muokattavissa täällä."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Taistelu",
+    "inheritance": "Perintö",
+    "inheritancePlaceholder": "Valitse vanhempi taito...",
+    "weight": "Paino",
+    "weightPlaceholder": "15",
+    "permission": "Käyttöoikeus",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Nimi",
+    "namePlaceholder": "Taistelu",
+    "iconMaterial": "Kuvakkeen Materiaali",
+    "iconMaterialPlaceholder": "stone_axe",
+    "glowing": "Hehkuminen",
+    "description": "Kuvaus",
+    "descriptionPlaceholder": "Taisteluihin keskittyvä taito...",
+    "viewJson": "Näytä JSON",
+    "jsonPreview": "Esikatsele valittu skilltree nimellä JSON."
+  },
+  "eligiblePets": {
+    "title": "Tukikelpoiset Lemmikkieläimet",
+    "none": "Ei Mitään",
+    "all": "Kaikki (*)",
+    "selected": "Valittu",
+    "includeFutureMobs": "Sisällytä hirviöt tulevista Minecraft-päivityksistä",
+    "allPetsNotice": "Kaikki tässä luetellut lemmikit, mukaan lukien lemmikit tulevista päivityksistä, ovat oikeutettuja tähän taitoon.",
+    "noPetsNotice": "Mikään lemmikki ei ole oikeutettu tähän taitoon.",
+    "loading": "Loading latest Minecraft entities…",
+    "loadError": "Mob-listan lataaminen minecraft-tiedoista epäonnistui",
+    "customHeading": "lemmikki-configista",
+    "customHint": "Custom lemmikkieläinten tyypit määritelty tämän palvelimen pet-config.yml.",
+    "unrecognizedHeading": "Tunnistamaton",
+    "unrecognizedNotice": "Nämä merkinnät eivät vastaa Minecraft mob eikä lemmikki-config tyyppiä."
+  },
+  "requirements": {
+    "title": "Vaatimukset",
+    "minLevel": "Pienin Lemmikkitaso",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Maksimi Lemmikkitaso",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Lisää Vaatimus",
+    "requirementType": "Vaatimuksen Tyyppi",
+    "permission": "Käyttöoikeus",
+    "permissionPlaceholder": "TestPermission",
+    "skilltree": "Skilltree",
+    "noSkilltree": "Ei Taitopuuta",
+    "custom": "Mukautettu",
+    "customKey": "Mukautettu Avain",
+    "customKeyPlaceholder": "Mukautusnimi",
+    "customValue": "Mukautettu Arvo",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "Ei ole lupaa tai taitoa tai mukautettuja vaatimuksia tälle taitopuulle.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Kopioi käyttöoikeus"
+  },
+  "notifications": {
+    "title": "Ilmoitukset",
+    "addNotification": "Lisää Ilmoitus",
+    "message": "Viesti",
+    "messagePlaceholder": "{{owner}}'s pet {{pet}} has reached level {{level}}!"
+  },
+  "skills": {
+    "title": "Taidot",
+    "addSkill": "Lisää Taito",
+    "selectSkill": "Valitse taito...",
+    "noSkills": "Ei vielä taitoja.",
+    "removeSkill": "Poista taito",
+    "addUpgrade": "Lisää Päivitys",
+    "editUpgrade": "Muokkaa Päivitystä",
+    "noUpgrades": "Ei vielä päivityksiä.",
+    "level": "Taso {{level}}",
+    "levels": "Tasot",
+    "everyLevel": "Jokainen taso",
+    "everyNLevels": "Joka {{n}} tasoa",
+    "everyNLevelsFrom": "Every {{n}} levels from level {{start}} onward",
+    "everyNLevelsBetween": "Every {{n}} levels between levels {{start}} and {{end}}",
+    "fixedLevels": "Taso: {{levels}}",
+    "skillExists": "Tämä taito on jo olemassa.",
+    "unknownSkill": "Tuntematon taito",
+    "levelList": "Tasot {{levels}}",
+    "everyLevelRange": "Every level ({{start}}-{{until}})",
+    "everyNLevelsRange": "Every {{n}} levels ({{start}}-{{until}})",
+    "everyLevelFrom": "Jokainen taso {{start}} alkaen",
+    "everyNLevelsFromStart": "Every {{n}} levels from {{start}}"
+  },
+  "levelModal": {
+    "title": "Valitse Tasot",
+    "fixed": "Kiinteä",
+    "dynamic": "Dynaaminen",
+    "fixedHelp": "Syötä yksi tai useampi taso (välilyönti tai pilkulla erotettu)",
+    "fixedPlaceholder": "esim. 1 3 5 tai 1,3,5",
+    "every": "Jokainen (pakollinen)",
+    "startFrom": "Aloita tasolta (valinnainen)",
+    "until": "Tasoon asti (valinnainen)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Uusi taitopuu",
+    "searchPlaceholder": "Etsi taitopuita…",
+    "noMatches": "Ei osumia",
+    "undo": "Kumoa",
+    "redo": "Toista",
+    "moreActions": "Lisää toimintoja",
+    "duplicate": "Duplicate",
+    "deleteTitle": "Poista taitopuu",
+    "deleteConfirm": "Delete {{name}}?",
+    "deleteConfirmWithRefs": "Poista {{name}}? Muut puut, jotka viittaavat siihen, osoittavat vaarallisen referenssimerkin.",
+    "speciesPlaceholder": "Laji…",
+    "exitJourney": "Poistu matkustustilasta"
+  },
+  "journey": {
+    "panelTitle": "Matka: {{species}}",
+    "levelLabel": "Taso",
+    "currentTreeLabel": "Nykyinen puu",
+    "freshPet": "ei – tuore lemmikki",
+    "clickHint": "Simulointi: napsauta korostettua puuta valitaksesi sen",
+    "reset": "Palauta tuore lemmikki",
+    "permissionNote": "Oletetut lupavaatimukset",
+    "previewTitle": "Varaston esikatselu",
+    "requiresLevel": "Vaatii tason {{level}}",
+    "clickToApply": "Klikkaa käyttääksesi",
+    "noneAvailable": "There are <red>no</red> skilltrees available for <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} tukikelpoista"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Muokkaa raakaa…",
+      "editRawTitle": "Muokkaa raakaa: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Vaatimus",
+      "kindInheritance": "Perintö",
+      "requirement": "{{prerequisite}} is a requirement of {{owner}}",
+      "anyOf": "Jokaisella seuraavista tyydytettynä: {{list}}",
+      "inheritance": "{{owner}} inherits the skills of {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} is a requirement of each of the {{count}} skilltrees in this stack"
+    }
+  },
+  "validation": {
+    "error": "Vahvistusvirhe",
+    "hasErrors": "Tässä skilltree on validointivirheitä",
+    "skillHasErrors": "Tällä taidolla on validointivirheitä",
+    "issueInSkill": "Validointiongelma tässä taidossa. Laajenna muokataksesi arvoja."
+  },
+  "timeline": {
+    "inspectLevel": "Tutki taso",
+    "modeSingle": "Yksittäinen",
+    "modeLevels": "Tasot",
+    "modeRepeat": "Toista",
+    "atLevel": "tasolla",
+    "levels": "tasot",
+    "every": "joka",
+    "from": "alkaen",
+    "until": "kunnes",
+    "keyPreview": "→ avain: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamond tai Base64:… (from /petadmin info item)",
+    "addRow": "+ Lisää"
+  },
+  "node": {
+    "namePlaceholder": "Nimi",
+    "iconPlaceholder": "Kuvakkeen materiaali",
+    "minLevelPlaceholder": "Min Lv",
+    "maxLevelPlaceholder": "Max Lv",
+    "clusterExpand": "Laajenna napsauttamalla",
+    "allSpecies": "kaikki lajit",
+    "noSpecies": "ei lajia",
+    "speciesCount_one": "{{count}} lajia",
+    "speciesCount_other": "{{count}} lajia",
+    "levelRange": "Lv {{min}}-{{max}}",
+    "levelMin": "Lv {{min}}+",
+    "levelMax": "Lv jopa {{max}}"
+  },
+  "canvas": {
+    "empty": "Tässä työtilassa ei vielä ole taitopuita.",
+    "layingOut": "Laying out canvas…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType vaaditaan",
+    "priceExpNonNegative": "Hinta ja EXP on ≥ 0",
+    "minMaxNumbers": "Minimi ja Max on oltava numeroita",
+    "valuesNonNegative": "Arvojen on oltava ≥ 0",
+    "maxGteMin": "Maksimi on oltava ≥ Min"
+  }
+}

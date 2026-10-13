@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "حدد منطقة تكوين من الشريط الجانبي."
+  },
+  "actions": {
+    "import": "استيراد",
+    "export": "تصدير ZIP",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "add": "إضافة",
+    "remove": "إزالة",
+    "edit": "تحرير",
+    "close": "أغلق",
+    "ok": "حسناً",
+    "confirm": "تأكيد",
+    "done": "تم",
+    "loadDefaults": "تحميل الافتراضي",
+    "chooseFiles": "اختر الملفات",
+    "copyJson": "نسخ JSON",
+    "download": "تنزيل",
+    "selectAll": "حدد الكل",
+    "deselectAll": "إلغاء تحديد الكل",
+    "copy": "نسخ"
+  },
+  "autosave": {
+    "saved": "محفوظ",
+    "savedAt": "محفوظة {{time}}",
+    "saving": "Autosaving…",
+    "pending": "التغييرات غير المحفوظة",
+    "justNow": "الآن فقط",
+    "secondsAgo": "{{s}}s ago",
+    "minutesAgo": "{{m}}m ago",
+    "hoursAgo": "{{h}}h ago"
+  },
+  "modals": {
+    "import": {
+      "title": "استيراد أشجار المهارات",
+      "description": "إسقاط ملف zip (عدة أشجار) أو ملف واحد.st.json واحد.",
+      "dragHere": "سحب وإسقاط الملفات هنا",
+      "or": "أو",
+      "reading": "قراءة الملفات…"
+    },
+    "confirm": {
+      "title": "تأكيد",
+      "deleteTree": "حذف شجرة المهارة\"{{id}}\"؟",
+      "deleteSkill": "إزالة المهارة\"{{id}}\"؟",
+      "loadDefaults": "سيؤدي هذا إلى استبدال أشجار مهاراتك الحالية بالأمثلة الافتراضية ومسح المسودة المحلية. هل تريد المتابعة؟"
+    },
+    "alert": {
+      "title": "تنبيه",
+      "importFailed": "فشل استيراد الملف (الملفات).",
+      "exportBlocked": "تم حظر التصدير: {{count}} المهارة لديها أخطاء في التحقق.\n\nالأشجار غير صالحة: {{names}}\n\nالرجاء إصلاح جميع أخطاء التحقق قبل التصدير.",
+      "noTreesToExport": "لا توجد أشجار مهارة للتصدير.",
+      "duplicateId": "توجد بالفعل شجرة مهارة بهذا المعرف.",
+      "loadDefaultsFailed": "فشل تحميل الأمثلة الافتراضية",
+      "jsonCopied": "تم نسخ JSON إلى الحافظة",
+      "jsonCopyFailed": "فشل في نسخ JSON"
+    },
+    "viewSource": "عرض المصدر"
+  },
+  "language": {
+    "select": "حدد اللغة",
+    "loading": "جاري تحميل الترجمات..."
+  },
+  "tooltip": {
+    "breakdown": "تفصيل",
+    "total": "المجموع",
+    "goHome": "الذهاب إلى المنزل",
+    "allChangesSaved": "تم حفظ جميع التغييرات",
+    "saveChanges": "حفظ التغييرات",
+    "importFile": "Import .st.json",
+    "loadDefaults": "تحميل المثال الافتراضي للأشجار",
+    "exportZip": "تصدير جميع الأشجار إلى الرمز البريدي",
+    "delete": "حذف",
+    "openDocs": "فتح وثائق MyPet",
+    "switchToLight": "التبديل إلى وضع الضوء",
+    "switchToDark": "التبديل إلى الوضع المظلم",
+    "tipOnKofi": "دعم هذا المشروع على Ko-fi"
+  },
+  "footer": {
+    "builtBy": "بنيت باستخدام ❤️ بواسطة",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "أسفل",
+    "strikethrough": "ضربة",
+    "reset": "Reset",
+    "placeholder": "أدخل نص الرسالة الصغيرة. استخدم شريط الأدوات لإدراج العلامات."
+  },
+  "common": {
+    "none": "لا شيء)",
+    "noOptions": "(لا توجد خيارات)"
+  },
+  "sidebar": {
+    "title": "أشجار المهارات",
+    "newSkilltree": "شجرة مهارات جديدة",
+    "order": "الطلب {{order}}",
+    "expand": "توسيع",
+    "collapse": "تصغير",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "طي الشريط الجانبي",
+    "reorder": "إعادة ترتيب",
+    "dragToReorder": "اسحب لإعادة الترتيب",
+    "reviewSave": "مراجعة وحفظ",
+    "nothingToSave": "لا توجد تغييرات غير محفوظة",
+    "configSections": "أقسام الإعدادات",
+    "category": {
+      "general": "عام",
+      "pets": "الحيوانات الأليفة",
+      "experience": "الخبرة",
+      "skilltrees": "أشجار المهارات",
+      "locale": "محلي",
+      "hooks": "الروابط",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "لم يتم تحميل فضاء العمل",
+    "expiringSoon": "تنتهي الجلسة قريبا",
+    "demoData": "مثال البيانات · لن يتم حفظ التغييرات",
+    "rejected": "رفض الخادم التغييرات."
+  },
+  "editors": {
+    "config": {
+      "label": "التكوين الرئيسي"
+    },
+    "petConfig": {
+      "label": "تكوين الحيوانات الأليفة"
+    },
+    "expConfig": {
+      "label": "مكافآت XP للمجموعة"
+    },
+    "petShops": {
+      "label": "متاجر الحيوانات الأليفة"
+    },
+    "skilltrees": {
+      "label": "أشجار المهارات"
+    },
+    "locale": {
+      "label": "محلي"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "الاتصال بالخادم الخاص بك",
+    "loadingSubtitle": "تحميل التكوين…",
+    "trustTitle": "تخويل هذا المتصفح",
+    "trustSubtitle": "هذا المتصفح غير موثوق به بعد. قم بتشغيل هذا داخل اللعبة للاتصال:",
+    "trustWaiting": "في انتظار التفويض…",
+    "noSessionTitle": "لا توجد جلسة نشطة",
+    "noSessionSubtitle": "قم بتشغيل <0>/mypet editor</0> في اللعبة وفتح الرابط الذي يعطيك",
+    "tryDemo": "جرب العرض التجريبي",
+    "demoHint": "استكشف كل محرر مع بيانات مثالية - لا حاجة إلى خادم.",
+    "endedTitle": "انتهت جلسة المحرر هذه",
+    "endedSubtitle": "قام الخادم بإغلاقه، أو انتهت مدته. قم بتشغيل <0>/mypet editor</0> في اللعبة لبدء واحد جديد، ثم قم بفتح الرابط الجديد الذي يعطيك إياه."
+  },
+  "reviewSave": {
+    "title": "مراجعة وحفظ",
+    "noChanges": "لا توجد تغييرات غير محفوظة.",
+    "summary_one": "{{count}} file with unsaved changes",
+    "summary_other": "{{count}} files with unsaved changes",
+    "tagRemoved": "إزالة",
+    "tagAdded": "أضيف",
+    "empty": "(فارغ)",
+    "apply": "تطبيق التغييرات",
+    "applying": "تطبيق…",
+    "hintNoChanges": "لا توجد تغييرات لتطبيقها.",
+    "hintNotConnected": "قم بتوصيل جلسة حية أولا — قم بتشغيل محرر /mypet وأذن للمتصفح.",
+    "hintNoSession": "لا توجد جلسة نشطة.",
+    "hintReady": "كتابة هذه التغييرات إلى الخادم وإعادة التحميل.",
+    "formattingOnly": "التهيئة فقط (بدون تغييرات قيمة)",
+    "stAdded": "{{count}} added",
+    "stRemoved": "{{count}} removed",
+    "stModified": "{{count}} modified",
+    "stBroken": "{{count}} broken file(s) changed",
+    "noNetChange": "لا يوجد تغيير في الشبكة",
+    "localeSummary": "{{keys}} key(s) across {{langs}} language(s)",
+    "applyFailed": "فشل في تطبيق التغييرات"
+  },
+  "sessionClosed": {
+    "title": "تم إغلاق الجلسة",
+    "body": "انتهت جلسة محرر الويب (مغلقة داخل اللعبة، أو انتهت مدتها). لا يمكن حفظ التغييرات بعد الآن — قم بتشغيل <0>/mypet editor</0> مرة أخرى لبدء جلسة جديدة.",
+    "viewReadOnly": "عرض القراءة فقط"
+  }
+}

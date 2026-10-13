@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Nieznana umiejętność: {{skillId}}",
+    "noUpgrades": "Umiejętność musi mieć co najmniej jedno wzmocnienie",
+    "firstLevelRequired": "Dla pierwszego poziomu musi być podane co najmniej jedno pole",
+    "invalidLevelKey": "Nieprawidłowy format poziomu",
+    "duplicateLevel": "Duplikuj poziom: {{level}}",
+    "invalidRange": "Nieprawidłowy zakres poziomu",
+    "emptyField": "{{field}} nie może być pusty",
+    "invalidNumber": "{{field}} musi być poprawną liczbą",
+    "invalidPlusNumber": "{{field}} musi być podpisanym numerem (np. +1 lub +0.5)",
+    "minValue": "{{field}} musi mieć co najmniej {{min}}",
+    "maxValue": "{{field}} musi być co najwyżej {{max}}",
+    "requiredField": "{{field}} jest wymagany",
+    "emptyRequirementKey": "Klucz wymagań niestandardowych nie może być pusty",
+    "emptyRequirementValue": "Wartość wymagania niestandardowego nie może być pusta",
+    "emptySkilltreeRequirement": "Wymaganie drzewka umiejętności musi mieć wybrane drzewko umiejętności",
+    "emptyPermissionRequirement": "Wymagane uprawnienia nie mogą być puste",
+    "unknownField": "Nieznane pole \"{{field}}\" (zachowane jako, serwer go zignoruje)",
+    "badNumber": "{{field}} musi być podpisanym numerem takim jak \"+5\" lub \"-2.5\"",
+    "badInteger": "{{field}} musi być podpisanym numerem całkowitym takim jak \"+5\"",
+    "badBoolean": "{{field}} musi być prawdziwy lub fałszywy",
+    "badEnum": "{{field}} musi być jedną z wymienionych wartości",
+    "badGroup": "{{field}} musi być obiektem",
+    "badList": "{{field}} musi być listą wpisów",
+    "badListInteger": "{{field}} musi być liczbą całkowitą taką jak 6",
+    "badListNumber": "{{field}} musi być liczbą taką jak 6 lub 2.5",
+    "badListString": "{{field}} musi być tekstem"
+  }
+}

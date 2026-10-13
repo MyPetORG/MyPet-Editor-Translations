@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Nu s-a încărcat spațiul de lucru. Deschideți o sesiune cu <0>/editorul mypet</0> sau încărcați un exemplu de pachet.",
+    "viewFile": "Vizualizați fișierul",
+    "actions": "Acțiuni",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Secţiuni de configurare",
+    "tabs": {
+      "general": "Generalități",
+      "database": "Baza de date",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Experiență",
+      "permissions": "Permisiuni",
+      "names": "Nume",
+      "skills": "Competențe",
+      "updates": "Actualizări"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Proprietarul poate ataca Pet"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Dezactivează animal de companie vs jucător"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Pet Kill oferă recompense jucătorului"
+      },
+      "OverwriteLanguages": {
+        "label": "Suprascrie limba",
+        "help": "Forțează un cod local (ex. en, de_DE). Luminos = autodetectare."
+      },
+      "Leash_AllowRanged": {
+        "label": "Permite Leashing de distanță"
+      },
+      "Leash_Consume": {
+        "label": "Consumați elementul Leash"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Urmărește Distanța de start"
+      },
+      "Repository_Type": {
+        "label": "Tip repo"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Convertește de la",
+        "help": "Opțional: migrează de la un alt backend la următorul început."
+      },
+      "Repository_LoadDelay": {
+        "label": "Întârziere încărcare (tick-uri)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "Gazdă MySQL"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "Baza de date MySQL"
+      },
+      "Repository_MySQL_User": {
+        "label": "Utilizator MySQL"
+      },
+      "Repository_MySQL_Password": {
+        "label": "Parola MySQL"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Prefix tabel"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Codare caractere"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Maxim de conexiuni"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Factor de timp implicit"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Timp implicit fixat"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Factor timp jucător"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Timpul jucătorului a fost fixat"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Timp de reapariţie dezactivat"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Factor de cost economic"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Costul economiei a fost fixat"
+      },
+      "HungerSystem_Active": {
+        "label": "Sistem de foame activ"
+      },
+      "HungerSystem_Time": {
+        "label": "Timpul bolțului foamei"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Saturație per flux"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Factor de daune"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Daune reparate"
+      },
+      "Exp_LevelCap": {
+        "label": "Nivel plafon"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Distribuție XP avarie ponderată"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Pierde XP pe Moarte"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP Pierdere (fix)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP Pierdere (procent)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Modifier global XP"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "% Pasiv per Monstru"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Modul de calcul nivel"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Curve · Bază liniară"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Curbă · factor de putere"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Curbă · Exponent de Putere"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Curbă · Bază exponențială"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Curba · Creștere exponențială"
+      },
+      "Permissions_Extended": {
+        "label": "Permisiuni extinse"
+      },
+      "Name_MaxLength": {
+        "label": "Lungime max. nume"
+      },
+      "Name_Tag_Show": {
+        "label": "Arată Eticheta de nume"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Nume Etichetă Prefix"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Sufix nume etichetă"
+      },
+      "Name_Filter": {
+        "label": "Cuvinte filtrate (unul pe rând)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Atribuire automată"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Alocare aleatorie"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Alege o dată"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Împiedicați Levelling fără Abilitate"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Comută taxa administratorilor"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Comutare comision (fix)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Comutare comision (procent)"
+      },
+      "Skill_Control_Item": {
+        "label": "Controlează elementul Abilități"
+      },
+      "Skill_Ride_Item": {
+        "label": "Articol abilități cursă"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Călătorie pe metru"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Beacon Foame Scade Timp"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Backpack se deschide în Creativ"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Backpack aruncă când Proprietarul moare"
+      },
+      "Update_Check": {
+        "label": "Verifică pentru actualizări"
+      },
+      "Update_Download": {
+        "label": "Descarcă actualizări"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Meniu — {{menuId}}",
+    "selectMenu": "Selectați un meniu din bara laterală.",
+    "notFound": "Meniul <0>{{menuId}}</0> nu a fost găsit în spațiul de lucru.",
+    "previewLanguage": "Previzualizați limba:",
+    "slotWithSection": "{{slot}} - secţiune: <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot {{slot}} — fără secțiune",
+    "clickSlot": "Faceţi clic pe un slot pentru a-i selecta secţiunea."
+  },
+  "mobXp": {
+    "title": "Recompense Mob XP",
+    "sections": "Secțiuni XP",
+    "searchPlaceholder": "Căutare mobs…",
+    "searchLabel": "Căutare mob-uri",
+    "entryCount_one": "{{count}} intrare",
+    "entryCount_other": "{{count}} entries",
+    "addCustom": "+ Adăugați un mob personalizat",
+    "noMatch": "Niciun mob nu se potrivește cu căutarea ta.",
+    "noCustom": "Nu există încă muşchi personalizaţi. Adăugaţi unul pentru a da XP pentru un anumit mob.",
+    "noEntries": "Nu există intrări în acest fișier.",
+    "colMob": "Mob",
+    "colMin": "Minim",
+    "colMax": "Maxim",
+    "remove": "Elimină {{name}}",
+    "tabs": {
+      "Default": "Implicit",
+      "Custom": "Personalizat"
+    },
+    "help": {
+      "Default": "XP a fost decernat atunci când un animal de companie ucide o mob.",
+      "Custom": "XP pentru mob-uri cu nume personalizat (de ex. miticMobs). Potrivește numele exact al mobului."
+    },
+    "promptCustomName": "Nume mob personalizat (numele exact de afișare al mobului, de ex. un id miticMobs):"
+  },
+  "localeEditor": {
+    "title": "Locale — {{language}}",
+    "selectLanguage": "Selectează o limbă din bara laterală.",
+    "promptKey": "Tasta suprascrie (de ex. Mesage.Pet.Spawn):",
+    "invalidKey": "Taste nu pot conține spații sau „=”.",
+    "duplicateKey": "Cheia are deja o prioritate.",
+    "view": "Vizualizare locală",
+    "tabOverrides": "Suprascrierile mele",
+    "tabAll": "Toate șirurile",
+    "searchPlaceholder": "Căutare chei sau text…",
+    "searchLabel": "Căutare chei locale sau text",
+    "onlyOverridden": "Arată doar suprascrise",
+    "overrideCount": "{{shown}} de {{total}} suprascrieri",
+    "keyCount_one": "{{count}} cheie",
+    "keyCount_other": "{{count}} chei",
+    "addOverride": "+ Adăugați o suprascriere",
+    "noOverrides": "No overrides for <0>{{language}}</0> yet. Switch to <1>{{tabAll}}</1> to browse and override defaults.",
+    "noOverrideMatch": "Nicio suprascriere nu corespunde căutării tale.",
+    "loadError": "Nu s-au putut încărca șirurile implicite pentru <0>{{language}}</0> din GitHub. Puteți adăuga în continuare suprascrieri manual din vizualizarea \"{{tabOverrides}}\".",
+    "loadingDefaults": "Se încarcă șirurile implicite…",
+    "noStringMatch": "Niciun şir de caractere nu corespunde căutării tale.",
+    "colKey": "Cheie",
+    "colDefault": "Implicit",
+    "colOverride": "Suprascrie",
+    "noDefault": "(fără implicit)",
+    "remove": "Elimină {{key}}",
+    "reset": "Resetează {{key}} la valorile implicite"
+  },
+  "petShops": {
+    "title": "Magazine de animale",
+    "shops": "Magazine",
+    "promptShopId": "ID nou al magazinului (litere, numere, subliniere – ex. premium):",
+    "invalidShopId": "Id-ul magazinului poate conține doar litere, numere și sublinieri.",
+    "duplicateShop": "Un magazin numit \"{{key}}\" există deja.",
+    "confirmDeleteShop": "Ştergeţi magazinul \"{{name}}\" şi toate animalele de companie ale acestuia?",
+    "addShop": "+ Adaugă magazin",
+    "deleteShop": "Sterge acest magazin",
+    "noShops": "Niciun magazin definit. Adăugați unul pentru a începe să vindeți animale de companie.",
+    "displayName": "Nume afișat",
+    "defaultShop": "Magazin implicit",
+    "defaultShopHint": "Deschis de /petshop fără argumente.",
+    "menuPosition": "Poziție meniu",
+    "balanceType": "Tipul soldului",
+    "balanceTypeHint": "Când se cumpără bani.",
+    "balanceOwner": "Proprietarul soldului",
+    "balanceOwnerBank": "Numele băncii seifului.",
+    "balanceOwnerPlayer": "UUID Jucător.",
+    "iconMaterial": "Material Pictograma",
+    "iconMaterialHint": "Element afișat în meniul magazinului (de ex. cufăr, ou).",
+    "iconGlowing": "Pictograma Luminare",
+    "pets": "Animale",
+    "searchPets": "Caută animalele de companie…",
+    "searchPetsLabel": "Cauta animale de companie in acest magazin",
+    "petCount": "{{shown}} {{total}}",
+    "addPet": "+ Adaugă animal de companie",
+    "promptPetId": "ID animal de companie (litere, numere, underscore — ex. baby_wolf):",
+    "invalidPetId": "ID-ul animalului de companie poate conţine doar litere, numere şi linii de subliniere.",
+    "duplicatePet": "O companie \"{{key}}\" există deja în acest magazin.",
+    "noPets": "Nici un animal de companie încă în acest magazin.",
+    "noPetMatch": "Niciun animal de companie nu corespunde căutării tale.",
+    "removePet": "Elimină {{name}}",
+    "petType": "Tipul de animal",
+    "petTypeHint": "Un tip de animal de companie, de ex. WOLF, OCELOT.",
+    "price": "Preț",
+    "startingExp": "Începe EXP",
+    "positionHint": "-1 = auto-umplere.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Nume de abilitate presetat opțional.",
+    "description": "Descriere (o linie fiecare)",
+    "options": "Opțiuni (câte unul pe rând)",
+    "optionsHint": "de exemplu, opțiuni specifice pentru sugari sau tip."
+  },
+  "petTypes": {
+    "title": "Tipuri de animale",
+    "search": "Căutare tipuri de animal de companie…",
+    "searchLabel": "Căutare tipuri de animale de companie",
+    "noMatch": "Niciun tip potrivit.",
+    "noTypes": "Niciun tip de animal de companie în acest fișier.",
+    "deleteTitle": "Șterge acest tip de animal de companie personalizat",
+    "deleteButton": "🗑️ Ștergere animal de companie",
+    "confirmDelete": "Ștergeți animalul de companie personalizat\"{{name}}\"? Aceasta elimină întreaga secțiune a configurării animalelor de companie.",
+    "confirmDeleteTitle": "Ștergere animal de companie personalizat",
+    "confirmDeleteConfirm": "Ștergere",
+    "complexValue": "Valoare complexă - editează prin YAML brut.",
+    "model": "Model",
+    "modelHelp": "Redă acest animal de companie cu un model 3D personalizat dintr-un plugin de furnizare de modele (ModelEngine, BetterModel, ItemsAdder sau MythicMobs) în loc de aspectul său vaniliei. Lăsați furnizorul gol pentru a păstra aspectul implicit.",
+    "provider": "Furnizor",
+    "modelId": "ID model",
+    "modelCollision": "Modelul <0>{{provider}}</0> \"<1>{{id}}</1>\" este deja folosit de tipul \"<2>{{other}}</2>\". Fiecare tip personalizat are nevoie de un model unic - plugin-ul va sări peste unul la încărcare.",
+    "nameHeight": "Înălțime nume",
+    "nameHeightHelp": "Decalaj vertical pentru numele animalului de companie deasupra modelului.",
+    "createCustom": "➕ Creează animale de companie personalizate",
+    "typeCount": "{{shown}} de {{total}} tipuri",
+    "animations": "Animații",
+    "animationsHint": "— suprascrieri opționale ale numelui"
+  },
+  "menuSection": {
+    "notFound": "Secțiunea <0>{{sectionId}}</0> nu a fost găsită în <1>{{menuId}}</1>.",
+    "removed": "Secțiunea <0>{{sectionId}}</0> este eliminată din acest meniu (scrisă ca <1>null</1>).",
+    "resetDefault": "Resetare la valorile implicite",
+    "removeSection": "Eliminaţi secţiunea",
+    "confirmRemove": "Eliminați secțiunea \"{{sectionId}}\"? Acest lucru șterge slotul pe planșă - realegeți-l prin \"Resetare la implicit\" dacă vă răzgândiți.",
+    "confirmRemoveTitle": "Eliminaţi secţiunea",
+    "confirmRemoveConfirm": "Elimină",
+    "statefulNotice": "Această secțiune definește elementele per stare (<0>states</0>). Câmpurile de mai jos editează baza <1>item</1>, care se aplică numai atunci când nici o stare nu o înlocuiește.",
+    "material": "Material",
+    "column": "Coloana",
+    "row": "Rând",
+    "glow": "Strălucire",
+    "soundOnClick": "Sunet la clic",
+    "soundKey": "Cheie",
+    "soundVolume": "Volum",
+    "soundPitch": "Iepură",
+    "pitchRangeHelp": "Momentan o rază de pas - editarea aici o înlocuiește cu o valoare fixă.",
+    "title": "Titlu",
+    "lore": "Minereu"
+  },
+  "petWizard": {
+    "titleAvenue": "Creează animal de companie personalizat — Alege cale",
+    "titleModel": "Creare animal de companie personalizat - Configurare model",
+    "titleIdentity": "Creează animale de companie personalizate — Identitate și corp",
+    "titleStats": "Creează animale de companie personalizate - Statistici",
+    "titleReview": "Creare animal de companie personalizat - Revizuire",
+    "progress": "Progresul asistentului",
+    "chooseHow": "Alegeți cum doriți să vă creați animalul personalizat.",
+    "buildFromModel": "Construiește o creatură dintr-un model",
+    "modelSource": "Sursă model",
+    "defaultModel": "Model implicit",
+    "sourceOnlyItemsAdder": "ElementeModelele Adder sunt pachete de conținut - alegeți un id existent.",
+    "sourceOnlyMythicMobs": "Mob-uri miticMobs sunt definite în configurații miticMobs - alege un tip de mob existent.",
+    "modelId": "ID model",
+    "modelIdRegisteredHelp": "Selectaţi un model înregistrat cu {{provider}}.",
+    "modelIdManualHelp": "Niciun model detectat pentru {{provider}}. Introduceți manual un model de identificare.",
+    "modelIdRequired": "ID-ul modelului este necesar.",
+    "uploadLabel": "Încărcați .bbmodel",
+    "uploadReconnecting": "Reconectare — așteaptă ca sesiunea să se reconecteze înainte de încărcare.",
+    "uploadNeedsSession": "Încărcarea are nevoie de o sesiune live <0>/mypet</0> - conectați una pentru a permite acest lucru.",
+    "uploadExplainer": "Încărcaţi în {{provider}}; modelul apare pentru jucători odată ce {{provider}} îşi regenerează pachetul de resurse şi clienţii îl descarcă din nou. Numele fișierului (fără <0>.bbmodel</0>) devine ID-ul modelului, deci trebuie să corespundă id-ului schiței declarat în interiorul modelului.",
+    "uploading": "Se încarcă…",
+    "uploadDone": "Încărcat - model de ID setat la \"{{modelId}}\".",
+    "uploadFailed": "Încărcarea a eșuat.",
+    "nameHeight": "Înălțime nume (opțional)",
+    "nameHeightHelp": "Decalaj vertical pentru numele animalului de companie deasupra modelului.",
+    "modelCollision": "Modelul <0>{{provider}}</0> \"<1>{{modelId}}</1>\" este deja folosit de tipul \"<2>{{other}}</2>\". Un model este identitatea unui animal de companie, astfel încât fiecare tip personalizat are nevoie de un model unic - alegeți unul diferit (altfel plugin-ul ar sări peste acest tip la încărcare).",
+    "creatureName": "Numele creaturii",
+    "creatureNameHelp": "Cheia de configurare internă pentru acest tip de animal de companie (de ex. FrostDragon). Trebuie să fie unică.",
+    "hostMob": "Mobil gazdă",
+    "hostMobHelp": "Mob vanilat Bukkit care oferă entitatea de bază pentru acest animal de companie.",
+    "health": "Sănătate (HP)",
+    "healthHelp": "Punctele de sănătate de bază pentru acest animal de companie (de ex. 20 = 10 inimi).",
+    "walkSpeed": "Viteză de mers",
+    "walkSpeedHelp": "Atributul vitezei de mișcare (de ex. 0.3 este viteza standard a mersului).",
+    "food": "Alimente (un articol pe rând)",
+    "foodHelp": "Articole care hrănesc acest animal de companie, de ex. grâu. Lăsaţi gol pentru a moşteni mâncarea animalului gazdă.",
+    "leash": "Cerințe privind concesionarea",
+    "leashHelp": "Condiţii care trebuie să fie menţinute pentru a duce la lucru pe acest animal de companie (de exemplu Sălbatic, Bebeluşi).",
+    "leashNeedsSession": "Cerințele de leash au nevoie de o sesiune în direct.",
+    "reviewIntro": "Următoarea secţiune va fi adăugată la <0>pet-config.yml</0>:",
+    "back": "Înapoi",
+    "next": "Următoarea",
+    "create": "Crează",
+    "nameRequired": "Numele este necesar."
+  }
+}

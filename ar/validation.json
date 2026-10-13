@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "مهارة غير معروفة: {{skillId}}",
+    "noUpgrades": "يجب أن يكون للمهارة ترقية واحدة على الأقل",
+    "firstLevelRequired": "يجب توفير حقل واحد على الأقل للمستوى الأول",
+    "invalidLevelKey": "تنسيق مفتاح المستوى غير صالح",
+    "duplicateLevel": "مفتاح المستوى المكرر: {{level}}",
+    "invalidRange": "نطاق مستوى غير صالح",
+    "emptyField": "{{field}} cannot be empty",
+    "invalidNumber": "{{field}} must be a valid number",
+    "invalidPlusNumber": "{{field}} must be a signed number (e.g., +1 or +0.5)",
+    "minValue": "{{field}} must be at least {{min}}",
+    "maxValue": "{{field}} must be at most {{max}}",
+    "requiredField": "{{field}} is required",
+    "emptyRequirementKey": "مفتاح الشرط المخصص لا يمكن أن يكون فارغاً",
+    "emptyRequirementValue": "قيمة المتطلبات المخصصة لا يمكن أن تكون فارغة",
+    "emptySkilltreeRequirement": "متطلبات شجرة المهارة يجب أن تحتوي على شجرة مهارة محددة",
+    "emptyPermissionRequirement": "شرط الإذن لا يمكن أن يكون فارغاً",
+    "unknownField": "حقل غير معروف \"{{field}}\" (ابقي كما هو، الخادم سوف يتجاهله )",
+    "badNumber": "{{field}} must be a signed number like \"+5\" or \"-2.5\"",
+    "badInteger": "{{field}} must be a signed whole number like \"+5\"",
+    "badBoolean": "{{field}} must be true or false",
+    "badEnum": "يجب أن يكون {{field}} واحدة من القيم المدرجة",
+    "badGroup": "{{field}} must be an object",
+    "badList": "{{field}} must be a list of entries",
+    "badListInteger": "{{field}} must be a whole number like 6",
+    "badListNumber": "{{field}} must be a number like 6 or 2.5",
+    "badListString": "يجب أن يكون نص {{field}}"
+  }
+}

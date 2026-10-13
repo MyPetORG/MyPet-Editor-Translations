@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "Geen werkruimte geladen. Open een sessie met <0>/mypet editor</0> of laad een voorbeeldbundel.",
+    "viewFile": "Bestand bekijken",
+    "actions": "acties",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "Instellingen secties",
+    "tabs": {
+      "general": "Algemeen",
+      "database": "Database",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "Ervaring",
+      "permissions": "Machtigingen",
+      "names": "Namen",
+      "skills": "Vaardigheden",
+      "updates": "Bijwerken"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "Eigenaar kan Huisdier aanvallen"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "Huisdier tegen speler uitschakelen"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "Dodingen Geef Speler Beloningen"
+      },
+      "OverwriteLanguages": {
+        "label": "Taal overschrijven",
+        "help": "Forceer een locale-code (bijv. en, de_DE). Leeg = automatisch detecteren."
+      },
+      "Leash_AllowRanged": {
+        "label": "Leasen op afstand toestaan"
+      },
+      "Leash_Consume": {
+        "label": "Verbruik Leash Item"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "Volg Start Afstand"
+      },
+      "Repository_Type": {
+        "label": "Repository type"
+      },
+      "Repository_ConvertFrom": {
+        "label": "Converteren van",
+        "help": "Optioneel: migreren van een andere backend bij de volgende start."
+      },
+      "Repository_LoadDelay": {
+        "label": "Laadvertraging (tikken)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQL host"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL database"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL gebruiker"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQL Wachtwoord"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "Tabel voorvoegsel"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "Karakter codering"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "Max Verbindingen"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "Standaard tijdfactor"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "Standaard tijd vast"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "Speler Tijd Factor"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "Speler tijd vast"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "Respawn tijd uitgeschakeld"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "Economie Kosten Factor"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "Economy Kosten vast"
+      },
+      "HungerSystem_Active": {
+        "label": "Honger systeem actief"
+      },
+      "HungerSystem_Time": {
+        "label": "Honger Tick Tijd"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "Verzadiging per feed"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "Schade Factor"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "Schade Opgelost"
+      },
+      "Exp_LevelCap": {
+        "label": "Niveau pet"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "Schade-Gewogen XP Distributie"
+      },
+      "Exp_Loss_Drop": {
+        "label": "Verlies XP op de Dood"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP Verlies (vast)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP Verlies (procent)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "Globale XP Aanpasser"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "Passief % per monster"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "Berekeningsmodus Niveau"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "Kromme · Lineaire Basis"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "Kromming · Energiefactor"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "Kromming · Energie Exponent"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "Curve · Exponentiële Basis"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "Curve · Exponentiële groei"
+      },
+      "Permissions_Extended": {
+        "label": "Uitgebreide permissies"
+      },
+      "Name_MaxLength": {
+        "label": "Max Naam Lengte"
+      },
+      "Name_Tag_Show": {
+        "label": "Toon naam tag"
+      },
+      "Name_Tag_Prefix": {
+        "label": "Naam Tag Voorvoegsel"
+      },
+      "Name_Tag_Suffix": {
+        "label": "Naam tag achtervoegsel"
+      },
+      "Name_Filter": {
+        "label": "Gefilterde woorden (één per regel)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "Automatische toewijzing"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "Willekeurige toewijzing"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "Kies eenmaal"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "Voorkom Niveau Zonder Vaardigheidsboom"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "Wissel vergoeding voor beheerders"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "Wisselgeld (vast)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "Wissel vergoeding (procent)"
+      },
+      "Skill_Control_Item": {
+        "label": "Besturing Vaardigheid Item"
+      },
+      "Skill_Ride_Item": {
+        "label": "Rit Vaardigheid Voorwerp"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "Rij Honger per meter"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "Beacon Honger Vermindering Tijd"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "Rugzak opent in Creatief"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "Rugzak laat vallen Wanneer de eigenaar kan eten"
+      },
+      "Update_Check": {
+        "label": "Controleren op updates"
+      },
+      "Update_Download": {
+        "label": "Updates downloaden"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Menu - {{menuId}}",
+    "selectMenu": "Selecteer een menu uit de zijbalk.",
+    "notFound": "Menu <0>{{menuId}}</0> niet gevonden in de werkruimte.",
+    "previewLanguage": "Voorbeeld taal:",
+    "slotWithSection": "Slot {{slot}} – sectie: <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot {{slot}} - geen sectie",
+    "clickSlot": "Klik op een slot om de sectie te selecteren."
+  },
+  "mobXp": {
+    "title": "Mob XP Beloningen",
+    "sections": "XP secties",
+    "searchPlaceholder": "Zoek mobs…",
+    "searchLabel": "Zoek mobs",
+    "entryCount_one": "{{count}} invoer",
+    "entryCount_other": "{{count}} items",
+    "addCustom": "+ Aangepaste mob toevoegen",
+    "noMatch": "Geen mobs komen overeen met je zoekopdracht.",
+    "noCustom": "Nog geen aangepaste mobs toevoegen om XP te geven voor een mob.",
+    "noEntries": "Geen invoer in dit bestand.",
+    "colMob": "Mob",
+    "colMin": "Min.",
+    "colMax": "Max.",
+    "remove": "Verwijder {{name}}",
+    "tabs": {
+      "Default": "Standaard",
+      "Custom": "Aangepaste"
+    },
+    "help": {
+      "Default": "XP beloond wanneer een huisdier een vanille-mob doodt.",
+      "Custom": "XP voor mobs met een eigen naam (bijv. MythicMobs). Combineer de exacte naam van de mob."
+    },
+    "promptCustomName": "Aangepaste mob naam (de exacte weergavenaam van mob, b.v. een MythicMobs id):"
+  },
+  "localeEditor": {
+    "title": "Lokalisatie - {{language}}",
+    "selectLanguage": "Selecteer een taal uit de zijbalk.",
+    "promptKey": "Overschrijf sleutel (bijv. Message.Pet.Spawn):",
+    "invalidKey": "Toetsen kunnen geen spaties of \"=\" bevatten.",
+    "duplicateKey": "Die sleutel is al van doorslaggevende betekenis.",
+    "view": "Lokaal overzicht",
+    "tabOverrides": "Mijn overrides",
+    "tabAll": "Alle tekenreeksen",
+    "searchPlaceholder": "Search keys or text…",
+    "searchLabel": "Zoek locale-keys of tekst",
+    "onlyOverridden": "Toon alleen overschreven",
+    "overrideCount": "{{shown}} van {{total}} overschrijvingen",
+    "keyCount_one": "{{count}} sleutel",
+    "keyCount_other": "{{count}} sleutels",
+    "addOverride": "+ override toevoegen",
+    "noOverrides": "Nog geen overschrijvingen voor <0>{{language}}</0>Schakel over naar <1>{{tabAll}}</1> om de standaard te bekijken en overschrijven.",
+    "noOverrideMatch": "Geen overschrijvingen komen overeen met uw zoekopdracht.",
+    "loadError": "Standaardtekenreeksen voor <0>{{language}}</0> vanaf GitHub konden niet worden geladen. Je kunt toch handmatig overschrijvingen toevoegen vanuit de \"{{tabOverrides}}\" weergave.",
+    "loadingDefaults": "Loading default strings…",
+    "noStringMatch": "Er komen geen tekenreeksen overeen met uw zoekopdracht.",
+    "colKey": "Sleutel",
+    "colDefault": "Standaard",
+    "colOverride": "Overschrijf",
+    "noDefault": "(geen standaard)",
+    "remove": "Verwijder {{key}}",
+    "reset": "{{key}} terugzetten naar standaard"
+  },
+  "petShops": {
+    "title": "Huisdier Winkels",
+    "shops": "Winkels",
+    "promptShopId": "Nieuwe winkel id (letters, cijfers, onderstrepingsteken — bijv. premium):",
+    "invalidShopId": "Winkel-id mag alleen letters, cijfers en onderstrepingstekens bevatten.",
+    "duplicateShop": "Een winkel genaamd \"{{key}}\" bestaat al.",
+    "confirmDeleteShop": "Verwijder de \"{{name}}\" winkel en al zijn huisdieren?",
+    "addShop": "+ Shop toevoegen",
+    "deleteShop": "Deze winkel verwijderen",
+    "noShops": "Geen winkels gedefinieerd. Voeg er één toe om huisdieren te verkopen.",
+    "displayName": "Toon naam",
+    "defaultShop": "Standaard winkel",
+    "defaultShopHint": "Geopend door /petshop zonder argumenten.",
+    "menuPosition": "Menu positie",
+    "balanceType": "Saldo type",
+    "balanceTypeHint": "Waar geld naartoe gaat.",
+    "balanceOwner": "Saldo eigenaar",
+    "balanceOwnerBank": "Kluis banknaam.",
+    "balanceOwnerPlayer": "Speler UUID.",
+    "iconMaterial": "Pictogram materiaal",
+    "iconMaterialHint": "Item dat wordt getoond in het winkelmenu (bijv. kist, ei).",
+    "iconGlowing": "Gloeiend pictogram",
+    "pets": "Huisdieren",
+    "searchPets": "Search pets…",
+    "searchPetsLabel": "Zoek huisdieren in deze winkel",
+    "petCount": "{{shown}} van {{total}}",
+    "addPet": "+ Voeg huisdier toe",
+    "promptPetId": "Nieuw huisdier id (letters, cijfers, onderstrepingsteken — bijvoorbeeld baby_wolf):",
+    "invalidPetId": "Huisdier ID mag alleen letters, cijfers en onderstrepingstekens bevatten.",
+    "duplicatePet": "Een huisdier \"{{key}}\" bestaat al in deze winkel.",
+    "noPets": "Nog geen huisdieren in deze winkel.",
+    "noPetMatch": "Er komen geen huisdieren overeen met uw zoekopdracht.",
+    "removePet": "Verwijder {{name}}",
+    "petType": "Type huisdier",
+    "petTypeHint": "Een MyPet huisdier, bv. WOLF, OCELOT.",
+    "price": "Prijs",
+    "startingExp": "EXP starten",
+    "positionHint": "-1 = auto-invullen.",
+    "skilltree": "Skilltree",
+    "skilltreeHint": "Optionele vooraf ingestelde vaardigheidsboom naam.",
+    "description": "Beschrijving (per regel)",
+    "options": "Opties (één per regel)",
+    "optionsHint": "bijv. baby, of typ-specifieke opties."
+  },
+  "petTypes": {
+    "title": "Huisdier types",
+    "search": "Search pet types…",
+    "searchLabel": "Doorzoek huisdier types",
+    "noMatch": "Geen types gevonden.",
+    "noTypes": "Geen huisdier types in dit bestand.",
+    "deleteTitle": "Verwijder dit aangepaste huisdier type",
+    "deleteButton": "🗑️ Verwijder huisdier",
+    "confirmDelete": "Verwijder het aangepaste huisdier \"{{name}}\"? Dit verwijdert de gehele sectie huisdier configuratie.",
+    "confirmDeleteTitle": "Verwijder aangepast huisdier",
+    "confirmDeleteConfirm": "Verwijderen",
+    "complexValue": "Complexe waarde - bewerken via onbewerkte YAML.",
+    "model": "Model",
+    "modelHelp": "Render dit huisdier met een aangepast 3D-model van een modelprovider plugin (ModelEngine, BetterModel, ItemsAdder of MythicMobs) in plaats van zijn vanilla te verschijnen. Laat de provider leeg om de standaardlook te behouden.",
+    "provider": "Leverancier",
+    "modelId": "Model ID",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{id}}</1>\" wordt al gebruikt door het huisdier type \"<2>{{other}}</2>\". Elk aangepast type heeft een uniek model nodig — de plugin zal er anders een overslaan bij het laden.",
+    "nameHeight": "Naam hoogte",
+    "nameHeightHelp": "Verticale verschuiving voor de naam van het huisdier boven het model.",
+    "createCustom": "➕ Maak aangepast huisdier",
+    "typeCount": "{{shown}} van {{total}} soorten",
+    "animations": "Animaties",
+    "animationsHint": "— optionele naam overschrijft"
+  },
+  "menuSection": {
+    "notFound": "Sectie <0>{{sectionId}}</0> niet gevonden in <1>{{menuId}}</1>.",
+    "removed": "Sectie <0>{{sectionId}}</0> is verwijderd uit dit menu (geschreven als <1>null</1>).",
+    "resetDefault": "Standaardinstellingen herstellen",
+    "removeSection": "Sectie verwijderen",
+    "confirmRemove": "Verwijder de sectie \"{{sectionId}}\"? Dit wist het slot op het canvas - selecteer het opnieuw via \"Reset naar standaard\" als je van gedachten verandert.",
+    "confirmRemoveTitle": "Sectie verwijderen",
+    "confirmRemoveConfirm": "Verwijderen",
+    "statefulNotice": "Deze sectie definieert per-state items (<0>states</0>). De velden hieronder bewerken de basis <1>item</1>, die alleen van toepassing zijn als geen staat deze overschrijft.",
+    "material": "Materiaal",
+    "column": "Kolom",
+    "row": "Rij",
+    "glow": "Gloeien",
+    "soundOnClick": "Geluid bij klik",
+    "soundKey": "Sleutel",
+    "soundVolume": "Volume",
+    "soundPitch": "Toonhoogte",
+    "pitchRangeHelp": "Momenteel een pitch bereik - hier bewerken vervangt het door een vaste waarde.",
+    "title": "Aanspreektitel",
+    "lore": "Vertrouwen"
+  },
+  "petWizard": {
+    "titleAvenue": "Maak aangepast huisdier — Kies een locatie",
+    "titleModel": "Maak aangepast huisdier - Configureer model",
+    "titleIdentity": "Maak aangepast huisdier - identiteit & lichaam",
+    "titleStats": "Maak aangepast huisdier - Statistieken",
+    "titleReview": "Maak aangepast huisdier - Review",
+    "progress": "Wizard vooruitgang",
+    "chooseHow": "Kies hoe u uw eigen huisdier wilt maken.",
+    "buildFromModel": "Bouw een wezen van een model",
+    "modelSource": "Bron model",
+    "defaultModel": "Standaard model",
+    "sourceOnlyItemsAdder": "Artikelmodellen zijn inhoudspakketten - kies een bestaande id.",
+    "sourceOnlyMythicMobs": "MythicMobs mobs zijn gedefinieerd in MythicMobs configuraties - kies een bestaand mob type.",
+    "modelId": "Model ID",
+    "modelIdRegisteredHelp": "Selecteer een model geregistreerd bij {{provider}}.",
+    "modelIdManualHelp": "Geen modellen gevonden voor {{provider}}. Voer een model-ID handmatig in.",
+    "modelIdRequired": "Model-ID is vereist.",
+    "uploadLabel": "Upload .bbmodel",
+    "uploadReconnecting": "Opnieuw verbinden - wacht tot de sessie opnieuw wordt verbonden alvorens te uploaden.",
+    "uploadNeedsSession": "Uploaden heeft een live <0>/mypet editor</0>-sessie nodig om dit in te schakelen.",
+    "uploadExplainer": "Uploads naar {{provider}}; het model verschijnt voor spelers zodra {{provider}} zijn bronpakket regenereert en klanten het opnieuw downloaden. De bestandsnaam (zonder <0>.bbmodel</0>) wordt de model-id, dus moet het overeenkomen met de blauwdruk id in het model.",
+    "uploading": "Uploading…",
+    "uploadDone": "Geüpload — model ID ingesteld op \"{{modelId}}\".",
+    "uploadFailed": "Upload mislukt.",
+    "nameHeight": "Naamhoogte (optioneel)",
+    "nameHeightHelp": "Verticale verschuiving voor de naam van het huisdier boven het model.",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{modelId}}</1>\" wordt al gebruikt door het huisdier type \"<2>{{other}}</2>\". Een model is de identiteit van een huisdier, elk aangepast type heeft een uniek model nodig — kies een andere (de plugin zou dit type anders overslaan bij het laden).",
+    "creatureName": "Wezen naam",
+    "creatureNameHelp": "De interne pet-config sleutel voor dit huisdier type (bijv. FrostDragon). Moet uniek zijn.",
+    "hostMob": "Host mob",
+    "hostMobHelp": "Het vanilla Bukkit mob type dat de basis entiteit voor dit huisdier biedt.",
+    "health": "Gezondheid (HP)",
+    "healthHelp": "Basis gezondheidspunten voor dit huisdier (bijv. 20 = 10 hartjes).",
+    "walkSpeed": "Loop snelheid",
+    "walkSpeedHelp": "Filtersnelheid attribuut (bijv. 0.3 is de standaard loopsnelheid).",
+    "food": "Voedsel (één item per regel)",
+    "foodHelp": "Voorwerpen die dit huisdier voeden, bijv. tarwe. Laat leeg om eten van de gastheer mee te erven.",
+    "leash": "Leash vereisten",
+    "leashHelp": "Voorwaarden die moeten worden vastgehouden voor een lead om op dit huisdier te werken (bijv. Wilde Baby).",
+    "leashNeedsSession": "Lease-vereisten hebben een live sessie nodig.",
+    "reviewIntro": "De volgende sectie wordt toegevoegd aan <0>pet-config.yml</0>:",
+    "back": "Achterzijde",
+    "next": "Volgende",
+    "create": "Aanmaken",
+    "nameRequired": "Naam is vereist."
+  }
+}

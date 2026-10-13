@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Chưa chọn cây kỹ năng",
+    "description": "Chọn một cây kỹ năng từ thanh bên, hoặc nhập các tệp .st.json để bắt đầu.",
+    "loadDefaultsCta": "Tải mặc định"
+  },
+  "tabs": {
+    "properties": "Thuộc tính",
+    "appearance": "Giao diện",
+    "eligiblePets": "Thú cưng đủ điều kiện",
+    "requirements": "Yêu cầu",
+    "notifications": "Thông báo",
+    "skills": "Kỹ năng",
+    "timeline": "Dòng thời gian"
+  },
+  "inspector": {
+    "expand": "Mở rộng bảng kiểm tra",
+    "collapse": "Thu gọn bảng kiểm tra",
+    "requirementsHint": "Các đường nối hiển thị nhóm Cây kỹ năng đầu tiên; mọi yêu cầu đều có thể chỉnh sửa tại đây."
+  },
+  "properties": {
+    "id": "ID",
+    "idPlaceholder": "Combat",
+    "inheritance": "Kế thừa",
+    "inheritancePlaceholder": "Chọn cây kỹ năng cha...",
+    "weight": "Trọng số",
+    "weightPlaceholder": "15",
+    "permission": "Quyền",
+    "permissionPlaceholder": "mypet.skilltree.combat"
+  },
+  "appearance": {
+    "name": "Tên",
+    "namePlaceholder": "Combat",
+    "iconMaterial": "Vật phẩm biểu tượng",
+    "iconMaterialPlaceholder": "stone_axe",
+    "glowing": "Phát sáng",
+    "description": "Mô tả",
+    "descriptionPlaceholder": "Một cây kỹ năng thiên về chiến đấu...",
+    "viewJson": "Xem JSON",
+    "jsonPreview": "Xem trước cây kỹ năng đã chọn dưới dạng JSON."
+  },
+  "eligiblePets": {
+    "title": "Thú cưng đủ điều kiện",
+    "none": "Không có",
+    "all": "Tất cả (*)",
+    "selected": "Đã chọn",
+    "includeFutureMobs": "Bao gồm mob từ các bản cập nhật Minecraft trong tương lai",
+    "allPetsNotice": "Mọi Thú cưng liệt kê ở đây, kể cả Thú cưng từ các bản cập nhật tương lai, sẽ đủ điều kiện cho Kỹ năng này.",
+    "noPetsNotice": "Sẽ không có Thú cưng nào đủ điều kiện cho Kỹ năng này.",
+    "loading": "Đang tải danh sách thực thể Minecraft mới nhất…",
+    "loadError": "Không thể tải danh sách mob từ minecraft-data",
+    "customHeading": "Từ pet-config",
+    "customHint": "Các loại thú cưng tùy chỉnh được định nghĩa trong pet-config.yml của máy chủ này.",
+    "unrecognizedHeading": "Không nhận diện được",
+    "unrecognizedNotice": "Các mục này không khớp với mob Minecraft nào, cũng không khớp loại nào trong pet-config."
+  },
+  "requirements": {
+    "title": "Yêu cầu",
+    "minLevel": "Cấp thú cưng tối thiểu",
+    "minLevelPlaceholder": "1",
+    "maxLevel": "Cấp thú cưng tối đa",
+    "maxLevelPlaceholder": "10",
+    "addRequirement": "Thêm yêu cầu",
+    "requirementType": "Loại yêu cầu",
+    "permission": "Quyền",
+    "permissionPlaceholder": "TestPermission",
+    "skilltree": "Cây kỹ năng",
+    "noSkilltree": "Không có cây kỹ năng",
+    "custom": "Tùy chỉnh",
+    "customKey": "Khóa tùy chỉnh",
+    "customKeyPlaceholder": "CustomName",
+    "customValue": "Giá trị tùy chỉnh",
+    "customValuePlaceholder": "BoopBeep",
+    "noRequirements": "Cây kỹ năng này không có yêu cầu nào về quyền, Cây kỹ năng hay yêu cầu tùy chỉnh.",
+    "permissionPrefix": "MyPet.skilltree.",
+    "copyPermission": "Sao chép quyền"
+  },
+  "notifications": {
+    "title": "Thông báo",
+    "addNotification": "Thêm thông báo",
+    "message": "Tin nhắn",
+    "messagePlaceholder": "Thú cưng {{pet}} của {{owner}} đã đạt cấp {{level}}!"
+  },
+  "skills": {
+    "title": "Kỹ năng",
+    "addSkill": "Thêm kỹ năng",
+    "selectSkill": "Chọn một kỹ năng...",
+    "noSkills": "Chưa có kỹ năng nào.",
+    "removeSkill": "Gỡ kỹ năng",
+    "addUpgrade": "Thêm nâng cấp",
+    "editUpgrade": "Sửa nâng cấp",
+    "noUpgrades": "Chưa có nâng cấp nào.",
+    "level": "Cấp {{level}}",
+    "levels": "Các cấp",
+    "everyLevel": "Mỗi cấp",
+    "everyNLevels": "Mỗi {{n}} cấp",
+    "everyNLevelsFrom": "Mỗi {{n}} cấp kể từ cấp {{start}} trở đi",
+    "everyNLevelsBetween": "Mỗi {{n}} cấp trong khoảng cấp {{start}} đến {{end}}",
+    "fixedLevels": "Cấp: {{levels}}",
+    "skillExists": "Kỹ năng này đã tồn tại.",
+    "unknownSkill": "Kỹ năng không xác định",
+    "levelList": "Các cấp {{levels}}",
+    "everyLevelRange": "Mỗi cấp ({{start}}-{{until}})",
+    "everyNLevelsRange": "Mỗi {{n}} cấp ({{start}}-{{until}})",
+    "everyLevelFrom": "Mỗi cấp kể từ {{start}}",
+    "everyNLevelsFromStart": "Mỗi {{n}} cấp kể từ {{start}}"
+  },
+  "levelModal": {
+    "title": "Chọn cấp độ",
+    "fixed": "Cố định",
+    "dynamic": "Động",
+    "fixedHelp": "Nhập một hoặc nhiều cấp (cách nhau bằng dấu cách/dấu phẩy)",
+    "fixedPlaceholder": "ví dụ: 1 3 5 hoặc 1,3,5",
+    "every": "Mỗi (bắt buộc)",
+    "startFrom": "Bắt đầu từ cấp (tùy chọn)",
+    "until": "Đến cấp (tùy chọn)"
+  },
+  "toolbar": {
+    "newSkilltree": "+ Cây kỹ năng mới",
+    "searchPlaceholder": "Tìm cây kỹ năng…",
+    "noMatches": "Không có kết quả",
+    "undo": "Hoàn tác",
+    "redo": "Làm lại",
+    "moreActions": "Thêm thao tác",
+    "duplicate": "Nhân bản",
+    "deleteTitle": "Xóa cây kỹ năng",
+    "deleteConfirm": "Xóa {{name}}?",
+    "deleteConfirmWithRefs": "Xóa {{name}}? Các cây khác đang tham chiếu tới nó sẽ hiển thị huy hiệu tham chiếu treo.",
+    "speciesPlaceholder": "Loài…",
+    "exitJourney": "Thoát chế độ hành trình"
+  },
+  "journey": {
+    "panelTitle": "Hành trình: {{species}}",
+    "levelLabel": "Cấp",
+    "currentTreeLabel": "Cây hiện tại",
+    "freshPet": "chưa có — thú cưng mới",
+    "clickHint": "Đang mô phỏng: nhấp vào một cây được làm nổi để chọn nó",
+    "reset": "Đặt lại về thú cưng mới",
+    "permissionNote": "Giả định đã được cấp mọi yêu cầu về quyền",
+    "previewTitle": "Xem trước túi đồ",
+    "requiresLevel": "Yêu cầu cấp {{level}}",
+    "clickToApply": "Nhấp để áp dụng",
+    "noneAvailable": "<red>Không có</red> cây kỹ năng nào khả dụng cho <aqua>{{species}}</aqua>.",
+    "eligibleCount": "{{count}} đủ điều kiện"
+  },
+  "skilltrees": {
+    "error": {
+      "editRaw": "Sửa thô…",
+      "editRawTitle": "Sửa thô: {{filename}}"
+    },
+    "edgePopup": {
+      "kindRequirement": "Yêu cầu",
+      "kindInheritance": "Kế thừa",
+      "requirement": "{{prerequisite}} là yêu cầu của {{owner}}",
+      "anyOf": "Thỏa mãn bởi bất kỳ mục nào trong: {{list}}",
+      "inheritance": "{{owner}} kế thừa các kỹ năng của {{prerequisite}}",
+      "clusterRequirement": "{{prerequisite}} là yêu cầu của từng cây trong số {{count}} cây kỹ năng thuộc nhóm này"
+    }
+  },
+  "validation": {
+    "error": "Lỗi kiểm tra",
+    "hasErrors": "Cây kỹ năng này có lỗi kiểm tra",
+    "skillHasErrors": "Kỹ năng này có lỗi kiểm tra",
+    "issueInSkill": "Có vấn đề kiểm tra trong kỹ năng này. Mở rộng để sửa giá trị."
+  },
+  "timeline": {
+    "inspectLevel": "Xem cấp",
+    "modeSingle": "Đơn",
+    "modeLevels": "Nhiều cấp",
+    "modeRepeat": "Lặp lại",
+    "atLevel": "ở cấp",
+    "levels": "cấp",
+    "every": "mỗi",
+    "from": "từ",
+    "until": "đến",
+    "keyPreview": "→ khóa: \"{{key}}\""
+  },
+  "generatedSkill": {
+    "itemPlaceholder": "minecraft:diamond hoặc base64:… (từ /petadmin info item)",
+    "addRow": "+ Thêm"
+  },
+  "node": {
+    "namePlaceholder": "Tên",
+    "iconPlaceholder": "Vật phẩm biểu tượng",
+    "minLevelPlaceholder": "Cấp min",
+    "maxLevelPlaceholder": "Cấp max",
+    "clusterExpand": "Nhấp để mở rộng",
+    "allSpecies": "mọi loài",
+    "noSpecies": "không có loài",
+    "speciesCount_one": "{{count}} loài",
+    "speciesCount_other": "{{count}} loài",
+    "levelRange": "Cấp {{min}}-{{max}}",
+    "levelMin": "Cấp {{min}}+",
+    "levelMax": "Đến cấp {{max}}"
+  },
+  "canvas": {
+    "empty": "Chưa có cây kỹ năng nào trong không gian làm việc này.",
+    "layingOut": "Đang sắp xếp canvas…"
+  },
+  "entry": {
+    "petTypeRequired": "PetType là bắt buộc",
+    "priceExpNonNegative": "Giá và EXP phải ≥ 0",
+    "minMaxNumbers": "Min và Max phải là số",
+    "valuesNonNegative": "Giá trị phải ≥ 0",
+    "maxGteMin": "Max phải ≥ Min"
+  }
+}

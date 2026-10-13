@@ -1,0 +1,415 @@
+{
+  "editorCommon": {
+    "noWorkspace": "未加载工作区。使用 <0>/mypet 编辑器</0> 打开会话或加载示例捆绑。",
+    "viewFile": "查看文件",
+    "actions": "行动",
+    "parseError": "YAML parse error: {{message}}"
+  },
+  "configEditor": {
+    "sections": "配置部分",
+    "tabs": {
+      "general": "A. 概况",
+      "database": "数据库",
+      "respawn": "Respawn",
+      "hunger": "Hunger",
+      "experience": "经历",
+      "permissions": "权限",
+      "names": "名称",
+      "skills": "技能",
+      "updates": "更新"
+    },
+    "fields": {
+      "OwnerCanAttackPet": {
+        "label": "所有者可以攻击宠物"
+      },
+      "DisablePetVersusPlayer": {
+        "label": "禁用宠物与玩家"
+      },
+      "PetKillsGivePlayerRewards": {
+        "label": "宠物击杀给予玩家奖励"
+      },
+      "OverwriteLanguages": {
+        "label": "覆盖语言",
+        "help": "强制使用区域代码 (例如en, de_DE)。空白 = 自动检测。"
+      },
+      "Leash_AllowRanged": {
+        "label": "允许远程擦除"
+      },
+      "Leash_Consume": {
+        "label": "消耗刷毛物品"
+      },
+      "Entity_FollowStartDistance": {
+        "label": "跟随开始距离"
+      },
+      "Repository_Type": {
+        "label": "仓库类型"
+      },
+      "Repository_ConvertFrom": {
+        "label": "转换自",
+        "help": "可选：在下次启动时从另一个后端迁移。"
+      },
+      "Repository_LoadDelay": {
+        "label": "加载延迟 (ticks)"
+      },
+      "Repository_MySQL_Host": {
+        "label": "MySQL 主机"
+      },
+      "Repository_MySQL_Port": {
+        "label": "MySQL Port"
+      },
+      "Repository_MySQL_Database": {
+        "label": "MySQL 数据库"
+      },
+      "Repository_MySQL_User": {
+        "label": "MySQL 用户"
+      },
+      "Repository_MySQL_Password": {
+        "label": "MySQL 密码"
+      },
+      "Repository_MySQL_TablePrefix": {
+        "label": "表前缀"
+      },
+      "Repository_MySQL_CharacterEncoding": {
+        "label": "字符编码"
+      },
+      "Repository_MySQL_MaxConnections": {
+        "label": "最大连接"
+      },
+      "Respawn_Time_Default_Factor": {
+        "label": "默认时间因子"
+      },
+      "Respawn_Time_Default_Fixed": {
+        "label": "默认固定时间"
+      },
+      "Respawn_Time_Player_Factor": {
+        "label": "玩家时间因子"
+      },
+      "Respawn_Time_Player_Fixed": {
+        "label": "已修复玩家时间"
+      },
+      "Respawn_Time_Disabled": {
+        "label": "重生时间已禁用"
+      },
+      "Respawn_EconomyCost_Factor": {
+        "label": "经济成本系数"
+      },
+      "Respawn_EconomyCost_Fixed": {
+        "label": "固定经济成本"
+      },
+      "HungerSystem_Active": {
+        "label": "饥饿系统激活"
+      },
+      "HungerSystem_Time": {
+        "label": "饥饿提取时间"
+      },
+      "HungerSystem_SaturationPerFeed": {
+        "label": "每种源饱和度"
+      },
+      "HungerSystem_Damage_Factor": {
+        "label": "伤害因子"
+      },
+      "HungerSystem_Damage_Fixed": {
+        "label": "伤害已修复"
+      },
+      "Exp_LevelCap": {
+        "label": "等级帽子"
+      },
+      "Exp_DamageWeightedExperienceDistribution": {
+        "label": "伤害权重 XP 分布"
+      },
+      "Exp_Loss_Drop": {
+        "label": "死亡时失去XP"
+      },
+      "Exp_Loss_Fixed": {
+        "label": "XP 丢失(固定)"
+      },
+      "Exp_Loss_Percent": {
+        "label": "XP 丢失(百分比)"
+      },
+      "Exp_Modifier_Global": {
+        "label": "全局XP 修饰符"
+      },
+      "Exp_Passive_PercentPerMonster": {
+        "label": "每怪物被动%"
+      },
+      "LevelSystem_CalculationMode": {
+        "label": "等级计算模式"
+      },
+      "LevelSystem_Curve_Linear_Base": {
+        "label": "曲线 · 线性基础"
+      },
+      "LevelSystem_Curve_Power_Factor": {
+        "label": "曲线·功率因子"
+      },
+      "LevelSystem_Curve_Power_Exponent": {
+        "label": "曲线 · 功率指数"
+      },
+      "LevelSystem_Curve_Exponential_Base": {
+        "label": "曲线 · 指数基础"
+      },
+      "LevelSystem_Curve_Exponential_Growth": {
+        "label": "曲线·指数增长"
+      },
+      "Permissions_Extended": {
+        "label": "扩展权限"
+      },
+      "Name_MaxLength": {
+        "label": "最大名称长度"
+      },
+      "Name_Tag_Show": {
+        "label": "显示名称标签"
+      },
+      "Name_Tag_Prefix": {
+        "label": "名称前缀"
+      },
+      "Name_Tag_Suffix": {
+        "label": "名称后缀"
+      },
+      "Name_Filter": {
+        "label": "过滤过的单词(每行一个)"
+      },
+      "Skilltree_AutomaticAssignment": {
+        "label": "自动分配"
+      },
+      "Skilltree_RandomAssignment": {
+        "label": "随机分配"
+      },
+      "Skilltree_ChooseOnce": {
+        "label": "选择一次"
+      },
+      "Skilltree_PreventLevellingWithout": {
+        "label": "防止无技能水平化"
+      },
+      "Skilltree_SwitchFee_Admin": {
+        "label": "切换管理员费用"
+      },
+      "Skilltree_SwitchFee_Fixed": {
+        "label": "切换费用 (固定)"
+      },
+      "Skilltree_SwitchFee_Percent": {
+        "label": "切换费用 (百分比)"
+      },
+      "Skill_Control_Item": {
+        "label": "控制技能物品"
+      },
+      "Skill_Ride_Item": {
+        "label": "骑乘技能物品"
+      },
+      "Skill_Ride_HungerPerMeter": {
+        "label": "每米骑机饥饿度"
+      },
+      "Skill_Beacon_HungerDecreaseTime": {
+        "label": "信标饥饿减缓时间"
+      },
+      "Skill_Backpack_Creative": {
+        "label": "创建时背包打开"
+      },
+      "Skill_Backpack_DropWhenOwnerDies": {
+        "label": "当所有者死亡时背包"
+      },
+      "Update_Check": {
+        "label": "检查更新"
+      },
+      "Update_Download": {
+        "label": "下载更新"
+      }
+    }
+  },
+  "menuEditor": {
+    "title": "Menu — {{menuId}}",
+    "selectMenu": "从侧边栏选择一个菜单。",
+    "notFound": "Menu <0>{{menuId}}</0> not found in the workspace.",
+    "previewLanguage": "预览语言：",
+    "slotWithSection": "Slot {{slot}} — section: <0>{{sectionId}}</0>",
+    "slotNoSection": "Slot {{slot}} — no section",
+    "clickSlot": "单击一个栏位来选择其部分。"
+  },
+  "mobXp": {
+    "title": "怪物XP奖励",
+    "sections": "XP 部分",
+    "searchPlaceholder": "Search mobs…",
+    "searchLabel": "搜索怪物",
+    "entryCount_one": "{{count}} entry",
+    "entryCount_other": "{{count}} entries",
+    "addCustom": "+ 添加自定义生物组",
+    "noMatch": "没有符合搜索条件的生物。",
+    "noCustom": "尚无自定义生物。添加一个 XP 给一个命名生物。",
+    "noEntries": "此文件中没有条目。",
+    "colMob": "生物组",
+    "colMin": "最小值",
+    "colMax": "最大值",
+    "remove": "Remove {{name}}",
+    "tabs": {
+      "Default": "默认设置",
+      "Custom": "自定义"
+    },
+    "help": {
+      "Default": "当宠物杀死一个香草生物时获得XP奖励。",
+      "Custom": "自定义命名生物的 XP (例如MythicMobs)。匹配生物的确切名称。"
+    },
+    "promptCustomName": "自定义生物名称 (怪物确切的显示名称，例如 MythicMobs id)："
+  },
+  "localeEditor": {
+    "title": "Locale — {{language}}",
+    "selectLanguage": "从侧边栏选择一种语言。",
+    "promptKey": "重写密钥 (例如Message.pet.Spawn)：",
+    "invalidKey": "密钥不能包含空格或“=\"。",
+    "duplicateKey": "这个钥匙已经被覆盖。",
+    "view": "本地化视图",
+    "tabOverrides": "我的覆盖",
+    "tabAll": "所有字符串",
+    "searchPlaceholder": "搜索密钥或文本…",
+    "searchLabel": "搜索区域键或文本",
+    "onlyOverridden": "只显示已覆盖",
+    "overrideCount": "{{shown}} of {{total}} overrides",
+    "keyCount_one": "{{count}} key",
+    "keyCount_other": "{{count}} keys",
+    "addOverride": "+ 添加覆盖",
+    "noOverrides": "No overrides for <0>{{language}}</0> yet. Switch to <1>{{tabAll}}</1> to browse and override defaults.",
+    "noOverrideMatch": "没有覆盖与您的搜索匹配。",
+    "loadError": "Couldn’t load default strings for <0>{{language}}</0> from GitHub. You can still add overrides manually from the \"{{tabOverrides}}\" view.",
+    "loadingDefaults": "Loading default strings…",
+    "noStringMatch": "没有字符串匹配您的搜索。",
+    "colKey": "关键字",
+    "colDefault": "默认设置",
+    "colOverride": "覆盖",
+    "noDefault": "(无默认值)",
+    "remove": "Remove {{key}}",
+    "reset": "Reset {{key}} to default"
+  },
+  "petShops": {
+    "title": "宠物店",
+    "shops": "商店：",
+    "promptShopId": "新商店ID (字母、数字、下划线-例如高级)：",
+    "invalidShopId": "店铺ID只能包含字母、数字和下划线。",
+    "duplicateShop": "A shop named \"{{key}}\" already exists.",
+    "confirmDeleteShop": "Delete the \"{{name}}\" shop and all its pets?",
+    "addShop": "+ 添加商店",
+    "deleteShop": "删除这个商店",
+    "noShops": "未定义商店。添加一家开始销售宠物。",
+    "displayName": "显示名称",
+    "defaultShop": "默认商店",
+    "defaultShopHint": "由/petshop打开，没有参数。",
+    "menuPosition": "菜单位置",
+    "balanceType": "余额类型",
+    "balanceTypeHint": "在购买资金的情况下。",
+    "balanceOwner": "余额所有者",
+    "balanceOwnerBank": "保险库名称。",
+    "balanceOwnerPlayer": "玩家 UUID。",
+    "iconMaterial": "图标样式",
+    "iconMaterialHint": "在商店菜单中显示的商品(例如箱子、鸡蛋)。",
+    "iconGlowing": "图标闪光",
+    "pets": "宠物",
+    "searchPets": "搜索宠物…",
+    "searchPetsLabel": "在这家商店中搜索宠物",
+    "petCount": "{{shown}} of {{total}}",
+    "addPet": "+ 添加宠物",
+    "promptPetId": "新宠物编号(字母、数字、下划线-例如baby_wolf)：",
+    "invalidPetId": "宠物id只能包含字母、数字和下划线。",
+    "duplicatePet": "A pet \"{{key}}\" already exists in this shop.",
+    "noPets": "这家商店还没有宠物。",
+    "noPetMatch": "没有匹配您搜索的宠物。",
+    "removePet": "Remove {{name}}",
+    "petType": "宠物类型",
+    "petTypeHint": "MyPet 宠物类型，例如 WOLF、OCELOT。",
+    "price": "价格",
+    "startingExp": "正在启动经验",
+    "positionHint": "-1 = 自动填充。",
+    "skilltree": "技能树",
+    "skilltreeHint": "可选的预设树名称。",
+    "description": "描述(每行一行)",
+    "options": "选项(每行一个)",
+    "optionsHint": "例如：婴儿或特定类型的选项。"
+  },
+  "petTypes": {
+    "title": "宠物类型",
+    "search": "搜索宠物类型…",
+    "searchLabel": "搜索宠物类型",
+    "noMatch": "没有匹配的类型。",
+    "noTypes": "此文件中没有宠物类型。",
+    "deleteTitle": "删除此自定义宠物类型",
+    "deleteButton": ":wasket: 删除宠物",
+    "confirmDelete": "Delete the custom pet \"{{name}}\"? This removes its entire pet-config section.",
+    "confirmDeleteTitle": "删除自定义宠物",
+    "confirmDeleteConfirm": "删除",
+    "complexValue": "复杂值 — — 通过原始的 YAML 编辑。",
+    "model": "模型",
+    "modelHelp": "用自定义的3D模型从模型提供者插件(ModelEngine、BetterModel, ItemsAdder, or MythicMobs) 渲染这个宠物，而不是它的原版外观。 留空提供商以保持默认外观。",
+    "provider": "提供商",
+    "modelId": "模型 Id",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{id}}</1>\" is already used by the pet type \"<2>{{other}}</2>\". Each custom type needs a unique model — the plugin will otherwise skip one of them on load.",
+    "nameHeight": "名称高度",
+    "nameHeightHelp": "模型上方的点名标签的垂直偏移。",
+    "createCustom": "➕ 创建自定义宠物",
+    "typeCount": "{{shown}} of {{total}} types",
+    "animations": "动画",
+    "animationsHint": "-可选名称覆盖"
+  },
+  "menuSection": {
+    "notFound": "Section <0>{{sectionId}}</0> not found in <1>{{menuId}}</1>.",
+    "removed": "Section <0>{{sectionId}}</0> is removed from this menu (written as <1>null</1>).",
+    "resetDefault": "重置为默认值",
+    "removeSection": "删除版块",
+    "confirmRemove": "Remove the \"{{sectionId}}\" section? This clears its slot on the canvas — reselect it via \"Reset to default\" if you change your mind.",
+    "confirmRemoveTitle": "删除版块",
+    "confirmRemoveConfirm": "移除",
+    "statefulNotice": "本节定义每个状态项(<0>states</0>)。下面的字段编辑基础<1>item</1>，这只适用于没有状态覆盖状态的情况。",
+    "material": "材料",
+    "column": "列",
+    "row": "行",
+    "glow": "发光",
+    "soundOnClick": "单击时声音",
+    "soundKey": "关键字",
+    "soundVolume": "音量",
+    "soundPitch": "音调",
+    "pitchRangeHelp": "目前一个音调范围 — — 在这里编辑它用固定的值代替它。",
+    "title": "标题",
+    "lore": "洛尔"
+  },
+  "petWizard": {
+    "titleAvenue": "创建自定义宠物 — — 选择通道",
+    "titleModel": "创建自定义宠物 - 配置模型",
+    "titleIdentity": "创建自定义宠物 - 身份和实体",
+    "titleStats": "创建自定义宠物 - 统计",
+    "titleReview": "创建自定义宠物 - 审核",
+    "progress": "向导进度",
+    "chooseHow": "选择如何创建您的自定义宠物。",
+    "buildFromModel": "从模型生成一个生物。",
+    "modelSource": "模型源",
+    "defaultModel": "默认模型",
+    "sourceOnlyItemsAdder": "项目广告模型是内容包 — — 选择一个现有的 id。",
+    "sourceOnlyMythicMobs": "MythicMobs 生物已定义为 MythicMobs 配置——选择一个现有的生物类型。",
+    "modelId": "模型 ID",
+    "modelIdRegisteredHelp": "Select a model registered with {{provider}}.",
+    "modelIdManualHelp": "No models detected for {{provider}}. Enter a model ID manually.",
+    "modelIdRequired": "模型ID是必需的。",
+    "uploadLabel": "上传 .bbmodel",
+    "uploadReconnecting": "重新连接 — 等待会话在上传前重新连接。",
+    "uploadNeedsSession": "上传需要在线<0>/mypet editor</0>会话-连接一个以启用此功能。",
+    "uploadExplainer": "Uploads to {{provider}}; the model appears for players once {{provider}} regenerates its resource pack and clients re-download it. The file name (without <0>.bbmodel</0>) becomes the model id, so it must match the blueprint id declared inside the model.",
+    "uploading": "正在上传…",
+    "uploadDone": "Uploaded — model ID set to \"{{modelId}}\".",
+    "uploadFailed": "上传失败。",
+    "nameHeight": "名称高度(可选)",
+    "nameHeightHelp": "模型上方的点名标签的垂直偏移。",
+    "modelCollision": "<0>{{provider}}</0> model \"<1>{{modelId}}</1>\" is already used by the pet type \"<2>{{other}}</2>\". A model is a pet’s identity, so each custom type needs a unique model — pick a different one (the plugin would otherwise skip this type on load).",
+    "creatureName": "创建名称",
+    "creatureNameHelp": "这个宠物类型的内部宠物配置密钥(例如，FrostDragon)。必须是唯一的。",
+    "hostMob": "主机怪物",
+    "hostMobHelp": "原版 Bukkit 生物类型为该宠物提供基础实体。",
+    "health": "保健",
+    "healthHelp": "该宠物的基本健康点数(例如20=10心)。",
+    "walkSpeed": "行走速度",
+    "walkSpeedHelp": "移动速度属性 (例如0.3 为标准步行速度)。",
+    "food": "食物(每行一件物品)",
+    "foodHelp": "喂养宠物的物品，例如小麦。留空以继承宿主怪物的食物。",
+    "leash": "四. 垃圾处理要求",
+    "leashHelp": "导致在宠物上工作的条件(如Wild, Baby)。",
+    "leashNeedsSession": "散装要求需要实时会话。",
+    "reviewIntro": "以下部分将被添加到 <0>pet-config.yml</0>：",
+    "back": "后退",
+    "next": "下一个",
+    "create": "创建",
+    "nameRequired": "名称是必需的。"
+  }
+}

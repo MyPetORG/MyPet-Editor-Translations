@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Abilitate necunoscută: {{skillId}}",
+    "noUpgrades": "Abilitățile trebuie să aibă cel puțin un upgrade",
+    "firstLevelRequired": "Cel puţin un câmp trebuie să fie prevăzut pentru primul nivel",
+    "invalidLevelKey": "Format cheie nevalid",
+    "duplicateLevel": "Duplică cheia nivelului: {{level}}",
+    "invalidRange": "Interval de nivel nevalid",
+    "emptyField": "{{field}} nu poate fi gol",
+    "invalidNumber": "{{field}} trebuie să fie un număr valid",
+    "invalidPlusNumber": "{{field}} trebuie să fie un număr semnat (de exemplu, +1 sau +0.5)",
+    "minValue": "{{field}} trebuie să fie cel puțin {{min}}",
+    "maxValue": "{{field}} trebuie să fie cel mult {{max}}",
+    "requiredField": "{{field}} este necesar",
+    "emptyRequirementKey": "Cheia cerinței personalizate nu poate fi goală",
+    "emptyRequirementValue": "Cerința personalizată nu poate fi goală",
+    "emptySkilltreeRequirement": "Cerința de abilitate trebuie să aibă o abilitate selectată",
+    "emptyPermissionRequirement": "Cerința permisiunii nu poate fi goală",
+    "unknownField": "Camp necunoscut \"{{field}}(pastrat as-is, serverul il va ignora)",
+    "badNumber": "{{field}} trebuie să fie un număr semnat ca \"+5\" sau \"-2.5\"",
+    "badInteger": "{{field}} trebuie să fie un număr întreg semnat ca \"+5\"",
+    "badBoolean": "{{field}} trebuie să fie adevărat sau fals",
+    "badEnum": "{{field}} trebuie să fie una dintre valorile listate",
+    "badGroup": "{{field}} trebuie să fie un obiect",
+    "badList": "{{field}} trebuie să fie o listă de intrări",
+    "badListInteger": "{{field}} trebuie să fie un număr întreg ca 6",
+    "badListNumber": "{{field}} trebuie să fie un număr ca 6 sau 2.5",
+    "badListString": "{{field}} trebuie să fie text"
+  }
+}

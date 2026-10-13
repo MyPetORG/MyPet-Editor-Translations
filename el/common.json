@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Επιλέξτε μια περιοχή ρύθμισης παραμέτρων από την πλαϊνή μπάρα."
+  },
+  "actions": {
+    "import": "Εισαγωγή",
+    "export": "Εξαγωγή ZIP",
+    "save": "Αποθήκευση",
+    "cancel": "Ακύρωση",
+    "delete": "Διαγραφή",
+    "add": "Προσθήκη",
+    "remove": "Αφαίρεση",
+    "edit": "Επεξεργασία",
+    "close": "Κλείσιμο",
+    "ok": "Εντάξει",
+    "confirm": "Επιβεβαίωση",
+    "done": "Ολοκληρώθηκε",
+    "loadDefaults": "Φόρτωση Προεπιλογών",
+    "chooseFiles": "Επιλογή αρχείων",
+    "copyJson": "Αντιγραφή JSON",
+    "download": "Λήψη",
+    "selectAll": "Επιλογή Όλων",
+    "deselectAll": "Αποεπιλογή Όλων",
+    "copy": "Αντιγραφή"
+  },
+  "autosave": {
+    "saved": "Αποθηκεύτηκε",
+    "savedAt": "Saved {{time}}",
+    "saving": "Αυτόματη Αποθήκευση…",
+    "pending": "Μη αποθηκευμένες αλλαγές",
+    "justNow": "μόλις τώρα",
+    "secondsAgo": "{{s}}s πριν",
+    "minutesAgo": "{{m}}m πριν",
+    "hoursAgo": "{{h}}h πριν"
+  },
+  "modals": {
+    "import": {
+      "title": "Εισαγωγή δεξιοτήτων",
+      "description": "Ρίξτε ένα .zip (πολλαπλά δέντρα) ή ένα αρχείο .st.json.",
+      "dragHere": "Σύρετε & αποθέστε αρχεία εδώ",
+      "or": "ή",
+      "reading": "Ανάγνωση αρχείων…"
+    },
+    "confirm": {
+      "title": "Επιβεβαίωση",
+      "deleteTree": "Διαγράψτε το δέντρο δεξιοτήτων \"{{id}}\"?",
+      "deleteSkill": "Remove skill \"{{id}}\"?",
+      "loadDefaults": "Αυτό θα αντικαταστήσει τις τρέχουσες δεξιότητεςδέντρα σας με τα προεπιλεγμένα παραδείγματα και να καθαρίσετε το τοπικό σας σχέδιο. Συνέχεια?"
+    },
+    "alert": {
+      "title": "Ειδοποίηση",
+      "importFailed": "Αποτυχία εισαγωγής αρχείου(ων).",
+      "exportBlocked": "Εξαγωγή μπλοκαρισμένη: Τα {{count}} skilltree(s) έχουν σφάλματα επικύρωσης.\n\nΜη έγκυρα δέντρα: {{names}}\n\nΠαρακαλώ διορθώστε όλα τα σφάλματα επικύρωσης πριν την εξαγωγή.",
+      "noTreesToExport": "Δεν δεξιοτεχνίαδέντρα για την εξαγωγή.",
+      "duplicateId": "Υπάρχει ήδη ένα δέντρο δεξιοτήτων με αυτό το ID.",
+      "loadDefaultsFailed": "Αποτυχία φόρτωσης προεπιλεγμένων παραδειγμάτων",
+      "jsonCopied": "Η JSON αντιγράφηκε στο πρόχειρο",
+      "jsonCopyFailed": "Αποτυχία αντιγραφής JSON"
+    },
+    "viewSource": "Προβολή πηγαίου κώδικα"
+  },
+  "language": {
+    "select": "Επιλέξτε γλώσσα",
+    "loading": "Φόρτωση μεταφράσεων..."
+  },
+  "tooltip": {
+    "breakdown": "Ανάλυση",
+    "total": "Σύνολο",
+    "goHome": "Μετάβαση στην αρχική",
+    "allChangesSaved": "Όλες οι αλλαγές αποθηκεύτηκαν",
+    "saveChanges": "Αποθήκευση αλλαγών",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Φόρτωση δέντρων προεπιλογής παραδείγματος",
+    "exportZip": "Εξαγωγή όλων των δέντρων σε φερμουάρ",
+    "delete": "Διαγραφή",
+    "openDocs": "Άνοιγμα τεκμηρίωσης MyPet",
+    "switchToLight": "Εναλλαγή σε λειτουργία φωτός",
+    "switchToDark": "Εναλλαγή σε σκοτεινή λειτουργία",
+    "tipOnKofi": "Υποστηρίξτε αυτό το έργο στο Ko-fi"
+  },
+  "footer": {
+    "builtBy": "χτίστηκε με ❤️ από",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Υπογράμμιση",
+    "strikethrough": "Απεργία",
+    "reset": "Reset",
+    "placeholder": "Εισάγετε το κείμενο του MiniMailk. Χρησιμοποιήστε τη γραμμή εργαλείων για να εισάγετε ετικέτες."
+  },
+  "common": {
+    "none": "(Κανένα)",
+    "noOptions": "(Χωρίς επιλογές)"
+  },
+  "sidebar": {
+    "title": "Δεξιότητες",
+    "newSkilltree": "Νέο δέντρο δεξιοτήτων",
+    "order": "Order {{order}}",
+    "expand": "Ανάπτυξη",
+    "collapse": "Σύμπτυξη",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Σύμπτυξη πλαϊνής μπάρας",
+    "reorder": "Αναδιάταξη",
+    "dragToReorder": "Σύρετε για αναδιάταξη",
+    "reviewSave": "Αναθεώρηση & Αποθήκευση",
+    "nothingToSave": "Καμία μη αποθηκευμένη αλλαγή",
+    "configSections": "Τμήματα ρυθμίσεων",
+    "category": {
+      "general": "Γενικά",
+      "pets": "Κατοικίδια",
+      "experience": "Εμπειρία",
+      "skilltrees": "Δεξιότητες",
+      "locale": "Τοπική",
+      "hooks": "Αγκίστρια",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Δεν φορτώθηκε χώρος εργασίας",
+    "expiringSoon": "Σύντομα λήγουσα συνεδρία",
+    "demoData": "Παράδειγμα δεδομένων · οι αλλαγές δεν θα αποθηκευτούν",
+    "rejected": "Ο διακομιστής απέρριψε τις αλλαγές."
+  },
+  "editors": {
+    "config": {
+      "label": "Κύρια Ρύθμιση"
+    },
+    "petConfig": {
+      "label": "Ρύθμιση Κατοικιδίων"
+    },
+    "expConfig": {
+      "label": "Ανταμοιβές Πλασμάτων Xp"
+    },
+    "petShops": {
+      "label": "Καταστήματα Κατοικιδίων"
+    },
+    "skilltrees": {
+      "label": "Δεξιότητες"
+    },
+    "locale": {
+      "label": "Τοπική"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Σύνδεση στο διακομιστή σας",
+    "loadingSubtitle": "Loading configuration…",
+    "trustTitle": "Εξουσιοδότηση αυτού του περιηγητή",
+    "trustSubtitle": "Αυτό το πρόγραμμα περιήγησης δεν είναι έμπιστο ακόμα. Εκτελέστε αυτό το παιχνίδι για σύνδεση:",
+    "trustWaiting": "Waiting for authorization…",
+    "noSessionTitle": "Καμία ενεργή συνεδρία",
+    "noSessionSubtitle": "Εκτελέστε <0>/mypet editor</0> στο παιχνίδι και ανοίξτε το σύνδεσμο που σας δίνει.",
+    "tryDemo": "Δοκιμάστε την επίδειξη",
+    "demoHint": "Εξερευνήστε κάθε επεξεργαστή δεδομένων με παράδειγμα - δεν απαιτείται διακομιστής.",
+    "endedTitle": "Αυτή η συνεδρία επεξεργαστή έχει λήξει",
+    "endedSubtitle": "Ο διακομιστής τον έκλεισε, ή έληξε χρονικά. Εκτέλεση <0>/mypet editor</0> εντός του παιχνιδιού για να ξεκινήσει μια νέα, έπειτα άνοιγμα του φρέσκου συνδέσμου που σας δίνει."
+  },
+  "reviewSave": {
+    "title": "Αναθεώρηση & Αποθήκευση",
+    "noChanges": "Δεν υπάρχουν μη αποθηκευμένες αλλαγές.",
+    "summary_one": "{{count}} file with unsaved changes",
+    "summary_other": "{{count}} files with unsaved changes",
+    "tagRemoved": "αφαιρέθηκε",
+    "tagAdded": "προστέθηκε",
+    "empty": "(κενό)",
+    "apply": "Εφαρμογή Αλλαγών",
+    "applying": "Εφαρμογή…",
+    "hintNoChanges": "Δεν υπάρχουν αλλαγές για να εφαρμοστεί.",
+    "hintNotConnected": "Συνδέστε πρώτα μια ζωντανή συνεδρία - εκτελέστε /mypet editor και εξουσιοδοτήστε το πρόγραμμα περιήγησης.",
+    "hintNoSession": "Καμία ενεργή συνεδρία.",
+    "hintReady": "Εγγραφή αυτών των αλλαγών στο διακομιστή και επαναφόρτωση.",
+    "formattingOnly": "Μορφοποίηση μόνο (χωρίς αλλαγές τιμής)",
+    "stAdded": "{{count}} added",
+    "stRemoved": "{{count}} removed",
+    "stModified": "{{count}} modified",
+    "stBroken": "{{count}} broken file(s) changed",
+    "noNetChange": "καμία αλλαγή δικτύου",
+    "localeSummary": "{{keys}} key(s) across {{langs}} language(s)",
+    "applyFailed": "Αποτυχία εφαρμογής αλλαγών"
+  },
+  "sessionClosed": {
+    "title": "Η συνεδρία έκλεισε",
+    "body": "Η συνεδρία του επεξεργαστή ιστού έχει λήξει (έκλεισε μέσα στο παιχνίδι ή έχει λήξει). Οι αλλαγές δεν μπορούν πλέον να αποθηκευτούν - εκτελέστε <0>/mypet editor</0> ξανά για να ξεκινήσετε μια νέα συνεδρία.",
+    "viewReadOnly": "Προβολή μόνο ανάγνωσης"
+  }
+}

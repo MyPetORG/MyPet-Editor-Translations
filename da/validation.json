@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "unknownSkill": "Ukendt færdighed: {{skillId}}",
+    "noUpgrades": "Færdighed skal have mindst én opgradering",
+    "firstLevelRequired": "Der skal være mindst ét felt for det første niveau",
+    "invalidLevelKey": "Ugyldigt niveau nøgleformat",
+    "duplicateLevel": "Duplikér niveaunøgle: {{level}}",
+    "invalidRange": "Ugyldigt niveauinterval",
+    "emptyField": "{{field}} må ikke være tomt",
+    "invalidNumber": "{{field}} skal være et gyldigt tal",
+    "invalidPlusNumber": "{{field}} skal være et signeret tal (f.eks. +1 eller +0.5)",
+    "minValue": "{{field}} skal være mindst {{min}}",
+    "maxValue": "{{field}} skal være højst {{max}}",
+    "requiredField": "{{field}} er påkrævet",
+    "emptyRequirementKey": "Brugerdefineret kravsnøgle må ikke være tom",
+    "emptyRequirementValue": "Brugerdefineret kravsværdi må ikke være tom",
+    "emptySkilltreeRequirement": "Krav til færdighedstræer skal have valgt et færdighedtree",
+    "emptyPermissionRequirement": "Tilladelseskrav må ikke være tomt",
+    "unknownField": "Ukendt felt \"{{field}}\" (opbevares som-is, serveren vil ignorere det)",
+    "badNumber": "{{field}} skal være et signeret tal som \"+5\" eller \"-2.5\"",
+    "badInteger": "{{field}} skal være et signeret heltal som \"+5\"",
+    "badBoolean": "{{field}} skal være sand eller falsk",
+    "badEnum": "{{field}} skal være en af de angivne værdier",
+    "badGroup": "{{field}} skal være et objekt",
+    "badList": "{{field}} skal være en liste over poster",
+    "badListInteger": "{{field}} skal være et helt tal som 6",
+    "badListNumber": "{{field}} skal være et tal som 6 eller 2,5",
+    "badListString": "{{field}} skal være tekst"
+  }
+}

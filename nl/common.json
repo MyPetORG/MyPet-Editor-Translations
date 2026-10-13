@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "MyPet Configurator",
+    "selectArea": "Selecteer een configuratiegebied in de zijbalk."
+  },
+  "actions": {
+    "import": "Importeren",
+    "export": "Exporteer ZIP",
+    "save": "Opslaan",
+    "cancel": "annuleren",
+    "delete": "Verwijderen",
+    "add": "Toevoegen",
+    "remove": "Verwijderen",
+    "edit": "Bewerken",
+    "close": "Afsluiten",
+    "ok": "Ok",
+    "confirm": "Bevestigen",
+    "done": "Voltooid",
+    "loadDefaults": "Standaardwaarden laden",
+    "chooseFiles": "Kies bestanden",
+    "copyJson": "JSON kopiëren",
+    "download": "downloaden",
+    "selectAll": "Alles selecteren",
+    "deselectAll": "Deselecteer alles",
+    "copy": "Kopiëren"
+  },
+  "autosave": {
+    "saved": "Opgeslagen",
+    "savedAt": "Opgeslagen {{time}}",
+    "saving": "Autosaving…",
+    "pending": "Niet-opgeslagen wijzigingen",
+    "justNow": "op dit moment",
+    "secondsAgo": "{{s}}s geleden",
+    "minutesAgo": "{{m}}m geleden",
+    "hoursAgo": "{{h}}uur geleden"
+  },
+  "modals": {
+    "import": {
+      "title": "Importeer vaardigheidsbomen",
+      "description": "Sleep een .zip (meerdere bomen) of een enkel .st.json bestand.",
+      "dragHere": "Bestanden hier slepen en neerzetten",
+      "or": "of",
+      "reading": "Reading files…"
+    },
+    "confirm": {
+      "title": "Bevestigen",
+      "deleteTree": "Verwijder vaardigheidsboom \"{{id}}\"?",
+      "deleteSkill": "Verwijder vaardigheid{{id}}\"?",
+      "loadDefaults": "Dit zal uw huidige vaardighedenbomen vervangen met de standaard voorbeelden en uw lokale ontwerp wissen. Doorgaan?"
+    },
+    "alert": {
+      "title": "Waarschuwing",
+      "importFailed": "Kan bestand(en) niet importeren.",
+      "exportBlocked": "Export geblokkeerd: {{count}} vaardigheidsboom(en) hebben validatiefouten.\n\nOngeldige bomen: {{names}}\n\nCorrigeer alle validatiefouten voordat u exporteert.",
+      "noTreesToExport": "Geen vaardigheidsbomen om te exporteren.",
+      "duplicateId": "Een vaardigheidsboom met dat ID bestaat al.",
+      "loadDefaultsFailed": "Fout bij het laden van standaard voorbeelden",
+      "jsonCopied": "JSON gekopieerd naar klembord",
+      "jsonCopyFailed": "Kon JSON niet kopiëren"
+    },
+    "viewSource": "Bron bekijken"
+  },
+  "language": {
+    "select": "Taal selecteren",
+    "loading": "Vertalingen laden..."
+  },
+  "tooltip": {
+    "breakdown": "Uitsplitsing",
+    "total": "Totaal",
+    "goHome": "Ga naar huis",
+    "allChangesSaved": "Alle wijzigingen opgeslagen",
+    "saveChanges": "Wijzigingen opslaan",
+    "importFile": "Import .st.json",
+    "loadDefaults": "Laad standaard voorbeeld bomen",
+    "exportZip": "Alle boomstructuren naar zip exporteren",
+    "delete": "Verwijderen",
+    "openDocs": "Open MyPet documentatie",
+    "switchToLight": "Overschakelen naar licht-modus",
+    "switchToDark": "Overschakelen naar donkere modus",
+    "tipOnKofi": "Ondersteun dit project op Ko-fi"
+  },
+  "footer": {
+    "builtBy": "gebouwd met ❤️ door",
+    "tip": "☕ Tip"
+  },
+  "richText": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Onderstrepen",
+    "strikethrough": "Aanval",
+    "reset": "Reset",
+    "placeholder": "Voer MiniMessage tekst in. Gebruik de werkbalk om tags in te voegen."
+  },
+  "common": {
+    "none": "(Geen)",
+    "noOptions": "(Geen opties)"
+  },
+  "sidebar": {
+    "title": "Vaardigheid",
+    "newSkilltree": "Nieuwe vaardigheidsboom",
+    "order": "Bestelling {{order}}",
+    "expand": "Uitklappen",
+    "collapse": "Samenvouwen",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Zijbalk inklappen",
+    "reorder": "Herordenen",
+    "dragToReorder": "Sleep om te rangschikken",
+    "reviewSave": "Beoordeling & opslaan",
+    "nothingToSave": "Geen niet-opgeslagen wijzigingen",
+    "configSections": "Instellingen secties",
+    "category": {
+      "general": "Algemeen",
+      "pets": "Huisdieren",
+      "experience": "Ervaring",
+      "skilltrees": "Vaardigheid",
+      "locale": "Lokalisatie",
+      "hooks": "Haken",
+      "menus": "Menus"
+    }
+  },
+  "session": {
+    "noWorkspace": "Geen werkruimte geladen",
+    "expiringSoon": "Sessie verloopt binnenkort",
+    "demoData": "Voorbeeld gegevens · wijzigingen zullen niet worden opgeslagen",
+    "rejected": "De server heeft de wijzigingen afgewezen."
+  },
+  "editors": {
+    "config": {
+      "label": "Hoofd configuratie"
+    },
+    "petConfig": {
+      "label": "Huisdier Configuratie"
+    },
+    "expConfig": {
+      "label": "Mob XP Beloningen"
+    },
+    "petShops": {
+      "label": "Huisdier Winkels"
+    },
+    "skilltrees": {
+      "label": "Vaardigheid"
+    },
+    "locale": {
+      "label": "Lokalisatie"
+    },
+    "hooksConfig": {
+      "label": "Hooks Config"
+    },
+    "menus": {
+      "label": "Menus"
+    }
+  },
+  "boot": {
+    "loadingTitle": "Verbinden met uw server",
+    "loadingSubtitle": "Loading configuration…",
+    "trustTitle": "Deze browser autoriseren",
+    "trustSubtitle": "Deze browser wordt nog niet vertrouwd. Voer deze in-game uit om verbinding te maken:",
+    "trustWaiting": "Waiting for authorization…",
+    "noSessionTitle": "Geen actieve sessie",
+    "noSessionSubtitle": "Voer <0>/mypet editor</0> in-game uit en open de link die het je geeft.",
+    "tryDemo": "Probeer de demo",
+    "demoHint": "Verken elke editor met voorbeelddata — geen server nodig.",
+    "endedTitle": "Deze editor sessie is beëindigd",
+    "endedSubtitle": "De server heeft het gesloten of heeft een time-out gekregen. Voer <0>/mypet editor</0> in-game uit om een nieuwe te starten en open daarna de nieuwe link die het je geeft."
+  },
+  "reviewSave": {
+    "title": "Beoordeling & opslaan",
+    "noChanges": "Geen niet-opgeslagen wijzigingen.",
+    "summary_one": "{{count}} bestand met niet-opgeslagen wijzigingen",
+    "summary_other": "{{count}} bestanden met niet-opgeslagen wijzigingen",
+    "tagRemoved": "verwijderd",
+    "tagAdded": "toegevoegd",
+    "empty": "(leeg)",
+    "apply": "Wijzigingen toepassen",
+    "applying": "Applying…",
+    "hintNoChanges": "Geen wijzigingen van toepassing.",
+    "hintNotConnected": "Sluit eerst een live sessie aan - voer /miypet editor uit en autoriseer de browser.",
+    "hintNoSession": "Geen actieve sessie.",
+    "hintReady": "Schrijf deze wijzigingen naar de server en laad opnieuw.",
+    "formattingOnly": "Alleen formatteren (geen waarde wijzigingen)",
+    "stAdded": "{{count}} toegevoegd",
+    "stRemoved": "{{count}} verwijderd",
+    "stModified": "{{count}} gewijzigd",
+    "stBroken": "{{count}} defecte bestand(en) gewijzigd",
+    "noNetChange": "geen netto wijziging",
+    "localeSummary": "{{keys}} sleutel(s) over {{langs}} talen",
+    "applyFailed": "Wijzigingen toepassen mislukt"
+  },
+  "sessionClosed": {
+    "title": "Sessie gesloten",
+    "body": "De web-editor sessie is beëindigd (gesloten in-game of timed out). Wijzigingen kunnen niet langer worden opgeslagen — uitvoeren <0>/mypet editor</0> om een nieuwe sessie te starten.",
+    "viewReadOnly": "Bekijk alleen-lezen"
+  }
+}
