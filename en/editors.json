@@ -343,6 +343,19 @@
     "nameHeightHelp": "Vertical offset for the pet’s name tag above the model.",
     "createCustom": "➕ Create custom pet",
     "typeCount": "{{shown}} of {{total}} types",
+    "globalSet": {
+      "button": "Global set…",
+      "buttonTitle": "Set one setting to the same value on every pet type that has it",
+      "title": "Global set",
+      "intro": "Set one setting to the same value on every pet type that already has it. Pets without the setting are left alone, so a type-specific flag stays on its own type.",
+      "setting": "Setting",
+      "option_one": "{{label}} ({{count}} pet)",
+      "option_other": "{{label}} ({{count}} pets)",
+      "value": "Value",
+      "summary": "{{change}} will change · {{match}} already match",
+      "apply_one": "Apply to {{count}} pet",
+      "apply_other": "Apply to {{count}} pets"
+    },
     "animations": "Animations",
     "animationsHint": "— optional name overrides",
     "fields": {
