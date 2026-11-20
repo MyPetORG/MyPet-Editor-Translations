@@ -66,6 +66,8 @@
     "permissionPlaceholder": "TestPermission",
     "skilltree": "Skilltree",
     "noSkilltree": "No Skilltree",
+    "baseSkilltree": "Base Skilltree",
+    "baseSkilltreeHelp": "BaseSkilltree — like NoSkilltree, but a pet on another BaseSkilltree tree can also switch sideways to this one",
     "custom": "Custom",
     "customKey": "Custom Key",
     "customKeyPlaceholder": "CustomName",
@@ -140,6 +142,9 @@
     "previewTitle": "Inventory preview",
     "requiresLevel": "Requires level {{level}}",
     "clickToApply": "Click to apply",
+    "switchHint": "Right-click to switch to another skilltree",
+    "switchCost": "Costs the configured SwitchFee",
+    "canSwitchTo": "Can switch to",
     "noneAvailable": "There are <red>no</red> skilltrees available for <aqua>{{species}}</aqua>.",
     "eligibleCount": "{{count}} eligible"
   },
