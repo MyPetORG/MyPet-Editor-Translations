@@ -66,6 +66,8 @@
     "permissionPlaceholder": "TestPermission",
     "skilltree": "Skilltree",
     "noSkilltree": "No Skilltree",
+    "baseSkilltree": "Base Skilltree",
+    "baseSkilltreeHelp": "BaseSkilltree — like NoSkilltree, but a pet on another BaseSkilltree tree can also switch sideways to this one",
     "custom": "Custom",
     "customKey": "Custom Key",
     "customKeyPlaceholder": "CustomName",
